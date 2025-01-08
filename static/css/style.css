@@ -1,0 +1,141 @@
+#map {
+    height: 500px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    z-index: 10;
+}
+
+.disclaimer {
+    font-size: .8em;
+    margin-top: 10px;
+}
+
+.last-update {
+    text-align: right;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+.route-label {
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-right: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.route-line {
+    margin-bottom: 5px;
+}
+
+.route-link {
+    cursor: pointer;
+    color: #0078A8;
+}
+
+.route-link.active {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.route-details {
+    margin-left: 21px;
+    display: none;
+}
+
+.route-details.active {
+    display: block;
+}
+
+.route-name {
+    display: inline-block;
+    max-width: 80%;
+}
+
+.route-time {
+    display: inline-block;
+    width: 45px;
+    vertical-align: top;
+    padding-top: 1px;
+    padding-right: 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+}
+
+.route-schedule {
+    display: none;
+    padding-left: 10px;
+    border: 1px solid #199900;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.route-schedule.active {
+    display: block;
+}
+
+.station-routes-list {
+    margin-bottom: 15px;
+}
+
+.station-routes-list.hidden {
+    display: none;
+}
+
+.station-body {
+    padding-left: 25px;
+}
+
+summary::-webkit-details-marker{display:none;}
+summary::-moz-list-bullet{list-style-type:none;}
+summary::marker{display:none;} 
+
+summary {
+    display:inline-block;
+    padding: .3em .5em .3em 1.5em;
+    font-size:1.2em;
+    cursor: pointer;
+    position: relative;
+    line-height: 1em;
+ }
+
+ summary:before {
+    left: .3em;
+    top: .3em;
+    color: transparent;
+    background: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjM0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIzNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOC41OSAxNi4zNGw0LjU4LTQuNTktNC41OC00LjU5TDEwIDUuNzVsNiA2LTYgNnoiLz48L3N2Zz4=") no-repeat 50% 50% / 1em 1em;
+    width: 1em;
+    height: 1em;  
+    content: "";
+    position: absolute;
+    transition: transform .3s;
+  }
+  details[open] > summary:before {
+    transform: rotateZ(90deg);
+  }
+
+  summary ~ * {
+     padding:0 1em 0 1em;
+  }
+
+  details[open] summary ~ *{ 
+    animation: sweep .5s ease-in-out;
+  }
+
+  @keyframes sweep {
+    0%    {opacity: 0;}
+    100%  {opacity: 1;}
+  }
+
+  details{
+    display:block;
+    margin-bottom: .5rem;
+    
+ }
