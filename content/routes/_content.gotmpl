@@ -1,0 +1,26 @@
+{{ range site.Data.routes }}
+    {{ $stations := "" }}
+    {{ $params := "" }}
+    {{ range .stations }}
+     {{ $stations = printf "%s- %s: %s at %s\n" $stations .code .role .time }}
+    {{ end }}
+    {{ $content := dict
+        "mediaType" "text/markdown"
+        "value" .ref
+    }}
+    {{ $params = dict 
+        "stations" .stations
+        "frequency" .frequency
+        "complete" .complete
+    }}
+    {{ $name := index . "name:en" }}
+    {{ $page := dict
+        "content" $content
+        "kind" "page"
+        "path" .ref
+        "title" (printf "Route %v: %s" .ref $name)
+        "params" $params
+        "weight" .ref
+    }}
+    {{ $.AddPage $page }}
+{{ end }}

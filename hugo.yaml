@@ -31,8 +31,9 @@ params:
   navbar:
     displayTitle: true
     displayLogo: false
+    width: normal
   page:
-    width: full
+    width: normal
   theme:
     displayToggle: false
 
