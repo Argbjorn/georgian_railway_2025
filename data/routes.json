@@ -12,127 +12,140 @@
          {
             "code": "ozurgeti",
             "role": "start",
-            "time": "10:05"
-         },
-         {
-            "code": "platform16km",
-            "role": "middle",
-            "time": "nn:nn"
-         },
-         {
-            "code": "kakhuri",
-            "role": "middle",
-            "time": "nn:nn"
+            "time": "10:05",
+            "name_en": "Ozurgeti"
          },
          {
             "code": "platform11km",
             "role": "middle",
-            "time": "10:11"
+            "time": "10:11",
+            "name_en": "Platform 11 km"
          },
          {
             "code": "meria",
             "role": "middle",
-            "time": "10:22"
+            "time": "10:22",
+            "name_en": "Meria"
          },
          {
             "code": "natanebi",
             "role": "middle",
-            "time": "11:05"
+            "time": "11:05",
+            "name_en": "Natanebi"
          },
          {
             "code": "ureki",
             "role": "middle",
-            "time": "11:35"
+            "time": "11:35",
+            "name_en": "Ureki"
          },
          {
             "code": "supsa",
             "role": "middle",
-            "time": "11:46"
+            "time": "11:46",
+            "name_en": "Supsa"
          },
          {
             "code": "jumati",
             "role": "middle",
-            "time": "11:58"
+            "time": "11:58",
+            "name_en": "Jumati"
          },
          {
             "code": "lanchkhuti",
             "role": "middle",
-            "time": "12:12"
+            "time": "12:12",
+            "name_en": "Lanchkhuti"
          },
          {
             "code": "samtredia1",
             "role": "middle",
-            "time": "12:58"
+            "time": "12:58",
+            "name_en": "Samtredia-1"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "13:17"
+            "time": "13:17",
+            "name_en": "Kutaisi International Airport"
          },
          {
             "code": "rioni",
             "role": "middle",
-            "time": "13:36"
+            "time": "13:36",
+            "name_en": "Rioni"
          },
          {
             "code": "sviri",
             "role": "middle",
-            "time": "14:00"
+            "time": "14:00",
+            "name_en": "Sviri"
          },
          {
             "code": "zestafoni",
             "role": "middle",
-            "time": "14:23"
+            "time": "14:23",
+            "name_en": "Zestafoni"
          },
          {
             "code": "kharagouli",
             "role": "middle",
-            "time": "15:09"
+            "time": "15:09",
+            "name_en": "Kharagouli"
          },
          {
             "code": "marelisi",
             "role": "middle",
-            "time": "15:26"
+            "time": "15:26",
+            "name_en": "Marelisi"
          },
          {
             "code": "moliti",
             "role": "middle",
-            "time": "15:38"
+            "time": "15:38",
+            "name_en": "Moliti"
          },
          {
             "code": "tsipa",
             "role": "middle",
-            "time": "15:52"
+            "time": "15:52",
+            "name_en": "Tsipa"
          },
          {
             "code": "khashuri",
             "role": "middle",
-            "time": "16:25"
+            "time": "16:25",
+            "name_en": "Khashuri"
          },
          {
             "code": "kareli",
             "role": "middle",
-            "time": "17:06"
+            "time": "17:06",
+            "name_en": "Kareli"
          },
          {
             "code": "gori",
             "role": "middle",
-            "time": "17:24"
+            "time": "17:24",
+            "name_en": "Gori"
          },
          {
             "code": "kaspi",
             "role": "middle",
-            "time": "17:51"
+            "time": "17:51",
+            "name_en": "Kaspi"
          },
          {
             "code": "mtskheta",
             "role": "middle",
-            "time": "18:20"
+            "time": "18:20",
+            "name_en": "Mtskheta"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "time": "18:52"
+            "time": "18:52",
+            "name_en": "Tbilisi Central Station"
          }
       ]
    },
@@ -149,127 +162,152 @@
          {
             "code": "tbilisicentralstation",
             "role": "start",
-            "time": "08:45"
+            "time": "09:00",
+            "name_en": "Tbilisi Central Station"
          },
          {
             "code": "mtskheta",
             "role": "middle",
-            "time": "09:09\t"
+            "time": "09:26",
+            "name_en": "Mtskheta"
          },
          {
             "code": "kaspi",
             "role": "middle",
-            "time": "09:36\t"
+            "time": "09:54",
+            "name_en": "Kaspi"
          },
          {
             "code": "gori",
             "role": "middle",
-            "time": "10:00"
+            "time": "10:19",
+            "name_en": "Gori"
          },
          {
             "code": "kareli",
             "role": "middle",
-            "time": "10:19"
+            "time": "10:38",
+            "name_en": "Kareli"
          },
          {
             "code": "khashuri",
             "role": "middle",
-            "time": "10:45"
+            "time": "11:04",
+            "name_en": "Khashuri"
          },
          {
             "code": "tsipa",
             "role": "middle",
-            "time": "11:23"
+            "time": "11:53",
+            "name_en": "Tsipa"
          },
          {
             "code": "moliti",
             "role": "middle",
-            "time": "11:40"
+            "time": "12:10",
+            "name_en": "Moliti"
          },
          {
             "code": "marelisi",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "12:27",
+            "name_en": "Marelisi"
          },
          {
             "code": "kharagouli",
             "role": "middle",
-            "time": "12:14"
+            "time": "12:44",
+            "name_en": "Kharagouli"
          },
          {
             "code": "zestafoni",
             "role": "middle",
-            "time": "12:48"
+            "time": "13:20",
+            "name_en": "Zestafoni"
          },
          {
             "code": "sviri",
             "role": "middle",
-            "time": "13:28"
+            "time": "14:01",
+            "name_en": "Sviri"
          },
          {
             "code": "rioni",
             "role": "middle",
-            "time": "13:46"
+            "time": "14:25",
+            "name_en": "Rioni"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "14:17"
+            "time": "14:57",
+            "name_en": "Kutaisi International Airport"
          },
          {
             "code": "samtredia1",
             "role": "middle",
-            "time": "14:33"
+            "time": "15:13",
+            "name_en": "Samtredia-1"
          },
          {
             "code": "lanchkhuti",
             "role": "middle",
-            "time": "15:11"
+            "time": "15:59",
+            "name_en": "Lanchkhuti"
          },
          {
             "code": "jumati",
             "role": "middle",
-            "time": "15:24"
+            "time": "16:13",
+            "name_en": "Jumati"
          },
          {
             "code": "supsa",
             "role": "middle",
-            "time": "15:44"
+            "time": "16:28",
+            "name_en": "Supsa"
          },
          {
             "code": "ureki",
             "role": "middle",
-            "time": "15:54"
+            "time": "16:38",
+            "name_en": "Ureki"
          },
          {
             "code": "natanebi",
             "role": "middle",
-            "time": "16:05"
+            "time": "16:52",
+            "name_en": "Natanebi"
          },
          {
             "code": "meria",
             "role": "middle",
-            "time": "16:59"
+            "time": "17:32",
+            "name_en": "Meria"
          },
          {
             "code": "platform11km",
             "role": "middle",
-            "time": "17:10"
+            "time": "17:44",
+            "name_en": "Platform 11 km"
          },
          {
             "code": "kakhuri",
             "role": "middle",
-            "time": "17:19"
+            "time": "17:55",
+            "name_en": "Kakhuri"
          },
          {
             "code": "platform16km",
             "role": "middle",
-            "time": "17:29"
+            "time": "18:06",
+            "name_en": "Platform 16 km"
          },
          {
             "code": "ozurgeti",
             "role": "end",
-            "time": "17:44"
+            "time": "18:12",
+            "name_en": "Ozurgeti"
          }
       ]
    },
@@ -286,72 +324,86 @@
          {
             "code": "kutaisi1",
             "role": "start",
-            "time": "11:55"
+            "time": "12:55",
+            "name_en": "Kutaisi-1"
          },
          {
             "code": "rioni",
             "role": "middle",
-            "time": "12:15"
+            "time": "13:15",
+            "name_en": "Rioni"
          },
          {
             "code": "sviri",
             "role": "middle",
-            "time": "13:07"
+            "time": "14:00",
+            "name_en": "Sviri"
          },
          {
             "code": "zestafoni",
             "role": "middle",
-            "time": "13:25"
+            "time": "14:23",
+            "name_en": "Zestafoni"
          },
          {
             "code": "kharagouli",
             "role": "middle",
-            "time": "14:05"
+            "time": "15:09",
+            "name_en": "Kharagouli"
          },
          {
             "code": "marelisi",
             "role": "middle",
-            "time": "14:22"
+            "time": "15:26",
+            "name_en": "Marelisi"
          },
          {
             "code": "moliti",
             "role": "middle",
-            "time": "14:34"
+            "time": "15:38",
+            "name_en": "Moliti"
          },
          {
             "code": "tsipa",
             "role": "middle",
-            "time": "14:46"
+            "time": "15:52",
+            "name_en": "Tsipa"
          },
          {
             "code": "khashuri",
             "role": "middle",
-            "time": "15:10"
+            "time": "16:25",
+            "name_en": "Khashuri"
          },
          {
             "code": "kareli",
             "role": "middle",
-            "time": "15:51"
+            "time": "17:06",
+            "name_en": "Kareli"
          },
          {
             "code": "gori",
             "role": "middle",
-            "time": "16:09"
+            "time": "17:24",
+            "name_en": "Gori"
          },
          {
             "code": "kaspi",
             "role": "middle",
-            "time": "16:34"
+            "time": "17:51",
+            "name_en": "Kaspi"
          },
          {
             "code": "mtskheta",
             "role": "middle",
-            "time": "17:02"
+            "time": "18:20",
+            "name_en": "Mtskheta"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "time": "17:35"
+            "time": "18:52",
+            "name_en": "Tbilisi Central Station"
          }
       ]
    },
@@ -368,72 +420,86 @@
          {
             "code": "tbilisicentralstation",
             "role": "start",
-            "time": "08:45"
+            "time": "09:00",
+            "name_en": "Tbilisi Central Station"
          },
          {
             "code": "mtskheta",
             "role": "middle",
-            "time": "09:09\t"
+            "time": "09:26",
+            "name_en": "Mtskheta"
          },
          {
             "code": "kaspi",
             "role": "middle",
-            "time": "09:36\t"
+            "time": "09:54",
+            "name_en": "Kaspi"
          },
          {
             "code": "gori",
             "role": "middle",
-            "time": "10:00"
+            "time": "10:19",
+            "name_en": "Gori"
          },
          {
             "code": "kareli",
             "role": "middle",
-            "time": "10:19"
+            "time": "10:38",
+            "name_en": "Kareli"
          },
          {
             "code": "khashuri",
             "role": "middle",
-            "time": "10:45"
+            "time": "11:04",
+            "name_en": "Khashuri"
          },
          {
             "code": "tsipa",
             "role": "middle",
-            "time": "11:23"
+            "time": "11:53",
+            "name_en": "Tsipa"
          },
          {
             "code": "moliti",
             "role": "middle",
-            "time": "11:40"
+            "time": "12:10",
+            "name_en": "Moliti"
          },
          {
             "code": "marelisi",
             "role": "middle",
-            "time": "11:57"
+            "time": "12:27",
+            "name_en": "Marelisi"
          },
          {
             "code": "kharagouli",
             "role": "middle",
-            "time": "12:14"
+            "time": "12:44",
+            "name_en": "Kharagouli"
          },
          {
             "code": "zestafoni",
             "role": "middle",
-            "time": "12:48"
+            "time": "13:20",
+            "name_en": "Zestafoni"
          },
          {
             "code": "sviri",
             "role": "middle",
-            "time": "13:28"
+            "time": "14:01",
+            "name_en": "Sviri"
          },
          {
             "code": "rioni",
             "role": "middle",
-            "time": "13:46"
+            "time": "14:25",
+            "name_en": "Rioni"
          },
          {
             "code": "kutaisi1",
             "role": "end",
-            "time": "14:35"
+            "time": "15:10",
+            "name_en": "Kutaisi-1"
          }
       ]
    },
@@ -450,17 +516,20 @@
          {
             "code": "batumicentral",
             "role": "start",
-            "time": "20:40"
+            "time": "20:40",
+            "name_en": "Batumi-Central"
          },
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Kobuleti"
          },
          {
             "code": "ozurgeti",
             "role": "end",
-            "time": "22:52"
+            "time": "22:52",
+            "name_en": "Ozurgeti"
          }
       ]
    },
@@ -477,17 +546,20 @@
          {
             "code": "ozurgeti",
             "role": "start",
-            "time": "06:20"
+            "time": "06:20",
+            "name_en": "Ozurgeti"
          },
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Kobuleti"
          },
          {
             "code": "batumicentral",
             "role": "end",
-            "time": "08:36"
+            "time": "08:36",
+            "name_en": "Batumi-Central"
          }
       ]
    },
@@ -504,12 +576,14 @@
          {
             "code": "borjomiparki",
             "role": "start",
-            "time": "16:30"
+            "time": "16:30",
+            "name_en": "Borjomi-Parki"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "time": "20:50"
+            "time": "20:50",
+            "name_en": "Tbilisi Central Station"
          }
       ]
    },
@@ -526,12 +600,14 @@
          {
             "code": "tbilisicentralstation",
             "role": "start",
-            "time": "06:35"
+            "time": "06:35",
+            "name_en": "Tbilisi Central Station"
          },
          {
             "code": "borjomiparki",
             "role": "end",
-            "time": "10:47"
+            "time": "10:47",
+            "name_en": "Borjomi-Parki"
          }
       ]
    },
@@ -548,27 +624,32 @@
          {
             "code": "batumicentral",
             "role": "start",
-            "time": "19:35"
+            "time": "19:35",
+            "name_en": "Batumi-Central"
          },
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Kobuleti"
          },
          {
             "code": "ureki",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Ureki"
          },
          {
             "code": "samtredia1",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Samtredia-1"
          },
          {
             "code": "kutaisi1",
             "role": "end",
-            "time": "00:13"
+            "time": "00:13",
+            "name_en": "Kutaisi-1"
          }
       ]
    },
@@ -585,27 +666,32 @@
          {
             "code": "kutaisi1",
             "role": "start",
-            "time": "06:15"
+            "time": "06:15",
+            "name_en": "Kutaisi-1"
          },
          {
             "code": "samtredia1",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Samtredia-1"
          },
          {
             "code": "ureki",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Ureki"
          },
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Kobuleti"
          },
          {
             "code": "batumicentral",
             "role": "end",
-            "time": "10:49"
+            "time": "10:49",
+            "name_en": "Batumi-Central"
          }
       ]
    },
@@ -622,27 +708,32 @@
          {
             "code": "batumicentral",
             "role": "start",
-            "time": "08:55"
+            "time": "08:55",
+            "name_en": "Batumi-Central"
          },
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Kobuleti"
          },
          {
             "code": "ureki",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Ureki"
          },
          {
             "code": "samtredia1",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Samtredia-1"
          },
          {
             "code": "kutaisi1",
             "role": "end",
-            "time": "13:40"
+            "time": "13:40",
+            "name_en": "Kutaisi-1"
          }
       ]
    },
@@ -659,27 +750,32 @@
          {
             "code": "kutaisi1",
             "role": "start",
-            "time": "16:00"
+            "time": "16:00",
+            "name_en": "Kutaisi-1"
          },
          {
             "code": "samtredia1",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Samtredia-1"
          },
          {
             "code": "ureki",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Ureki"
          },
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Kobuleti"
          },
          {
             "code": "batumicentral",
             "role": "end",
-            "time": "20:27"
+            "time": "20:27",
+            "name_en": "Batumi-Central"
          }
       ]
    },
@@ -696,12 +792,14 @@
          {
             "code": "borjomiparki",
             "role": "start",
-            "time": "05:50"
+            "time": "05:50",
+            "name_en": "Borjomi-Parki"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "time": "10:10"
+            "time": "10:10",
+            "name_en": "Tbilisi Central Station"
          }
       ]
    },
@@ -718,12 +816,14 @@
          {
             "code": "tbilisicentralstation",
             "role": "start",
-            "time": "18:35"
+            "time": "18:35",
+            "name_en": "Tbilisi Central Station"
          },
          {
             "code": "borjomiparki",
             "role": "end",
-            "time": "22:47"
+            "time": "22:47",
+            "name_en": "Borjomi-Parki"
          }
       ]
    },
@@ -740,27 +840,32 @@
          {
             "code": "batumicentral",
             "role": "start",
-            "time": "17:20"
+            "time": "16:55",
+            "name_en": "Batumi-Central"
          },
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "17:40"
+            "time": "17:16",
+            "name_en": "Kobuleti"
          },
          {
             "code": "ureki",
             "role": "middle",
-            "time": "18:10"
+            "time": "17:47",
+            "name_en": "Ureki"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "19:09"
+            "time": "18:47",
+            "name_en": "Kutaisi International Airport"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "time": "22:33"
+            "time": "22:17",
+            "name_en": "Tbilisi Central Station"
          }
       ]
    },
@@ -777,27 +882,32 @@
          {
             "code": "tbilisicentralstation",
             "role": "start",
-            "time": "08:00"
+            "time": "08:00",
+            "name_en": "Tbilisi Central Station"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "11:19"
+            "time": "11:43",
+            "name_en": "Kutaisi International Airport"
          },
          {
             "code": "ureki",
             "role": "middle",
-            "time": "12:16"
+            "time": "12:41",
+            "name_en": "Ureki"
          },
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "12:49"
+            "time": "13:09",
+            "name_en": "Kobuleti"
          },
          {
             "code": "batumicentral",
             "role": "end",
-            "time": "13:20"
+            "time": "13:35",
+            "name_en": "Batumi-Central"
          }
       ]
    },
@@ -814,27 +924,32 @@
          {
             "code": "batumicentral",
             "role": "start",
-            "time": "08:10"
+            "time": "08:00",
+            "name_en": "Batumi-Central"
          },
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "08:30"
+            "time": "08:21",
+            "name_en": "Kobuleti"
          },
          {
             "code": "ureki",
             "role": "middle",
-            "time": "09:00"
+            "time": "08:52",
+            "name_en": "Ureki"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "09:59"
+            "time": "09:52",
+            "name_en": "Kutaisi International Airport"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "time": "13:23"
+            "time": "13:17",
+            "name_en": "Tbilisi Central Station"
          }
       ]
    },
@@ -851,27 +966,32 @@
          {
             "code": "tbilisicentralstation",
             "role": "start",
-            "time": "17:05"
+            "time": "17:10",
+            "name_en": "Tbilisi Central Station"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "20:24"
+            "time": "20:53",
+            "name_en": "Kutaisi International Airport"
          },
          {
             "code": "ureki",
             "role": "middle",
-            "time": "21:21"
+            "time": "21:51",
+            "name_en": "Ureki"
          },
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "21:54"
+            "time": "22:19",
+            "name_en": "Kobuleti"
          },
          {
             "code": "batumicentral",
             "role": "end",
-            "time": "22:25"
+            "time": "22:45",
+            "name_en": "Batumi-Central"
          }
       ]
    },
@@ -888,77 +1008,86 @@
          {
             "code": "zugdidi",
             "role": "start",
-            "time": "17:20"
+            "time": "16:55",
+            "name_en": "Zugdidi"
          },
          {
             "code": "ingiri",
             "role": "middle",
-            "time": "17:33"
+            "time": "17:08",
+            "name_en": "Ingiri"
          },
          {
             "code": "kheta",
             "role": "middle",
-            "time": "17:46"
+            "time": "17:21",
+            "name_en": "Kheta"
          },
          {
             "code": "khobi",
             "role": "middle",
-            "time": "18:05"
+            "time": "17:55",
+            "name_en": "Khobi"
          },
          {
             "code": "senaki",
             "role": "middle",
-            "time": "18:25"
+            "time": "18:15",
+            "name_en": "Senaki"
          },
          {
             "code": "abasha",
             "role": "middle",
-            "time": "18:48"
+            "time": "18:38",
+            "name_en": "Abasha"
          },
          {
             "code": "samtredia1",
             "role": "middle",
-            "time": "19:05"
+            "time": "18:56",
+            "name_en": "Samtredia-1"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "19:21"
+            "time": "19:14",
+            "name_en": "Kutaisi International Airport"
          },
          {
             "code": "rioni",
             "role": "middle",
-            "time": "19:37"
+            "time": "19:31",
+            "name_en": "Rioni"
          },
          {
             "code": "zestafoni",
             "role": "middle",
-            "time": "20:08"
+            "time": "20:04",
+            "name_en": "Zestafoni"
          },
          {
             "code": "kharagouli",
             "role": "middle",
-            "time": "20:36"
-         },
-         {
-            "code": "tsipa",
-            "role": "middle",
-            "time": "nn:nn"
+            "time": "20:34",
+            "name_en": "Kharagouli"
          },
          {
             "code": "khashuri",
             "role": "middle",
-            "time": "21:38"
+            "time": "21:49",
+            "name_en": "Khashuri"
          },
          {
             "code": "gori",
             "role": "middle",
-            "time": "22:16"
+            "time": "22:28",
+            "name_en": "Gori"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "time": "23:32"
+            "time": "23:37",
+            "name_en": "Tbilisi Central Station"
          }
       ]
    },
@@ -975,77 +1104,104 @@
          {
             "code": "tbilisicentralstation",
             "role": "start",
-            "time": "08:20"
+            "time": "08:20",
+            "name_en": "Tbilisi Central Station"
          },
          {
             "code": "gori",
             "role": "middle",
-            "time": "09:16"
+            "time": "09:20",
+            "name_en": "Gori"
          },
          {
             "code": "khashuri",
             "role": "middle",
-            "time": "09:50"
+            "time": "09:56",
+            "name_en": "Khashuri"
          },
          {
             "code": "tsipa",
             "role": "middle",
-            "time": "10:19"
+            "time": "10:33",
+            "name_en": "Tsipa"
+         },
+         {
+            "code": "moliti",
+            "role": "middle",
+            "time": "10:49",
+            "name_en": "Moliti"
+         },
+         {
+            "code": "marelisi",
+            "role": "middle",
+            "time": "11:03",
+            "name_en": "Marelisi"
          },
          {
             "code": "kharagouli",
             "role": "middle",
-            "time": "11:01"
+            "time": "11:18",
+            "name_en": "Kharagouli"
          },
          {
             "code": "zestafoni",
             "role": "middle",
-            "time": "11:28"
+            "time": "11:50",
+            "name_en": "Zestafoni"
          },
          {
             "code": "rioni",
             "role": "middle",
-            "time": "11:59"
+            "time": "12:26",
+            "name_en": "Rioni"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "12:20"
+            "time": "12:48",
+            "name_en": "Kutaisi International Airport"
          },
          {
             "code": "samtredia1",
             "role": "middle",
-            "time": "12:33"
+            "time": "13:03",
+            "name_en": "Samtredia-1"
          },
          {
             "code": "abasha",
             "role": "middle",
-            "time": "12:55"
+            "time": "13:26",
+            "name_en": "Abasha"
          },
          {
             "code": "senaki",
             "role": "middle",
-            "time": "13:12"
+            "time": "13:43",
+            "name_en": "Senaki"
          },
          {
             "code": "khobi",
             "role": "middle",
-            "time": "13:34"
+            "time": "14:06",
+            "name_en": "Khobi"
          },
          {
             "code": "kheta",
             "role": "middle",
-            "time": "13:46"
+            "time": "14:18",
+            "name_en": "Kheta"
          },
          {
             "code": "ingiri",
             "role": "middle",
-            "time": "14:05"
+            "time": "14:52",
+            "name_en": "Ingiri"
          },
          {
             "code": "zugdidi",
             "role": "end",
-            "time": "14:33"
+            "time": "15:08",
+            "name_en": "Zugdidi"
          }
       ]
    },
@@ -1062,67 +1218,80 @@
          {
             "code": "poti",
             "role": "start",
-            "time": "07:00"
+            "time": "07:00",
+            "name_en": "Poti"
          },
          {
             "code": "chaladidi",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Chaladidi"
          },
          {
             "code": "kvaloni",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Kvaloni"
          },
          {
             "code": "senaki",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Senaki"
          },
          {
             "code": "abasha",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Abasha"
          },
          {
             "code": "samtredia1",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Samtredia-1"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Kutaisi International Airport"
          },
          {
             "code": "rioni",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Rioni"
          },
          {
             "code": "zestafoni",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Zestafoni"
          },
          {
             "code": "unknownstation",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "unknown station"
          },
          {
             "code": "khashuri",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Khashuri"
          },
          {
             "code": "gori",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Gori"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "time": "13:02"
+            "time": "13:02",
+            "name_en": "Tbilisi Central Station"
          }
       ]
    },
@@ -1139,72 +1308,86 @@
          {
             "code": "tbilisicentralstation",
             "role": "start",
-            "time": "17:30"
+            "time": "17:30",
+            "name_en": "Tbilisi Central Station"
          },
          {
             "code": "gori",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Gori"
          },
          {
             "code": "khashuri",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Khashuri"
          },
          {
             "code": "tsipa",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Tsipa"
          },
          {
             "code": "unknownstation",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "unknown station"
          },
          {
             "code": "zestafoni",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Zestafoni"
          },
          {
             "code": "rioni",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Rioni"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Kutaisi International Airport"
          },
          {
             "code": "samtredia1",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Samtredia-1"
          },
          {
             "code": "abasha",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Abasha"
          },
          {
             "code": "senaki",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Senaki"
          },
          {
             "code": "kvaloni",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Kvaloni"
          },
          {
             "code": "chaladidi",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Chaladidi"
          },
          {
             "code": "poti",
             "role": "end",
-            "time": "23:37"
+            "time": "23:37",
+            "name_en": "Poti"
          }
       ]
    },
@@ -1221,17 +1404,20 @@
          {
             "code": "tbilisicentralstation",
             "role": "start",
-            "time": "07:10"
+            "time": "07:10",
+            "name_en": "Tbilisi Central Station"
          },
          {
             "code": "rustavicentral",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Rustavi Central"
          },
          {
             "code": "gardabani",
             "role": "end",
-            "time": "08:16"
+            "time": "08:16",
+            "name_en": "Gardabani"
          }
       ]
    },
@@ -1248,17 +1434,20 @@
          {
             "code": "gardabani",
             "role": "start",
-            "time": "08:30"
+            "time": "08:30",
+            "name_en": "Gardabani"
          },
          {
             "code": "rustavicentral",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Rustavi Central"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "time": "09:38"
+            "time": "09:38",
+            "name_en": "Tbilisi Central Station"
          }
       ]
    },
@@ -1275,17 +1464,20 @@
          {
             "code": "tbilisicentralstation",
             "role": "start",
-            "time": "19:00"
+            "time": "19:00",
+            "name_en": "Tbilisi Central Station"
          },
          {
             "code": "rustavicentral",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Rustavi Central"
          },
          {
             "code": "gardabani",
             "role": "end",
-            "time": "20:06"
+            "time": "20:06",
+            "name_en": "Gardabani"
          }
       ]
    },
@@ -1302,17 +1494,20 @@
          {
             "code": "gardabani",
             "role": "start",
-            "time": "20:20"
+            "time": "20:20",
+            "name_en": "Gardabani"
          },
          {
             "code": "rustavicentral",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Rustavi Central"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "time": "21:29"
+            "time": "21:29",
+            "name_en": "Tbilisi Central Station"
          }
       ]
    },
@@ -1329,17 +1524,20 @@
          {
             "code": "zestafoni",
             "role": "start",
-            "time": "06:45"
+            "time": "06:45",
+            "name_en": "Zestafoni"
          },
          {
             "code": "kharagouli",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Kharagouli"
          },
          {
             "code": "khashuri",
             "role": "end",
-            "time": "09:09"
+            "time": "09:09",
+            "name_en": "Khashuri"
          }
       ]
    },
@@ -1356,17 +1554,20 @@
          {
             "code": "khashuri",
             "role": "start",
-            "time": "17:25"
+            "time": "17:25",
+            "name_en": "Khashuri"
          },
          {
             "code": "kharagouli",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Kharagouli"
          },
          {
             "code": "zestafoni",
             "role": "end",
-            "time": "19:52"
+            "time": "19:52",
+            "name_en": "Zestafoni"
          }
       ]
    },
@@ -1383,17 +1584,20 @@
          {
             "code": "khashuri",
             "role": "start",
-            "time": "06:45"
+            "time": "06:45",
+            "name_en": "Khashuri"
          },
          {
             "code": "kharagouli",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Kharagouli"
          },
          {
             "code": "zestafoni",
             "role": "end",
-            "time": "09:13"
+            "time": "09:13",
+            "name_en": "Zestafoni"
          }
       ]
    },
@@ -1410,17 +1614,20 @@
          {
             "code": "zestafoni",
             "role": "start",
-            "time": "16:45"
+            "time": "16:45",
+            "name_en": "Zestafoni"
          },
          {
             "code": "kharagouli",
             "role": "middle",
-            "time": "nn:nn"
+            "time": "nn:nn",
+            "name_en": "Kharagouli"
          },
          {
             "code": "khashuri",
             "role": "end",
-            "time": "19:03"
+            "time": "19:03",
+            "name_en": "Khashuri"
          }
       ]
    }
