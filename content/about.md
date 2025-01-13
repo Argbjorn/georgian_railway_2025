@@ -2,6 +2,7 @@
 title: About
 type: about
 description: About the project.
+toc: false
 ---
 
 This map has been created to help you navigate Georgia's railway system. Use it in conjunction with other sources of information for a more complete picture.
