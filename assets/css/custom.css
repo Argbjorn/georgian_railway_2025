@@ -1,3 +1,8 @@
+nav > a, li > a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
 .hx-pt-4 {
     padding-top: 0 !important;
 }
@@ -111,7 +116,7 @@ summary::-webkit-details-marker{display:none;}
 summary::-moz-list-bullet{list-style-type:none;}
 summary::marker{display:none;} 
 
-summary {
+details > summary {
     display:inline-block;
     padding: .3em .5em .3em 1.5em;
     font-size:1.2em;

@@ -18,12 +18,11 @@
             <div class="sidepanel-content-wrapper">
                 <div class="sidepanel-content">
                     <div class="sidepanel-tab-content" data-tab-content="tab-1">
-                        <h1>Trains in Georgia</h1>
+                        <h2>Trains in Georgia</h2>
                         <p>
                             Hello there! This is a train map of Georgia. Here you can see the main train routes, find out their schedules and which cities they pass through.
                         </p>
-                        <p>The site is under construction, but all the main routes have already been added.</p>
-                        <p class="last-update">Last update: 01.01.2025</p>
+                        <p class="last-update">Last update: {{ now.Format "02.01.2006" }}</p>
                         <div class="sidepanel-routes-content">
                         </div>
                     </div>

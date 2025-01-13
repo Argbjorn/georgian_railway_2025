@@ -14,6 +14,7 @@
     {{ $name := index . "name:en" }}
     {{ $page := dict
         "content" $content
+        "description" (printf "Route %v: %s of Georgian railway. Stations, schedule, frequency, etc." .ref $name)
         "kind" "page"
         "path" .ref
         "title" (printf "Route %v: %s" .ref $name)
