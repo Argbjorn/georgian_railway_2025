@@ -154,3 +154,41 @@ summary {
     
  }
 
+ .route-timeline {
+    list-style: none;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.route-timeline::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 15px;
+    bottom: 15px;
+    width: 2px;
+    background: #4CAF50;
+}
+
+.route-timeline li {
+    position: relative;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0;
+}
+
+.route-timeline li::before {
+    content: '';
+    position: absolute;
+    left: -2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 16px;
+    height: 16px;
+    border: 2px solid #4CAF50;
+    border-radius: 50%;
+    background: white;
+}
+
+.route-timeline li.terminal::before {
+    background: #4CAF50;
+}

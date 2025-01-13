@@ -8,13 +8,24 @@
             {{ partial "breadcrumb.html" . }}
             <div class="content">
                 {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
-                <p><strong>Frequency:</strong> {{ .Params.frequency }}</p>
+                <p>✅ The route is active. Last changes: {{ now.Format "02.01.2006" }}</p>
+                <p><strong>Frequency:</strong> {{ .Params.frequency }}<br>
+                    <strong>Online tickets:</strong> {{ if .Params.online }}available on the <a
+                        href="https://ticket.railway.ge/" target="_blank">official website</a>{{ else }}not available{{
+                    end }}
+                </p>
                 <h2>Stations:</h2>
-                <ul>
-                    {{ range .Params.stations }}
-                    <li>{{ .time }} {{ .name_en }}</li>
+                {{ if not .Params.complete }}
+                <p>🚧 I don't have a complete list of stations or arrival times for this route. Neither is it on the official website. If you have any additional information, please <a href="/about">let me know</a>.</p>
+                {{ end }}
+                <ul class="route-timeline">
+                    {{ range $index, $station := .Params.stations }}
+                    <li class="{{ if or (eq $index 0) (eq $index (sub (len $.Params.stations) 1)) }}terminal{{ else }}intermediate{{ end }}">
+                        {{ .time }} {{ .name_en }}
+                    </li>
                     {{ end }}
                 </ul>
+                <p>🗺 <a href="/" target="_self">Back to the entire routes map</a></p>
             </div>
         </main>
     </article>
