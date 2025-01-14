@@ -161,24 +161,26 @@ details > summary {
 
  .route-timeline {
     list-style: none;
-    padding-left: 2rem;
+    padding-left: 6rem;
     position: relative;
 }
 
 .route-timeline::before {
     content: '';
     position: absolute;
-    left: 7px;
+    left: 4.45rem;
     top: 15px;
     bottom: 15px;
     width: 2px;
-    background: #4CAF50;
+    background: #199900;
 }
 
 .route-timeline li {
     position: relative;
     padding: 0.5rem 0;
     margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
 }
 
 .route-timeline li::before {
@@ -189,11 +191,18 @@ details > summary {
     transform: translateY(-50%);
     width: 16px;
     height: 16px;
-    border: 2px solid #4CAF50;
+    border: 2px solid #199900;
     border-radius: 50%;
     background: white;
 }
 
 .route-timeline li.terminal::before {
-    background: #4CAF50;
+    background: #199900;
+}
+
+.station-time {
+    position: absolute;
+    right: calc(100% + 2.5rem);
+    min-width: 4rem;
+    text-align: right;
 }

@@ -21,7 +21,8 @@
                 <ul class="route-timeline">
                     {{ range $index, $station := .Params.stations }}
                     <li class="{{ if or (eq $index 0) (eq $index (sub (len $.Params.stations) 1)) }}terminal{{ else }}intermediate{{ end }}">
-                        {{ .time }} {{ .name_en }}
+                        <span class="station-time">{{ .time }}</span>
+                        <span class="station-name">{{ .name_en }}</span>
                     </li>
                     {{ end }}
                 </ul>
