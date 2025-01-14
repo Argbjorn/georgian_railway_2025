@@ -1,0 +1,3 @@
+User-agent: *
+Host: georailway.com
+Sitemap: https://georailway.com/sitemap.xml
