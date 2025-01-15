@@ -1,5 +1,16 @@
 title: Georgian Railway Map
 
+baseURL: https://georailways.com
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+  ru:
+    languageName: Русский
+    weight: 2
+
 # import hextra as module
 module:
   imports:
@@ -17,10 +28,12 @@ markup:
 
 menu:
   main:
-    - name: Routes
+    - identifier: routes
+      name: Routes
       pageRef: /routes
       weight: 1
-    - name: About
+    - identifier: about
+      name: About
       pageRef: /about
       weight: 2
 
