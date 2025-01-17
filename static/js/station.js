@@ -66,8 +66,9 @@ const options = {
 }
 
 export class Station {
-    constructor(name_en, coords, type, code) {
+    constructor(name_en, name_ru, coords, type, code) {
         this.name_en = name_en,
+        this.name_ru = name_ru,
         this.coords = coords,
         this.type = type;
         this.code = code;

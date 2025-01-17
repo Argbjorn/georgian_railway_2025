@@ -1,4 +1,4 @@
-import { RailwayNetwork } from "./railway-network.js";
+import { RailwayNetwork } from "./railway-network-ru.js";
 import { Route } from "./route.js";
 import { routesList } from "./routes-list.js";
 import { Station } from "./station.js";
@@ -121,6 +121,8 @@ async function toggleRoute(routeId) {
 
 // Shows stations and sets station markers interaction
 function showStations() {
+    stationsList.sort((a, b) => a.name_ru.localeCompare(b.name_ru, 'ru'));
+    
     stationsList.forEach(station => {
         let newStation = new Station(station.name_en, station.name_ru, station.coords, station.type, station.code);
         stations.push(newStation);
@@ -146,7 +148,7 @@ function showStations() {
             closeAllStationLines();
             closeRoutes();
         });
-    })
+    });
 }
 
 function hideActiveRoute() {
@@ -165,15 +167,15 @@ function hideActiveRoute() {
 function getStationName(data) {
     let stationName;
     if ("tags" in data) {
-        if ("name:en" in data.tags) {
-            stationName = data.tags["name:en"];
+        if ("name:ru" in data.tags) {
+            stationName = data.tags["name:ru"];
         } else if ("name" in data.tags) {
             stationName = data.tags["name"];
         } else {
-            stationName = "unknown station"
+            stationName = "неизвестная станция"
         }
     } else {
-        stationName = "unknown station"
+        stationName = "неизвестная станция"
     }
     return stationName
 }
@@ -190,7 +192,7 @@ function getRouteSchedule(route) {
         //schedule.sort((a, b) => Date.parse('1970-01-01T' + a[1]) > Date.parse('1970-01-01T' + b[1]) ? 1 : -1);
         return schedule
     } else {
-        return "There is no schedule for the route yet"
+        return "Нет расписания для этого маршрута"
     }
 }
 
@@ -224,7 +226,7 @@ function getStationNameByCode(stationCode) {
     let stationName;
     stationsList.forEach(station => {
         if (station.code == stationCode) {
-            stationName = station.name_en;
+            stationName = station.name_ru;
         }
     })
     if (isSet(stationName)) {
@@ -316,7 +318,7 @@ async function makeStationInfo(station) {
         }
     })
 
-    stationHeader.innerHTML = station.name_en;
+    stationHeader.innerHTML = station.name_ru;
 
     if (station.description) {
         stationDescription.innerHTML = station.description;
@@ -324,9 +326,9 @@ async function makeStationInfo(station) {
         stationDescription.innerHTML = "";
     }
 
-    stationArrivals.innerHTML = '<h4>Arrivals</h4>';
-    stationDepartures.innerHTML = '<h4>Departures</h4>';
-    stationPassesThrough.innerHTML = '<h4>Passes through</h4>';
+    stationArrivals.innerHTML = '<h4>Прибытие</h4>';
+    stationDepartures.innerHTML = '<h4>Отправление</h4>';
+    stationPassesThrough.innerHTML = '<h4>Останавливается</h4>';
 
     let stationRoutes = getRoutesByStation(station.code);
 
@@ -370,8 +372,8 @@ async function makeStationInfo(station) {
             stationPassesThrough.appendChild(a.html);
         });
     } else {
-        stationDepartures.innerHTML += '<p>There is no schedule yet</p>';
-        stationArrivals.innerHTML += '<p>There is no schedule yet</p>';
+        stationDepartures.innerHTML += '<p>Нет расписания</p>';
+        stationArrivals.innerHTML += '<p>Нет расписания</p>';
         stationPassesThrough.classList.add('hidden');
     }
     
@@ -415,9 +417,9 @@ function makeRouteLine(route, stationCode, direction) {
 
     routeTime.innerHTML = time + ' ';
     routeLabel.innerHTML = route.ref;
-    routeFrequency.innerHTML = route.frequency + '<br>';
+    routeFrequency.innerHTML = (route.frequency === 'daily' ? 'каждый день' : route.frequency) + '<br>';
     routeSchedule.innerHTML = schedule;
-    routeSchedule.innerHTML += route.complete ? '' : "<p class='disclaimer'>This route is incomplete, so some train stops aren't in the list. If you have an additional information, change the route on OSM or let me know (see About for contacts).</p>"
+    routeSchedule.innerHTML += route.complete ? '' : "<p class='disclaimer'>Маршрут неполный, поэтому некоторых остановок нет в списке. Если у вас есть дополнительная информация, измените маршрут на OSM или сообщите мне (см. О проекте).</p>"
     
 
     let destination;

@@ -18,11 +18,7 @@
             <div class="sidepanel-content-wrapper">
                 <div class="sidepanel-content">
                     <div class="sidepanel-tab-content" data-tab-content="tab-1">
-                        <h2>Trains in Georgia</h2>
-                        <p>
-                            Hello there! This is a train map of Georgia. Here you can see the main train routes, find out their schedules and which cities they pass through.
-                        </p>
-                        <p class="last-update">Last update: {{ now.Format "02.01.2006" }}</p>
+                        {{ .Content }}
                         <div class="sidepanel-routes-content">
                         </div>
                     </div>
@@ -35,8 +31,13 @@
     </div>
 </div>
 <script type="module" src="{{ "js/map.js" | relURL }}"></script>
+{{ if eq .Site.Language.Lang "ru" }}
+<script type="module" src="{{ "js/main-test-ru.js" | relURL }}"></script>
+<script type="module" src="{{ "js/railway-network-ru.js" | relURL }}"></script>
+{{ else }}
 <script type="module" src="{{ "js/main-test.js" | relURL }}"></script>
 <script type="module" src="{{ "js/railway-network.js" | relURL }}"></script>
+{{ end }}
 <script type="module" src="{{ "js/route.js" | relURL }}"></script>
 <script type="module" src="{{ "js/routes-list.js" | relURL }}"></script>
 <script type="module" src="{{ "js/stations-list.js" | relURL }}"></script>

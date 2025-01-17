@@ -1,4 +1,3 @@
-import { getOverpassData } from "./main-test.js";
 import { map } from "./map.js";
 
 export class Route {
