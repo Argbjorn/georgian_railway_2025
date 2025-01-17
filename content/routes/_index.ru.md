@@ -1,5 +1,5 @@
 ---
-title: "Routes"
+title: Маршруты
 layout: "routes-list"
-description: A list of all the train routes in Georgia.
+description: Список всех железнодорожных маршрутов Грузии.
 ---

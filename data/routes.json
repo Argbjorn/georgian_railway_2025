@@ -13,139 +13,185 @@
             "code": "ozurgeti",
             "role": "start",
             "time": "10:05",
-            "name_en": "Ozurgeti"
+            "name_en": "Ozurgeti",
+            "name_ru": "Озургети",
+            "name_ka": "ოზურგეთი"
          },
          {
             "code": "platform11km",
             "role": "middle",
             "time": "10:11",
-            "name_en": "Platform 11 km"
+            "name_en": "Platform 11 km",
+            "name_ru": "Платформа 11 км",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "meria",
             "role": "middle",
             "time": "10:22",
-            "name_en": "Meria"
+            "name_en": "Meria",
+            "name_ru": "Мэриа",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "natanebi",
             "role": "middle",
             "time": "11:05",
-            "name_en": "Natanebi"
+            "name_en": "Natanebi",
+            "name_ru": "Натанеби",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "ureki",
             "role": "middle",
             "time": "11:35",
-            "name_en": "Ureki"
+            "name_en": "Ureki",
+            "name_ru": "Уреки",
+            "name_ka": "ურეკი"
          },
          {
             "code": "supsa",
             "role": "middle",
             "time": "11:46",
-            "name_en": "Supsa"
+            "name_en": "Supsa",
+            "name_ru": "Супса",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "jumati",
             "role": "middle",
             "time": "11:58",
-            "name_en": "Jumati"
+            "name_en": "Jumati",
+            "name_ru": "Джумати",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "lanchkhuti",
             "role": "middle",
             "time": "12:12",
-            "name_en": "Lanchkhuti"
+            "name_en": "Lanchkhuti",
+            "name_ru": "неизвестная станция",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "samtredia1",
             "role": "middle",
             "time": "12:58",
-            "name_en": "Samtredia-1"
+            "name_en": "Samtredia-1",
+            "name_ru": "Самтредиа-1",
+            "name_ka": "სამტრედია-1"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
             "time": "13:17",
-            "name_en": "Kutaisi International Airport"
+            "name_en": "Kutaisi International Airport",
+            "name_ru": "Международный аэропорт Кутаиси",
+            "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
          },
          {
             "code": "rioni",
             "role": "middle",
             "time": "13:36",
-            "name_en": "Rioni"
+            "name_en": "Rioni",
+            "name_ru": "Риони",
+            "name_ka": "რიონი"
          },
          {
             "code": "sviri",
             "role": "middle",
             "time": "14:00",
-            "name_en": "Sviri"
+            "name_en": "Sviri",
+            "name_ru": "Свири",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "zestafoni",
             "role": "middle",
             "time": "14:23",
-            "name_en": "Zestafoni"
+            "name_en": "Zestafoni",
+            "name_ru": "Зестафони",
+            "name_ka": "ზესტაფონი"
          },
          {
             "code": "kharagouli",
             "role": "middle",
             "time": "15:09",
-            "name_en": "Kharagouli"
+            "name_en": "Kharagouli",
+            "name_ru": "Харагоули",
+            "name_ka": "ხარაგაული"
          },
          {
             "code": "marelisi",
             "role": "middle",
             "time": "15:26",
-            "name_en": "Marelisi"
+            "name_en": "Marelisi",
+            "name_ru": "Марелиси",
+            "name_ka": "მარელისი"
          },
          {
             "code": "moliti",
             "role": "middle",
             "time": "15:38",
-            "name_en": "Moliti"
+            "name_en": "Moliti",
+            "name_ru": "Молити",
+            "name_ka": "მოლითი"
          },
          {
             "code": "tsipa",
             "role": "middle",
             "time": "15:52",
-            "name_en": "Tsipa"
+            "name_en": "Tsipa",
+            "name_ru": "Ципа",
+            "name_ka": "წიფა"
          },
          {
             "code": "khashuri",
             "role": "middle",
             "time": "16:25",
-            "name_en": "Khashuri"
+            "name_en": "Khashuri",
+            "name_ru": "Хашури",
+            "name_ka": "ხაშური"
          },
          {
             "code": "kareli",
             "role": "middle",
             "time": "17:06",
-            "name_en": "Kareli"
+            "name_en": "Kareli",
+            "name_ru": "Карели",
+            "name_ka": "ქარელი"
          },
          {
             "code": "gori",
             "role": "middle",
             "time": "17:24",
-            "name_en": "Gori"
+            "name_en": "Gori",
+            "name_ru": "Гори",
+            "name_ka": "გორი"
          },
          {
             "code": "kaspi",
             "role": "middle",
             "time": "17:51",
-            "name_en": "Kaspi"
+            "name_en": "Kaspi",
+            "name_ru": "Каспи",
+            "name_ka": "კასპი"
          },
          {
             "code": "mtskheta",
             "role": "middle",
             "time": "18:20",
-            "name_en": "Mtskheta"
+            "name_en": "Mtskheta",
+            "name_ru": "Мцхета",
+            "name_ka": "მცხეთა"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
             "time": "18:52",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ]
    },
@@ -163,151 +209,201 @@
             "code": "tbilisicentralstation",
             "role": "start",
             "time": "09:00",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          },
          {
             "code": "mtskheta",
             "role": "middle",
             "time": "09:26",
-            "name_en": "Mtskheta"
+            "name_en": "Mtskheta",
+            "name_ru": "Мцхета",
+            "name_ka": "მცხეთა"
          },
          {
             "code": "kaspi",
             "role": "middle",
             "time": "09:54",
-            "name_en": "Kaspi"
+            "name_en": "Kaspi",
+            "name_ru": "Каспи",
+            "name_ka": "კასპი"
          },
          {
             "code": "gori",
             "role": "middle",
             "time": "10:19",
-            "name_en": "Gori"
+            "name_en": "Gori",
+            "name_ru": "Гори",
+            "name_ka": "გორი"
          },
          {
             "code": "kareli",
             "role": "middle",
             "time": "10:38",
-            "name_en": "Kareli"
+            "name_en": "Kareli",
+            "name_ru": "Карели",
+            "name_ka": "ქარელი"
          },
          {
             "code": "khashuri",
             "role": "middle",
             "time": "11:04",
-            "name_en": "Khashuri"
+            "name_en": "Khashuri",
+            "name_ru": "Хашури",
+            "name_ka": "ხაშური"
          },
          {
             "code": "tsipa",
             "role": "middle",
             "time": "11:53",
-            "name_en": "Tsipa"
+            "name_en": "Tsipa",
+            "name_ru": "Ципа",
+            "name_ka": "წიფა"
          },
          {
             "code": "moliti",
             "role": "middle",
             "time": "12:10",
-            "name_en": "Moliti"
+            "name_en": "Moliti",
+            "name_ru": "Молити",
+            "name_ka": "მოლითი"
          },
          {
             "code": "marelisi",
             "role": "middle",
             "time": "12:27",
-            "name_en": "Marelisi"
+            "name_en": "Marelisi",
+            "name_ru": "Марелиси",
+            "name_ka": "მარელისი"
          },
          {
             "code": "kharagouli",
             "role": "middle",
             "time": "12:44",
-            "name_en": "Kharagouli"
+            "name_en": "Kharagouli",
+            "name_ru": "Харагоули",
+            "name_ka": "ხარაგაული"
          },
          {
             "code": "zestafoni",
             "role": "middle",
             "time": "13:20",
-            "name_en": "Zestafoni"
+            "name_en": "Zestafoni",
+            "name_ru": "Зестафони",
+            "name_ka": "ზესტაფონი"
          },
          {
             "code": "sviri",
             "role": "middle",
             "time": "14:01",
-            "name_en": "Sviri"
+            "name_en": "Sviri",
+            "name_ru": "Свири",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "rioni",
             "role": "middle",
             "time": "14:25",
-            "name_en": "Rioni"
+            "name_en": "Rioni",
+            "name_ru": "Риони",
+            "name_ka": "რიონი"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
             "time": "14:57",
-            "name_en": "Kutaisi International Airport"
+            "name_en": "Kutaisi International Airport",
+            "name_ru": "Международный аэропорт Кутаиси",
+            "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
          },
          {
             "code": "samtredia1",
             "role": "middle",
             "time": "15:13",
-            "name_en": "Samtredia-1"
+            "name_en": "Samtredia-1",
+            "name_ru": "Самтредиа-1",
+            "name_ka": "სამტრედია-1"
          },
          {
             "code": "lanchkhuti",
             "role": "middle",
             "time": "15:59",
-            "name_en": "Lanchkhuti"
+            "name_en": "Lanchkhuti",
+            "name_ru": "неизвестная станция",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "jumati",
             "role": "middle",
             "time": "16:13",
-            "name_en": "Jumati"
+            "name_en": "Jumati",
+            "name_ru": "Джумати",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "supsa",
             "role": "middle",
             "time": "16:28",
-            "name_en": "Supsa"
+            "name_en": "Supsa",
+            "name_ru": "Супса",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "ureki",
             "role": "middle",
             "time": "16:38",
-            "name_en": "Ureki"
+            "name_en": "Ureki",
+            "name_ru": "Уреки",
+            "name_ka": "ურეკი"
          },
          {
             "code": "natanebi",
             "role": "middle",
             "time": "16:52",
-            "name_en": "Natanebi"
+            "name_en": "Natanebi",
+            "name_ru": "Натанеби",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "meria",
             "role": "middle",
             "time": "17:32",
-            "name_en": "Meria"
+            "name_en": "Meria",
+            "name_ru": "Мэриа",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "platform11km",
             "role": "middle",
             "time": "17:44",
-            "name_en": "Platform 11 km"
+            "name_en": "Platform 11 km",
+            "name_ru": "Платформа 11 км",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "kakhuri",
             "role": "middle",
             "time": "17:55",
-            "name_en": "Kakhuri"
+            "name_en": "Kakhuri",
+            "name_ru": "Кахури",
+            "name_ka": "კახური"
          },
          {
             "code": "platform16km",
             "role": "middle",
             "time": "18:06",
-            "name_en": "Platform 16 km"
+            "name_en": "Platform 16 km",
+            "name_ru": "Платформа 16 км",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "ozurgeti",
             "role": "end",
             "time": "18:12",
-            "name_en": "Ozurgeti"
+            "name_en": "Ozurgeti",
+            "name_ru": "Озургети",
+            "name_ka": "ოზურგეთი"
          }
       ]
    },
@@ -325,85 +421,113 @@
             "code": "kutaisi1",
             "role": "start",
             "time": "12:55",
-            "name_en": "Kutaisi-1"
+            "name_en": "Kutaisi-1",
+            "name_ru": "Кутаиси-1",
+            "name_ka": "ქუთაისი-1"
          },
          {
             "code": "rioni",
             "role": "middle",
             "time": "13:15",
-            "name_en": "Rioni"
+            "name_en": "Rioni",
+            "name_ru": "Риони",
+            "name_ka": "რიონი"
          },
          {
             "code": "sviri",
             "role": "middle",
             "time": "14:00",
-            "name_en": "Sviri"
+            "name_en": "Sviri",
+            "name_ru": "Свири",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "zestafoni",
             "role": "middle",
             "time": "14:23",
-            "name_en": "Zestafoni"
+            "name_en": "Zestafoni",
+            "name_ru": "Зестафони",
+            "name_ka": "ზესტაფონი"
          },
          {
             "code": "kharagouli",
             "role": "middle",
             "time": "15:09",
-            "name_en": "Kharagouli"
+            "name_en": "Kharagouli",
+            "name_ru": "Харагоули",
+            "name_ka": "ხარაგაული"
          },
          {
             "code": "marelisi",
             "role": "middle",
             "time": "15:26",
-            "name_en": "Marelisi"
+            "name_en": "Marelisi",
+            "name_ru": "Марелиси",
+            "name_ka": "მარელისი"
          },
          {
             "code": "moliti",
             "role": "middle",
             "time": "15:38",
-            "name_en": "Moliti"
+            "name_en": "Moliti",
+            "name_ru": "Молити",
+            "name_ka": "მოლითი"
          },
          {
             "code": "tsipa",
             "role": "middle",
             "time": "15:52",
-            "name_en": "Tsipa"
+            "name_en": "Tsipa",
+            "name_ru": "Ципа",
+            "name_ka": "წიფა"
          },
          {
             "code": "khashuri",
             "role": "middle",
             "time": "16:25",
-            "name_en": "Khashuri"
+            "name_en": "Khashuri",
+            "name_ru": "Хашури",
+            "name_ka": "ხაშური"
          },
          {
             "code": "kareli",
             "role": "middle",
             "time": "17:06",
-            "name_en": "Kareli"
+            "name_en": "Kareli",
+            "name_ru": "Карели",
+            "name_ka": "ქარელი"
          },
          {
             "code": "gori",
             "role": "middle",
             "time": "17:24",
-            "name_en": "Gori"
+            "name_en": "Gori",
+            "name_ru": "Гори",
+            "name_ka": "გორი"
          },
          {
             "code": "kaspi",
             "role": "middle",
             "time": "17:51",
-            "name_en": "Kaspi"
+            "name_en": "Kaspi",
+            "name_ru": "Каспи",
+            "name_ka": "კასპი"
          },
          {
             "code": "mtskheta",
             "role": "middle",
             "time": "18:20",
-            "name_en": "Mtskheta"
+            "name_en": "Mtskheta",
+            "name_ru": "Мцхета",
+            "name_ka": "მცხეთა"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
             "time": "18:52",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ]
    },
@@ -421,85 +545,113 @@
             "code": "tbilisicentralstation",
             "role": "start",
             "time": "09:00",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          },
          {
             "code": "mtskheta",
             "role": "middle",
             "time": "09:26",
-            "name_en": "Mtskheta"
+            "name_en": "Mtskheta",
+            "name_ru": "Мцхета",
+            "name_ka": "მცხეთა"
          },
          {
             "code": "kaspi",
             "role": "middle",
             "time": "09:54",
-            "name_en": "Kaspi"
+            "name_en": "Kaspi",
+            "name_ru": "Каспи",
+            "name_ka": "კასპი"
          },
          {
             "code": "gori",
             "role": "middle",
             "time": "10:19",
-            "name_en": "Gori"
+            "name_en": "Gori",
+            "name_ru": "Гори",
+            "name_ka": "გორი"
          },
          {
             "code": "kareli",
             "role": "middle",
             "time": "10:38",
-            "name_en": "Kareli"
+            "name_en": "Kareli",
+            "name_ru": "Карели",
+            "name_ka": "ქარელი"
          },
          {
             "code": "khashuri",
             "role": "middle",
             "time": "11:04",
-            "name_en": "Khashuri"
+            "name_en": "Khashuri",
+            "name_ru": "Хашури",
+            "name_ka": "ხაშური"
          },
          {
             "code": "tsipa",
             "role": "middle",
             "time": "11:53",
-            "name_en": "Tsipa"
+            "name_en": "Tsipa",
+            "name_ru": "Ципа",
+            "name_ka": "წიფა"
          },
          {
             "code": "moliti",
             "role": "middle",
             "time": "12:10",
-            "name_en": "Moliti"
+            "name_en": "Moliti",
+            "name_ru": "Молити",
+            "name_ka": "მოლითი"
          },
          {
             "code": "marelisi",
             "role": "middle",
             "time": "12:27",
-            "name_en": "Marelisi"
+            "name_en": "Marelisi",
+            "name_ru": "Марелиси",
+            "name_ka": "მარელისი"
          },
          {
             "code": "kharagouli",
             "role": "middle",
             "time": "12:44",
-            "name_en": "Kharagouli"
+            "name_en": "Kharagouli",
+            "name_ru": "Харагоули",
+            "name_ka": "ხარაგაული"
          },
          {
             "code": "zestafoni",
             "role": "middle",
             "time": "13:20",
-            "name_en": "Zestafoni"
+            "name_en": "Zestafoni",
+            "name_ru": "Зестафони",
+            "name_ka": "ზესტაფონი"
          },
          {
             "code": "sviri",
             "role": "middle",
             "time": "14:01",
-            "name_en": "Sviri"
+            "name_en": "Sviri",
+            "name_ru": "Свири",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "rioni",
             "role": "middle",
             "time": "14:25",
-            "name_en": "Rioni"
+            "name_en": "Rioni",
+            "name_ru": "Риони",
+            "name_ka": "რიონი"
          },
          {
             "code": "kutaisi1",
             "role": "end",
             "time": "15:10",
-            "name_en": "Kutaisi-1"
+            "name_en": "Kutaisi-1",
+            "name_ru": "Кутаиси-1",
+            "name_ka": "ქუთაისი-1"
          }
       ]
    },
@@ -517,19 +669,25 @@
             "code": "batumicentral",
             "role": "start",
             "time": "20:40",
-            "name_en": "Batumi-Central"
+            "name_en": "Batumi-Central",
+            "name_ru": "Батуми-Пассажирская",
+            "name_ka": "ბათუმი-ცენტრალი"
          },
          {
             "code": "kobuleti",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Kobuleti"
+            "name_en": "Kobuleti",
+            "name_ru": "Кобулети",
+            "name_ka": "ქობულეთი"
          },
          {
             "code": "ozurgeti",
             "role": "end",
             "time": "22:52",
-            "name_en": "Ozurgeti"
+            "name_en": "Ozurgeti",
+            "name_ru": "Озургети",
+            "name_ka": "ოზურგეთი"
          }
       ]
    },
@@ -547,19 +705,25 @@
             "code": "ozurgeti",
             "role": "start",
             "time": "06:20",
-            "name_en": "Ozurgeti"
+            "name_en": "Ozurgeti",
+            "name_ru": "Озургети",
+            "name_ka": "ოზურგეთი"
          },
          {
             "code": "kobuleti",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Kobuleti"
+            "name_en": "Kobuleti",
+            "name_ru": "Кобулети",
+            "name_ka": "ქობულეთი"
          },
          {
             "code": "batumicentral",
             "role": "end",
             "time": "08:36",
-            "name_en": "Batumi-Central"
+            "name_en": "Batumi-Central",
+            "name_ru": "Батуми-Пассажирская",
+            "name_ka": "ბათუმი-ცენტრალი"
          }
       ]
    },
@@ -577,13 +741,17 @@
             "code": "borjomiparki",
             "role": "start",
             "time": "16:30",
-            "name_en": "Borjomi-Parki"
+            "name_en": "Borjomi-Parki",
+            "name_ru": "Боржоми-Парк",
+            "name_ka": "ბორჯომი-პარკი"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
             "time": "20:50",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ]
    },
@@ -601,13 +769,17 @@
             "code": "tbilisicentralstation",
             "role": "start",
             "time": "06:35",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          },
          {
             "code": "borjomiparki",
             "role": "end",
             "time": "10:47",
-            "name_en": "Borjomi-Parki"
+            "name_en": "Borjomi-Parki",
+            "name_ru": "Боржоми-Парк",
+            "name_ka": "ბორჯომი-პარკი"
          }
       ]
    },
@@ -625,31 +797,41 @@
             "code": "batumicentral",
             "role": "start",
             "time": "19:35",
-            "name_en": "Batumi-Central"
+            "name_en": "Batumi-Central",
+            "name_ru": "Батуми-Пассажирская",
+            "name_ka": "ბათუმი-ცენტრალი"
          },
          {
             "code": "kobuleti",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Kobuleti"
+            "name_en": "Kobuleti",
+            "name_ru": "Кобулети",
+            "name_ka": "ქობულეთი"
          },
          {
             "code": "ureki",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Ureki"
+            "name_en": "Ureki",
+            "name_ru": "Уреки",
+            "name_ka": "ურეკი"
          },
          {
             "code": "samtredia1",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Samtredia-1"
+            "name_en": "Samtredia-1",
+            "name_ru": "Самтредиа-1",
+            "name_ka": "სამტრედია-1"
          },
          {
             "code": "kutaisi1",
             "role": "end",
             "time": "00:13",
-            "name_en": "Kutaisi-1"
+            "name_en": "Kutaisi-1",
+            "name_ru": "Кутаиси-1",
+            "name_ka": "ქუთაისი-1"
          }
       ]
    },
@@ -667,31 +849,41 @@
             "code": "kutaisi1",
             "role": "start",
             "time": "06:15",
-            "name_en": "Kutaisi-1"
+            "name_en": "Kutaisi-1",
+            "name_ru": "Кутаиси-1",
+            "name_ka": "ქუთაისი-1"
          },
          {
             "code": "samtredia1",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Samtredia-1"
+            "name_en": "Samtredia-1",
+            "name_ru": "Самтредиа-1",
+            "name_ka": "სამტრედია-1"
          },
          {
             "code": "ureki",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Ureki"
+            "name_en": "Ureki",
+            "name_ru": "Уреки",
+            "name_ka": "ურეკი"
          },
          {
             "code": "kobuleti",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Kobuleti"
+            "name_en": "Kobuleti",
+            "name_ru": "Кобулети",
+            "name_ka": "ქობულეთი"
          },
          {
             "code": "batumicentral",
             "role": "end",
             "time": "10:49",
-            "name_en": "Batumi-Central"
+            "name_en": "Batumi-Central",
+            "name_ru": "Батуми-Пассажирская",
+            "name_ka": "ბათუმი-ცენტრალი"
          }
       ]
    },
@@ -709,31 +901,41 @@
             "code": "batumicentral",
             "role": "start",
             "time": "08:55",
-            "name_en": "Batumi-Central"
+            "name_en": "Batumi-Central",
+            "name_ru": "Батуми-Пассажирская",
+            "name_ka": "ბათუმი-ცენტრალი"
          },
          {
             "code": "kobuleti",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Kobuleti"
+            "name_en": "Kobuleti",
+            "name_ru": "Кобулети",
+            "name_ka": "ქობულეთი"
          },
          {
             "code": "ureki",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Ureki"
+            "name_en": "Ureki",
+            "name_ru": "Уреки",
+            "name_ka": "ურეკი"
          },
          {
             "code": "samtredia1",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Samtredia-1"
+            "name_en": "Samtredia-1",
+            "name_ru": "Самтредиа-1",
+            "name_ka": "სამტრედია-1"
          },
          {
             "code": "kutaisi1",
             "role": "end",
             "time": "13:40",
-            "name_en": "Kutaisi-1"
+            "name_en": "Kutaisi-1",
+            "name_ru": "Кутаиси-1",
+            "name_ka": "ქუთაისი-1"
          }
       ]
    },
@@ -751,31 +953,41 @@
             "code": "kutaisi1",
             "role": "start",
             "time": "16:00",
-            "name_en": "Kutaisi-1"
+            "name_en": "Kutaisi-1",
+            "name_ru": "Кутаиси-1",
+            "name_ka": "ქუთაისი-1"
          },
          {
             "code": "samtredia1",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Samtredia-1"
+            "name_en": "Samtredia-1",
+            "name_ru": "Самтредиа-1",
+            "name_ka": "სამტრედია-1"
          },
          {
             "code": "ureki",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Ureki"
+            "name_en": "Ureki",
+            "name_ru": "Уреки",
+            "name_ka": "ურეკი"
          },
          {
             "code": "kobuleti",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Kobuleti"
+            "name_en": "Kobuleti",
+            "name_ru": "Кобулети",
+            "name_ka": "ქობულეთი"
          },
          {
             "code": "batumicentral",
             "role": "end",
             "time": "20:27",
-            "name_en": "Batumi-Central"
+            "name_en": "Batumi-Central",
+            "name_ru": "Батуми-Пассажирская",
+            "name_ka": "ბათუმი-ცენტრალი"
          }
       ]
    },
@@ -793,13 +1005,17 @@
             "code": "borjomiparki",
             "role": "start",
             "time": "05:50",
-            "name_en": "Borjomi-Parki"
+            "name_en": "Borjomi-Parki",
+            "name_ru": "Боржоми-Парк",
+            "name_ka": "ბორჯომი-პარკი"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
             "time": "10:10",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ]
    },
@@ -817,13 +1033,17 @@
             "code": "tbilisicentralstation",
             "role": "start",
             "time": "18:35",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          },
          {
             "code": "borjomiparki",
             "role": "end",
             "time": "22:47",
-            "name_en": "Borjomi-Parki"
+            "name_en": "Borjomi-Parki",
+            "name_ru": "Боржоми-Парк",
+            "name_ka": "ბორჯომი-პარკი"
          }
       ]
    },
@@ -841,31 +1061,41 @@
             "code": "batumicentral",
             "role": "start",
             "time": "16:55",
-            "name_en": "Batumi-Central"
+            "name_en": "Batumi-Central",
+            "name_ru": "Батуми-Пассажирская",
+            "name_ka": "ბათუმი-ცენტრალი"
          },
          {
             "code": "kobuleti",
             "role": "middle",
             "time": "17:16",
-            "name_en": "Kobuleti"
+            "name_en": "Kobuleti",
+            "name_ru": "Кобулети",
+            "name_ka": "ქობულეთი"
          },
          {
             "code": "ureki",
             "role": "middle",
             "time": "17:47",
-            "name_en": "Ureki"
+            "name_en": "Ureki",
+            "name_ru": "Уреки",
+            "name_ka": "ურეკი"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
             "time": "18:47",
-            "name_en": "Kutaisi International Airport"
+            "name_en": "Kutaisi International Airport",
+            "name_ru": "Международный аэропорт Кутаиси",
+            "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
             "time": "22:17",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ]
    },
@@ -883,31 +1113,41 @@
             "code": "tbilisicentralstation",
             "role": "start",
             "time": "08:00",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
             "time": "11:43",
-            "name_en": "Kutaisi International Airport"
+            "name_en": "Kutaisi International Airport",
+            "name_ru": "Международный аэропорт Кутаиси",
+            "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
          },
          {
             "code": "ureki",
             "role": "middle",
             "time": "12:41",
-            "name_en": "Ureki"
+            "name_en": "Ureki",
+            "name_ru": "Уреки",
+            "name_ka": "ურეკი"
          },
          {
             "code": "kobuleti",
             "role": "middle",
             "time": "13:09",
-            "name_en": "Kobuleti"
+            "name_en": "Kobuleti",
+            "name_ru": "Кобулети",
+            "name_ka": "ქობულეთი"
          },
          {
             "code": "batumicentral",
             "role": "end",
             "time": "13:35",
-            "name_en": "Batumi-Central"
+            "name_en": "Batumi-Central",
+            "name_ru": "Батуми-Пассажирская",
+            "name_ka": "ბათუმი-ცენტრალი"
          }
       ]
    },
@@ -925,31 +1165,41 @@
             "code": "batumicentral",
             "role": "start",
             "time": "08:00",
-            "name_en": "Batumi-Central"
+            "name_en": "Batumi-Central",
+            "name_ru": "Батуми-Пассажирская",
+            "name_ka": "ბათუმი-ცენტრალი"
          },
          {
             "code": "kobuleti",
             "role": "middle",
             "time": "08:21",
-            "name_en": "Kobuleti"
+            "name_en": "Kobuleti",
+            "name_ru": "Кобулети",
+            "name_ka": "ქობულეთი"
          },
          {
             "code": "ureki",
             "role": "middle",
             "time": "08:52",
-            "name_en": "Ureki"
+            "name_en": "Ureki",
+            "name_ru": "Уреки",
+            "name_ka": "ურეკი"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
             "time": "09:52",
-            "name_en": "Kutaisi International Airport"
+            "name_en": "Kutaisi International Airport",
+            "name_ru": "Международный аэропорт Кутаиси",
+            "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
             "time": "13:17",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ]
    },
@@ -967,31 +1217,41 @@
             "code": "tbilisicentralstation",
             "role": "start",
             "time": "17:10",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
             "time": "20:53",
-            "name_en": "Kutaisi International Airport"
+            "name_en": "Kutaisi International Airport",
+            "name_ru": "Международный аэропорт Кутаиси",
+            "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
          },
          {
             "code": "ureki",
             "role": "middle",
             "time": "21:51",
-            "name_en": "Ureki"
+            "name_en": "Ureki",
+            "name_ru": "Уреки",
+            "name_ka": "ურეკი"
          },
          {
             "code": "kobuleti",
             "role": "middle",
             "time": "22:19",
-            "name_en": "Kobuleti"
+            "name_en": "Kobuleti",
+            "name_ru": "Кобулети",
+            "name_ka": "ქობულეთი"
          },
          {
             "code": "batumicentral",
             "role": "end",
             "time": "22:45",
-            "name_en": "Batumi-Central"
+            "name_en": "Batumi-Central",
+            "name_ru": "Батуми-Пассажирская",
+            "name_ka": "ბათუმი-ცენტრალი"
          }
       ]
    },
@@ -1009,85 +1269,113 @@
             "code": "zugdidi",
             "role": "start",
             "time": "16:55",
-            "name_en": "Zugdidi"
+            "name_en": "Zugdidi",
+            "name_ru": "Зугдиди",
+            "name_ka": "ზუგდიდი"
          },
          {
             "code": "ingiri",
             "role": "middle",
             "time": "17:08",
-            "name_en": "Ingiri"
+            "name_en": "Ingiri",
+            "name_ru": "Ингири",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "kheta",
             "role": "middle",
             "time": "17:21",
-            "name_en": "Kheta"
+            "name_en": "Kheta",
+            "name_ru": "Хета",
+            "name_ka": "ხეთა"
          },
          {
             "code": "khobi",
             "role": "middle",
             "time": "17:55",
-            "name_en": "Khobi"
+            "name_en": "Khobi",
+            "name_ru": "Хоби",
+            "name_ka": "ხობი"
          },
          {
             "code": "senaki",
             "role": "middle",
             "time": "18:15",
-            "name_en": "Senaki"
+            "name_en": "Senaki",
+            "name_ru": "Сенаки",
+            "name_ka": "სენაკი"
          },
          {
             "code": "abasha",
             "role": "middle",
             "time": "18:38",
-            "name_en": "Abasha"
+            "name_en": "Abasha",
+            "name_ru": "Абаша",
+            "name_ka": "აბაშა"
          },
          {
             "code": "samtredia1",
             "role": "middle",
             "time": "18:56",
-            "name_en": "Samtredia-1"
+            "name_en": "Samtredia-1",
+            "name_ru": "Самтредиа-1",
+            "name_ka": "სამტრედია-1"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
             "time": "19:14",
-            "name_en": "Kutaisi International Airport"
+            "name_en": "Kutaisi International Airport",
+            "name_ru": "Международный аэропорт Кутаиси",
+            "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
          },
          {
             "code": "rioni",
             "role": "middle",
             "time": "19:31",
-            "name_en": "Rioni"
+            "name_en": "Rioni",
+            "name_ru": "Риони",
+            "name_ka": "რიონი"
          },
          {
             "code": "zestafoni",
             "role": "middle",
             "time": "20:04",
-            "name_en": "Zestafoni"
+            "name_en": "Zestafoni",
+            "name_ru": "Зестафони",
+            "name_ka": "ზესტაფონი"
          },
          {
             "code": "kharagouli",
             "role": "middle",
             "time": "20:34",
-            "name_en": "Kharagouli"
+            "name_en": "Kharagouli",
+            "name_ru": "Харагоули",
+            "name_ka": "ხარაგაული"
          },
          {
             "code": "khashuri",
             "role": "middle",
             "time": "21:49",
-            "name_en": "Khashuri"
+            "name_en": "Khashuri",
+            "name_ru": "Хашури",
+            "name_ka": "ხაშური"
          },
          {
             "code": "gori",
             "role": "middle",
             "time": "22:28",
-            "name_en": "Gori"
+            "name_en": "Gori",
+            "name_ru": "Гори",
+            "name_ka": "გორი"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
             "time": "23:37",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ]
    },
@@ -1105,103 +1393,137 @@
             "code": "tbilisicentralstation",
             "role": "start",
             "time": "08:20",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          },
          {
             "code": "gori",
             "role": "middle",
             "time": "09:20",
-            "name_en": "Gori"
+            "name_en": "Gori",
+            "name_ru": "Гори",
+            "name_ka": "გორი"
          },
          {
             "code": "khashuri",
             "role": "middle",
             "time": "09:56",
-            "name_en": "Khashuri"
+            "name_en": "Khashuri",
+            "name_ru": "Хашури",
+            "name_ka": "ხაშური"
          },
          {
             "code": "tsipa",
             "role": "middle",
             "time": "10:33",
-            "name_en": "Tsipa"
+            "name_en": "Tsipa",
+            "name_ru": "Ципа",
+            "name_ka": "წიფა"
          },
          {
             "code": "moliti",
             "role": "middle",
             "time": "10:49",
-            "name_en": "Moliti"
+            "name_en": "Moliti",
+            "name_ru": "Молити",
+            "name_ka": "მოლითი"
          },
          {
             "code": "marelisi",
             "role": "middle",
             "time": "11:03",
-            "name_en": "Marelisi"
+            "name_en": "Marelisi",
+            "name_ru": "Марелиси",
+            "name_ka": "მარელისი"
          },
          {
             "code": "kharagouli",
             "role": "middle",
             "time": "11:18",
-            "name_en": "Kharagouli"
+            "name_en": "Kharagouli",
+            "name_ru": "Харагоули",
+            "name_ka": "ხარაგაული"
          },
          {
             "code": "zestafoni",
             "role": "middle",
             "time": "11:50",
-            "name_en": "Zestafoni"
+            "name_en": "Zestafoni",
+            "name_ru": "Зестафони",
+            "name_ka": "ზესტაფონი"
          },
          {
             "code": "rioni",
             "role": "middle",
             "time": "12:26",
-            "name_en": "Rioni"
+            "name_en": "Rioni",
+            "name_ru": "Риони",
+            "name_ka": "რიონი"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
             "time": "12:48",
-            "name_en": "Kutaisi International Airport"
+            "name_en": "Kutaisi International Airport",
+            "name_ru": "Международный аэропорт Кутаиси",
+            "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
          },
          {
             "code": "samtredia1",
             "role": "middle",
             "time": "13:03",
-            "name_en": "Samtredia-1"
+            "name_en": "Samtredia-1",
+            "name_ru": "Самтредиа-1",
+            "name_ka": "სამტრედია-1"
          },
          {
             "code": "abasha",
             "role": "middle",
             "time": "13:26",
-            "name_en": "Abasha"
+            "name_en": "Abasha",
+            "name_ru": "Абаша",
+            "name_ka": "აბაშა"
          },
          {
             "code": "senaki",
             "role": "middle",
             "time": "13:43",
-            "name_en": "Senaki"
+            "name_en": "Senaki",
+            "name_ru": "Сенаки",
+            "name_ka": "სენაკი"
          },
          {
             "code": "khobi",
             "role": "middle",
             "time": "14:06",
-            "name_en": "Khobi"
+            "name_en": "Khobi",
+            "name_ru": "Хоби",
+            "name_ka": "ხობი"
          },
          {
             "code": "kheta",
             "role": "middle",
             "time": "14:18",
-            "name_en": "Kheta"
+            "name_en": "Kheta",
+            "name_ru": "Хета",
+            "name_ka": "ხეთა"
          },
          {
             "code": "ingiri",
             "role": "middle",
             "time": "14:52",
-            "name_en": "Ingiri"
+            "name_en": "Ingiri",
+            "name_ru": "Ингири",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "zugdidi",
             "role": "end",
             "time": "15:08",
-            "name_en": "Zugdidi"
+            "name_en": "Zugdidi",
+            "name_ru": "Зугдиди",
+            "name_ka": "ზუგდიდი"
          }
       ]
    },
@@ -1219,79 +1541,105 @@
             "code": "poti",
             "role": "start",
             "time": "07:00",
-            "name_en": "Poti"
+            "name_en": "Poti",
+            "name_ru": "Поти",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "chaladidi",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Chaladidi"
+            "name_en": "Chaladidi",
+            "name_ru": "Чаладиди",
+            "name_ka": "ჭალადიდი"
          },
          {
             "code": "kvaloni",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Kvaloni"
+            "name_en": "Kvaloni",
+            "name_ru": "Квалони",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "senaki",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Senaki"
+            "name_en": "Senaki",
+            "name_ru": "Сенаки",
+            "name_ka": "სენაკი"
          },
          {
             "code": "abasha",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Abasha"
+            "name_en": "Abasha",
+            "name_ru": "Абаша",
+            "name_ka": "აბაშა"
          },
          {
             "code": "samtredia1",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Samtredia-1"
+            "name_en": "Samtredia-1",
+            "name_ru": "Самтредиа-1",
+            "name_ka": "სამტრედია-1"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Kutaisi International Airport"
+            "name_en": "Kutaisi International Airport",
+            "name_ru": "Международный аэропорт Кутаиси",
+            "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
          },
          {
             "code": "rioni",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Rioni"
+            "name_en": "Rioni",
+            "name_ru": "Риони",
+            "name_ka": "რიონი"
          },
          {
             "code": "zestafoni",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Zestafoni"
+            "name_en": "Zestafoni",
+            "name_ru": "Зестафони",
+            "name_ka": "ზესტაფონი"
          },
          {
             "code": "unknownstation",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "unknown station"
+            "name_en": "unknown station",
+            "name_ru": "неизвестная станция",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "khashuri",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Khashuri"
+            "name_en": "Khashuri",
+            "name_ru": "Хашури",
+            "name_ka": "ხაშური"
          },
          {
             "code": "gori",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Gori"
+            "name_en": "Gori",
+            "name_ru": "Гори",
+            "name_ka": "გორი"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
             "time": "13:02",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ]
    },
@@ -1309,85 +1657,113 @@
             "code": "tbilisicentralstation",
             "role": "start",
             "time": "17:30",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          },
          {
             "code": "gori",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Gori"
+            "name_en": "Gori",
+            "name_ru": "Гори",
+            "name_ka": "გორი"
          },
          {
             "code": "khashuri",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Khashuri"
+            "name_en": "Khashuri",
+            "name_ru": "Хашури",
+            "name_ka": "ხაშური"
          },
          {
             "code": "tsipa",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Tsipa"
+            "name_en": "Tsipa",
+            "name_ru": "Ципа",
+            "name_ka": "წიფა"
          },
          {
             "code": "unknownstation",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "unknown station"
+            "name_en": "unknown station",
+            "name_ru": "неизвестная станция",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "zestafoni",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Zestafoni"
+            "name_en": "Zestafoni",
+            "name_ru": "Зестафони",
+            "name_ka": "ზესტაფონი"
          },
          {
             "code": "rioni",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Rioni"
+            "name_en": "Rioni",
+            "name_ru": "Риони",
+            "name_ka": "რიონი"
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Kutaisi International Airport"
+            "name_en": "Kutaisi International Airport",
+            "name_ru": "Международный аэропорт Кутаиси",
+            "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
          },
          {
             "code": "samtredia1",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Samtredia-1"
+            "name_en": "Samtredia-1",
+            "name_ru": "Самтредиа-1",
+            "name_ka": "სამტრედია-1"
          },
          {
             "code": "abasha",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Abasha"
+            "name_en": "Abasha",
+            "name_ru": "Абаша",
+            "name_ka": "აბაშა"
          },
          {
             "code": "senaki",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Senaki"
+            "name_en": "Senaki",
+            "name_ru": "Сенаки",
+            "name_ka": "სენაკი"
          },
          {
             "code": "kvaloni",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Kvaloni"
+            "name_en": "Kvaloni",
+            "name_ru": "Квалони",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "chaladidi",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Chaladidi"
+            "name_en": "Chaladidi",
+            "name_ru": "Чаладиди",
+            "name_ka": "ჭალადიდი"
          },
          {
             "code": "poti",
             "role": "end",
             "time": "23:37",
-            "name_en": "Poti"
+            "name_en": "Poti",
+            "name_ru": "Поти",
+            "name_ka": "უცნობი სადგური"
          }
       ]
    },
@@ -1405,19 +1781,25 @@
             "code": "tbilisicentralstation",
             "role": "start",
             "time": "07:10",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          },
          {
             "code": "rustavicentral",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Rustavi Central"
+            "name_en": "Rustavi Central",
+            "name_ru": "Рустави Центральная",
+            "name_ka": "რუსთავი ცენტრალი"
          },
          {
             "code": "gardabani",
             "role": "end",
             "time": "08:16",
-            "name_en": "Gardabani"
+            "name_en": "Gardabani",
+            "name_ru": "Гардабани",
+            "name_ka": "უცნობი სადგური"
          }
       ]
    },
@@ -1435,19 +1817,25 @@
             "code": "gardabani",
             "role": "start",
             "time": "08:30",
-            "name_en": "Gardabani"
+            "name_en": "Gardabani",
+            "name_ru": "Гардабани",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "rustavicentral",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Rustavi Central"
+            "name_en": "Rustavi Central",
+            "name_ru": "Рустави Центральная",
+            "name_ka": "რუსთავი ცენტრალი"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
             "time": "09:38",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ]
    },
@@ -1465,19 +1853,25 @@
             "code": "tbilisicentralstation",
             "role": "start",
             "time": "19:00",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          },
          {
             "code": "rustavicentral",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Rustavi Central"
+            "name_en": "Rustavi Central",
+            "name_ru": "Рустави Центральная",
+            "name_ka": "რუსთავი ცენტრალი"
          },
          {
             "code": "gardabani",
             "role": "end",
             "time": "20:06",
-            "name_en": "Gardabani"
+            "name_en": "Gardabani",
+            "name_ru": "Гардабани",
+            "name_ka": "უცნობი სადგური"
          }
       ]
    },
@@ -1495,19 +1889,25 @@
             "code": "gardabani",
             "role": "start",
             "time": "20:20",
-            "name_en": "Gardabani"
+            "name_en": "Gardabani",
+            "name_ru": "Гардабани",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "rustavicentral",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Rustavi Central"
+            "name_en": "Rustavi Central",
+            "name_ru": "Рустави Центральная",
+            "name_ka": "რუსთავი ცენტრალი"
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
             "time": "21:29",
-            "name_en": "Tbilisi Central Station"
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ]
    },
@@ -1525,19 +1925,25 @@
             "code": "zestafoni",
             "role": "start",
             "time": "06:45",
-            "name_en": "Zestafoni"
+            "name_en": "Zestafoni",
+            "name_ru": "Зестафони",
+            "name_ka": "ზესტაფონი"
          },
          {
             "code": "kharagouli",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Kharagouli"
+            "name_en": "Kharagouli",
+            "name_ru": "Харагоули",
+            "name_ka": "ხარაგაული"
          },
          {
             "code": "khashuri",
             "role": "end",
             "time": "09:09",
-            "name_en": "Khashuri"
+            "name_en": "Khashuri",
+            "name_ru": "Хашури",
+            "name_ka": "ხაშური"
          }
       ]
    },
@@ -1555,19 +1961,25 @@
             "code": "khashuri",
             "role": "start",
             "time": "17:25",
-            "name_en": "Khashuri"
+            "name_en": "Khashuri",
+            "name_ru": "Хашури",
+            "name_ka": "ხაშური"
          },
          {
             "code": "kharagouli",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Kharagouli"
+            "name_en": "Kharagouli",
+            "name_ru": "Харагоули",
+            "name_ka": "ხარაგაული"
          },
          {
             "code": "zestafoni",
             "role": "end",
             "time": "19:52",
-            "name_en": "Zestafoni"
+            "name_en": "Zestafoni",
+            "name_ru": "Зестафони",
+            "name_ka": "ზესტაფონი"
          }
       ]
    },
@@ -1585,19 +1997,25 @@
             "code": "khashuri",
             "role": "start",
             "time": "06:45",
-            "name_en": "Khashuri"
+            "name_en": "Khashuri",
+            "name_ru": "Хашури",
+            "name_ka": "ხაშური"
          },
          {
             "code": "kharagouli",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Kharagouli"
+            "name_en": "Kharagouli",
+            "name_ru": "Харагоули",
+            "name_ka": "ხარაგაული"
          },
          {
             "code": "zestafoni",
             "role": "end",
             "time": "09:13",
-            "name_en": "Zestafoni"
+            "name_en": "Zestafoni",
+            "name_ru": "Зестафони",
+            "name_ka": "ზესტაფონი"
          }
       ]
    },
@@ -1615,19 +2033,25 @@
             "code": "zestafoni",
             "role": "start",
             "time": "16:45",
-            "name_en": "Zestafoni"
+            "name_en": "Zestafoni",
+            "name_ru": "Зестафони",
+            "name_ka": "ზესტაფონი"
          },
          {
             "code": "kharagouli",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Kharagouli"
+            "name_en": "Kharagouli",
+            "name_ru": "Харагоули",
+            "name_ka": "ხარაგაული"
          },
          {
             "code": "khashuri",
             "role": "end",
             "time": "19:03",
-            "name_en": "Khashuri"
+            "name_en": "Khashuri",
+            "name_ru": "Хашури",
+            "name_ka": "ხაშური"
          }
       ]
    }

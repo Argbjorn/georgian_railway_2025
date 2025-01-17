@@ -1,0 +1,54 @@
+{{ $online := .Get 0 }}
+{{ $lang := .Get 1 }}
+{{ $stations := .Page.Params.stations }}
+
+{{ $translations := dict
+    "ru" (dict
+        "status" "✅ Маршрут активен. Последние изменения:"
+        "frequency" "Частота"
+        "frequency_value" "ежедневно"
+        "online_tickets" "Онлайн билеты"
+        "available" "доступны на"
+        "official_site" "официальном сайте"
+        "not_available" "не доступны"
+        "uncomplete_disclaimer" "🚧 Я не имею полного списка станций или времени прибытия для этого маршрута. Ни на официальном сайте, ни в других источниках."
+        "stations" "Станции"
+        "back_to_map" "Вернуться на карту маршрутов"
+    )
+    "en" (dict
+        "status" "✅ Route is active. Last changes:"
+        "frequency" "Frequency"
+        "frequency_value" "daily"
+        "online_tickets" "Online tickets"
+        "available" "available on the"
+        "official_site" "official website"
+        "not_available" "not available"
+        "uncomplete_disclaimer" "🚧 I don't have a complete list of stations or arrival times for this route. Neither is it on the official website. If you have any additional information, please <a href='/about'>let me know</a>."
+        "stations" "Stations"
+        "back_to_map" "Back to the entire routes map"
+    )
+}}
+
+{{ $t := index $translations $lang }}
+
+<p>{{ $t.status }} {{ now.Format "02.01.2006" }}</p>
+<p><strong>{{ $t.frequency }}:</strong> {{ $t.frequency_value }} </br>
+<strong>{{ $t.online_tickets }}:</strong> 
+{{ if $online }}{{ $t.available }} <a href="https://ticket.railway.ge/" target="_blank">{{ $t.official_site }}</a>
+{{ else }}{{ $t.not_available }}{{ end }}</p>
+
+<h3>{{ $t.stations }}:</h3>
+{{ if not .Page.Params.complete }}
+<p>{{ $t.uncomplete_disclaimer }}</p>
+{{ end }}
+
+<ul class="route-timeline">
+    {{ range $index, $station := $stations }}
+    <li class="{{ if or (eq $index 0) (eq $index (sub (len $stations) 1)) }}terminal{{ else }}intermediate{{ end }}">
+        <span class="station-time">{{ .time }}</span>
+        <span class="station-name">{{ if eq $lang "ru" }}{{ .name_ru }}{{ else }}{{ .name_en }}{{ end }}</span>
+    </li>
+    {{ end }}
+</ul>
+
+<p>🗺 <a href='/'>{{ $t.back_to_map }}</a></p>

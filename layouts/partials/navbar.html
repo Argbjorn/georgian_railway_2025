@@ -3,6 +3,8 @@
 {{- $logoWidth := .Site.Params.navbar.logo.width | default "20" -}}
 {{- $logoHeight := .Site.Params.navbar.logo.height | default "20" -}}
 {{- $logoDarkPath := .Site.Params.navbar.logo.dark | default $logoPath -}}
+{{- $enFlag := "images/en-lang.png" -}}
+{{- $ruFlag := "images/ru-lang.png" -}}
 
 {{- $navWidth := "hx-max-w-[90rem]" -}}
 {{- with .Site.Params.navbar.width -}}
@@ -61,7 +63,14 @@
         {{- end -}}
       {{- end -}}
     {{- end -}}
-
+    
+    {{ if hugo.IsMultilingual }}
+		{{ range $.Translations }}
+		<a href="{{ .Permalink }}" class="">{{ if eq .Language.LanguageName "English" }}<img src={{ $enFlag | relURL }} />{{ else }}<img src={{ $ruFlag | relURL }} />{{ end }}</a>
+	{{ end }}
+{{ end }}
+      
+      
     <button type="button" aria-label="Menu" class="hamburger-menu -hx-mr-2 hx-rounded hx-p-2 active:hx-bg-gray-400/20 md:hx-hidden">
       {{- partial "utils/icon.html" (dict "name" "hamburger-menu" "attributes" "height=24") -}}
     </button>

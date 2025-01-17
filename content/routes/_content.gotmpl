@@ -1,11 +1,9 @@
 {{ range site.Data.routes }}
-    {{ $stations := "" }}
-    {{ $params := "" }}
     {{ $content := dict
         "mediaType" "text/markdown"
-        "value" .ref
+        "value" (printf "{{< single-route \"%v\" \"%v\" >}}" .online "en")
     }}
-    {{ $params = dict 
+    {{ $params := dict 
         "stations" .stations
         "frequency" .frequency
         "complete" .complete

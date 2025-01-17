@@ -1,23 +1,21 @@
 {{ range site.Data.routes }}
-    {{ $stations := "" }}
-    {{ $params := "" }}
     {{ $content := dict
         "mediaType" "text/markdown"
-        "value" .ref
+        "value" (printf "{{< single-route \"%v\" \"%v\" >}}" .online "ru")
     }}
-    {{ $params = dict 
+    {{ $params := dict 
         "stations" .stations
         "frequency" .frequency
         "complete" .complete
         "online" .online
     }}
-    {{ $name := index . "name:en" }}
+    {{ $name := index . "name:ru" }}
     {{ $page := dict
         "content" $content
-        "description" (printf "Route %v: %s of Georgian railway. Stations, schedule, frequency, etc." .ref $name)
+        "description" (printf "Маршрут %v: %s грузинских железных дорог. Станции, расписание, частота, и т.д." .ref $name)
         "kind" "page"
         "path" .ref
-        "title" (printf "Route %v: %s" .ref $name)
+        "title" (printf "Маршрут %v: %s" .ref $name)
         "params" $params
         "weight" .ref
     }}
