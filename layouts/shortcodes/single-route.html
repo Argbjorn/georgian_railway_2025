@@ -4,26 +4,26 @@
 
 {{ $translations := dict
     "ru" (dict
-        "status" "✅ Маршрут активен. Последние изменения:"
+        "status" "✅ Маршрут активен. Последние изменения"
         "frequency" "Частота"
         "frequency_value" "ежедневно"
         "online_tickets" "Онлайн билеты"
         "available" "доступны на"
         "official_site" "официальном сайте"
         "not_available" "не доступны"
-        "uncomplete_disclaimer" "🚧 Я не имею полного списка станций или времени прибытия для этого маршрута. Ни на официальном сайте, ни в других источниках."
+        "uncomplete_disclaimer" "🚧 У меня нет полного списка станций или времени прибытия для этого маршрута. Его нет и на официальном сайте. Если вы располагаете информацией, пожалуйста, сообщите мне."
         "stations" "Станции"
         "back_to_map" "Вернуться на карту маршрутов"
     )
     "en" (dict
-        "status" "✅ Route is active. Last changes:"
+        "status" "✅ Route is active. Last changes"
         "frequency" "Frequency"
         "frequency_value" "daily"
         "online_tickets" "Online tickets"
         "available" "available on the"
         "official_site" "official website"
         "not_available" "not available"
-        "uncomplete_disclaimer" "🚧 I don't have a complete list of stations or arrival times for this route. Neither is it on the official website. If you have any additional information, please <a href='/about'>let me know</a>."
+        "uncomplete_disclaimer" "🚧 I don't have a complete list of stations or arrival times for this route. Neither is it on the official website. If you have any additional information, please let me know<."
         "stations" "Stations"
         "back_to_map" "Back to the entire routes map"
     )
@@ -31,7 +31,7 @@
 
 {{ $t := index $translations $lang }}
 
-<p>{{ $t.status }} {{ now.Format "02.01.2006" }}</p>
+<p>{{ $t.status }}: {{ now.Format "02.01.2006" }}</p>
 <p><strong>{{ $t.frequency }}:</strong> {{ $t.frequency_value }} </br>
 <strong>{{ $t.online_tickets }}:</strong> 
 {{ if $online }}{{ $t.available }} <a href="https://ticket.railway.ge/" target="_blank">{{ $t.official_site }}</a>
@@ -51,4 +51,4 @@
     {{ end }}
 </ul>
 
-<p>🗺 <a href='/'>{{ $t.back_to_map }}</a></p>
+<p>🗺 <a href='/{{ $lang }}/'>{{ $t.back_to_map }}</a></p>
