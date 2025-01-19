@@ -5,7 +5,7 @@ import { Station } from "./station.js";
 import { stations as stationsList } from "./stations-list.js";
 import { openSidePanelIfClosed } from "./map.js";
 import { map } from "./map.js";
-import { LanguageService, LanguageService as LS } from "./LanguageService.js";
+import { LanguageService as LS } from "./LanguageService.js";
 
 let activeRoute = [];
 let routes = [];
