@@ -5,6 +5,7 @@ import { Station } from "./station.js";
 import { stations as stationsList } from "./stations-list.js";
 import { openSidePanelIfClosed } from "./map.js";
 import { map } from "./map.js";
+import { LanguageService, LanguageService as LS } from "./LanguageService.js";
 
 let activeRoute = [];
 let routes = [];
@@ -122,7 +123,8 @@ async function toggleRoute(routeId) {
 // Shows stations and sets station markers interaction
 function showStations() {
     stationsList.forEach(station => {
-        let newStation = new Station(station.name_en, station.name_ru, station.coords, station.type, station.code);
+        let name = LS.getCurrentLanguage() == 'en' ? station.name_en : station.name_ru;
+        let newStation = new Station(name, station.coords, station.type, station.code);
         stations.push(newStation);
         newStation.setDefault();
         newStation.markerDefault.on('click', () => {
@@ -165,15 +167,16 @@ function hideActiveRoute() {
 function getStationName(data) {
     let stationName;
     if ("tags" in data) {
-        if ("name:en" in data.tags) {
-            stationName = data.tags["name:en"];
+        const lang = LS.getCurrentLanguage();
+        if ("name:" + lang in data.tags) {
+            stationName = data.tags["name:" + lang];
         } else if ("name" in data.tags) {
             stationName = data.tags["name"];
         } else {
-            stationName = "unknown station"
+            stationName = LS.translate("unknown_station");
         }
     } else {
-        stationName = "unknown station"
+        stationName = LS.translate("unknown_station");
     }
     return stationName
 }
@@ -190,7 +193,7 @@ function getRouteSchedule(route) {
         //schedule.sort((a, b) => Date.parse('1970-01-01T' + a[1]) > Date.parse('1970-01-01T' + b[1]) ? 1 : -1);
         return schedule
     } else {
-        return "There is no schedule for the route yet"
+        return LS.translate("no_schedule");
     }
 }
 
@@ -222,15 +225,16 @@ function getRoutePoints(route) {
 // Returns a name of given station by code
 function getStationNameByCode(stationCode) {
     let stationName;
+
     stationsList.forEach(station => {
         if (station.code == stationCode) {
-            stationName = station.name_en;
+            stationName = LS.getCurrentLanguage() == 'en' ? station.name_en : station.name_ru;
         }
     })
     if (isSet(stationName)) {
         return stationName;
     } else {
-        return 'Unknown (yet) station'
+        return LS.translate("unknown_station");
     }
     
 }
@@ -316,7 +320,7 @@ async function makeStationInfo(station) {
         }
     })
 
-    stationHeader.innerHTML = station.name_en;
+    stationHeader.innerHTML = station.name;
 
     if (station.description) {
         stationDescription.innerHTML = station.description;
@@ -324,9 +328,9 @@ async function makeStationInfo(station) {
         stationDescription.innerHTML = "";
     }
 
-    stationArrivals.innerHTML = '<h4>Arrivals</h4>';
-    stationDepartures.innerHTML = '<h4>Departures</h4>';
-    stationPassesThrough.innerHTML = '<h4>Passes through</h4>';
+    stationArrivals.innerHTML = `<h4>${LS.translate("arrivals")}</h4>`;
+    stationDepartures.innerHTML = `<h4>${LS.translate("departures")}</h4>`;
+    stationPassesThrough.innerHTML = `<h4>${LS.translate("passes_through")}</h4>`;
 
     let stationRoutes = getRoutesByStation(station.code);
 
@@ -370,8 +374,8 @@ async function makeStationInfo(station) {
             stationPassesThrough.appendChild(a.html);
         });
     } else {
-        stationDepartures.innerHTML += '<p>There is no schedule yet</p>';
-        stationArrivals.innerHTML += '<p>There is no schedule yet</p>';
+        stationDepartures.innerHTML += `<p>${LS.translate("no_schedule_yet")}</p>`;
+        stationArrivals.innerHTML += `<p>${LS.translate("no_schedule_yet")}</p>`;
         stationPassesThrough.classList.add('hidden');
     }
     
@@ -415,9 +419,9 @@ function makeRouteLine(route, stationCode, direction) {
 
     routeTime.innerHTML = time + ' ';
     routeLabel.innerHTML = route.ref;
-    routeFrequency.innerHTML = route.frequency + '<br>';
+    routeFrequency.innerHTML = LS.translate('frequency_daily') + '<br>';
     routeSchedule.innerHTML = schedule;
-    routeSchedule.innerHTML += route.complete ? '' : "<p class='disclaimer'>This route is incomplete, so some train stops aren't in the list. If you have an additional information, change the route on OSM or let me know (see About for contacts).</p>"
+    routeSchedule.innerHTML += route.complete ? '' : `<p class='disclaimer'>${LS.translate('incomplete_route')}</p>`
     
 
     let destination;

@@ -31,13 +31,8 @@
     </div>
 </div>
 <script type="module" src="{{ "js/map.js" | relURL }}"></script>
-{{ if eq .Site.Language.Lang "ru" }}
-<script type="module" src="{{ "js/main-test-ru.js" | relURL }}"></script>
-<script type="module" src="{{ "js/railway-network-ru.js" | relURL }}"></script>
-{{ else }}
 <script type="module" src="{{ "js/main-test.js" | relURL }}"></script>
 <script type="module" src="{{ "js/railway-network.js" | relURL }}"></script>
-{{ end }}
 <script type="module" src="{{ "js/route.js" | relURL }}"></script>
 <script type="module" src="{{ "js/routes-list.js" | relURL }}"></script>
 <script type="module" src="{{ "js/stations-list.js" | relURL }}"></script>

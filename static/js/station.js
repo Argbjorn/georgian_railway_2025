@@ -66,9 +66,8 @@ const options = {
 }
 
 export class Station {
-    constructor(name_en, name_ru, coords, type, code) {
-        this.name_en = name_en,
-        this.name_ru = name_ru,
+    constructor(name, coords, type, code) {
+        this.name = name
         this.coords = coords,
         this.type = type;
         this.code = code;
@@ -96,7 +95,7 @@ export class Station {
 
     setDefault() {
         this.markerDefault.addTo(map);
-        this.markerDefault.bindTooltip(this.name_en);
+        this.markerDefault.bindTooltip(this.name);
     }
 
     setActive() {
