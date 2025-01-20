@@ -12,7 +12,16 @@ var osmTiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 export const map = L.map('map', {
     center: getDefaultMapCenter(),
     zoom: 8,
-    layers: [atlasTiles]
+    layers: [atlasTiles],
+    tap: true,
+    tapTolerance: 1,
+    touchZoom: true,
+    bounceAtZoomLimits: false,
+    wheelDebounceTime: 40,
+    dragging: {
+        inertia: true,
+        inertiaDeceleration: 3000
+    }
 });
 
 // Tile object for L.control
