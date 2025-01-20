@@ -13,14 +13,6 @@ export const map = L.map('map', {
     center: getDefaultMapCenter(),
     zoom: 8,
     layers: [atlasTiles],
-    tap: false,
-    touchZoom: true,
-    dragging: true,
-    inertia: false,
-    trackResize: true,
-    preferCanvas: true,
-    worldCopyJump: false,
-    bounceAtZoomLimits: false
 });
 
 // Tile object for L.control
