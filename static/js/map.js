@@ -13,6 +13,7 @@ export const map = L.map('map', {
     center: getDefaultMapCenter(),
     zoom: 8,
     layers: [atlasTiles],
+    preferCanvas: true
 });
 
 // Tile object for L.control
