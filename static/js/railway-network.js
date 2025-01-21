@@ -1,10 +1,11 @@
 import { getOverpassData } from "./main-test.js";
-import { getDefaultMapCenter } from "./map.js";
 import { map } from "./map.js";
+import { LanguageService as LS } from "./LanguageService.js";
 
 
 export class RailwayNetwork {
-    constructor() {
+    constructor(mapContainer) {
+        this.mapContainer = mapContainer,
         [this.layerGroup, this.layerGroupShadowed] = this.create(),
         this.polylineOptions = {
             stroke: true,
@@ -19,6 +20,7 @@ export class RailwayNetwork {
     }
 
     create() {
+        this.showLoader();
         let network = L.layerGroup();
         let networkShadowed = L.layerGroup();
         const query = `[out:json][timeout:25];
@@ -33,6 +35,7 @@ export class RailwayNetwork {
                     const polylineShadowed = L.polyline(element.geometry, this.polylineOptionsShadowed);
                     networkShadowed.addLayer(polylineShadowed);
                 });
+                this.hideLoader();
             });
         return [network, networkShadowed];
     }
@@ -51,5 +54,19 @@ export class RailwayNetwork {
     shadow() {
         this.layerGroup.remove();
         this.layerGroupShadowed.addTo(map);
+    }
+
+    showLoader() {
+        let loader = document.createElement('div');
+        loader.classList.add('railway-network-loader');
+        loader.innerHTML = `<div class="loading-text">${LS.translate('loading_railway_network')}</div>`
+        this.mapContainer.appendChild(loader);
+    }
+
+    hideLoader() {
+        const loader = document.querySelector('.railway-network-loader');
+        if (loader) {
+            loader.remove();
+        }
     }
 }

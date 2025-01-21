@@ -516,7 +516,8 @@ map.addEventListener('click', () => {
 })
 
 // Show railway network
-export let railwayNetwork = new RailwayNetwork();
+const mapContainer = document.querySelector('#map');
+export let railwayNetwork = new RailwayNetwork(mapContainer);
 railwayNetwork.show();
 
 
