@@ -419,7 +419,7 @@ function makeRouteLine(route, stationCode, direction) {
 
     routeTime.innerHTML = time + ' ';
     routeLabel.innerHTML = route.ref;
-    routeFrequency.innerHTML = LS.translate('frequency_daily') + '<br>';
+    routeFrequency.innerHTML = ' ' + LS.translate('frequency_daily') + '<br>';
     routeSchedule.innerHTML = schedule;
     routeSchedule.innerHTML += route.complete ? '' : `<p class='disclaimer'>${LS.translate('incomplete_route')}</p>`
     
@@ -434,7 +434,7 @@ function makeRouteLine(route, stationCode, direction) {
         destination = getStationNameByCode(getRoutePoints(route)[0]) + ' ' + '→' + ' ' + getStationNameByCode(getRoutePoints(route)[1])
     }
 
-    routeDestination.innerHTML = destination + ' ';
+    routeDestination.innerHTML = destination;
 
     return { html: routeLine, time: Date.parse('1970-01-01T' + time) };
 }
