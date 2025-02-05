@@ -34,7 +34,7 @@
 <p>{{ $t.status }}: {{ now.Format "02.01.2006" }}</p>
 <p><strong>{{ $t.frequency }}:</strong> {{ $t.frequency_value }} </br>
 <strong>{{ $t.online_tickets }}:</strong> 
-{{ if $online }}{{ $t.available }} <a href="https://ticket.railway.ge/" target="_blank">{{ $t.official_site }}</a>
+{{ if eq $online "true" }}{{ $t.available }} <a href="https://ticket.railway.ge/" target="_blank">{{ $t.official_site }}</a>
 {{ else }}{{ $t.not_available }}{{ end }}</p>
 
 <h3>{{ $t.stations }}:</h3>
