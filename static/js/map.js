@@ -53,12 +53,6 @@ export function openSidePanelIfClosed() {
     }
 }
 
-// Opens sidepanel at the beginning if desktop
-if(device.desktop()) {
-    openSidePanelIfClosed();
-}
-
-
 // Returns the default map center
 export function getDefaultMapCenter() {
     return [41.721700, 44.799748];

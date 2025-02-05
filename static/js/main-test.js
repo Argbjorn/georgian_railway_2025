@@ -522,5 +522,5 @@ railwayNetwork.show();
 
 
 showStations();
-await makeStationsTab();
+// await makeStationsTab();
 addRoutesLinksEvents();
