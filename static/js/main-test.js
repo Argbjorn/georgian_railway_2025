@@ -3,9 +3,10 @@ import { Route } from "./route.js";
 import { routesList } from "./routes-list.js";
 import { Station } from "./station.js";
 import { stations as stationsList } from "./stations-list.js";
-import { openSidePanelIfClosed } from "./map.js";
+import { openSidepanel, closeSidepanel } from "./map.js";
 import { map } from "./map.js";
 import { LanguageService as LS } from "./LanguageService.js";
+
 
 let activeRoute = [];
 let routes = [];
@@ -121,33 +122,37 @@ async function toggleRoute(routeId) {
 }
 
 // Shows stations and sets station markers interaction
-function showStations() {
+async function showStations() {
     stationsList.forEach(station => {
         let name = LS.getCurrentLanguage() == 'en' ? station.name_en : station.name_ru;
         let newStation = new Station(name, station.coords, station.type, station.code);
         stations.push(newStation);
-        newStation.setDefault();
-        newStation.markerDefault.on('click', () => {
+        newStation.show();
+        newStation.marker.on('click', async () => {
             stations.forEach(station => {
-                station.setDefault();
+                station.show();
             })
-            newStation.setActive();
             activeStation.pop();
             activeStation.push(newStation);
             closeAllStationLines();
-            openStationLine(station.code);
-            openSidepanelTab('tab-1');
+            let stationInfo = await makeStationInfo(newStation);
+            document.querySelector('.sidepanel-routes-content').innerHTML = stationInfo.innerHTML;
+            //openStationLine(station.code);
+            openSidepanel();
+
         });
-        newStation.markerActive.addEventListener('click', () => {
-            newStation.setDefault();
-            activeStation.pop();
-            if (activeRoute.length > 0) {
-                toggleRoute(activeRoute[0].id);
-                railwayNetwork.show();
-            };
-            closeAllStationLines();
-            closeRoutes();
-        });
+        // newStation.markerActive.addEventListener('click', () => {
+        //     newStation.setDefault();
+
+        //     activeStation.pop();
+        //     if (activeRoute.length > 0) {
+        //         toggleRoute(activeRoute[0].id);
+        //         railwayNetwork.show();
+        //     };
+        //     closeAllStationLines();
+        //     closeRoutes();
+        //     closeSidepanel();
+        // });
     })
 }
 
@@ -458,13 +463,6 @@ function openSidepanelTab(tab) {
     document.querySelector('[data-tab-link="' + tab + '"]').classList.add('active');
 }
 
-// Closes sidepanel
-function closeSidepanel() {
-    const panel = document.querySelector('#mySidepanel');
-    panel.classList.remove('opened');
-    panel.classList.add('closed');
-}
-
 // Returns routes data connected to given station
 function getRoutesByStation(stationCode) {
     let routes = [];
@@ -512,8 +510,10 @@ function closeRoutes() {
 map.addEventListener('click', () => {
     activeStation[0].setDefault();
     closeAllStationLines();
-    hideActiveRoute();
+    //hideActiveRoute();
+    closeSidepanel();
 })
+
 
 // Show railway network
 const mapContainer = document.querySelector('#map');

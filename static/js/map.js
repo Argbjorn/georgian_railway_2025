@@ -41,7 +41,7 @@ const panelRight = L.control.sidepanel('mySidepanel', {
 }).addTo(map);
 
 // Opens sidepanel
-export function openSidePanelIfClosed() {
+export function openSidepanel() {
     const panel = document.querySelector('#mySidepanel');
     var opened = panel.classList.contains('opened')
     var closed = panel.classList.contains('closed')
@@ -51,6 +51,13 @@ export function openSidePanelIfClosed() {
     } else if (!opened && !closed) {
         panel.classList.add('opened');
     }
+}
+
+// Closes sidepanel
+export function closeSidepanel() {
+    const panel = document.querySelector('#mySidepanel');
+    panel.classList.remove('opened');
+    panel.classList.add('closed');
 }
 
 // Returns the default map center
