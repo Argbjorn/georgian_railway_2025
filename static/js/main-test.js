@@ -287,7 +287,7 @@ async function makeStationInfo(station) {
     let parentContainer = document.createElement('details');
     parentContainer.innerHTML = '';
 
-    let stationHeader = document.createElement('summary');
+    let stationHeader = document.createElement('h2');
     let stationBody = document.createElement('div');
     let stationDescription = document.createElement('p');
     let stationArrivals = document.createElement('div');
@@ -328,9 +328,9 @@ async function makeStationInfo(station) {
         stationDescription.innerHTML = "";
     }
 
-    stationArrivals.innerHTML = `<h4>${LS.translate("arrivals")}</h4>`;
-    stationDepartures.innerHTML = `<h4>${LS.translate("departures")}</h4>`;
-    stationPassesThrough.innerHTML = `<h4>${LS.translate("passes_through")}</h4>`;
+    stationArrivals.innerHTML = `<h3>${LS.translate("arrivals")}</h3>`;
+    stationDepartures.innerHTML = `<h3>${LS.translate("departures")}</h3>`;
+    stationPassesThrough.innerHTML = `<h3>${LS.translate("passes_through")}</h3>`;
 
     let stationRoutes = getRoutesByStation(station.code);
 
