@@ -3,7 +3,6 @@ import { Route } from "./route.js";
 import { routesList } from "./routes-list.js";
 import { Station } from "./station.js";
 import { stations as stationsList } from "./stations-list.js";
-import { openSidepanel, closeSidepanel } from "./map.js";
 import { map } from "./map.js";
 import { LanguageService as LS } from "./LanguageService.js";
 
@@ -127,33 +126,29 @@ async function showStations() {
         let name = LS.getCurrentLanguage() == 'en' ? station.name_en : station.name_ru;
         let newStation = new Station(name, station.coords, station.type, station.code);
         stations.push(newStation);
-        newStation.show();
-        newStation.marker.on('click', async () => {
-            stations.forEach(station => {
-                station.show();
-            })
-            activeStation.pop();
-            activeStation.push(newStation);
-            closeAllStationLines();
-            let stationInfo = await makeStationInfo(newStation);
-            document.querySelector('.sidepanel-routes-content').innerHTML = stationInfo.innerHTML;
-            //openStationLine(station.code);
-            openSidepanel();
-
-        });
-        // newStation.markerActive.addEventListener('click', () => {
-        //     newStation.setDefault();
-
-        //     activeStation.pop();
-        //     if (activeRoute.length > 0) {
-        //         toggleRoute(activeRoute[0].id);
-        //         railwayNetwork.show();
-        //     };
-        //     closeAllStationLines();
-        //     closeRoutes();
-        //     closeSidepanel();
-        // });
+        newStation.marker.on('click', handleStationClick.bind(null, newStation));
     })
+}
+
+async function handleStationClick(station) {
+    // Clicked station is already active
+    if (activeStation.length > 0 && activeStation[0] === station) {
+        activeStation[0].setDefault();
+        activeStation.pop();
+        closeSidepanel();
+        return;
+    }
+    // Clicked station is not active and there is already an active station
+    if (activeStation.length > 0) {
+        activeStation[0].setDefault();
+        activeStation.pop();      
+    }
+    // Clicked station is not active and there is no active station
+    activeStation.push(station);
+    station.setActive();
+    let stationInfo = await makeStationInfo(station);
+    document.querySelector('.sidepanel-routes-content').innerHTML = stationInfo.innerHTML;
+    openSidepanel();
 }
 
 function hideActiveRoute() {
@@ -454,14 +449,45 @@ async function makeStationsTab() {
 
 // Sidepanel interactions
 
-// Opens given sidepanel tab
-function openSidepanelTab(tab) {
-    openSidePanelIfClosed();
-    document.querySelectorAll('.sidepanel-tab-content').forEach(tab => { tab.classList.remove('active') });
-    document.querySelectorAll('.sidebar-tab-link').forEach(tab => { tab.classList.remove('active') });
-    document.querySelector('[data-tab-content="' + tab + '"]').classList.add('active');
-    document.querySelector('[data-tab-link="' + tab + '"]').classList.add('active');
+const panel = document.querySelector('#mySidepanel');
+
+// Opens sidepanel
+function openSidepanel() {
+    var opened = panel.classList.contains('opened')
+    var closed = panel.classList.contains('closed')
+    if (!opened && closed) {
+        panel.classList.remove('closed');
+        panel.classList.add('opened');
+    } else if (!opened && !closed) {
+        panel.classList.add('opened');
+    }
 }
+
+// Closes sidepanel
+function closeSidepanel() {
+    panel.classList.remove('opened');
+    panel.classList.add('closed');
+    if (activeStation.length > 0) {
+        activeStation[0].setDefault();
+        activeStation.pop();
+    }
+}
+
+// Handle manual sidepanel closing
+// TODO: fix this because of checking the wrong state (but it works now)
+document.querySelector('.sidepanel-toggle-button').addEventListener('click', () => {
+    console.log('click');
+    // Проверяем текущее состояние панели перед кликом
+    const isClosing = !panel.classList.contains('opened');  
+    if (isClosing) {
+        console.log('close sidepanel');
+        if (activeStation.length > 0) {
+            console.log('inside if');
+            activeStation[0].setDefault();
+            activeStation.pop();
+        }
+    }
+});
 
 // Returns routes data connected to given station
 function getRoutesByStation(stationCode) {
@@ -509,7 +535,7 @@ function closeRoutes() {
 // Click on the map
 map.addEventListener('click', () => {
     activeStation[0].setDefault();
-    closeAllStationLines();
+    activeStation.pop();
     //hideActiveRoute();
     closeSidepanel();
 })

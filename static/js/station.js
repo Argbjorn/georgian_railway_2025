@@ -74,49 +74,29 @@ export class Station {
     this.active = false,
     this.marker = L.marker(this.coords),
     this.updateMarkerStyle();
-
-
-
-    // if (this.type == "main") {
-    //     this.BeautifyIconOptionsDefault = options.mainDefault;
-    //     this.BeautifyIconOptionsActive = options.mainActive;
-    // } else if (this.type == "secondary") {
-    //     this.BeautifyIconOptionsDefault = options.secondaryDefault;
-    //     this.BeautifyIconOptionsActive = options.secondaryActive;
-    // } else if (this.type == "airport") {
-    //     this.BeautifyIconOptionsDefault = options.airportDefault;
-    //     this.BeautifyIconOptionsActive = options.airportActive;
-    // } else if (this.type == "beach") {
-    //     this.BeautifyIconOptionsDefault = options.beachDefault;
-    //     this.BeautifyIconOptionsActive = options.beachActive;
-    // };
-    // this.markerDefault = L.marker(this.coords, {
-    //     icon: L.BeautifyIcon.icon(this.BeautifyIconOptionsDefault)
-    // });
-    // this.markerActive = L.marker(this.coords, {
-    //     icon: L.BeautifyIcon.icon(this.BeautifyIconOptionsActive)
-    // });
+    this.show();
   }
 
   // Updates marker style based on station type
   // TODO: Change types name in the source data
   updateMarkerStyle() {
-    if (this.type == "main" && this.active) {
-      this.marker.setIcon(L.BeautifyIcon.icon(options.capitalActive));
-    } else if (this.type == "main" && !this.active) {
-      this.marker.setIcon(L.BeautifyIcon.icon(options.capitalDefault));
-    } else if (this.type == "airport" && this.active) {
-      this.marker.setIcon(L.BeautifyIcon.icon(options.airportActive));
-    } else if (this.type == "airport" && !this.active) {
-      this.marker.setIcon(L.BeautifyIcon.icon(options.airportDefault));
-    } else if (this.type == "beach" && this.active) {
-      this.marker.setIcon(L.BeautifyIcon.icon(options.beachActive));
-    } else if (this.type == "beach" && !this.active) {
-      this.marker.setIcon(L.BeautifyIcon.icon(options.beachDefault));
-    } else if (this.type == "secondary" && this.active) {
-      this.marker.setIcon(L.BeautifyIcon.icon(options.commonActive));
-    } else if (this.type == "secondary" && !this.active) {
-      this.marker.setIcon(L.BeautifyIcon.icon(options.commonDefault));
+    const defaultStyleMap = {
+      secondary: options.commonDefault,
+      main: options.capitalDefault,
+      airport: options.airportDefault,
+      beach: options.beachDefault,
+    }
+
+    const activeStyleMap = {
+      secondary: options.commonActive,
+      main: options.capitalActive,
+      airport: options.airportActive,
+      beach: options.beachActive,
+    }
+
+    const style = this.active ? activeStyleMap[this.type] : defaultStyleMap[this.type];
+    if (style) {
+      this.marker.setIcon(L.BeautifyIcon.icon(style));
     }
   }
 
@@ -136,5 +116,9 @@ export class Station {
 
   hide() {
     this.marker.remove();
+  }
+
+  changeState() {
+    this.active ? this.setDefault() : this.setActive();
   }
 }
