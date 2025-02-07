@@ -173,12 +173,12 @@ export class SidepanelContent {
     this.container.querySelectorAll(".route-line").forEach((element) => {
       const routeLink = element.querySelector(".route-link");
       const routeMoreInfo = element.querySelector(".route-more-info");
-      
       routeLink.addEventListener("click", async () => {
         this.container.style.pointerEvents = "none";
         this.container.style.opacity = "0.7";
         try {
           this.closeOtherRoutes(routeLink);
+          element.classList.toggle("active");
           routeLink.classList.toggle("active");
           routeMoreInfo.classList.toggle("active");
           this.showLoader();
@@ -194,6 +194,7 @@ export class SidepanelContent {
 
   closeOtherRoutes(routeLink) {
     this.container.querySelectorAll(".route-line").forEach((element) => {
+      element.classList.remove("active");
       const otherRouteLink = element.querySelector(".route-link");
       const otherRouteMoreInfo = element.querySelector(".route-more-info");
       if (otherRouteLink !== routeLink) {
