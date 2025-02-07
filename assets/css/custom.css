@@ -208,3 +208,20 @@ nav > a, li > a {
     margin-top: 0;
     font-size: 1.2rem;
 }
+
+.route-more-info {
+    display: none;
+    color: #0078A8;
+    text-decoration: none;
+    font-size: 0.9em;
+    margin-top: 5px;
+    margin-left: 45px;
+}
+
+.route-more-info.active {
+    display: block;
+}
+
+.route-more-info:hover {
+    text-decoration: underline;
+}

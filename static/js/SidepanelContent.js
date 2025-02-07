@@ -121,39 +121,29 @@ export class SidepanelContent {
     let routeTime = document.createElement("div");
     let routeLabel = document.createElement("span");
     let routeDestination = document.createElement("span");
-    let routeFrequency = document.createElement("span");
-    let routeSchedule = document.createElement("div");
     let routeName = document.createElement("div");
+    let routeMoreInfo = document.createElement("a");
 
     routeLine.appendChild(routeTime);
     routeLine.appendChild(routeName);
     routeName.appendChild(routeLink);
     routeLink.appendChild(routeLabel);
     routeLink.appendChild(routeDestination);
-    routeName.appendChild(routeFrequency);
-    routeLine.appendChild(routeSchedule);
+    routeLine.appendChild(routeMoreInfo);
 
     routeLine.classList.add("route-line");
     routeLink.classList.add("route-link");
     routeTime.classList.add("route-time");
     routeLabel.classList.add("route-label");
     routeDestination.classList.add("route-destination");
-    routeFrequency.classList.add("route-frequency");
-    routeSchedule.classList.add("route-schedule");
     routeName.classList.add("route-name");
+    routeMoreInfo.classList.add("route-more-info");
 
     routeLink.setAttribute("id", route.id);
-
+    
     let time = getRouteTimeByStation(route, stationCode);
-    let schedule = createRouteScheduleString(getRouteSchedule(route));
-
     routeTime.innerHTML = time + " ";
     routeLabel.innerHTML = route.ref;
-    routeFrequency.innerHTML = " " + LS.translate("frequency_daily") + "<br>";
-    routeSchedule.innerHTML = schedule;
-    routeSchedule.innerHTML += route.complete
-      ? ""
-      : `<p class='disclaimer'>${LS.translate("incomplete_route")}</p>`;
 
     let destination;
 
@@ -172,20 +162,25 @@ export class SidepanelContent {
 
     routeDestination.innerHTML = destination;
 
+    routeMoreInfo.href = `/routes/${route.ref}`;
+    routeMoreInfo.innerHTML = LS.translate("view_route_details");
+    routeMoreInfo.setAttribute("target", "_blank");
+
     return { html: routeLine, time: Date.parse("1970-01-01T" + time) };
   }
 
   setupEventListeners() {
     this.container.querySelectorAll(".route-line").forEach((element) => {
       const routeLink = element.querySelector(".route-link");
-      const routeSchedule = element.querySelector(".route-schedule");
+      const routeMoreInfo = element.querySelector(".route-more-info");
+      
       routeLink.addEventListener("click", async () => {
         this.container.style.pointerEvents = "none";
         this.container.style.opacity = "0.7";
         try {
           this.closeOtherRoutes(routeLink);
           routeLink.classList.toggle("active");
-          routeSchedule.classList.toggle("active");
+          routeMoreInfo.classList.toggle("active");
           this.showLoader();
           await toggleRoute(routeLink.getAttribute("id"));
           this.hideLoader();
@@ -200,10 +195,10 @@ export class SidepanelContent {
   closeOtherRoutes(routeLink) {
     this.container.querySelectorAll(".route-line").forEach((element) => {
       const otherRouteLink = element.querySelector(".route-link");
-      const otherRouteSchedule = element.querySelector(".route-schedule");
+      const otherRouteMoreInfo = element.querySelector(".route-more-info");
       if (otherRouteLink !== routeLink) {
         otherRouteLink.classList.remove("active");
-        otherRouteSchedule.classList.remove("active");
+        otherRouteMoreInfo.classList.remove("active");
       }
     });
   }
