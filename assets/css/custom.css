@@ -180,6 +180,18 @@ nav > a, li > a {
     z-index: 1000;
 }
 
+.route-loader {
+    position: fixed;
+    bottom: 15vh;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    z-index: 1000;
+}
+
 .loading-text {
     font-size: 14px;
     font-weight: 500;
