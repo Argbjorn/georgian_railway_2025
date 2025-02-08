@@ -6,13 +6,14 @@ import { stations as stationsList } from "./stations-list.js";
 import { map } from "./map.js";
 import { LanguageService as LS } from "./LanguageService.js";
 import { SidepanelContent } from "./SidepanelContent.js";
+import UIStateManager from "./state/UIStateManager.js";
 
 
 let activeRoute = [];
 let routes = [];
 export let activeStation = [];
 let stations = [];
-let currentSidepanelContent = null;
+let currentSidepanelContent = '';
 
 // Getting data
 
@@ -134,24 +135,17 @@ async function showStations() {
 
 async function handleStationClick(station) {
     // Clicked station is already active
-    if (activeStation.length > 0 && activeStation[0] === station) {
-        activeStation[0].setDefault();
-        activeStation.pop();
-        closeSidepanel();
+    if (UIStateManager.mapState.activeStation && UIStateManager.mapState.activeStation === station) {
+        UIStateManager.updateMapState({ activeStation: null });
         return;
     }
     // Clicked station is not active and there is already an active station
-    if (activeStation.length > 0) {
-        activeStation[0].setDefault();
-        activeStation.pop();      
+    if (UIStateManager.mapState.activeStation) {
+        UIStateManager.updateMapState({ activeStation: station });
+        UIStateManager.mapState.previousActiveStation.setDefault();
     }
     // Clicked station is not active and there is no active station
-    activeStation.push(station);
-    station.setActive();
-    currentSidepanelContent = new SidepanelContent(station);
-    currentSidepanelContent.render();
-    openSidepanel();
-
+    UIStateManager.updateMapState({ activeStation: station });
 }
 
 function hideActiveRoute() {
@@ -286,30 +280,62 @@ function closeSidepanel() {
     }
 }
 
-// Handle manual sidepanel closing
-// TODO: fix this because of checking the wrong state (but it works now)
 document.querySelector('.sidepanel-toggle-button').addEventListener('click', () => {
-    console.log('click');
-    // Checks the current state of the sidepanel
-    const isClosing = !panel.classList.contains('opened');  
-    if (isClosing) {
-        console.log('close sidepanel');
-        if (activeStation.length > 0) {
-            console.log('inside if');
-            activeStation[0].setDefault();
-            activeStation.pop();
-        }
-        if (activeRoute.length > 0) {
-            activeRoute[0].hide();
-            activeRoute.pop();
-            railwayNetwork.show();
-            stations.forEach(station => {
-                station.show();
-            });       
-        }
+    if (UIStateManager.panelState.isOpen && !UIStateManager.isMobile) {
+        UIStateManager.updateMapState({ activeStation: null });
+    }
+    else if (UIStateManager.panelState.isOpen && UIStateManager.isMobile) {
+        UIStateManager.closePanel();
+    }
+    else {
+        UIStateManager.openPanel();
+    }
+
+});
+
+
+// Subscribe to panel UI (visibility only)
+UIStateManager.subscribe('panel', (panelState) => {
+    const panel = document.querySelector('#mySidepanel');
+    if (panelState.isOpen) {
+        panel.classList.remove('closed');
+        panel.classList.add('opened');
+    } else {
+        panel.classList.remove('opened');
+        panel.classList.add('closed');
+    }
+});
+
+// Subscribe to panel content (clears content on desktop when sidepanel is closing)
+UIStateManager.subscribe('panel', (panelState) => {
+    if (!panelState.isOpen && !UIStateManager.isMobile) {
         setTimeout(() => {
-            currentSidepanelContent.clear();
-        }, 500);
+            if (!UIStateManager.mapState.activeStation) {
+                panelState.content?.clear();
+            }
+        }, 300);
+    }
+});
+
+// Subscribe to map state (stations only)
+UIStateManager.subscribe('map', (mapState) => {
+    const previousActiveStation = mapState.previousActiveStation;
+    const activeStation = mapState.activeStation;
+
+    if (!activeStation) {
+        if (previousActiveStation) {
+            previousActiveStation.setDefault();
+        }
+        if (UIStateManager.panelState.isOpen && !UIStateManager.isMobile) {
+            UIStateManager.closePanel();
+        }
+    } else {
+        activeStation.setActive();
+        UIStateManager.openPanel();
+        
+        const content = new SidepanelContent(activeStation);
+        UIStateManager.panelState.content = content;
+        content.render();
     }
 });
 
@@ -358,17 +384,11 @@ function closeRoutes() {
 
 // Click on the map
 map.addEventListener('click', () => {
-    if (activeStation.length > 0) {
-        activeStation[0].setDefault();
-        activeStation.pop();
-    }
+    UIStateManager.updateMapState({ activeStation: null });
     if (activeRoute.length > 0) {
         hideActiveRoute();
     }
-    closeSidepanel();
 })
-
-
 
 // Show railway network
 const mapContainer = document.querySelector('#map');
