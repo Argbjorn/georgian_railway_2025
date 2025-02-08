@@ -159,7 +159,7 @@ function hideActiveRoute() {
     activeRoute.pop();
     railwayNetwork.show();
     stations.forEach(station => {
-        station.setDefault();
+        station.show();
     });
     closeRoutes();
 }
@@ -358,11 +358,16 @@ function closeRoutes() {
 
 // Click on the map
 map.addEventListener('click', () => {
-    activeStation[0].setDefault();
-    activeStation.pop();
-    //hideActiveRoute();
+    if (activeStation.length > 0) {
+        activeStation[0].setDefault();
+        activeStation.pop();
+    }
+    if (activeRoute.length > 0) {
+        hideActiveRoute();
+    }
     closeSidepanel();
 })
+
 
 
 // Show railway network
