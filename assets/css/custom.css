@@ -62,8 +62,8 @@ nav > a, li > a {
     transition: all 0.15s ease;
     border-left: 3px solid transparent;
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
-    flex-wrap: wrap;
 }
 
 .route-line:hover {
@@ -96,10 +96,11 @@ nav > a, li > a {
     display: block;
 }
 
-.route-name {
+.route-header {
     display: flex;
     align-items: flex-start;
-    max-width: 85%;
+    width: 100%;
+    white-space: nowrap;
 }
 
 .route-time {
@@ -110,6 +111,13 @@ nav > a, li > a {
     color: #333;
     font-weight: 500;
     flex-shrink: 0;
+}
+
+.route-name {
+    display: flex;
+    align-items: flex-start;
+    max-width: calc(100% - 47px);
+    min-width: 0;
 }
 
 .route-schedule {
@@ -126,6 +134,19 @@ nav > a, li > a {
 
 .route-schedule.active {
     display: block;
+}
+
+.link-show {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #0d6efd; /* или любой другой цвет ссылок */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link-show:hover {
+    color: #0a58ca; /* цвет при наведении */
 }
 
 .station-routes-list {
@@ -200,6 +221,22 @@ nav > a, li > a {
     display: block;
 }
 
+.route-show {
+    display: none;
+    color: #0078A8;
+    text-decoration: none;
+    font-size: 0.85em;
+    margin: 4px 0 0 40px;
+    font-weight: 500;
+    width: 100%;
+    padding-left: 7px;
+    text-align: left;
+}
+
+.route-show.active {
+    display: block;
+}
+
 .route-more-info:hover {
     color: #005580;
 }
@@ -209,6 +246,9 @@ nav > a, li > a {
     font-weight: 400;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    white-space: normal;
+    flex: 1;
+    min-width: 0;
 }
 
 @keyframes sweep {

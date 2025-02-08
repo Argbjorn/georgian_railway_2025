@@ -1,5 +1,6 @@
 import { getRoutesByStation, getRouteTimeByStation, createRouteScheduleString, getRouteSchedule, getRoutePoints, getStationNameByCode, toggleRoute } from "./main-test.js";
 import { LanguageService as LS } from "./LanguageService.js";
+import UIStateManager from "./state/UIStateManager.js";
 
 export class SidepanelContent {
   constructor(station) {
@@ -117,26 +118,32 @@ export class SidepanelContent {
 
   makeRouteLine(route, stationCode, direction) {
     let routeLine = document.createElement("div");
+    let routeHeader = document.createElement("div");
     let routeLink = document.createElement("a");
     let routeTime = document.createElement("div");
     let routeLabel = document.createElement("span");
     let routeDestination = document.createElement("span");
     let routeName = document.createElement("div");
+    let routeShow = document.createElement("button");
     let routeMoreInfo = document.createElement("a");
 
-    routeLine.appendChild(routeTime);
-    routeLine.appendChild(routeName);
-    routeName.appendChild(routeLink);
+    routeLine.appendChild(routeHeader);
+    routeHeader.appendChild(routeTime);
+    routeHeader.appendChild(routeName);
+    routeHeader.appendChild(routeLink);
     routeLink.appendChild(routeLabel);
     routeLink.appendChild(routeDestination);
+    routeLine.appendChild(routeShow);
     routeLine.appendChild(routeMoreInfo);
 
     routeLine.classList.add("route-line");
-    routeLink.classList.add("route-link");
+    routeHeader.classList.add("route-header");
     routeTime.classList.add("route-time");
+    routeName.classList.add("route-name");
+    routeLink.classList.add("route-link");
     routeLabel.classList.add("route-label");
     routeDestination.classList.add("route-destination");
-    routeName.classList.add("route-name");
+    routeShow.classList.add("route-show");
     routeMoreInfo.classList.add("route-more-info");
 
     routeLink.setAttribute("id", route.id);
@@ -162,6 +169,9 @@ export class SidepanelContent {
 
     routeDestination.innerHTML = destination;
 
+    routeShow.innerHTML = LS.translate("show_on_map");
+    routeShow.style.cursor = "pointer";
+
     let routeLinkBase = '/routes/';
     if (LS.getCurrentLanguage() == "ru") {
         routeLinkBase = '/ru/routes/';
@@ -177,6 +187,7 @@ export class SidepanelContent {
     this.container.querySelectorAll(".route-line").forEach((element) => {
       const routeLink = element.querySelector(".route-link");
       const routeMoreInfo = element.querySelector(".route-more-info");
+      const routeShow = element.querySelector(".route-show");
       routeLink.addEventListener("click", async () => {
         this.container.style.pointerEvents = "none";
         this.container.style.opacity = "0.7";
@@ -185,6 +196,7 @@ export class SidepanelContent {
           element.classList.toggle("active");
           routeLink.classList.toggle("active");
           routeMoreInfo.classList.toggle("active");
+          routeShow.classList.toggle("active");
           this.showLoader();
           await toggleRoute(routeLink.getAttribute("id"));
           this.hideLoader();
@@ -194,16 +206,24 @@ export class SidepanelContent {
         }
       });
     });
+    this.container.querySelectorAll(".route-show").forEach((element) => {
+        element.addEventListener("click", () => {
+            UIStateManager.closePanel();
+        });
+    });
   }
+
 
   closeOtherRoutes(routeLink) {
     this.container.querySelectorAll(".route-line").forEach((element) => {
       element.classList.remove("active");
       const otherRouteLink = element.querySelector(".route-link");
       const otherRouteMoreInfo = element.querySelector(".route-more-info");
+      const otherRouteShow = element.querySelector(".route-show");
       if (otherRouteLink !== routeLink) {
         otherRouteLink.classList.remove("active");
         otherRouteMoreInfo.classList.remove("active");
+        otherRouteShow.classList.remove("active");
       }
     });
   }

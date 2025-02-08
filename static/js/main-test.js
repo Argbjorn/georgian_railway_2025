@@ -317,7 +317,7 @@ UIStateManager.subscribe('panel', (panelState) => {
     }
 });
 
-// Subscribe to map state (stations only)
+// Subscribe to map state (stations)
 UIStateManager.subscribe('map', (mapState) => {
     const previousActiveStation = mapState.previousActiveStation;
     const activeStation = mapState.activeStation;
@@ -383,11 +383,18 @@ function closeRoutes() {
 }
 
 // Click on the map
+// TODO: Refactor this
 map.addEventListener('click', () => {
     UIStateManager.updateMapState({ activeStation: null });
     if (activeRoute.length > 0) {
         hideActiveRoute();
     }
+    const otherRouteLine = document.querySelector(".route-line.active");
+    const otherRouteMoreInfo = otherRouteLine.querySelector(".route-more-info");
+    const otherRouteShow = otherRouteLine.querySelector(".route-show");
+    otherRouteLine.classList.remove("active");
+    otherRouteMoreInfo.classList.remove("active");
+    otherRouteShow.classList.remove("active");
 })
 
 // Show railway network
