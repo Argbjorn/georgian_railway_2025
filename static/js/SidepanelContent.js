@@ -162,7 +162,11 @@ export class SidepanelContent {
 
     routeDestination.innerHTML = destination;
 
-    routeMoreInfo.href = `/routes/${route.ref}`;
+    let routeLinkBase = '/routes/';
+    if (LS.getCurrentLanguage() == "ru") {
+        routeLinkBase = '/ru/routes/';
+    }
+    routeMoreInfo.href = `${routeLinkBase}${route.ref}`;
     routeMoreInfo.innerHTML = LS.translate("view_route_details");
     routeMoreInfo.setAttribute("target", "_blank");
 
