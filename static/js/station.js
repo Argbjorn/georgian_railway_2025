@@ -72,7 +72,7 @@ export class Station {
     this.type = type,
     this.code = code,
     this.active = false,
-    this.marker = L.marker(this.coords),
+    this.marker = L.marker(this.coords).bindTooltip(this.name, {offset: [10, 0]}),
     this.updateMarkerStyle();
     this.show();
   }
