@@ -31,7 +31,7 @@ const layerControl = L.control.layers(tiles, overlays, {
 }).addTo(map);
 
 // Initialize the sidepanel
-const panelRight = L.control.sidepanel('mySidepanel', {
+export const panelRight = L.control.sidepanel('mySidepanel', {
     panelPosition: 'right',
     hasTabs: true,
     tabsPosition: 'top',
@@ -39,25 +39,6 @@ const panelRight = L.control.sidepanel('mySidepanel', {
     darkMode: false,
     startTab: 'tab-1'
 }).addTo(map);
-
-// Opens sidepanel
-export function openSidePanelIfClosed() {
-    const panel = document.querySelector('#mySidepanel');
-    var opened = panel.classList.contains('opened')
-    var closed = panel.classList.contains('closed')
-    if (!opened && closed) {
-        panel.classList.remove('closed');
-        panel.classList.add('opened');
-    } else if (!opened && !closed) {
-        panel.classList.add('opened');
-    }
-}
-
-// Opens sidepanel at the beginning if desktop
-if(device.desktop()) {
-    openSidePanelIfClosed();
-}
-
 
 // Returns the default map center
 export function getDefaultMapCenter() {

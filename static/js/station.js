@@ -1,110 +1,124 @@
 import { map } from "./map.js";
 
 const options = {
-    mainDefault: {
-        icon: 'star',
-        iconSize: [23, 23],
-        iconShape: 'circle',
-        borderColor: "#c1121f",
-        textColor: "#c1121f"
-    },
-    mainActive: {
-        icon: 'star',
-        iconSize: [23, 23],
-        iconShape: 'circle',
-        borderColor: "#c1121f",
-        textColor: "#fff",
-        backgroundColor: "#c1121f"
-    },
-    airportDefault: {
-        icon: 'plane',
-        iconSize: [22, 22],
-        iconShape: 'circle',
-        borderColor: "#c1121f",
-        textColor: "#c1121f"
-    },
-    airportActive: {
-        icon: 'plane',
-        iconSize: [22, 22],
-        iconShape: 'circle',
-        borderColor: "#c1121f",
-        textColor: "#fff",
-        backgroundColor: "#c1121f"
-    },
-    beachDefault: {
-        icon: 'sun-o',
-        iconSize: [23, 23],
-        iconShape: 'circle',
-        borderColor: "#c1121f",
-        textColor: "#c1121f"
-    },
-    beachActive: {
-        icon: 'sun-o',
-        iconSize: [23, 23],
-        iconShape: 'circle',
-        borderColor: "#c1121f",
-        textColor: "#fff",
-        backgroundColor: "#c1121f"
-    },
-    secondaryDefault: {
-        iconShape: 'circle',
-        borderColor: "#c1121f",
-        textColor: "#c1121f",
-        iconSize: [18, 18],
-        isAlphaNumericIcon: true,
-        text: ''
-    },
-    secondaryActive: {
-        iconShape: 'circle',
-        borderColor: "#fff",
-        textColor: "#c1121f",
-        iconSize: [18, 18],
-        isAlphaNumericIcon: true,
-        text: '',
-        backgroundColor: "#c1121f"
-    }
-}
+  capitalDefault: {
+    icon: "star",
+    iconSize: [23, 23],
+    iconShape: "circle",
+    borderColor: "#c1121f",
+    textColor: "#c1121f",
+  },
+  capitalActive: {
+    icon: "star",
+    iconSize: [23, 23],
+    iconShape: "circle",
+    borderColor: "#c1121f",
+    textColor: "#fff",
+    backgroundColor: "#c1121f",
+  },
+  airportDefault: {
+    icon: "plane",
+    iconSize: [22, 22],
+    iconShape: "circle",
+    borderColor: "#c1121f",
+    textColor: "#c1121f",
+  },
+  airportActive: {
+    icon: "plane",
+    iconSize: [22, 22],
+    iconShape: "circle",
+    borderColor: "#c1121f",
+    textColor: "#fff",
+    backgroundColor: "#c1121f",
+  },
+  beachDefault: {
+    icon: "sun-o",
+    iconSize: [23, 23],
+    iconShape: "circle",
+    borderColor: "#c1121f",
+    textColor: "#c1121f",
+  },
+  beachActive: {
+    icon: "sun-o",
+    iconSize: [23, 23],
+    iconShape: "circle",
+    borderColor: "#c1121f",
+    textColor: "#fff",
+    backgroundColor: "#c1121f",
+  },
+  commonDefault: {
+    iconShape: "circle",
+    borderColor: "#c1121f",
+    textColor: "#c1121f",
+    iconSize: [18, 18],
+    isAlphaNumericIcon: true,
+    text: "",
+  },
+  commonActive: {
+    iconShape: "circle",
+    borderColor: "#fff",
+    textColor: "#c1121f",
+    iconSize: [18, 18],
+    isAlphaNumericIcon: true,
+    text: "",
+    backgroundColor: "#c1121f",
+  },
+};
 
 export class Station {
-    constructor(name, coords, type, code) {
-        this.name = name
-        this.coords = coords,
-        this.type = type;
-        this.code = code;
+  constructor(name, coords, type, code) {
+    this.name = name,
+    this.coords = coords,
+    this.type = type,
+    this.code = code,
+    this.active = false,
+    this.marker = L.marker(this.coords).bindTooltip(this.name, {offset: [10, 0]}),
+    this.updateMarkerStyle();
+    this.show();
+  }
 
-        if (this.type == "main") {
-            this.BeautifyIconOptionsDefault = options.mainDefault;
-            this.BeautifyIconOptionsActive = options.mainActive;
-        } else if (this.type == "secondary") {
-            this.BeautifyIconOptionsDefault = options.secondaryDefault;
-            this.BeautifyIconOptionsActive = options.secondaryActive;
-        } else if (this.type == "airport") {
-            this.BeautifyIconOptionsDefault = options.airportDefault;
-            this.BeautifyIconOptionsActive = options.airportActive;
-        } else if (this.type == "beach") {
-            this.BeautifyIconOptionsDefault = options.beachDefault;
-            this.BeautifyIconOptionsActive = options.beachActive;
-        };
-        this.markerDefault = L.marker(this.coords, {
-            icon: L.BeautifyIcon.icon(this.BeautifyIconOptionsDefault)
-        });
-        this.markerActive = L.marker(this.coords, {
-            icon: L.BeautifyIcon.icon(this.BeautifyIconOptionsActive)
-        });
+  // Updates marker style based on station type
+  // TODO: Change types name in the source data
+  updateMarkerStyle() {
+    const defaultStyleMap = {
+      secondary: options.commonDefault,
+      main: options.capitalDefault,
+      airport: options.airportDefault,
+      beach: options.beachDefault,
     }
 
-    setDefault() {
-        this.markerDefault.addTo(map);
-        this.markerDefault.bindTooltip(this.name);
+    const activeStyleMap = {
+      secondary: options.commonActive,
+      main: options.capitalActive,
+      airport: options.airportActive,
+      beach: options.beachActive,
     }
 
-    setActive() {
-        this.markerDefault.remove();
-        this.markerActive.addTo(map);
+    const style = this.active ? activeStyleMap[this.type] : defaultStyleMap[this.type];
+    if (style) {
+      this.marker.setIcon(L.BeautifyIcon.icon(style));
     }
+  }
 
-    hide() {
-        this.markerDefault.remove();
-        this.markerActive.remove();
-    }
+  show() {
+    this.marker.addTo(map);
+  }
+
+  setDefault() {
+    this.active = false;
+    this.updateMarkerStyle();
+  }
+
+  setActive() {
+    this.active = true;
+    this.updateMarkerStyle();
+  }
+
+  hide() {
+    this.marker.remove();
+  }
+
+  changeState() {
+    this.active ? this.setDefault() : this.setActive();
+  }
 }

@@ -40,25 +40,51 @@ nav > a, li > a {
 }
 
 .route-label {
-    border: 1px solid black;
-    border-radius: 4px;
-    margin-right: 5px;
-    padding-left: 2px;
-    padding-right: 2px;
+    display: inline-block;
+    border: 1.5px solid #0078A8;
+    border-radius: 3px;
+    margin-right: 6px;
+    padding: 0 4px;
+    font-weight: 600;
+    color: #0078A8;
+    font-size: 0.9em;
+    background-color: #f0f7ff;
+    line-height: 1.4;
+    min-width: 38px;
+    text-align: center;
+    flex-shrink: 0;
 }
 
 .route-line {
-    margin-bottom: 5px;
+    margin-bottom: 4px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    transition: all 0.15s ease;
+    border-left: 3px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.route-line:hover {
+    background-color: #f0f7ff;
+}
+
+.route-line.active {
+    background-color: #f0f7ff;
+    border-left: 3px solid #0078A8;
 }
 
 .route-link {
     cursor: pointer;
-    color: #0078A8;
+    color: inherit;
+    text-decoration: none;
+    display: block;
 }
 
 .route-link.active {
-    cursor: pointer;
-    font-weight: 700;
+    font-weight: 500;
+    color: #0078A8;
 }
 
 .route-details {
@@ -70,19 +96,28 @@ nav > a, li > a {
     display: block;
 }
 
-.route-name {
-    display: inline-block;
-    max-width: 80%;
+.route-header {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    white-space: nowrap;
 }
 
 .route-time {
-    display: inline-block;
-    width: 45px;
-    vertical-align: top;
-    padding-top: 1px;
-    padding-right: 5px;
+    width: 47px;
+    padding-right: 6px;
     font-family: 'Roboto Mono', monospace;
     font-size: 13px;
+    color: #333;
+    font-weight: 500;
+    flex-shrink: 0;
+}
+
+.route-name {
+    display: flex;
+    align-items: flex-start;
+    max-width: calc(100% - 47px);
+    min-width: 0;
 }
 
 .route-schedule {
@@ -101,66 +136,147 @@ nav > a, li > a {
     display: block;
 }
 
+.link-show {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #0d6efd; /* или любой другой цвет ссылок */
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.link-show:hover {
+    color: #0a58ca; /* цвет при наведении */
+}
+
 .station-routes-list {
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 .station-routes-list.hidden {
     display: none;
 }
 
-.station-body {
-    padding-left: 25px;
+.station-description {
+    color: #333;
+    margin-bottom: 16px;
+    line-height: 1.4;
+    font-size: 0.9em;
 }
 
-summary::-webkit-details-marker{display:none;}
-summary::-moz-list-bullet{list-style-type:none;}
-summary::marker{display:none;} 
+.route-loader {
+    position: fixed;
+    bottom: 12vh;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    z-index: 4000;
+    backdrop-filter: blur(4px);
+    font-weight: 500;
+    font-size: 0.9em;
+}
 
-details > summary {
-    display:inline-block;
-    padding: .3em .5em .3em 1.5em;
-    font-size:1.2em;
-    cursor: pointer;
-    position: relative;
-    line-height: 1em;
- }
+.railway-network-loader {
+    position: fixed;
+    bottom: 12vh;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    z-index: 4000;
+    backdrop-filter: blur(4px);
+    font-weight: 500;
+    font-size: 0.9em;
+}
 
- summary:before {
-    left: .3em;
-    top: .3em;
-    color: transparent;
-    background: url("data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjM0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIzNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOC41OSAxNi4zNGw0LjU4LTQuNTktNC41OC00LjU5TDEwIDUuNzVsNiA2LTYgNnoiLz48L3N2Zz4=") no-repeat 50% 50% / 1em 1em;
-    width: 1em;
-    height: 1em;  
-    content: "";
-    position: absolute;
-    transition: transform .3s;
-  }
-  details[open] > summary:before {
-    transform: rotateZ(90deg);
-  }
+.loading-text {
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+}
 
-  summary ~ * {
-     padding:0 1em 0 1em;
-  }
+.sidepanel-routes-content {
+    padding: 12px;
+}
 
-  details[open] summary ~ *{ 
-    animation: sweep .5s ease-in-out;
-  }
+.sidepanel-routes-content h2 {
+    margin: 0 0 16px 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #000;
+}
 
-  @keyframes sweep {
+.sidepanel-routes-content h3 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 16px 0 8px 0;
+}
+
+.route-more-info {
+    display: none;
+    color: #0078A8;
+    text-decoration: none;
+    font-size: 0.85em;
+    margin: 4px 0 0 40px;
+    font-weight: 500;
+    width: 100%;
+    padding-left: 7px;
+}
+
+.route-more-info.active {
+    display: block;
+}
+
+.route-show {
+    display: none;
+    color: #0078A8;
+    text-decoration: none;
+    font-size: 0.85em;
+    margin: 4px 0 0 40px;
+    font-weight: 500;
+    width: 100%;
+    padding-left: 7px;
+    text-align: left;
+}
+
+.route-show.active {
+    display: block;
+}
+
+.route-more-info:hover {
+    color: #005580;
+}
+
+.route-destination {
+    color: #000;
+    font-weight: 400;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    flex: 1;
+    min-width: 0;
+}
+
+@keyframes sweep {
     0%    {opacity: 0;}
     100%  {opacity: 1;}
-  }
+}
 
-  details{
+details{
     display:block;
     margin-bottom: .5rem;
-    
- }
+}
 
- .route-timeline {
+.route-timeline {
     list-style: none;
     padding-left: 6rem;
     position: relative;
@@ -206,23 +322,4 @@ details > summary {
     right: calc(100% + 2.5rem);
     min-width: 4rem;
     text-align: right;
-}
-
-.railway-network-loader {
-    position: fixed;
-    bottom: 15vh;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 12px 24px;
-    border-radius: 8px;
-    z-index: 1000;
-}
-
-.loading-text {
-    font-size: 14px;
-    font-weight: 500;
-    text-align: center;
-    white-space: nowrap;
 }
