@@ -6,7 +6,8 @@
     "ru" (dict
         "status" "✅ Маршрут активен. Последние изменения"
         "frequency" "Частота"
-        "frequency_value" "ежедневно"
+        "frequency_daily" "ежедневно"
+        "frequency_two_days" "через день"
         "online_tickets" "Онлайн билеты"
         "available" "доступны на"
         "official_site" "официальном сайте"
@@ -18,7 +19,8 @@
     "en" (dict
         "status" "✅ Route is active. Last changes"
         "frequency" "Frequency"
-        "frequency_value" "daily"
+        "frequency_daily" "daily"
+        "frequency_two_days" "every second day"
         "online_tickets" "Online tickets"
         "available" "available on the"
         "official_site" "official website"
@@ -32,7 +34,7 @@
 {{ $t := index $translations $lang }}
 
 <p>{{ $t.status }}: {{ now.Format "02.01.2006" }}</p>
-<p><strong>{{ $t.frequency }}:</strong> {{ $t.frequency_value }} </br>
+<p><strong>{{ $t.frequency }}:</strong> {{ if eq .Page.Params.frequency "daily" }}{{ $t.frequency_daily }}{{ else if eq .Page.Params.frequency "every second day" }}{{ $t.frequency_two_days }}{{ end }} </br>
 <strong>{{ $t.online_tickets }}:</strong> 
 {{ if eq $online "true" }}{{ $t.available }} <a href="https://ticket.railway.ge/" target="_blank">{{ $t.official_site }}</a>
 {{ else }}{{ $t.not_available }}{{ end }}</p>

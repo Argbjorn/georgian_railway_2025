@@ -269,7 +269,7 @@ export const stations = [
       "type": "secondary",
       "name_en": "Lanchkhuti",
       "name_ka": "უცნობი სადგური",
-      "name_ru": "неизвестная станция",
+      "name_ru": "Ланчхути",
       "gr_code": 57040
    },
    {
@@ -336,6 +336,19 @@ export const stations = [
       "name_ka": "უცნობი სადგური",
       "name_ru": "Натанеби",
       "gr_code": 57080
+   },
+   {
+      "id": 11139961448,
+      "coords": [
+         42.0890446,
+         42.1222468
+      ],
+      "code": "nigoiti",
+      "type": "secondary",
+      "name_en": "Nigoiti",
+      "name_ka": "უცნობი სადგური",
+      "name_ru": "Нигоити",
+      "gr_code": 57030
    },
    {
       "id": 10780567207,
@@ -453,6 +466,19 @@ export const stations = [
       "name_ka": "სენაკი",
       "name_ru": "Сенаки",
       "gr_code": 57190
+   },
+   {
+      "id": 11139961447,
+      "coords": [
+         42.0851116,
+         42.0807232
+      ],
+      "code": "shukhuti",
+      "type": "secondary",
+      "name_en": "Shukhuti",
+      "name_ka": "უცნობი სადგური",
+      "name_ru": "Шухути",
+      "gr_code": 57031
    },
    {
       "id": 11142332831,
