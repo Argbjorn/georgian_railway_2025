@@ -60,12 +60,6 @@ class UIStateManager {
     openPanel(content) {
         this.updatePanelState({ isOpen: true, content });
     }
-
-    log(place) {
-        console.log('===' + place + '===');
-        console.table(this.mapState);
-        console.table(this.panelState);
-    }
 }
 
 export default new UIStateManager();

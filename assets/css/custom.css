@@ -50,7 +50,7 @@ nav > a, li > a {
     font-size: 0.9em;
     background-color: #f0f7ff;
     line-height: 1.4;
-    min-width: 32px;
+    min-width: 38px;
     text-align: center;
     flex-shrink: 0;
 }
@@ -166,14 +166,29 @@ nav > a, li > a {
 
 .route-loader {
     position: fixed;
-    bottom: 15vh;
+    bottom: 12vh;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     color: white;
     padding: 8px 16px;
     border-radius: 4px;
-    z-index: 1000;
+    z-index: 4000;
+    backdrop-filter: blur(4px);
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.railway-network-loader {
+    position: fixed;
+    bottom: 12vh;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    z-index: 4000;
     backdrop-filter: blur(4px);
     font-weight: 500;
     font-size: 0.9em;

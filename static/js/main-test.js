@@ -87,7 +87,6 @@ async function getRoute(routeId) {
 
 // Handles what route (or network) has to be shown/hide on the map
 export async function toggleRoute(routeId) {
-  UIStateManager.log("toggleRoute - the beginning");
   // Other route is shown on the map (so it has to hide the old one and show the new one)
   if (
     UIStateManager.mapState.activeRoute &&
@@ -124,7 +123,6 @@ export async function toggleRoute(routeId) {
     }
     railwayNetwork.show();
   }
-  UIStateManager.log("toggleRoute - the end");
 }
 
 // Shows stations and sets station markers interaction
