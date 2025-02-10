@@ -1,4 +1,4 @@
-import { getRoutesByStation, getRouteTimeByStation, createRouteScheduleString, getRouteSchedule, getRoutePoints, getStationNameByCode, toggleRoute } from "./main-test.js";
+import { getRoutesByStation, getRouteTimeByStation, getRoutePoints, getStationNameByCode, toggleRoute } from "./main-test.js";
 import { LanguageService as LS } from "./LanguageService.js";
 import UIStateManager from "./state/UIStateManager.js";
 
@@ -15,9 +15,14 @@ export class SidepanelContent {
     this.setupEventListeners();
   }
 
+  renderDefaultGreeting() {
+    this.container.innerHTML = LS.translate('default_greeting');
+  }
+
   clear() {
     this.container.innerHTML = "";
   }
+
 
   async createContent() {
     let parentContainer = document.createElement("div");

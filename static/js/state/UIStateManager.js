@@ -1,8 +1,11 @@
+import { LanguageService as LS } from "../LanguageService.js";
+
 class UIStateManager {
     constructor() {
         this.panelState = {
             isOpen: false,
-            content: '',
+
+            content: LS.translate('default_greeting'),
         };
 
         this.mapState = {
