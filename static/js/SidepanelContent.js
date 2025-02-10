@@ -169,8 +169,10 @@ export class SidepanelContent {
 
     routeDestination.innerHTML = destination;
 
-    routeShow.innerHTML = LS.translate("show_on_map");
-    routeShow.style.cursor = "pointer";
+    if (UIStateManager.isMobile) {
+      routeShow.innerHTML = LS.translate("show_on_map");
+      routeShow.style.cursor = "pointer";
+    }
 
     let routeLinkBase = '/routes/';
     if (LS.getCurrentLanguage() == "ru") {

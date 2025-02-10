@@ -7,6 +7,7 @@ class UIStateManager {
 
         this.mapState = {
             activeRoute: null,
+            previousActiveRoute: null,
             activeStation: null,
             previousActiveStation: null,
         };
@@ -55,6 +56,12 @@ class UIStateManager {
 
     openPanel(content) {
         this.updatePanelState({ isOpen: true, content });
+    }
+
+    log(place) {
+        console.log('===' + place + '===');
+        console.table(this.mapState);
+        console.table(this.panelState);
     }
 }
 

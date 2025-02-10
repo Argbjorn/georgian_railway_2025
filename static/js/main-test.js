@@ -9,11 +9,8 @@ import { SidepanelContent } from "./SidepanelContent.js";
 import UIStateManager from "./state/UIStateManager.js";
 
 
-let activeRoute = [];
 let routes = [];
-export let activeStation = [];
 let stations = [];
-let currentSidepanelContent = '';
 
 // Getting data
 
@@ -89,38 +86,39 @@ async function getRoute(routeId) {
 
 // Handles what route (or network) has to be shown/hide on the map
 export async function toggleRoute(routeId) {
+    UIStateManager.log('toggleRoute - the beginning');
     // Other route is shown on the map (so it has to hide the old one and show the new one)
-    if (activeRoute.length != 0 && activeRoute[0].id != routeId) {
+    if (UIStateManager.mapState.activeRoute && UIStateManager.mapState.activeRoute.id != routeId) {
         const route = await getRoute(routeId);
-        activeRoute[0].hide();
-        activeRoute.pop();
-        activeRoute.push(route);
+        UIStateManager.mapState.activeRoute.hide();
+        UIStateManager.mapState.activeRoute = route;
         route.show();
-        // No routes are shown (so it has to shadow the railway network and show the route)
-    } else if (activeRoute.length == 0) {
+    // No routes are shown (so it has to shadow the railway network and show the route)
+    } else if (!UIStateManager.mapState.activeRoute) {
         let newRoute = await getRoute(routeId);
         railwayNetwork.shadow();
         stations.forEach(station => {
             station.hide();
         });
-        if (activeStation.length > 0) {
-            activeStation[0].setActive();
+        if (UIStateManager.mapState.activeStation) {
+            UIStateManager.mapState.activeStation.setActive();
         }
         await newRoute.show();
-        activeRoute.push(newRoute);
+        UIStateManager.mapState.activeRoute = newRoute;
+
     }
     // Current route is shown (so it has to hide the route and show the railway network)
     else {
-        activeRoute[0].hide();
+        UIStateManager.updateMapState({ activeRoute: null, previousActiveRoute: UIStateManager.mapState.activeRoute });
         stations.forEach(station => {
             station.show();
         });
-        if (activeStation.length > 0) {
-            activeStation[0].setActive();
+        if (UIStateManager.mapState.activeStation) {
+            UIStateManager.mapState.activeStation.setActive();
         }
-        activeRoute.pop();
         railwayNetwork.show();
     }
+    UIStateManager.log('toggleRoute - the end');
 }
 
 // Shows stations and sets station markers interaction
@@ -146,16 +144,6 @@ async function handleStationClick(station) {
     }
     // Clicked station is not active and there is no active station
     UIStateManager.updateMapState({ activeStation: station });
-}
-
-function hideActiveRoute() {
-    activeRoute[0].hide();
-    activeRoute.pop();
-    railwayNetwork.show();
-    stations.forEach(station => {
-        station.show();
-    });
-    closeRoutes();
 }
 
 // Handling with routes data
@@ -255,34 +243,10 @@ function isSet(s) {
 }
 
 // Sidepanel interactions
-
-const panel = document.querySelector('#mySidepanel');
-
-// Opens sidepanel
-function openSidepanel() {
-    var opened = panel.classList.contains('opened')
-    var closed = panel.classList.contains('closed')
-    if (!opened && closed) {
-        panel.classList.remove('closed');
-        panel.classList.add('opened');
-    } else if (!opened && !closed) {
-        panel.classList.add('opened');
-    }
-}
-
-// Closes sidepanel
-function closeSidepanel() {
-    panel.classList.remove('opened');
-    panel.classList.add('closed');
-    if (activeStation.length > 0) {
-        activeStation[0].setDefault();
-        activeStation.pop();
-    }
-}
-
+// Handles click on the sidepanel toggle button
 document.querySelector('.sidepanel-toggle-button').addEventListener('click', () => {
     if (UIStateManager.panelState.isOpen && !UIStateManager.isMobile) {
-        UIStateManager.updateMapState({ activeStation: null });
+        UIStateManager.updateMapState({ activeStation: null, activeRoute: null, previousActiveRoute: UIStateManager.mapState.activeRoute });
     }
     else if (UIStateManager.panelState.isOpen && UIStateManager.isMobile) {
         UIStateManager.closePanel();
@@ -321,25 +285,50 @@ UIStateManager.subscribe('panel', (panelState) => {
 UIStateManager.subscribe('map', (mapState) => {
     const previousActiveStation = mapState.previousActiveStation;
     const activeStation = mapState.activeStation;
-
-    if (!activeStation) {
-        if (previousActiveStation) {
-            previousActiveStation.setDefault();
+    
+    // Обрабатываем изменение станции только если это явное изменение станции
+    // (а не косвенное через изменение маршрута)
+    if (activeStation !== previousActiveStation) {
+        if (!activeStation) {
+            if (previousActiveStation) {
+                previousActiveStation.setDefault();
+            }
+            if (UIStateManager.panelState.isOpen && !UIStateManager.isMobile && !mapState.activeRoute) {
+                UIStateManager.closePanel();
+            }
+        } else {
+            activeStation.setActive();
+            UIStateManager.openPanel();
+            const content = new SidepanelContent(activeStation);
+            UIStateManager.panelState.content = content;
+            content.render();
         }
-        if (UIStateManager.panelState.isOpen && !UIStateManager.isMobile) {
-            UIStateManager.closePanel();
-        }
-    } else {
-        activeStation.setActive();
-        UIStateManager.openPanel();
-        
-        const content = new SidepanelContent(activeStation);
-        UIStateManager.panelState.content = content;
-        content.render();
     }
 });
 
+// Subscribe to map state (routes)
+UIStateManager.subscribe('map', (mapState) => {
+    const activeRoute = mapState.activeRoute;
+    const previousActiveRoute = mapState.previousActiveRoute;
+    if (activeRoute) {
+        activeRoute.show();
+    } else {
+        if (previousActiveRoute) {
+            previousActiveRoute.hide();
+        }
+        railwayNetwork.show();
+        stations.forEach(station => {
+            station.show();
+        });
+        closeRoutes();
+    }
+});
+
+
+
+
 // Returns routes data connected to given station
+
 export function getRoutesByStation(stationCode) {
     let routes = [];
     routesList.forEach(route => {
@@ -384,17 +373,20 @@ function closeRoutes() {
 
 // Click on the map
 // TODO: Refactor this
-map.addEventListener('click', () => {
-    UIStateManager.updateMapState({ activeStation: null });
-    if (activeRoute.length > 0) {
-        hideActiveRoute();
+map.addEventListener('click', () => {   
+    if ((UIStateManager.panelState.isOpen || UIStateManager.isMobile) && UIStateManager.mapState.activeRoute) {
+        const otherRouteLine = document.querySelector(".route-line.active");
+        const otherRouteMoreInfo = otherRouteLine.querySelector(".route-more-info.active");
+        const otherRouteShow = otherRouteLine.querySelector(".route-show.active");
+        otherRouteLine.classList.remove("active");
+        otherRouteMoreInfo.classList.remove("active");
+        otherRouteShow.classList.remove("active");
     }
-    const otherRouteLine = document.querySelector(".route-line.active");
-    const otherRouteMoreInfo = otherRouteLine.querySelector(".route-more-info");
-    const otherRouteShow = otherRouteLine.querySelector(".route-show");
-    otherRouteLine.classList.remove("active");
-    otherRouteMoreInfo.classList.remove("active");
-    otherRouteShow.classList.remove("active");
+    UIStateManager.updateMapState({ activeStation: null });
+    if (UIStateManager.mapState.activeRoute) {
+        UIStateManager.updateMapState({ activeRoute: null, previousActiveRoute: UIStateManager.mapState.activeRoute });
+    }
+
 })
 
 // Show railway network
