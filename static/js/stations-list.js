@@ -39,6 +39,32 @@ export const stations = [
       "gr_code": 57760
    },
    {
+      "id": 12579133939,
+      "coords": [
+         42.20047,
+         42.6597418
+      ],
+      "code": "brotseula",
+      "type": "secondary",
+      "name_en": "Brotseula",
+      "name_ka": "უცნობი სადგური",
+      "name_ru": "Броцеула",
+      "gr_code": 57461
+   },
+   {
+      "id": 11142332818,
+      "coords": [
+         41.7337699,
+         41.7324893
+      ],
+      "code": "chakvi",
+      "type": "secondary",
+      "name_en": "Chakvi",
+      "name_ka": "ჩაქვი",
+      "name_ru": "Чакви",
+      "gr_code": "00000"
+   },
+   {
       "id": 11139961453,
       "coords": [
          42.2222951,
@@ -63,6 +89,19 @@ export const stations = [
       "name_ka": "უცნობი სადგური",
       "name_ru": "Чиатура",
       "gr_code": "00000"
+   },
+   {
+      "id": 12579177069,
+      "coords": [
+         42.079406,
+         43.1583048
+      ],
+      "code": "dzirula",
+      "type": "secondary",
+      "name_en": "Dzirula",
+      "name_ka": "ძირულა",
+      "name_ru": "Дзирула",
+      "gr_code": 57670
    },
    {
       "id": 11001501786,
@@ -161,11 +200,11 @@ export const stations = [
          42.0108795,
          43.2099969
       ],
-      "code": "kharagouli",
+      "code": "kharagauli",
       "type": "secondary",
-      "name_en": "Kharagouli",
+      "name_en": "Kharagauli",
       "name_ka": "ხარაგაული",
-      "name_ru": "Харагоули",
+      "name_ru": "Харагаули",
       "gr_code": 57680
    },
    {
@@ -180,19 +219,6 @@ export const stations = [
       "name_ka": "ხაშური",
       "name_ru": "Хашури",
       "gr_code": 57720
-   },
-   {
-      "id": 3065990612,
-      "coords": [
-         42.3636424,
-         41.8359509
-      ],
-      "code": "kheta",
-      "type": "secondary",
-      "name_en": "Kheta",
-      "name_ka": "ხეთა",
-      "name_ru": "Хета",
-      "gr_code": 57252
    },
    {
       "id": 2520906203,
@@ -269,8 +295,34 @@ export const stations = [
       "type": "secondary",
       "name_en": "Lanchkhuti",
       "name_ka": "უცნობი სადგური",
-      "name_ru": "Ланчхути",
+      "name_ru": "неизвестная станция",
       "gr_code": 57040
+   },
+   {
+      "id": 12579269032,
+      "coords": [
+         41.9758643,
+         43.5095206
+      ],
+      "code": "likhi",
+      "type": "secondary",
+      "name_en": "Likhi",
+      "name_ka": "ლიხი",
+      "name_ru": "Лихи",
+      "gr_code": 57713
+   },
+   {
+      "id": 12579133942,
+      "coords": [
+         41.6773664,
+         41.6963963
+      ],
+      "code": "makhinjauri",
+      "type": "secondary",
+      "name_en": "Makhinjauri",
+      "name_ka": "მახინჯაური",
+      "name_ru": "Махинджаури",
+      "gr_code": "00000"
    },
    {
       "id": 11139961502,
@@ -349,6 +401,19 @@ export const stations = [
       "name_ka": "უცნობი სადგური",
       "name_ru": "Нигоити",
       "gr_code": 57030
+   },
+   {
+      "id": 11142332824,
+      "coords": [
+         41.8571143,
+         41.8295925
+      ],
+      "code": "ochkhamuri",
+      "type": "secondary",
+      "name_en": "Ochkhamuri",
+      "name_ka": "ოჩხამური",
+      "name_ru": "Очхамури",
+      "gr_code": 57110
    },
    {
       "id": 10780567207,
@@ -439,6 +504,19 @@ export const stations = [
       "name_en": "Sachkhere",
       "name_ka": "უცნობი სადგური",
       "name_ru": "Сачхере",
+      "gr_code": "00000"
+   },
+   {
+      "id": 11139961452,
+      "coords": [
+         42.1039505,
+         42.2919089
+      ],
+      "code": "sajavakho",
+      "type": "secondary",
+      "name_en": "Sajavakho",
+      "name_ka": "უცნობი სადგური",
+      "name_ru": "Саджавахо",
       "gr_code": "00000"
    },
    {
@@ -570,18 +648,5 @@ export const stations = [
       "name_ka": "ზუგდიდი",
       "name_ru": "Зугдиди",
       "gr_code": 57290
-   },
-   {
-      "id": 11139961498,
-      "coords": [
-         41.9813395,
-         43.3667159
-      ],
-      "code": "unknownstation",
-      "type": "secondary",
-      "name_en": "unknown station",
-      "name_ka": "უცნობი სადგური",
-      "name_ru": "неизвестная станция",
-      "gr_code": "00000"
    }
 ]

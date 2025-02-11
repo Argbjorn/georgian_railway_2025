@@ -48,7 +48,7 @@ export const routesList = [
          {
             "code": "ozurgeti",
             "role": "start",
-            "time": "06:20",
+            "time": "07:15",
             "name_en": "Ozurgeti",
             "name_ru": "Озургети",
             "name_ka": "ოზურგეთი"
@@ -64,7 +64,7 @@ export const routesList = [
          {
             "code": "batumicentral",
             "role": "end",
-            "time": "08:36",
+            "time": "09:33",
             "name_en": "Batumi-Central",
             "name_ru": "Батуми-Пассажирская",
             "name_ka": "ბათუმი-ცენტრალი"
@@ -224,7 +224,7 @@ export const routesList = [
          {
             "code": "batumicentral",
             "role": "end",
-            "time": "10:49",
+            "time": "10:39",
             "name_en": "Batumi-Central",
             "name_ru": "Батуми-Пассажирская",
             "name_ka": "ბათუმი-ცენტრალი"
@@ -244,10 +244,26 @@ export const routesList = [
          {
             "code": "batumicentral",
             "role": "start",
-            "time": "08:50",
+            "time": "09:50",
             "name_en": "Batumi-Central",
             "name_ru": "Батуми-Пассажирская",
             "name_ka": "ბათუმი-ცენტრალი"
+         },
+         {
+            "code": "makhinjauri",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Makhinjauri",
+            "name_ru": "Махинджаури",
+            "name_ka": "მახინჯაური"
+         },
+         {
+            "code": "chakvi",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Chakvi",
+            "name_ru": "Чакви",
+            "name_ka": "ჩაქვი"
          },
          {
             "code": "kobuleti",
@@ -258,12 +274,68 @@ export const routesList = [
             "name_ka": "ქობულეთი"
          },
          {
+            "code": "ochkhamuri",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Ochkhamuri",
+            "name_ru": "Очхамури",
+            "name_ka": "ოჩხამური"
+         },
+         {
+            "code": "natanebi",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Natanebi",
+            "name_ru": "Натанеби",
+            "name_ka": "უცნობი სადგური"
+         },
+         {
             "code": "ureki",
             "role": "middle",
             "time": "nn:nn",
             "name_en": "Ureki",
             "name_ru": "Уреки",
             "name_ka": "ურეკი"
+         },
+         {
+            "code": "supsa",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Supsa",
+            "name_ru": "Супса",
+            "name_ka": "უცნობი სადგური"
+         },
+         {
+            "code": "jumati",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Jumati",
+            "name_ru": "Джумати",
+            "name_ka": "უცნობი სადგური"
+         },
+         {
+            "code": "lanchkhuti",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Lanchkhuti",
+            "name_ru": "неизвестная станция",
+            "name_ka": "უცნობი სადგური"
+         },
+         {
+            "code": "nigoiti",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Nigoiti",
+            "name_ru": "Нигоити",
+            "name_ka": "უცნობი სადგური"
+         },
+         {
+            "code": "sajavakho",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Sajavakho",
+            "name_ru": "Саджавахо",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "samtredia1",
@@ -274,9 +346,41 @@ export const routesList = [
             "name_ka": "სამტრედია-1"
          },
          {
+            "code": "samtredia2",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "unknown station",
+            "name_ru": "неизвестная станция",
+            "name_ka": "unknown station"
+         },
+         {
+            "code": "kutaisiinternationalairport",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Kutaisi International Airport",
+            "name_ru": "Международный аэропорт Кутаиси",
+            "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
+         },
+         {
+            "code": "brotseula",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Brotseula",
+            "name_ru": "Броцеула",
+            "name_ka": "უცნობი სადგური"
+         },
+         {
+            "code": "rioni",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Rioni",
+            "name_ru": "Риони",
+            "name_ka": "რიონი"
+         },
+         {
             "code": "kutaisi1",
             "role": "end",
-            "time": "13:17",
+            "time": "14:10",
             "name_en": "Kutaisi-1",
             "name_ru": "Кутаиси-1",
             "name_ka": "ქუთაისი-1"
@@ -290,7 +394,7 @@ export const routesList = [
       "name:en": "Kutaisi → Batumi",
       "name:ru": "Кутаиси → Батуми",
       "frequency": "daily",
-      "complete": false,
+      "complete": true,
       "online": false,
       "stations": [
          {
@@ -302,28 +406,132 @@ export const routesList = [
             "name_ka": "ქუთაისი-1"
          },
          {
+            "code": "rioni",
+            "role": "middle",
+            "time": "16:20",
+            "name_en": "Rioni",
+            "name_ru": "Риони",
+            "name_ka": "რიონი"
+         },
+         {
+            "code": "brotseula",
+            "role": "middle",
+            "time": "16:36",
+            "name_en": "Brotseula",
+            "name_ru": "Броцеула",
+            "name_ka": "უცნობი სადგური"
+         },
+         {
+            "code": "kutaisiinternationalairport",
+            "role": "middle",
+            "time": "16:56",
+            "name_en": "Kutaisi International Airport",
+            "name_ru": "Международный аэропорт Кутаиси",
+            "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
+         },
+         {
+            "code": "samtredia2",
+            "role": "middle",
+            "time": "17:09",
+            "name_en": "unknown station",
+            "name_ru": "неизвестная станция",
+            "name_ka": "unknown station"
+         },
+         {
             "code": "samtredia1",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "17:17",
             "name_en": "Samtredia-1",
             "name_ru": "Самтредиа-1",
             "name_ka": "სამტრედია-1"
          },
          {
+            "code": "sajavakho",
+            "role": "middle",
+            "time": "17:35",
+            "name_en": "Sajavakho",
+            "name_ru": "Саджавахо",
+            "name_ka": "უცნობი სადგური"
+         },
+         {
+            "code": "nigoiti",
+            "role": "middle",
+            "time": "17:56",
+            "name_en": "Nigoiti",
+            "name_ru": "Нигоити",
+            "name_ka": "უცნობი სადგური"
+         },
+         {
+            "code": "lanchkhuti",
+            "role": "middle",
+            "time": "18:10",
+            "name_en": "Lanchkhuti",
+            "name_ru": "неизвестная станция",
+            "name_ka": "უცნობი სადგური"
+         },
+         {
+            "code": "jumati",
+            "role": "middle",
+            "time": "18:30",
+            "name_en": "Jumati",
+            "name_ru": "Джумати",
+            "name_ka": "უცნობი სადგური"
+         },
+         {
+            "code": "supsa",
+            "role": "middle",
+            "time": "18:46",
+            "name_en": "Supsa",
+            "name_ru": "Супса",
+            "name_ka": "უცნობი სადგური"
+         },
+         {
             "code": "ureki",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "18:58",
             "name_en": "Ureki",
             "name_ru": "Уреки",
             "name_ka": "ურეკი"
          },
          {
+            "code": "natanebi",
+            "role": "middle",
+            "time": "19:11",
+            "name_en": "Natanebi",
+            "name_ru": "Натанеби",
+            "name_ka": "უცნობი სადგური"
+         },
+         {
+            "code": "ochkhamuri",
+            "role": "middle",
+            "time": "19:27",
+            "name_en": "Ochkhamuri",
+            "name_ru": "Очхамури",
+            "name_ka": "ოჩხამური"
+         },
+         {
             "code": "kobuleti",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "19:41",
             "name_en": "Kobuleti",
             "name_ru": "Кобулети",
             "name_ka": "ქობულეთი"
+         },
+         {
+            "code": "chakvi",
+            "role": "middle",
+            "time": "20:01",
+            "name_en": "Chakvi",
+            "name_ru": "Чакви",
+            "name_ka": "ჩაქვი"
+         },
+         {
+            "code": "makhinjauri",
+            "role": "middle",
+            "time": "20:21",
+            "name_en": "Makhinjauri",
+            "name_ru": "Махинджаури",
+            "name_ka": "მახინჯაური"
          },
          {
             "code": "batumicentral",
@@ -670,7 +878,7 @@ export const routesList = [
             "role": "middle",
             "time": "10:32",
             "name_en": "Lanchkhuti",
-            "name_ru": "Ланчхути",
+            "name_ru": "неизвестная станция",
             "name_ka": "უცნობი სადგური"
          },
          {
@@ -730,11 +938,19 @@ export const routesList = [
             "name_ka": "ზესტაფონი"
          },
          {
-            "code": "kharagouli",
+            "code": "dzirula",
+            "role": "middle",
+            "time": "12:33",
+            "name_en": "Dzirula",
+            "name_ru": "Дзирула",
+            "name_ka": "ძირულა"
+         },
+         {
+            "code": "kharagauli",
             "role": "middle",
             "time": "12:47",
-            "name_en": "Kharagouli",
-            "name_ru": "Харагоули",
+            "name_en": "Kharagauli",
+            "name_ru": "Харагаули",
             "name_ka": "ხარაგაული"
          },
          {
@@ -886,20 +1102,20 @@ export const routesList = [
             "name_ka": "მარელისი"
          },
          {
-            "code": "kharagouli",
+            "code": "kharagauli",
             "role": "middle",
             "time": "12:04",
-            "name_en": "Kharagouli",
-            "name_ru": "Харагоули",
+            "name_en": "Kharagauli",
+            "name_ru": "Харагаули",
             "name_ka": "ხარაგაული"
          },
          {
             "code": "dzirula",
             "role": "middle",
             "time": "12:19",
-            "name_en": "unknown station",
-            "name_ru": "неизвестная станция",
-            "name_ka": "unknown station"
+            "name_en": "Dzirula",
+            "name_ru": "Дзирула",
+            "name_ka": "ძირულა"
          },
          {
             "code": "zestafoni",
@@ -962,7 +1178,7 @@ export const routesList = [
             "role": "middle",
             "time": "14:24",
             "name_en": "Lanchkhuti",
-            "name_ru": "Ланчхути",
+            "name_ru": "неизвестная станция",
             "name_ka": "უცნობი სადგური"
          },
          {
@@ -1052,7 +1268,7 @@ export const routesList = [
          {
             "code": "zugdidi",
             "role": "start",
-            "time": "17:20",
+            "time": "16:55",
             "name_en": "Zugdidi",
             "name_ru": "Зугдиди",
             "name_ka": "ზუგდიდი"
@@ -1060,23 +1276,15 @@ export const routesList = [
          {
             "code": "ingiri",
             "role": "middle",
-            "time": "17:33",
+            "time": "17:08",
             "name_en": "Ingiri",
             "name_ru": "Ингири",
             "name_ka": "უცნობი სადგური"
          },
          {
-            "code": "kheta",
-            "role": "middle",
-            "time": "17:46",
-            "name_en": "Kheta",
-            "name_ru": "Хета",
-            "name_ka": "ხეთა"
-         },
-         {
             "code": "khobi",
             "role": "middle",
-            "time": "18:05",
+            "time": "17:55",
             "name_en": "Khobi",
             "name_ru": "Хоби",
             "name_ka": "ხობი"
@@ -1084,7 +1292,7 @@ export const routesList = [
          {
             "code": "senaki",
             "role": "middle",
-            "time": "18:25",
+            "time": "18:15",
             "name_en": "Senaki",
             "name_ru": "Сенаки",
             "name_ka": "სენაკი"
@@ -1092,7 +1300,7 @@ export const routesList = [
          {
             "code": "abasha",
             "role": "middle",
-            "time": "18:48",
+            "time": "18:38",
             "name_en": "Abasha",
             "name_ru": "Абаша",
             "name_ka": "აბაშა"
@@ -1100,7 +1308,7 @@ export const routesList = [
          {
             "code": "samtredia1",
             "role": "middle",
-            "time": "19:05",
+            "time": "18:56",
             "name_en": "Samtredia-1",
             "name_ru": "Самтредиа-1",
             "name_ka": "სამტრედია-1"
@@ -1108,7 +1316,7 @@ export const routesList = [
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "19:21",
+            "time": "19:14",
             "name_en": "Kutaisi International Airport",
             "name_ru": "Международный аэропорт Кутаиси",
             "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
@@ -1116,7 +1324,7 @@ export const routesList = [
          {
             "code": "rioni",
             "role": "middle",
-            "time": "19:37",
+            "time": "19:31",
             "name_en": "Rioni",
             "name_ru": "Риони",
             "name_ka": "რიონი"
@@ -1124,31 +1332,39 @@ export const routesList = [
          {
             "code": "zestafoni",
             "role": "middle",
-            "time": "20:08",
+            "time": "20:04",
             "name_en": "Zestafoni",
             "name_ru": "Зестафони",
             "name_ka": "ზესტაფონი"
          },
          {
-            "code": "kharagouli",
+            "code": "kharagauli",
             "role": "middle",
-            "time": "20:36",
-            "name_en": "Kharagouli",
-            "name_ru": "Харагоули",
+            "time": "20:34",
+            "name_en": "Kharagauli",
+            "name_ru": "Харагаули",
             "name_ka": "ხარაგაული"
          },
          {
-            "code": "tsipa",
+            "code": "marelisi",
             "role": "middle",
-            "time": "nn:nn",
-            "name_en": "Tsipa",
-            "name_ru": "Ципа",
-            "name_ka": "წიფა"
+            "time": "20:55",
+            "name_en": "Marelisi",
+            "name_ru": "Марелиси",
+            "name_ka": "მარელისი"
+         },
+         {
+            "code": "moliti",
+            "role": "middle",
+            "time": "21:07",
+            "name_en": "Moliti",
+            "name_ru": "Молити",
+            "name_ka": "მოლითი"
          },
          {
             "code": "khashuri",
             "role": "middle",
-            "time": "21:38",
+            "time": "21:49",
             "name_en": "Khashuri",
             "name_ru": "Хашури",
             "name_ka": "ხაშური"
@@ -1156,7 +1372,7 @@ export const routesList = [
          {
             "code": "gori",
             "role": "middle",
-            "time": "22:16",
+            "time": "22:28",
             "name_en": "Gori",
             "name_ru": "Гори",
             "name_ka": "გორი"
@@ -1164,7 +1380,7 @@ export const routesList = [
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "time": "23:32",
+            "time": "23:37",
             "name_en": "Tbilisi Central Station",
             "name_ru": "Центральный вокзал Тбилиси",
             "name_ka": "თბილისის ცენტრალური სადგური"
@@ -1192,7 +1408,7 @@ export const routesList = [
          {
             "code": "gori",
             "role": "middle",
-            "time": "09:16",
+            "time": "09:20",
             "name_en": "Gori",
             "name_ru": "Гори",
             "name_ka": "გორი"
@@ -1200,7 +1416,7 @@ export const routesList = [
          {
             "code": "khashuri",
             "role": "middle",
-            "time": "09:50",
+            "time": "09:56",
             "name_en": "Khashuri",
             "name_ru": "Хашури",
             "name_ka": "ხაშური"
@@ -1208,23 +1424,39 @@ export const routesList = [
          {
             "code": "tsipa",
             "role": "middle",
-            "time": "10:19",
+            "time": "10:33",
             "name_en": "Tsipa",
             "name_ru": "Ципа",
             "name_ka": "წიფა"
          },
          {
-            "code": "kharagouli",
+            "code": "moliti",
             "role": "middle",
-            "time": "11:01",
-            "name_en": "Kharagouli",
-            "name_ru": "Харагоули",
+            "time": "10:49",
+            "name_en": "Moliti",
+            "name_ru": "Молити",
+            "name_ka": "მოლითი"
+         },
+         {
+            "code": "marelisi",
+            "role": "middle",
+            "time": "11:03",
+            "name_en": "Marelisi",
+            "name_ru": "Марелиси",
+            "name_ka": "მარელისი"
+         },
+         {
+            "code": "kharagauli",
+            "role": "middle",
+            "time": "11:18",
+            "name_en": "Kharagauli",
+            "name_ru": "Харагаули",
             "name_ka": "ხარაგაული"
          },
          {
             "code": "zestafoni",
             "role": "middle",
-            "time": "11:28",
+            "time": "11:50",
             "name_en": "Zestafoni",
             "name_ru": "Зестафони",
             "name_ka": "ზესტაფონი"
@@ -1232,7 +1464,7 @@ export const routesList = [
          {
             "code": "rioni",
             "role": "middle",
-            "time": "11:59",
+            "time": "12:26",
             "name_en": "Rioni",
             "name_ru": "Риони",
             "name_ka": "რიონი"
@@ -1240,7 +1472,7 @@ export const routesList = [
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "12:20",
+            "time": "12:48",
             "name_en": "Kutaisi International Airport",
             "name_ru": "Международный аэропорт Кутаиси",
             "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
@@ -1248,7 +1480,7 @@ export const routesList = [
          {
             "code": "samtredia1",
             "role": "middle",
-            "time": "12:33",
+            "time": "13:03",
             "name_en": "Samtredia-1",
             "name_ru": "Самтредиа-1",
             "name_ka": "სამტრედია-1"
@@ -1256,7 +1488,7 @@ export const routesList = [
          {
             "code": "abasha",
             "role": "middle",
-            "time": "12:55",
+            "time": "13:26",
             "name_en": "Abasha",
             "name_ru": "Абаша",
             "name_ka": "აბაშა"
@@ -1264,7 +1496,7 @@ export const routesList = [
          {
             "code": "senaki",
             "role": "middle",
-            "time": "13:12",
+            "time": "13:43",
             "name_en": "Senaki",
             "name_ru": "Сенаки",
             "name_ka": "სენაკი"
@@ -1272,23 +1504,15 @@ export const routesList = [
          {
             "code": "khobi",
             "role": "middle",
-            "time": "13:34",
+            "time": "14:06",
             "name_en": "Khobi",
             "name_ru": "Хоби",
             "name_ka": "ხობი"
          },
          {
-            "code": "kheta",
-            "role": "middle",
-            "time": "13:46",
-            "name_en": "Kheta",
-            "name_ru": "Хета",
-            "name_ka": "ხეთა"
-         },
-         {
             "code": "ingiri",
             "role": "middle",
-            "time": "14:05",
+            "time": "14:52",
             "name_en": "Ingiri",
             "name_ru": "Ингири",
             "name_ka": "უცნობი სადგური"
@@ -1296,7 +1520,7 @@ export const routesList = [
          {
             "code": "zugdidi",
             "role": "end",
-            "time": "14:33",
+            "time": "15:08",
             "name_en": "Zugdidi",
             "name_ru": "Зугдиди",
             "name_ka": "ზუგდიდი"
@@ -1324,7 +1548,7 @@ export const routesList = [
          {
             "code": "chaladidi",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "07:18",
             "name_en": "Chaladidi",
             "name_ru": "Чаладиди",
             "name_ka": "ჭალადიდი"
@@ -1332,7 +1556,7 @@ export const routesList = [
          {
             "code": "kvaloni",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "07:32",
             "name_en": "Kvaloni",
             "name_ru": "Квалони",
             "name_ka": "უცნობი სადგური"
@@ -1340,7 +1564,7 @@ export const routesList = [
          {
             "code": "senaki",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "07:44",
             "name_en": "Senaki",
             "name_ru": "Сенаки",
             "name_ka": "სენაკი"
@@ -1348,7 +1572,7 @@ export const routesList = [
          {
             "code": "abasha",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "08:07",
             "name_en": "Abasha",
             "name_ru": "Абаша",
             "name_ka": "აბაშა"
@@ -1356,7 +1580,7 @@ export const routesList = [
          {
             "code": "samtredia1",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "08:25",
             "name_en": "Samtredia-1",
             "name_ru": "Самтредиа-1",
             "name_ka": "სამტრედია-1"
@@ -1364,7 +1588,7 @@ export const routesList = [
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "08:43",
             "name_en": "Kutaisi International Airport",
             "name_ru": "Международный аэропорт Кутаиси",
             "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
@@ -1372,7 +1596,7 @@ export const routesList = [
          {
             "code": "rioni",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "09:00",
             "name_en": "Rioni",
             "name_ru": "Риони",
             "name_ka": "რიონი"
@@ -1380,23 +1604,39 @@ export const routesList = [
          {
             "code": "zestafoni",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "09:28",
             "name_en": "Zestafoni",
             "name_ru": "Зестафони",
             "name_ka": "ზესტაფონი"
          },
          {
-            "code": "unknownstation",
+            "code": "kharagauli",
             "role": "middle",
-            "time": "nn:nn",
-            "name_en": "unknown station",
-            "name_ru": "неизвестная станция",
-            "name_ka": "უცნობი სადგური"
+            "time": "09:58",
+            "name_en": "Kharagauli",
+            "name_ru": "Харагаули",
+            "name_ka": "ხარაგაული"
+         },
+         {
+            "code": "marelisi",
+            "role": "middle",
+            "time": "10:19",
+            "name_en": "Marelisi",
+            "name_ru": "Марелиси",
+            "name_ka": "მარელისი"
+         },
+         {
+            "code": "moliti",
+            "role": "middle",
+            "time": "10:31",
+            "name_en": "Moliti",
+            "name_ru": "Молити",
+            "name_ka": "მოლითი"
          },
          {
             "code": "khashuri",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "11:13",
             "name_en": "Khashuri",
             "name_ru": "Хашури",
             "name_ka": "ხაშური"
@@ -1404,7 +1644,7 @@ export const routesList = [
          {
             "code": "gori",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "11:53",
             "name_en": "Gori",
             "name_ru": "Гори",
             "name_ka": "გორი"
@@ -1440,7 +1680,7 @@ export const routesList = [
          {
             "code": "gori",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "18:30",
             "name_en": "Gori",
             "name_ru": "Гори",
             "name_ka": "გორი"
@@ -1448,7 +1688,7 @@ export const routesList = [
          {
             "code": "khashuri",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "19:06",
             "name_en": "Khashuri",
             "name_ru": "Хашури",
             "name_ka": "ხაშური"
@@ -1456,23 +1696,31 @@ export const routesList = [
          {
             "code": "tsipa",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "19:43",
             "name_en": "Tsipa",
             "name_ru": "Ципа",
             "name_ka": "წიფა"
          },
          {
-            "code": "unknownstation",
+            "code": "moliti",
             "role": "middle",
-            "time": "nn:nn",
-            "name_en": "unknown station",
-            "name_ru": "неизвестная станция",
-            "name_ka": "უცნობი სადგური"
+            "time": "19:59",
+            "name_en": "Moliti",
+            "name_ru": "Молити",
+            "name_ka": "მოლითი"
+         },
+         {
+            "code": "kharagauli",
+            "role": "middle",
+            "time": "20:28",
+            "name_en": "Kharagauli",
+            "name_ru": "Харагаули",
+            "name_ka": "ხარაგაული"
          },
          {
             "code": "zestafoni",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "21:00",
             "name_en": "Zestafoni",
             "name_ru": "Зестафони",
             "name_ka": "ზესტაფონი"
@@ -1480,7 +1728,7 @@ export const routesList = [
          {
             "code": "rioni",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "21:36",
             "name_en": "Rioni",
             "name_ru": "Риони",
             "name_ka": "რიონი"
@@ -1488,7 +1736,7 @@ export const routesList = [
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "21:53",
             "name_en": "Kutaisi International Airport",
             "name_ru": "Международный аэропорт Кутаиси",
             "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
@@ -1496,7 +1744,7 @@ export const routesList = [
          {
             "code": "samtredia1",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "22:08",
             "name_en": "Samtredia-1",
             "name_ru": "Самтредиа-1",
             "name_ka": "სამტრედია-1"
@@ -1504,7 +1752,7 @@ export const routesList = [
          {
             "code": "abasha",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "22:31",
             "name_en": "Abasha",
             "name_ru": "Абаша",
             "name_ka": "აბაშა"
@@ -1512,7 +1760,7 @@ export const routesList = [
          {
             "code": "senaki",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "22:48",
             "name_en": "Senaki",
             "name_ru": "Сенаки",
             "name_ka": "სენაკი"
@@ -1520,7 +1768,7 @@ export const routesList = [
          {
             "code": "kvaloni",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "23:03",
             "name_en": "Kvaloni",
             "name_ru": "Квалони",
             "name_ka": "უცნობი სადგური"
@@ -1528,7 +1776,7 @@ export const routesList = [
          {
             "code": "chaladidi",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "23:17",
             "name_en": "Chaladidi",
             "name_ru": "Чаладиди",
             "name_ka": "ჭალადიდი"
@@ -1806,29 +2054,69 @@ export const routesList = [
       "name:en": "Zestafoni → Khashuri",
       "name:ru": "Зестафони → Хашури",
       "frequency": "daily",
-      "complete": false,
+      "complete": true,
       "online": false,
       "stations": [
          {
             "code": "zestafoni",
             "role": "start",
-            "time": "06:45",
+            "time": "07:00",
             "name_en": "Zestafoni",
             "name_ru": "Зестафони",
             "name_ka": "ზესტაფონი"
          },
          {
-            "code": "kharagouli",
+            "code": "dzirula",
             "role": "middle",
-            "time": "nn:nn",
-            "name_en": "Kharagouli",
-            "name_ru": "Харагоули",
+            "time": "07:20",
+            "name_en": "Dzirula",
+            "name_ru": "Дзирула",
+            "name_ka": "ძირულა"
+         },
+         {
+            "code": "kharagauli",
+            "role": "middle",
+            "time": "07:44",
+            "name_en": "Kharagauli",
+            "name_ru": "Харагаули",
             "name_ka": "ხარაგაული"
+         },
+         {
+            "code": "marelisi",
+            "role": "middle",
+            "time": "08:07",
+            "name_en": "Marelisi",
+            "name_ru": "Марелиси",
+            "name_ka": "მარელისი"
+         },
+         {
+            "code": "moliti",
+            "role": "middle",
+            "time": "08:23",
+            "name_en": "Moliti",
+            "name_ru": "Молити",
+            "name_ka": "მოლითი"
+         },
+         {
+            "code": "tsipa",
+            "role": "middle",
+            "time": "08:39",
+            "name_en": "Tsipa",
+            "name_ru": "Ципа",
+            "name_ka": "წიფა"
+         },
+         {
+            "code": "likhi",
+            "role": "middle",
+            "time": "08:58",
+            "name_en": "Likhi",
+            "name_ru": "Лихи",
+            "name_ka": "ლიხი"
          },
          {
             "code": "khashuri",
             "role": "end",
-            "time": "09:09",
+            "time": "09:23",
             "name_en": "Khashuri",
             "name_ru": "Хашури",
             "name_ka": "ხაშური"
@@ -1842,7 +2130,7 @@ export const routesList = [
       "name:en": "Khashuri → Zestafoni",
       "name:ru": "Хашури → Зестафони",
       "frequency": "daily",
-      "complete": false,
+      "complete": true,
       "online": false,
       "stations": [
          {
@@ -1854,12 +2142,52 @@ export const routesList = [
             "name_ka": "ხაშური"
          },
          {
-            "code": "kharagouli",
+            "code": "likhi",
             "role": "middle",
-            "time": "nn:nn",
-            "name_en": "Kharagouli",
-            "name_ru": "Харагоули",
+            "time": "17:46",
+            "name_en": "Likhi",
+            "name_ru": "Лихи",
+            "name_ka": "ლიხი"
+         },
+         {
+            "code": "tsipa",
+            "role": "middle",
+            "time": "18:05",
+            "name_en": "Tsipa",
+            "name_ru": "Ципа",
+            "name_ka": "წიფა"
+         },
+         {
+            "code": "moliti",
+            "role": "middle",
+            "time": "18:25",
+            "name_en": "Moliti",
+            "name_ru": "Молити",
+            "name_ka": "მოლითი"
+         },
+         {
+            "code": "marelisi",
+            "role": "middle",
+            "time": "18:43",
+            "name_en": "Marelisi",
+            "name_ru": "Марелиси",
+            "name_ka": "მარელისი"
+         },
+         {
+            "code": "kharagauli",
+            "role": "middle",
+            "time": "19:05",
+            "name_en": "Kharagauli",
+            "name_ru": "Харагаули",
             "name_ka": "ხარაგაული"
+         },
+         {
+            "code": "dzirula",
+            "role": "middle",
+            "time": "19:30",
+            "name_en": "Dzirula",
+            "name_ru": "Дзирула",
+            "name_ka": "ძირულა"
          },
          {
             "code": "zestafoni",
@@ -1878,29 +2206,69 @@ export const routesList = [
       "name:en": "Khashuri → Zestafoni",
       "name:ru": "Хашури → Зестафони",
       "frequency": "daily",
-      "complete": false,
+      "complete": true,
       "online": false,
       "stations": [
          {
             "code": "khashuri",
             "role": "start",
-            "time": "06:45",
+            "time": "07:00",
             "name_en": "Khashuri",
             "name_ru": "Хашури",
             "name_ka": "ხაშური"
          },
          {
-            "code": "kharagouli",
+            "code": "likhi",
             "role": "middle",
-            "time": "nn:nn",
-            "name_en": "Kharagouli",
-            "name_ru": "Харагоули",
+            "time": "07:21",
+            "name_en": "Likhi",
+            "name_ru": "Лихи",
+            "name_ka": "ლიხი"
+         },
+         {
+            "code": "tsipa",
+            "role": "middle",
+            "time": "07:40",
+            "name_en": "Tsipa",
+            "name_ru": "Ципа",
+            "name_ka": "წიფა"
+         },
+         {
+            "code": "moliti",
+            "role": "middle",
+            "time": "08:00",
+            "name_en": "Moliti",
+            "name_ru": "Молити",
+            "name_ka": "მოლითი"
+         },
+         {
+            "code": "marelisi",
+            "role": "middle",
+            "time": "08:18",
+            "name_en": "Marelisi",
+            "name_ru": "Марелиси",
+            "name_ka": "მარელისი"
+         },
+         {
+            "code": "kharagauli",
+            "role": "middle",
+            "time": "08:40",
+            "name_en": "Kharagauli",
+            "name_ru": "Харагаули",
             "name_ka": "ხარაგაული"
+         },
+         {
+            "code": "dzirula",
+            "role": "middle",
+            "time": "09:06",
+            "name_en": "Dzirula",
+            "name_ru": "Дзирула",
+            "name_ka": "ძირულა"
          },
          {
             "code": "zestafoni",
             "role": "end",
-            "time": "09:13",
+            "time": "09:28",
             "name_en": "Zestafoni",
             "name_ru": "Зестафони",
             "name_ka": "ზესტაფონი"
@@ -1926,12 +2294,52 @@ export const routesList = [
             "name_ka": "ზესტაფონი"
          },
          {
-            "code": "kharagouli",
+            "code": "dzirula",
             "role": "middle",
             "time": "nn:nn",
-            "name_en": "Kharagouli",
-            "name_ru": "Харагоули",
+            "name_en": "Dzirula",
+            "name_ru": "Дзирула",
+            "name_ka": "ძირულა"
+         },
+         {
+            "code": "kharagauli",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Kharagauli",
+            "name_ru": "Харагаули",
             "name_ka": "ხარაგაული"
+         },
+         {
+            "code": "marelisi",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Marelisi",
+            "name_ru": "Марелиси",
+            "name_ka": "მარელისი"
+         },
+         {
+            "code": "moliti",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Moliti",
+            "name_ru": "Молити",
+            "name_ka": "მოლითი"
+         },
+         {
+            "code": "tsipa",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Tsipa",
+            "name_ru": "Ципа",
+            "name_ka": "წიფა"
+         },
+         {
+            "code": "likhi",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Likhi",
+            "name_ru": "Лихи",
+            "name_ka": "ლიხი"
          },
          {
             "code": "khashuri",
