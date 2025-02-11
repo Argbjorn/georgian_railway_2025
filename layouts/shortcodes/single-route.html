@@ -1,5 +1,6 @@
-{{ $online := .Get 0 }}
-{{ $lang := .Get 1 }}
+{{ $online_tickets_current_site := .Get 0 }}
+{{ $online_tickets_new_site := .Get 1 }}
+{{ $lang := .Get 2 }}
 {{ $stations := .Page.Params.stations }}
 
 {{ $translations := dict
@@ -10,7 +11,8 @@
         "frequency_two_days" "через день"
         "online_tickets" "Онлайн билеты"
         "available" "доступны на"
-        "official_site" "официальном сайте"
+        "current_site" "официальном сайте"
+        "new_site" "официальном бета-сайте (доступен только с территории Грузии)"
         "not_available" "не доступны"
         "uncomplete_disclaimer" "🚧 У меня нет полного списка станций или времени прибытия для этого маршрута. Его нет и на официальном сайте. Если вы располагаете информацией, пожалуйста, сообщите мне."
         "stations" "Станции"
@@ -23,7 +25,8 @@
         "frequency_two_days" "every second day"
         "online_tickets" "Online tickets"
         "available" "available on the"
-        "official_site" "official website"
+        "current_site" "official website"
+        "new_site" "official website (beta, available only from Georgia)"
         "not_available" "not available"
         "uncomplete_disclaimer" "🚧 I don't have a complete list of stations or arrival times for this route. Neither is it on the official website. If you have any additional information, please let me know."
         "stations" "Stations"
@@ -34,10 +37,18 @@
 {{ $t := index $translations $lang }}
 
 <p>{{ $t.status }}: {{ now.Format "02.01.2006" }}</p>
-<p><strong>{{ $t.frequency }}:</strong> {{ if eq .Page.Params.frequency "daily" }}{{ $t.frequency_daily }}{{ else if eq .Page.Params.frequency "every second day" }}{{ $t.frequency_two_days }}{{ end }} </br>
+<p><strong>{{ $t.frequency }}:</strong> {{ if eq .Page.Params.frequency "daily" }}{{ $t.frequency_daily }}{{ else if eq .Page.Params.frequency "every second day" }}{{ $t.frequency_two_days }}{{ end }} <br>
 <strong>{{ $t.online_tickets }}:</strong> 
-{{ if eq $online "true" }}{{ $t.available }} <a href="https://ticket.railway.ge/" target="_blank">{{ $t.official_site }}</a>
-{{ else }}{{ $t.not_available }}{{ end }}</p>
+{{ if or (eq $online_tickets_current_site "true") (eq $online_tickets_new_site "true") }}
+    {{ $t.available }} 
+    {{ if eq $online_tickets_current_site "true" }}
+        <a href="https://ticket.railway.ge/" target="_blank">{{ $t.current_site }}</a>
+    {{ end }}
+    {{ if eq $online_tickets_new_site "true" }}
+        <a href="https://gr.com.ge/en" target="_blank">{{ $t.new_site }}</a>
+    {{ end }}
+{{ else }}{{ $t.not_available }}
+{{ end }}</p>
 
 <h3>{{ $t.stations }}:</h3>
 {{ if not .Page.Params.complete }}

@@ -8,6 +8,8 @@
       "frequency": "daily",
       "complete": false,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "batumicentral",
@@ -44,6 +46,8 @@
       "frequency": "daily",
       "complete": false,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "ozurgeti",
@@ -80,6 +84,8 @@
       "frequency": "daily",
       "complete": false,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "borjomiparki",
@@ -108,6 +114,8 @@
       "frequency": "daily",
       "complete": false,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -136,6 +144,8 @@
       "frequency": "daily",
       "complete": false,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "batumicentral",
@@ -188,6 +198,8 @@
       "frequency": "daily",
       "complete": false,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "kutaisi1",
@@ -240,6 +252,8 @@
       "frequency": "daily",
       "complete": false,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "batumicentral",
@@ -396,6 +410,8 @@
       "frequency": "daily",
       "complete": true,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "kutaisi1",
@@ -552,6 +568,8 @@
       "frequency": "daily",
       "complete": false,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "borjomiparki",
@@ -580,6 +598,8 @@
       "frequency": "daily",
       "complete": false,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -608,6 +628,8 @@
       "frequency": "daily",
       "complete": true,
       "online": true,
+      "online_tickets_current_site": true,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "batumicentral",
@@ -660,6 +682,8 @@
       "frequency": "daily",
       "complete": true,
       "online": true,
+      "online_tickets_current_site": true,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -712,6 +736,8 @@
       "frequency": "daily",
       "complete": true,
       "online": true,
+      "online_tickets_current_site": true,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "batumicentral",
@@ -764,6 +790,8 @@
       "frequency": "daily",
       "complete": true,
       "online": true,
+      "online_tickets_current_site": true,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -815,7 +843,9 @@
       "name:ru": "Озургети → Тбилиси",
       "frequency": "every second day",
       "complete": true,
-      "online": true,
+      "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": true,
       "stations": [
          {
             "code": "ozurgeti",
@@ -1027,7 +1057,9 @@
       "name:ru": "Тбилиси → Озургети",
       "frequency": "every second day",
       "complete": true,
-      "online": true,
+      "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": true,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -1263,7 +1295,9 @@
       "name:ru": "Зугдиди → Тбилиси",
       "frequency": "daily",
       "complete": true,
-      "online": true,
+      "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": true,
       "stations": [
          {
             "code": "zugdidi",
@@ -1395,7 +1429,9 @@
       "name:ru": "Тбилиси → Зугдиди",
       "frequency": "daily",
       "complete": true,
-      "online": true,
+      "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": true,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -1536,6 +1572,8 @@
       "frequency": "daily",
       "complete": true,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": true,
       "stations": [
          {
             "code": "poti",
@@ -1668,6 +1706,8 @@
       "frequency": "daily",
       "complete": true,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": true,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -1800,6 +1840,8 @@
       "frequency": "every second day",
       "complete": true,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "kutaisi1",
@@ -1828,6 +1870,8 @@
       "frequency": "every second day",
       "complete": true,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "rioni",
@@ -1856,6 +1900,8 @@
       "frequency": "every second day",
       "complete": true,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "kutaisi1",
@@ -1884,6 +1930,8 @@
       "frequency": "every second day",
       "complete": true,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "rioni",
@@ -1912,6 +1960,8 @@
       "frequency": "daily",
       "complete": false,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -1948,6 +1998,8 @@
       "frequency": "daily",
       "complete": false,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "gardabani",
@@ -1984,6 +2036,8 @@
       "frequency": "daily",
       "complete": false,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -2020,6 +2074,8 @@
       "frequency": "daily",
       "complete": false,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "gardabani",
@@ -2056,6 +2112,8 @@
       "frequency": "daily",
       "complete": true,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "zestafoni",
@@ -2132,6 +2190,8 @@
       "frequency": "daily",
       "complete": true,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "khashuri",
@@ -2208,6 +2268,8 @@
       "frequency": "daily",
       "complete": true,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "khashuri",
@@ -2284,6 +2346,8 @@
       "frequency": "daily",
       "complete": false,
       "online": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": false,
       "stations": [
          {
             "code": "zestafoni",

@@ -1,7 +1,7 @@
 {{ range site.Data.routes }}
     {{ $content := dict
         "mediaType" "text/markdown"
-        "value" (printf "{{< single-route \"%v\" \"%v\" >}}" .online "en")
+        "value" (printf "{{< single-route \"%v\" \"%v\" \"%v\" >}}" .online_tickets_current_site .online_tickets_new_site "en")
     }}
     {{ $params := dict 
         "stations" .stations
