@@ -1,0 +1,26 @@
+{{ range site.Data.stations }}
+    {{ $content := dict
+        "mediaType" "text/markdown"
+        "value" (printf "{{< single-station \"%v\" >}}" "en")
+    }}
+    {{ $params := dict 
+        "coords" .coords
+        "code" .code
+        "type" .type
+        "name_en" .name_en
+        "name_ka" .name_ka
+        "name_ru" .name_ru
+        "gr_code" .gr_code
+        "description" .description
+    }}
+    {{ $name := index . "name:en" }}
+    {{ $page := dict
+        "content" $content
+        "description" (printf "Station %s of Georgian railway. Description and timetable." .name_en)
+        "kind" "page"
+        "path" .code
+        "title" .name_en
+        "params" $params
+    }}
+    {{ $.AddPage $page }}
+{{ end }}

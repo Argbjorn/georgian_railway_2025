@@ -32,10 +32,14 @@ menu:
       name: Routes
       pageRef: /routes
       weight: 1
+    - identifier: stations
+      name: Stations
+      pageRef: /stations
+      weight: 2
     - identifier: about
       name: About
       pageRef: /about
-      weight: 2
+      weight: 3
 
 params:
   description: Georgia's train routes on the map and the up-to-date schedule.

@@ -1,0 +1,80 @@
+{{ $lang := .Get 0 }}
+
+<p>{{ .Page.Params.description }}</p>
+
+<div class="station-map-container">
+    <button class="station-map-toggle" onclick="toggleMap()">Показать на карте</button>
+    <div id="station-map" style="height: 400px; width: 100%; margin-top: 10px; display: none;"></div>
+</div>
+
+<style>
+    .station-map-container {
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        margin: 16px 0;
+        padding: 16px;
+        transition: background-color 0.2s ease;
+    }
+    
+    .station-map-toggle {
+        background: none;
+        border: none;
+        padding: 8px 16px;
+        color: #0078A8;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 6px;
+        transition: all 0.2s ease;
+    }
+    
+    .station-map-toggle:hover {
+        background-color: #e9ecef;
+        color: #005580;
+    }
+</style>
+
+<script>
+    let mapInitialized = false;
+    
+    function toggleMap() {
+        const mapDiv = document.getElementById('station-map');
+        const button = document.querySelector('.station-map-toggle');
+        
+        if (mapDiv.style.display === 'none') {
+            mapDiv.style.display = 'block';
+            button.textContent = 'Скрыть карту';
+            
+            if (!mapInitialized) {
+                const map = L.map('station-map').setView([{{ index .Page.Params.coords 0 }}, {{ index .Page.Params.coords 1 }}], 15);
+                
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                }).addTo(map);
+
+                const stationIcon = L.BeautifyIcon.icon({
+                    iconShape: 'circle',
+                    borderColor: '#fff',
+                    textColor: '#c1121f',
+                    iconSize: [25, 25],
+                    isAlphaNumericIcon: true,
+                    text: '',
+                    backgroundColor: '#c1121f',
+                    iconAnchor: [0, 0]
+                });
+
+                L.marker([{{ index .Page.Params.coords 0 }}, {{ index .Page.Params.coords 1 }}], {
+                    icon: stationIcon
+                }).bindTooltip('{{ .Page.Title }}', {offset: [10, 0]}).addTo(map);
+                
+                mapInitialized = true;
+                setTimeout(() => map.invalidateSize(), 100);
+            }
+        } else {
+            mapDiv.style.display = 'none';
+            button.textContent = 'Показать на карте';
+        }
+    }
+</script>
+
+
