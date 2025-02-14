@@ -19,25 +19,29 @@ export const stations = [
                "ref": 869,
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
-               "name_ka": "ზუგდიდი → თბილისი"
+               "name_ka": "ზუგდიდი → თბილისი",
+               "time": "23:37"
             },
             {
                "ref": 870,
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი"
+               "name_ka": "თბილისი → ზუგდიდი",
+               "time": "15:08"
             },
             {
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი"
+               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "time": "13:02"
             },
             {
                "ref": 874,
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
-               "name_ka": "თბილისი → ფოთი"
+               "name_ka": "თბილისი → ფოთი",
+               "time": "23:37"
             }
          ]
       }
@@ -61,31 +65,36 @@ export const stations = [
                "ref": 613,
                "name_en": "Batumi → Ozurgeti",
                "name_ru": "Батуми → Озургети",
-               "name_ka": "ბათუმი → ოზურგეთი"
+               "name_ka": "ბათუმი → ოზურგეთი",
+               "time": "22:52"
             },
             {
                "ref": 681,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "00:13"
             },
             {
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 801,
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
-               "name_ka": "ბათუმი → თბილისი"
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "22:17"
             },
             {
                "ref": 803,
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
-               "name_ka": "ბათუმი → თბილისი"
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "13:17"
             }
          ],
          "arrival": [
@@ -93,31 +102,36 @@ export const stations = [
                "ref": 614,
                "name_en": "Ozurgeti → Batumi",
                "name_ru": "Озургети → Батуми",
-               "name_ka": "ოზურგეთი → ბათუმი"
+               "name_ka": "ოზურგეთი → ბათუმი",
+               "time": "09:33"
             },
             {
                "ref": 682,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "ქუთაისი → ბათუმი"
+               "name_ka": "ქუთაისი → ბათუმი",
+               "time": "10:39"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             },
             {
                "ref": 802,
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
-               "name_ka": "თბილისი → ბათუმი"
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "13:35"
             },
             {
                "ref": 804,
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
-               "name_ka": "თბილისი → ბათუმი"
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "22:45"
             }
          ],
          "via": []
@@ -141,13 +155,15 @@ export const stations = [
                "ref": 617,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი"
+               "name_ka": "ბორჯომი → თბილისი",
+               "time": "20:50"
             },
             {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი"
+               "name_ka": "ბორჯომი → თბილისი",
+               "time": "10:10"
             }
          ],
          "arrival": [
@@ -155,13 +171,15 @@ export const stations = [
                "ref": 618,
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი"
+               "name_ka": "თბილისი → ბორჯომი",
+               "time": "10:47"
             },
             {
                "ref": 686,
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი"
+               "name_ka": "თბილისი → ბორჯომი",
+               "time": "22:47"
             }
          ],
          "via": []
@@ -187,13 +205,15 @@ export const stations = [
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             }
          ]
       }
@@ -218,13 +238,15 @@ export const stations = [
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             }
          ]
       }
@@ -249,13 +271,15 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი"
+               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "time": "13:02"
             },
             {
                "ref": 874,
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
-               "name_ka": "თბილისი → ფოთი"
+               "name_ka": "თბილისი → ფოთი",
+               "time": "23:37"
             }
          ]
       }
@@ -293,37 +317,43 @@ export const stations = [
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             },
             {
                "ref": 6417,
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური"
+               "name_ka": "ზესტაფონი → ხაშური",
+               "time": "09:23"
             },
             {
                "ref": 6418,
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი"
+               "name_ka": "ხაშური → ზესტაფონი",
+               "time": "19:52"
             },
             {
                "ref": 6446,
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი"
+               "name_ka": "ხაშური → ზესტაფონი",
+               "time": "09:28"
             },
             {
                "ref": 6447,
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური"
+               "name_ka": "ზესტაფონი → ხაშური",
+               "time": "19:03"
             }
          ]
       }
@@ -346,13 +376,15 @@ export const stations = [
                "ref": 6414,
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
-               "name_ka": "გარდაბანი → თბილისი"
+               "name_ka": "გარდაბანი → თბილისი",
+               "time": "09:38"
             },
             {
                "ref": 6416,
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
-               "name_ka": "გარდაბანი → თბილისი"
+               "name_ka": "გარდაბანი → თბილისი",
+               "time": "21:29"
             }
          ],
          "arrival": [
@@ -360,13 +392,15 @@ export const stations = [
                "ref": 6413,
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
-               "name_ka": "თბილისი → გარდაბანი"
+               "name_ka": "თბილისი → გარდაბანი",
+               "time": "08:16"
             },
             {
                "ref": 6415,
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
-               "name_ka": "თბილისი → გარდაბანი"
+               "name_ka": "თბილისი → გარდაბანი",
+               "time": "20:06"
             }
          ],
          "via": []
@@ -392,37 +426,43 @@ export const stations = [
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             },
             {
                "ref": 869,
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
-               "name_ka": "ზუგდიდი → თბილისი"
+               "name_ka": "ზუგდიდი → თბილისი",
+               "time": "23:37"
             },
             {
                "ref": 870,
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი"
+               "name_ka": "თბილისი → ზუგდიდი",
+               "time": "15:08"
             },
             {
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი"
+               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "time": "13:02"
             },
             {
                "ref": 874,
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
-               "name_ka": "თბილისი → ფოთი"
+               "name_ka": "თბილისი → ფოთი",
+               "time": "23:37"
             }
          ]
       }
@@ -447,13 +487,15 @@ export const stations = [
                "ref": 869,
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
-               "name_ka": "ზუგდიდი → თბილისი"
+               "name_ka": "ზუგდიდი → თბილისი",
+               "time": "23:37"
             },
             {
                "ref": 870,
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი"
+               "name_ka": "თბილისი → ზუგდიდი",
+               "time": "15:08"
             }
          ]
       }
@@ -478,25 +520,29 @@ export const stations = [
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             },
             {
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             }
          ]
       }
@@ -521,7 +567,8 @@ export const stations = [
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             }
          ]
       }
@@ -546,13 +593,15 @@ export const stations = [
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             }
          ]
       }
@@ -577,13 +626,15 @@ export const stations = [
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             }
          ]
       }
@@ -608,61 +659,71 @@ export const stations = [
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             },
             {
                "ref": 869,
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
-               "name_ka": "ზუგდიდი → თბილისი"
+               "name_ka": "ზუგდიდი → თბილისი",
+               "time": "23:37"
             },
             {
                "ref": 870,
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი"
+               "name_ka": "თბილისი → ზუგდიდი",
+               "time": "15:08"
             },
             {
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი"
+               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "time": "13:02"
             },
             {
                "ref": 874,
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
-               "name_ka": "თბილისი → ფოთი"
+               "name_ka": "თბილისი → ფოთი",
+               "time": "23:37"
             },
             {
                "ref": 6417,
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური"
+               "name_ka": "ზესტაფონი → ხაშური",
+               "time": "09:23"
             },
             {
                "ref": 6418,
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი"
+               "name_ka": "ხაშური → ზესტაფონი",
+               "time": "19:52"
             },
             {
                "ref": 6446,
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი"
+               "name_ka": "ხაშური → ზესტაფონი",
+               "time": "09:28"
             },
             {
                "ref": 6447,
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური"
+               "name_ka": "ზესტაფონი → ხაშური",
+               "time": "19:03"
             }
          ]
       }
@@ -685,13 +746,15 @@ export const stations = [
                "ref": 6418,
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი"
+               "name_ka": "ხაშური → ზესტაფონი",
+               "time": "19:52"
             },
             {
                "ref": 6446,
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი"
+               "name_ka": "ხაშური → ზესტაფონი",
+               "time": "09:28"
             }
          ],
          "arrival": [
@@ -699,13 +762,15 @@ export const stations = [
                "ref": 6417,
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური"
+               "name_ka": "ზესტაფონი → ხაშური",
+               "time": "09:23"
             },
             {
                "ref": 6447,
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური"
+               "name_ka": "ზესტაფონი → ხაშური",
+               "time": "19:03"
             }
          ],
          "via": [
@@ -713,37 +778,43 @@ export const stations = [
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             },
             {
                "ref": 869,
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
-               "name_ka": "ზუგდიდი → თბილისი"
+               "name_ka": "ზუგდიდი → თბილისი",
+               "time": "23:37"
             },
             {
                "ref": 870,
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი"
+               "name_ka": "თბილისი → ზუგდიდი",
+               "time": "15:08"
             },
             {
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი"
+               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "time": "13:02"
             },
             {
                "ref": 874,
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
-               "name_ka": "თბილისი → ფოთი"
+               "name_ka": "თბილისი → ფოთი",
+               "time": "23:37"
             }
          ]
       }
@@ -768,13 +839,15 @@ export const stations = [
                "ref": 869,
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
-               "name_ka": "ზუგდიდი → თბილისი"
+               "name_ka": "ზუგდიდი → თბილისი",
+               "time": "23:37"
             },
             {
                "ref": 870,
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი"
+               "name_ka": "თბილისი → ზუგდიდი",
+               "time": "15:08"
             }
          ]
       }
@@ -799,61 +872,71 @@ export const stations = [
                "ref": 613,
                "name_en": "Batumi → Ozurgeti",
                "name_ru": "Батуми → Озургети",
-               "name_ka": "ბათუმი → ოზურგეთი"
+               "name_ka": "ბათუმი → ოზურგეთი",
+               "time": "22:52"
             },
             {
                "ref": 614,
                "name_en": "Ozurgeti → Batumi",
                "name_ru": "Озургети → Батуми",
-               "name_ka": "ოზურგეთი → ბათუმი"
+               "name_ka": "ოზურგეთი → ბათუმი",
+               "time": "09:33"
             },
             {
                "ref": 681,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "00:13"
             },
             {
                "ref": 682,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "ქუთაისი → ბათუმი"
+               "name_ka": "ქუთაისი → ბათუმი",
+               "time": "10:39"
             },
             {
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             },
             {
                "ref": 801,
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
-               "name_ka": "ბათუმი → თბილისი"
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "22:17"
             },
             {
                "ref": 802,
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
-               "name_ka": "თბილისი → ბათუმი"
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "13:35"
             },
             {
                "ref": 803,
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
-               "name_ka": "ბათუმი → თბილისი"
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "13:17"
             },
             {
                "ref": 804,
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
-               "name_ka": "თბილისი → ბათუმი"
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "22:45"
             }
          ]
       }
@@ -878,73 +961,85 @@ export const stations = [
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             },
             {
                "ref": 801,
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
-               "name_ka": "ბათუმი → თბილისი"
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "22:17"
             },
             {
                "ref": 802,
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
-               "name_ka": "თბილისი → ბათუმი"
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "13:35"
             },
             {
                "ref": 803,
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
-               "name_ka": "ბათუმი → თბილისი"
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "13:17"
             },
             {
                "ref": 804,
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
-               "name_ka": "თბილისი → ბათუმი"
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "22:45"
             },
             {
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             },
             {
                "ref": 869,
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
-               "name_ka": "ზუგდიდი → თბილისი"
+               "name_ka": "ზუგდიდი → თბილისი",
+               "time": "23:37"
             },
             {
                "ref": 870,
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი"
+               "name_ka": "თბილისი → ზუგდიდი",
+               "time": "15:08"
             },
             {
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი"
+               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "time": "13:02"
             },
             {
                "ref": 874,
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
-               "name_ka": "თბილისი → ფოთი"
+               "name_ka": "თბილისი → ფოთი",
+               "time": "23:37"
             }
          ]
       }
@@ -967,25 +1062,29 @@ export const stations = [
                "ref": 682,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "ქუთაისი → ბათუმი"
+               "name_ka": "ქუთაისი → ბათუმი",
+               "time": "10:39"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             },
             {
                "ref": 6353,
                "name_en": "Kutaisi → Rioni",
                "name_ru": "Кутаиси → Риони",
-               "name_ka": "ქუთაისი → რიონი"
+               "name_ka": "ქუთაისი → რიონი",
+               "time": "11:35"
             },
             {
                "ref": 6355,
                "name_en": "Kutaisi → Rioni",
                "name_ru": "Кутаиси → Риони",
-               "name_ka": "ქუთაისი → რიონი"
+               "name_ka": "ქუთაისი → რიონი",
+               "time": "12:55"
             }
          ],
          "arrival": [
@@ -993,25 +1092,29 @@ export const stations = [
                "ref": 681,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "00:13"
             },
             {
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 6354,
                "name_en": "Rioni → Kutaisi",
                "name_ru": "Риони → Кутаиси",
-               "name_ka": "რიონი → ქუთაისი"
+               "name_ka": "რიონი → ქუთაისი",
+               "time": "12:15"
             },
             {
                "ref": 6356,
                "name_en": "Rioni → Kutaisi",
                "name_ru": "Риони → Кутаиси",
-               "name_ka": "რიონი → ქუთაისი"
+               "name_ka": "რიონი → ქუთაისი",
+               "time": "13:45"
             }
          ],
          "via": []
@@ -1037,13 +1140,15 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი"
+               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "time": "13:02"
             },
             {
                "ref": 874,
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
-               "name_ka": "თბილისი → ფოთი"
+               "name_ka": "თბილისი → ფოთი",
+               "time": "23:37"
             }
          ]
       }
@@ -1068,25 +1173,29 @@ export const stations = [
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             },
             {
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             }
          ]
       }
@@ -1111,25 +1220,29 @@ export const stations = [
                "ref": 6417,
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური"
+               "name_ka": "ზესტაფონი → ხაშური",
+               "time": "09:23"
             },
             {
                "ref": 6418,
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი"
+               "name_ka": "ხაშური → ზესტაფონი",
+               "time": "19:52"
             },
             {
                "ref": 6446,
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი"
+               "name_ka": "ხაშური → ზესტაფონი",
+               "time": "09:28"
             },
             {
                "ref": 6447,
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური"
+               "name_ka": "ზესტაფონი → ხაშური",
+               "time": "19:03"
             }
          ]
       }
@@ -1154,13 +1267,15 @@ export const stations = [
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             }
          ]
       }
@@ -1185,55 +1300,64 @@ export const stations = [
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             },
             {
                "ref": 869,
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
-               "name_ka": "ზუგდიდი → თბილისი"
+               "name_ka": "ზუგდიდი → თბილისი",
+               "time": "23:37"
             },
             {
                "ref": 870,
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი"
+               "name_ka": "თბილისი → ზუგდიდი",
+               "time": "15:08"
             },
             {
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი"
+               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "time": "13:02"
             },
             {
                "ref": 6417,
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური"
+               "name_ka": "ზესტაფონი → ხაშური",
+               "time": "09:23"
             },
             {
                "ref": 6418,
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი"
+               "name_ka": "ხაშური → ზესტაფონი",
+               "time": "19:52"
             },
             {
                "ref": 6446,
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი"
+               "name_ka": "ხაშური → ზესტაფონი",
+               "time": "09:28"
             },
             {
                "ref": 6447,
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური"
+               "name_ka": "ზესტაფონი → ხაშური",
+               "time": "19:03"
             }
          ]
       }
@@ -1258,13 +1382,15 @@ export const stations = [
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             }
          ]
       }
@@ -1289,61 +1415,71 @@ export const stations = [
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             },
             {
                "ref": 869,
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
-               "name_ka": "ზუგდიდი → თბილისი"
+               "name_ka": "ზუგდიდი → თბილისი",
+               "time": "23:37"
             },
             {
                "ref": 870,
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი"
+               "name_ka": "თბილისი → ზუგდიდი",
+               "time": "15:08"
             },
             {
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი"
+               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "time": "13:02"
             },
             {
                "ref": 874,
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
-               "name_ka": "თბილისი → ფოთი"
+               "name_ka": "თბილისი → ფოთი",
+               "time": "23:37"
             },
             {
                "ref": 6417,
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური"
+               "name_ka": "ზესტაფონი → ხაშური",
+               "time": "09:23"
             },
             {
                "ref": 6418,
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი"
+               "name_ka": "ხაშური → ზესტაფონი",
+               "time": "19:52"
             },
             {
                "ref": 6446,
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი"
+               "name_ka": "ხაშური → ზესტაფონი",
+               "time": "09:28"
             },
             {
                "ref": 6447,
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური"
+               "name_ka": "ზესტაფონი → ხაშური",
+               "time": "19:03"
             }
          ]
       }
@@ -1368,13 +1504,15 @@ export const stations = [
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             }
          ]
       }
@@ -1399,25 +1537,29 @@ export const stations = [
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             },
             {
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             }
          ]
       }
@@ -1442,25 +1584,29 @@ export const stations = [
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             },
             {
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             }
          ]
       }
@@ -1485,13 +1631,15 @@ export const stations = [
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             }
          ]
       }
@@ -1514,13 +1662,15 @@ export const stations = [
                "ref": 614,
                "name_en": "Ozurgeti → Batumi",
                "name_ru": "Озургети → Батуми",
-               "name_ka": "ოზურგეთი → ბათუმი"
+               "name_ka": "ოზურგეთი → ბათუმი",
+               "time": "09:33"
             },
             {
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             }
          ],
          "arrival": [
@@ -1528,13 +1678,15 @@ export const stations = [
                "ref": 613,
                "name_en": "Batumi → Ozurgeti",
                "name_ru": "Батуми → Озургети",
-               "name_ka": "ბათუმი → ოზურგეთი"
+               "name_ka": "ბათუმი → ოზურგეთი",
+               "time": "22:52"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             }
          ],
          "via": []
@@ -1560,13 +1712,15 @@ export const stations = [
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             }
          ]
       }
@@ -1591,7 +1745,8 @@ export const stations = [
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             }
          ]
       }
@@ -1614,7 +1769,8 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი"
+               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "time": "13:02"
             }
          ],
          "arrival": [
@@ -1622,7 +1778,8 @@ export const stations = [
                "ref": 874,
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
-               "name_ka": "თბილისი → ფოთი"
+               "name_ka": "თბილისი → ფოთი",
+               "time": "23:37"
             }
          ],
          "via": []
@@ -1646,13 +1803,15 @@ export const stations = [
                "ref": 6354,
                "name_en": "Rioni → Kutaisi",
                "name_ru": "Риони → Кутаиси",
-               "name_ka": "რიონი → ქუთაისი"
+               "name_ka": "რიონი → ქუთაისი",
+               "time": "12:15"
             },
             {
                "ref": 6356,
                "name_en": "Rioni → Kutaisi",
                "name_ru": "Риони → Кутаиси",
-               "name_ka": "რიონი → ქუთაისი"
+               "name_ka": "რიონი → ქუთაისი",
+               "time": "13:45"
             }
          ],
          "arrival": [
@@ -1660,13 +1819,15 @@ export const stations = [
                "ref": 6353,
                "name_en": "Kutaisi → Rioni",
                "name_ru": "Кутаиси → Риони",
-               "name_ka": "ქუთაისი → რიონი"
+               "name_ka": "ქუთაისი → რიონი",
+               "time": "11:35"
             },
             {
                "ref": 6355,
                "name_en": "Kutaisi → Rioni",
                "name_ru": "Кутаиси → Риони",
-               "name_ka": "ქუთაისი → რიონი"
+               "name_ka": "ქუთაისი → რიონი",
+               "time": "12:55"
             }
          ],
          "via": [
@@ -1674,49 +1835,57 @@ export const stations = [
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             },
             {
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             },
             {
                "ref": 869,
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
-               "name_ka": "ზუგდიდი → თბილისი"
+               "name_ka": "ზუგდიდი → თბილისი",
+               "time": "23:37"
             },
             {
                "ref": 870,
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი"
+               "name_ka": "თბილისი → ზუგდიდი",
+               "time": "15:08"
             },
             {
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი"
+               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "time": "13:02"
             },
             {
                "ref": 874,
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
-               "name_ka": "თბილისი → ფოთი"
+               "name_ka": "თბილისი → ფოთი",
+               "time": "23:37"
             }
          ]
       }
@@ -1741,25 +1910,29 @@ export const stations = [
                "ref": 6413,
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
-               "name_ka": "თბილისი → გარდაბანი"
+               "name_ka": "თბილისი → გარდაბანი",
+               "time": "08:16"
             },
             {
                "ref": 6414,
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
-               "name_ka": "გარდაბანი → თბილისი"
+               "name_ka": "გარდაბანი → თბილისი",
+               "time": "09:38"
             },
             {
                "ref": 6415,
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
-               "name_ka": "თბილისი → გარდაბანი"
+               "name_ka": "თბილისი → გარდაბანი",
+               "time": "20:06"
             },
             {
                "ref": 6416,
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
-               "name_ka": "გარდაბანი → თბილისი"
+               "name_ka": "გარდაბანი → თბილისი",
+               "time": "21:29"
             }
          ]
       }
@@ -1797,13 +1970,15 @@ export const stations = [
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             }
          ]
       }
@@ -1828,61 +2003,71 @@ export const stations = [
                "ref": 681,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "00:13"
             },
             {
                "ref": 682,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "ქუთაისი → ბათუმი"
+               "name_ka": "ქუთაისი → ბათუმი",
+               "time": "10:39"
             },
             {
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             },
             {
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             },
             {
                "ref": 869,
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
-               "name_ka": "ზუგდიდი → თბილისი"
+               "name_ka": "ზუგდიდი → თბილისი",
+               "time": "23:37"
             },
             {
                "ref": 870,
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი"
+               "name_ka": "თბილისი → ზუგდიდი",
+               "time": "15:08"
             },
             {
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი"
+               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "time": "13:02"
             },
             {
                "ref": 874,
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
-               "name_ka": "თბილისი → ფოთი"
+               "name_ka": "თბილისი → ფოთი",
+               "time": "23:37"
             }
          ]
       }
@@ -1907,25 +2092,29 @@ export const stations = [
                "ref": 869,
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
-               "name_ka": "ზუგდიდი → თბილისი"
+               "name_ka": "ზუგდიდი → თბილისი",
+               "time": "23:37"
             },
             {
                "ref": 870,
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი"
+               "name_ka": "თბილისი → ზუგდიდი",
+               "time": "15:08"
             },
             {
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი"
+               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "time": "13:02"
             },
             {
                "ref": 874,
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
-               "name_ka": "თბილისი → ფოთი"
+               "name_ka": "თბილისი → ფოთი",
+               "time": "23:37"
             }
          ]
       }
@@ -1950,13 +2139,15 @@ export const stations = [
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             }
          ]
       }
@@ -1981,25 +2172,29 @@ export const stations = [
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             },
             {
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             }
          ]
       }
@@ -2024,13 +2219,15 @@ export const stations = [
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             }
          ]
       }
@@ -2054,55 +2251,64 @@ export const stations = [
                "ref": 618,
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი"
+               "name_ka": "თბილისი → ბორჯომი",
+               "time": "10:47"
             },
             {
                "ref": 686,
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი"
+               "name_ka": "თბილისი → ბორჯომი",
+               "time": "22:47"
             },
             {
                "ref": 802,
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
-               "name_ka": "თბილისი → ბათუმი"
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "13:35"
             },
             {
                "ref": 804,
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
-               "name_ka": "თბილისი → ბათუმი"
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "22:45"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             },
             {
                "ref": 870,
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი"
+               "name_ka": "თბილისი → ზუგდიდი",
+               "time": "15:08"
             },
             {
                "ref": 874,
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
-               "name_ka": "თბილისი → ფოთი"
+               "name_ka": "თბილისი → ფოთი",
+               "time": "23:37"
             },
             {
                "ref": 6413,
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
-               "name_ka": "თბილისი → გარდაბანი"
+               "name_ka": "თბილისი → გარდაბანი",
+               "time": "08:16"
             },
             {
                "ref": 6415,
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
-               "name_ka": "თბილისი → გარდაბანი"
+               "name_ka": "თბილისი → გარდაბანი",
+               "time": "20:06"
             }
          ],
          "arrival": [
@@ -2110,55 +2316,64 @@ export const stations = [
                "ref": 617,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი"
+               "name_ka": "ბორჯომი → თბილისი",
+               "time": "20:50"
             },
             {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი"
+               "name_ka": "ბორჯომი → თბილისი",
+               "time": "10:10"
             },
             {
                "ref": 801,
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
-               "name_ka": "ბათუმი → თბილისი"
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "22:17"
             },
             {
                "ref": 803,
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
-               "name_ka": "ბათუმი → თბილისი"
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "13:17"
             },
             {
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 869,
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
-               "name_ka": "ზუგდიდი → თბილისი"
+               "name_ka": "ზუგდიდი → თბილისი",
+               "time": "23:37"
             },
             {
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი"
+               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "time": "13:02"
             },
             {
                "ref": 6414,
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
-               "name_ka": "გარდაბანი → თბილისი"
+               "name_ka": "გარდაბანი → თბილისი",
+               "time": "09:38"
             },
             {
                "ref": 6416,
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
-               "name_ka": "გარდაბანი → თბილისი"
+               "name_ka": "გარდაბანი → თბილისი",
+               "time": "21:29"
             }
          ],
          "via": []
@@ -2184,43 +2399,50 @@ export const stations = [
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             },
             {
                "ref": 870,
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი"
+               "name_ka": "თბილისი → ზუგდიდი",
+               "time": "15:08"
             },
             {
                "ref": 874,
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
-               "name_ka": "თბილისი → ფოთი"
+               "name_ka": "თბილისი → ფოთი",
+               "time": "23:37"
             },
             {
                "ref": 6417,
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური"
+               "name_ka": "ზესტაფონი → ხაშური",
+               "time": "09:23"
             },
             {
                "ref": 6418,
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი"
+               "name_ka": "ხაშური → ზესტაფონი",
+               "time": "19:52"
             },
             {
                "ref": 6446,
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი"
+               "name_ka": "ხაშური → ზესტაფონი",
+               "time": "09:28"
             },
             {
                "ref": 6447,
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური"
+               "name_ka": "ზესტაფონი → ხაშური",
+               "time": "19:03"
             }
          ]
       }
@@ -2245,61 +2467,71 @@ export const stations = [
                "ref": 681,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "00:13"
             },
             {
                "ref": 682,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "ქუთაისი → ბათუმი"
+               "name_ka": "ქუთაისი → ბათუმი",
+               "time": "10:39"
             },
             {
                "ref": 683,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
-               "name_ka": "ბათუმი → ქუთაისი"
+               "name_ka": "ბათუმი → ქუთაისი",
+               "time": "14:10"
             },
             {
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი"
+               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "time": "20:27"
             },
             {
                "ref": 801,
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
-               "name_ka": "ბათუმი → თბილისი"
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "22:17"
             },
             {
                "ref": 802,
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
-               "name_ka": "თბილისი → ბათუმი"
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "13:35"
             },
             {
                "ref": 803,
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
-               "name_ka": "ბათუმი → თბილისი"
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "13:17"
             },
             {
                "ref": 804,
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
-               "name_ka": "თბილისი → ბათუმი"
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "22:45"
             },
             {
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             }
          ]
       }
@@ -2322,13 +2554,15 @@ export const stations = [
                "ref": 6417,
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური"
+               "name_ka": "ზესტაფონი → ხაშური",
+               "time": "09:23"
             },
             {
                "ref": 6447,
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური"
+               "name_ka": "ზესტაფონი → ხაშური",
+               "time": "19:03"
             }
          ],
          "arrival": [
@@ -2336,13 +2570,15 @@ export const stations = [
                "ref": 6418,
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი"
+               "name_ka": "ხაშური → ზესტაფონი",
+               "time": "19:52"
             },
             {
                "ref": 6446,
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი"
+               "name_ka": "ხაშური → ზესტაფონი",
+               "time": "09:28"
             }
          ],
          "via": [
@@ -2350,37 +2586,43 @@ export const stations = [
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი"
+               "name_ka": "ოზურგეთი → თბილისი",
+               "time": "16:00"
             },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი"
+               "name_ka": "თბილისი → ოზურგეთი",
+               "time": "16:18"
             },
             {
                "ref": 869,
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
-               "name_ka": "ზუგდიდი → თბილისი"
+               "name_ka": "ზუგდიდი → თბილისი",
+               "time": "23:37"
             },
             {
                "ref": 870,
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი"
+               "name_ka": "თბილისი → ზუგდიდი",
+               "time": "15:08"
             },
             {
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი"
+               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "time": "13:02"
             },
             {
                "ref": 874,
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
-               "name_ka": "თბილისი → ფოთი"
+               "name_ka": "თბილისი → ფოთი",
+               "time": "23:37"
             }
          ]
       }
@@ -2403,7 +2645,8 @@ export const stations = [
                "ref": 869,
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
-               "name_ka": "ზუგდიდი → თბილისი"
+               "name_ka": "ზუგდიდი → თბილისი",
+               "time": "23:37"
             }
          ],
          "arrival": [
@@ -2411,7 +2654,8 @@ export const stations = [
                "ref": 870,
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი"
+               "name_ka": "თბილისი → ზუგდიდი",
+               "time": "15:08"
             }
          ],
          "via": []

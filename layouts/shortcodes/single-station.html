@@ -1,26 +1,62 @@
 {{ $lang := .Get 0 }}
 
-<p>{{ .Page.Params.description }}</p>
+{{ $translations := dict
+    "ru" (dict
+        "departures" "Отправление"
+        "arrivals" "Прибытие"
+        "stops" "Останавливаются"
+        "back_to_map" "Вернуться на карту маршрутов"
+    )
+    "en" (dict
+        "departures" "Departures"
+        "arrivals" "Arrivals"
+        "stops" "Stops"
+        "back_to_map" "Back to the entire routes map"
+    )
+}}
 
-{{ partial "station-map.html" . }}
+{{ $t := index $translations $lang }}
 
+<div class="station-page-description">{{ .Page.Params.description }}</div>
+
+{{ partial "station-map.html" . $lang }}
+
+<div class="station-page-content">
 {{ if .Page.Params.routes.departure }}
-<h2>Departures</h2>
-    {{ range .Page.Params.routes.departure }}
-    {{ .ref }} {{ .name_en }} <br>
+<h2>{{ $t.departures }}</h2>
+    {{ range sort .Page.Params.routes.departure "time" }}
+    {{ $url := printf "%s/routes/%v/" (cond (eq $lang "ru") "/ru" "") .ref }}
+    <a href="{{ $url }}" class="station-route">
+        <span class="station-route-time">{{ .time }}</span>
+        <span class="station-route-ref">{{ .ref }}</span>
+        <span class="station-route-name">{{ if eq $lang "ru" }}{{ .name_ru }}{{ else }}{{ .name_en }}{{ end }}</span>
+    </a>
     {{ end }}
 {{ end }}
 
 {{ if .Page.Params.routes.arrival }}
-<h2>Arrivals</h2>
-    {{ range .Page.Params.routes.arrival }}
-    {{ .ref }} {{ .name_en }} <br>
+<h2>{{ $t.arrivals }}</h2>
+    {{ range sort .Page.Params.routes.arrival "time" }}
+    {{ $url := printf "%s/routes/%v/" (cond (eq $lang "ru") "/ru" "") .ref }}
+    <a href="{{ $url }}" class="station-route">
+        <span class="station-route-time">{{ .time }}</span>
+        <span class="station-route-ref">{{ .ref }}</span>
+        <span class="station-route-name">{{ if eq $lang "ru" }}{{ .name_ru }}{{ else }}{{ .name_en }}{{ end }}</span>
+    </a>
     {{ end }}
 {{ end }}
 
 {{ if .Page.Params.routes.via }}
-<h2>Stops</h2>
-    {{ range .Page.Params.routes.via }}
-    {{ .ref }} {{ .name_en }} <br>
+<h2>{{ $t.stops }}</h2>
+    {{ range sort .Page.Params.routes.via "time" }}
+    {{ $url := printf "%s/routes/%v/" (cond (eq $lang "ru") "/ru" "") .ref }}
+    <a href="{{ $url }}" class="station-route">
+        <span class="station-route-time">{{ .time }}</span>
+        <span class="station-route-ref">{{ .ref }}</span>
+        <span class="station-route-name">{{ if eq $lang "ru" }}{{ .name_ru }}{{ else }}{{ .name_en }}{{ end }}</span>
+    </a>
     {{ end }}
 {{ end }}
+</div>
+
+<p>🗺 <a href='/{{ $lang }}/'>{{ $t.back_to_map }}</a></p>

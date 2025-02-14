@@ -1,5 +1,19 @@
+{{ $lang := .Get 0 }}
+
+{{ $translations := dict
+    "ru" (dict
+        "show_map" "Показать карту"
+        "hide_map" "Скрыть карту"
+    )
+    "en" (dict
+        "show_map" "Show the map"
+        "hide_map" "Hide the map"
+    )
+}}
+
+{{ $t := index $translations $lang }}
 <div class="station-map-container">
-    <button class="station-map-toggle" onclick="toggleMap()">Show the map</button>
+    <button class="station-map-toggle" onclick="toggleMap()">{{ $t.show_map }}</button>
     <div id="station-map" style="height: 400px; width: 100%; margin-top: 10px; display: none;"></div>
 </div>
 
@@ -39,10 +53,10 @@
         
         if (mapDiv.style.display === 'none') {
             mapDiv.style.display = 'block';
-            button.textContent = 'Hide the map';
+            button.textContent = '{{ $t.hide_map }}';
             
             if (!mapInitialized) {
-                const map = L.map('station-map').setView([{{ index .Page.Params.coords 0 }}, {{ index .Page.Params.coords 1 }}], 15);
+                const map = L.map('station-map').setView([{{ index .Page.Params.coords 0 }}, {{ index .Page.Params.coords 1 }}], 10);
                 
                 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -68,7 +82,7 @@
             }
         } else {
             mapDiv.style.display = 'none';
-            button.textContent = 'Show the map';
+            button.textContent = '{{ $t.show_map }}';
         }
     }
 </script>

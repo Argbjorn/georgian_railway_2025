@@ -318,3 +318,63 @@ nav > a, li > a {
     min-width: 4rem;
     text-align: right;
 }
+
+/* Styles specific to station pages */
+.station-page-description {
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.station-page-content {
+    margin-top: 20px;
+}
+
+.station-page-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.station-route {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.station-route:hover {
+    background-color: #f5f5f5;
+}
+
+.station-route-ref {
+    display: inline-block;
+    padding: 2px 8px;
+    margin-right: 10px;
+    background-color: #f0f7ff;
+    border: 1.5px solid #0078A8;
+    border-radius: 3px;
+    font-weight: 600;
+    min-width: 53px;
+    text-align: center;
+    color: #0078A8;
+}
+
+.station-route-name {
+    color: #333;
+    flex: 1;
+}
+
+.station-route-time {
+    display: inline-block;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.9em;
+    color: #333;
+    font-weight: 500;
+    width: 45px;
+    margin-right: 10px;
+}

@@ -1,7 +1,3 @@
 routes: Маршруты
+stations: Станции
 about: О проекте
-single-route-stations: Станции
-single-route-uncomplete-disclaimer: У меня нет полного набора станций или времени прибытия для этого маршрута. Этой информации нет и на официальном сайте. Если у вас есть дополнительные данные, пожалуйста, <a href="/about">сообщите мне</a>.
-single-route-frequency: Частота
-single-route-online-tickets: <strong>Online tickets:</strong> {{ if .Params.online }}available on the <ahref="https://ticket.railway.ge/" target="_blank">official website</a>{{ else }}not available{{end }}
-single-route-back-to-map: Назад к карте маршрутов
