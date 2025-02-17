@@ -36,7 +36,8 @@
             "name_ka": "ოზურგეთი"
          }
       ],
-      "travel_time": "2:12"
+      "travel_time": "2:12",
+      "price": null
    },
    {
       "id": 15675175,
@@ -75,7 +76,8 @@
             "name_ka": "ბათუმი-ცენტრალი"
          }
       ],
-      "travel_time": "2:18"
+      "travel_time": "2:18",
+      "price": null
    },
    {
       "id": 15689521,
@@ -106,7 +108,8 @@
             "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ],
-      "travel_time": "4:20"
+      "travel_time": "4:20",
+      "price": null
    },
    {
       "id": 15689520,
@@ -137,7 +140,8 @@
             "name_ka": "ბორჯომი-პარკი"
          }
       ],
-      "travel_time": "4:12"
+      "travel_time": "4:12",
+      "price": null
    },
    {
       "id": 14631215,
@@ -192,7 +196,11 @@
             "name_ka": "ქუთაისი-1"
          }
       ],
-      "travel_time": "4:38"
+      "travel_time": "4:38",
+      "price": {
+         "price_type": "exact",
+         "price": 2.0
+      }
    },
    {
       "id": 14631214,
@@ -247,7 +255,11 @@
             "name_ka": "ბათუმი-ცენტრალი"
          }
       ],
-      "travel_time": "4:24"
+      "travel_time": "4:24",
+      "price": {
+         "price_type": "exact",
+         "price": 2.0
+      }
    },
    {
       "id": 14631216,
@@ -406,7 +418,11 @@
             "name_ka": "ქუთაისი-1"
          }
       ],
-      "travel_time": "4:20"
+      "travel_time": "4:20",
+      "price": {
+         "price_type": "exact",
+         "price": 2.0
+      }
    },
    {
       "id": 14630243,
@@ -565,7 +581,11 @@
             "name_ka": "ბათუმი-ცენტრალი"
          }
       ],
-      "travel_time": "4:27"
+      "travel_time": "4:27",
+      "price": {
+         "price_type": "exact",
+         "price": 2.0
+      }
    },
    {
       "id": 15689522,
@@ -596,7 +616,8 @@
             "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ],
-      "travel_time": "4:20"
+      "travel_time": "4:20",
+      "price": null
    },
    {
       "id": 1198501,
@@ -627,7 +648,8 @@
             "name_ka": "ბორჯომი-პარკი"
          }
       ],
-      "travel_time": "4:12"
+      "travel_time": "4:12",
+      "price": null
    },
    {
       "id": 14669018,
@@ -644,7 +666,7 @@
          {
             "code": "batumicentral",
             "role": "start",
-            "time": "16:55",
+            "time": "17:20",
             "name_en": "Batumi-Central",
             "name_ru": "Батуми-Пассажирская",
             "name_ka": "ბათუმი-ცენტრალი"
@@ -652,7 +674,7 @@
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "17:16",
+            "time": "17:40",
             "name_en": "Kobuleti",
             "name_ru": "Кобулети",
             "name_ka": "ქობულეთი"
@@ -660,7 +682,7 @@
          {
             "code": "ureki",
             "role": "middle",
-            "time": "17:47",
+            "time": "18:10",
             "name_en": "Ureki",
             "name_ru": "Уреки",
             "name_ka": "ურეკი"
@@ -668,7 +690,7 @@
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "18:47",
+            "time": "19:09",
             "name_en": "Kutaisi International Airport",
             "name_ru": "Международный аэропорт Кутаиси",
             "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
@@ -676,13 +698,17 @@
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "time": "22:17",
+            "time": "22:33",
             "name_en": "Tbilisi Central Station",
             "name_ru": "Центральный вокзал Тбилиси",
             "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ],
-      "travel_time": "5:22"
+      "travel_time": "5:13",
+      "price": {
+         "price_type": "from",
+         "price": 35.0
+      }
    },
    {
       "id": 14669015,
@@ -707,7 +733,7 @@
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "11:43",
+            "time": "11:19",
             "name_en": "Kutaisi International Airport",
             "name_ru": "Международный аэропорт Кутаиси",
             "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
@@ -715,7 +741,7 @@
          {
             "code": "ureki",
             "role": "middle",
-            "time": "12:41",
+            "time": "12:16",
             "name_en": "Ureki",
             "name_ru": "Уреки",
             "name_ka": "ურეკი"
@@ -723,7 +749,7 @@
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "13:09",
+            "time": "12:49",
             "name_en": "Kobuleti",
             "name_ru": "Кобулети",
             "name_ka": "ქობულეთი"
@@ -731,13 +757,17 @@
          {
             "code": "batumicentral",
             "role": "end",
-            "time": "13:35",
+            "time": "13:20",
             "name_en": "Batumi-Central",
             "name_ru": "Батуми-Пассажирская",
             "name_ka": "ბათუმი-ცენტრალი"
          }
       ],
-      "travel_time": "5:35"
+      "travel_time": "5:20",
+      "price": {
+         "price_type": "from",
+         "price": 35.0
+      }
    },
    {
       "id": 14669017,
@@ -754,7 +784,7 @@
          {
             "code": "batumicentral",
             "role": "start",
-            "time": "08:00",
+            "time": "08:10",
             "name_en": "Batumi-Central",
             "name_ru": "Батуми-Пассажирская",
             "name_ka": "ბათუმი-ცენტრალი"
@@ -762,7 +792,7 @@
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "08:21",
+            "time": "08:30",
             "name_en": "Kobuleti",
             "name_ru": "Кобулети",
             "name_ka": "ქობულეთი"
@@ -770,7 +800,7 @@
          {
             "code": "ureki",
             "role": "middle",
-            "time": "08:52",
+            "time": "09:00",
             "name_en": "Ureki",
             "name_ru": "Уреки",
             "name_ka": "ურეკი"
@@ -778,7 +808,7 @@
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "09:52",
+            "time": "09:59",
             "name_en": "Kutaisi International Airport",
             "name_ru": "Международный аэропорт Кутаиси",
             "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
@@ -786,13 +816,17 @@
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "time": "13:17",
+            "time": "13:23",
             "name_en": "Tbilisi Central Station",
             "name_ru": "Центральный вокзал Тбилиси",
             "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ],
-      "travel_time": "5:17"
+      "travel_time": "5:13",
+      "price": {
+         "price_type": "from",
+         "price": 35.0
+      }
    },
    {
       "id": 14669014,
@@ -809,7 +843,7 @@
          {
             "code": "tbilisicentralstation",
             "role": "start",
-            "time": "17:10",
+            "time": "17:05",
             "name_en": "Tbilisi Central Station",
             "name_ru": "Центральный вокзал Тбилиси",
             "name_ka": "თბილისის ცენტრალური სადგური"
@@ -817,7 +851,7 @@
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "20:53",
+            "time": "20:24",
             "name_en": "Kutaisi International Airport",
             "name_ru": "Международный аэропорт Кутаиси",
             "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
@@ -825,7 +859,7 @@
          {
             "code": "ureki",
             "role": "middle",
-            "time": "21:51",
+            "time": "21:21",
             "name_en": "Ureki",
             "name_ru": "Уреки",
             "name_ka": "ურეკი"
@@ -833,7 +867,7 @@
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "22:19",
+            "time": "21:54",
             "name_en": "Kobuleti",
             "name_ru": "Кобулети",
             "name_ka": "ქობულეთი"
@@ -841,13 +875,17 @@
          {
             "code": "batumicentral",
             "role": "end",
-            "time": "22:45",
+            "time": "22:25",
             "name_en": "Batumi-Central",
             "name_ru": "Батуми-Пассажирская",
             "name_ka": "ბათუმი-ცენტრალი"
          }
       ],
-      "travel_time": "5:35"
+      "travel_time": "5:20",
+      "price": {
+         "price_type": "from",
+         "price": 35.0
+      }
    },
    {
       "id": 18681735,
@@ -1062,7 +1100,11 @@
             "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ],
-      "travel_time": "7:20"
+      "travel_time": "7:20",
+      "price": {
+         "price_type": "from",
+         "price": 16.0
+      }
    },
    {
       "id": 18681734,
@@ -1301,7 +1343,11 @@
             "name_ka": "ოზურგეთი"
          }
       ],
-      "travel_time": "7:18"
+      "travel_time": "7:18",
+      "price": {
+         "price_type": "from",
+         "price": 16.0
+      }
    },
    {
       "id": 15667577,
@@ -1436,7 +1482,11 @@
             "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ],
-      "travel_time": "6:42"
+      "travel_time": "6:42",
+      "price": {
+         "price_type": "from",
+         "price": 16.0
+      }
    },
    {
       "id": 6409429,
@@ -1579,7 +1629,11 @@
             "name_ka": "ზუგდიდი"
          }
       ],
-      "travel_time": "6:48"
+      "travel_time": "6:48",
+      "price": {
+         "price_type": "from",
+         "price": 16.0
+      }
    },
    {
       "id": 15683666,
@@ -1714,7 +1768,11 @@
             "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ],
-      "travel_time": "6:02"
+      "travel_time": "6:02",
+      "price": {
+         "price_type": "from",
+         "price": 16.0
+      }
    },
    {
       "id": 15683667,
@@ -1849,7 +1907,11 @@
             "name_ka": "უცნობი სადგური"
          }
       ],
-      "travel_time": "6:07"
+      "travel_time": "6:07",
+      "price": {
+         "price_type": "from",
+         "price": 16.0
+      }
    },
    {
       "id": 18681733,
@@ -1880,7 +1942,11 @@
             "name_ka": "რიონი"
          }
       ],
-      "travel_time": "0:20"
+      "travel_time": "0:20",
+      "price": {
+         "price_type": "exact",
+         "price": 0.5
+      }
    },
    {
       "id": 18681731,
@@ -1911,7 +1977,11 @@
             "name_ka": "ქუთაისი-1"
          }
       ],
-      "travel_time": "0:20"
+      "travel_time": "0:20",
+      "price": {
+         "price_type": "exact",
+         "price": 0.5
+      }
    },
    {
       "id": 18681732,
@@ -1942,7 +2012,11 @@
             "name_ka": "რიონი"
          }
       ],
-      "travel_time": "0:20"
+      "travel_time": "0:20",
+      "price": {
+         "price_type": "exact",
+         "price": 0.5
+      }
    },
    {
       "id": 18681730,
@@ -1973,7 +2047,11 @@
             "name_ka": "ქუთაისი-1"
          }
       ],
-      "travel_time": "0:20"
+      "travel_time": "0:20",
+      "price": {
+         "price_type": "exact",
+         "price": 0.5
+      }
    },
    {
       "id": 16011187,
@@ -2012,7 +2090,8 @@
             "name_ka": "უცნობი სადგური"
          }
       ],
-      "travel_time": "1:06"
+      "travel_time": "1:06",
+      "price": null
    },
    {
       "id": 16011099,
@@ -2051,7 +2130,8 @@
             "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ],
-      "travel_time": "1:08"
+      "travel_time": "1:08",
+      "price": null
    },
    {
       "id": 16011186,
@@ -2090,7 +2170,8 @@
             "name_ka": "უცნობი სადგური"
          }
       ],
-      "travel_time": "1:06"
+      "travel_time": "1:06",
+      "price": null
    },
    {
       "id": 16011098,
@@ -2129,7 +2210,8 @@
             "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ],
-      "travel_time": "1:09"
+      "travel_time": "1:09",
+      "price": null
    },
    {
       "id": 16024301,
@@ -2208,7 +2290,8 @@
             "name_ka": "ხაშური"
          }
       ],
-      "travel_time": "2:23"
+      "travel_time": "2:23",
+      "price": null
    },
    {
       "id": 16024299,
@@ -2287,7 +2370,8 @@
             "name_ka": "ზესტაფონი"
          }
       ],
-      "travel_time": "2:27"
+      "travel_time": "2:27",
+      "price": null
    },
    {
       "id": 16024298,
@@ -2366,7 +2450,8 @@
             "name_ka": "ზესტაფონი"
          }
       ],
-      "travel_time": "2:28"
+      "travel_time": "2:28",
+      "price": null
    },
    {
       "id": 16024300,
@@ -2445,6 +2530,7 @@
             "name_ka": "ხაშური"
          }
       ],
-      "travel_time": "2:18"
+      "travel_time": "2:18",
+      "price": null
    }
 ]
