@@ -17,7 +17,7 @@
 
 {{ $t := index $translations $lang }}
 
-<div class="station-page-description">{{ index .Page.Params.description $lang }}</div>
+<div class="station-page-description">{{ index .Page.Params.description $lang | markdownify }}</div>
 
 {{ partial "station-map.html" . $lang }}
 
