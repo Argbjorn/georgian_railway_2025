@@ -4,6 +4,7 @@
         "value" (printf "{{< single-route \"%v\" \"%v\" \"%v\" >}}" .online_tickets_current_site .online_tickets_new_site "en")
     }}
     {{ $params := dict 
+        "ref" .ref
         "stations" .stations
         "frequency" .frequency
         "complete" .complete

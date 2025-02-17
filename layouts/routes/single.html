@@ -13,4 +13,48 @@
         </main>
     </article>
 </div>
+
+{{ if .Params.stations }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TrainTrip",
+  "name": "{{ index .Params.stations 0 (printf "name_%s" .Lang) }} - {{ index .Params.stations (sub (len .Params.stations) 1) (printf "name_%s" .Lang) }}",
+  "departureStation": {
+    "@type": "TrainStation",
+    "name": "{{ index .Params.stations 0 (printf "name_%s" .Lang) }}"
+  },
+  "arrivalStation": {
+    "@type": "TrainStation",
+    "name": "{{ index .Params.stations (sub (len .Params.stations) 1) (printf "name_%s" .Lang) }}"
+  },
+  "departureTime": "{{ index .Params.stations 0 "time" }}",
+  "arrivalTime": "{{ index .Params.stations (sub (len .Params.stations) 1) "time" }}",
+  "trainNumber": "{{ .Params.ref }}",
+  "provider": {
+    "@type": "Organization",
+    "name": "Georgian Railways"
+  },
+  "itinerary": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {{ range $index, $station := .Params.stations }}
+      {
+        "@type": "TrainStation",
+        "name": "{{ index $station (printf "name_%s" $.Lang) }}"
+      }{{ if ne $index (sub (len $.Params.stations) 1) }},{{ end }}
+      {{ end }}
+    ]
+  }
+  {{- if .Params.price -}},
+  "offers": {
+    "@type": "Offer",
+    "price": "{{ .Params.price.price }}",
+    "priceCurrency": "GEL"
+  }
+  {{- end -}}
+}
+</script>
+{{ end }}
+
 {{ end }}
