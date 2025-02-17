@@ -666,7 +666,7 @@ export const routesList = [
          {
             "code": "batumicentral",
             "role": "start",
-            "time": "17:20",
+            "time": "16:55",
             "name_en": "Batumi-Central",
             "name_ru": "Батуми-Пассажирская",
             "name_ka": "ბათუმი-ცენტრალი"
@@ -674,7 +674,7 @@ export const routesList = [
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "17:40",
+            "time": "17:16",
             "name_en": "Kobuleti",
             "name_ru": "Кобулети",
             "name_ka": "ქობულეთი"
@@ -682,7 +682,7 @@ export const routesList = [
          {
             "code": "ureki",
             "role": "middle",
-            "time": "18:10",
+            "time": "17:47",
             "name_en": "Ureki",
             "name_ru": "Уреки",
             "name_ka": "ურეკი"
@@ -690,7 +690,7 @@ export const routesList = [
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "19:09",
+            "time": "18:47",
             "name_en": "Kutaisi International Airport",
             "name_ru": "Международный аэропорт Кутаиси",
             "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
@@ -698,13 +698,13 @@ export const routesList = [
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "time": "22:33",
+            "time": "22:17",
             "name_en": "Tbilisi Central Station",
             "name_ru": "Центральный вокзал Тбилиси",
             "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ],
-      "travel_time": "5:13",
+      "travel_time": "5:22",
       "price": {
          "price_type": "from",
          "price": 35.0
@@ -733,7 +733,7 @@ export const routesList = [
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "11:19",
+            "time": "11:43",
             "name_en": "Kutaisi International Airport",
             "name_ru": "Международный аэропорт Кутаиси",
             "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
@@ -741,7 +741,7 @@ export const routesList = [
          {
             "code": "ureki",
             "role": "middle",
-            "time": "12:16",
+            "time": "12:41",
             "name_en": "Ureki",
             "name_ru": "Уреки",
             "name_ka": "ურეკი"
@@ -749,7 +749,7 @@ export const routesList = [
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "12:49",
+            "time": "13:09",
             "name_en": "Kobuleti",
             "name_ru": "Кобулети",
             "name_ka": "ქობულეთი"
@@ -757,13 +757,13 @@ export const routesList = [
          {
             "code": "batumicentral",
             "role": "end",
-            "time": "13:20",
+            "time": "13:35",
             "name_en": "Batumi-Central",
             "name_ru": "Батуми-Пассажирская",
             "name_ka": "ბათუმი-ცენტრალი"
          }
       ],
-      "travel_time": "5:20",
+      "travel_time": "5:35",
       "price": {
          "price_type": "from",
          "price": 35.0
@@ -784,7 +784,7 @@ export const routesList = [
          {
             "code": "batumicentral",
             "role": "start",
-            "time": "08:10",
+            "time": "08:00",
             "name_en": "Batumi-Central",
             "name_ru": "Батуми-Пассажирская",
             "name_ka": "ბათუმი-ცენტრალი"
@@ -792,7 +792,7 @@ export const routesList = [
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "08:30",
+            "time": "08:21",
             "name_en": "Kobuleti",
             "name_ru": "Кобулети",
             "name_ka": "ქობულეთი"
@@ -800,7 +800,7 @@ export const routesList = [
          {
             "code": "ureki",
             "role": "middle",
-            "time": "09:00",
+            "time": "08:52",
             "name_en": "Ureki",
             "name_ru": "Уреки",
             "name_ka": "ურეკი"
@@ -808,7 +808,7 @@ export const routesList = [
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "09:59",
+            "time": "09:52",
             "name_en": "Kutaisi International Airport",
             "name_ru": "Международный аэропорт Кутаиси",
             "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
@@ -816,13 +816,13 @@ export const routesList = [
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "time": "13:23",
+            "time": "13:17",
             "name_en": "Tbilisi Central Station",
             "name_ru": "Центральный вокзал Тбилиси",
             "name_ka": "თბილისის ცენტრალური სადგური"
          }
       ],
-      "travel_time": "5:13",
+      "travel_time": "5:17",
       "price": {
          "price_type": "from",
          "price": 35.0
@@ -843,7 +843,7 @@ export const routesList = [
          {
             "code": "tbilisicentralstation",
             "role": "start",
-            "time": "17:05",
+            "time": "17:10",
             "name_en": "Tbilisi Central Station",
             "name_ru": "Центральный вокзал Тбилиси",
             "name_ka": "თბილისის ცენტრალური სადგური"
@@ -851,7 +851,7 @@ export const routesList = [
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "time": "20:24",
+            "time": "20:53",
             "name_en": "Kutaisi International Airport",
             "name_ru": "Международный аэропорт Кутаиси",
             "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
@@ -859,7 +859,7 @@ export const routesList = [
          {
             "code": "ureki",
             "role": "middle",
-            "time": "21:21",
+            "time": "21:51",
             "name_en": "Ureki",
             "name_ru": "Уреки",
             "name_ka": "ურეკი"
@@ -867,7 +867,7 @@ export const routesList = [
          {
             "code": "kobuleti",
             "role": "middle",
-            "time": "21:54",
+            "time": "22:19",
             "name_en": "Kobuleti",
             "name_ru": "Кобулети",
             "name_ka": "ქობულეთი"
@@ -875,13 +875,13 @@ export const routesList = [
          {
             "code": "batumicentral",
             "role": "end",
-            "time": "22:25",
+            "time": "22:45",
             "name_en": "Batumi-Central",
             "name_ru": "Батуми-Пассажирская",
             "name_ka": "ბათუმი-ცენტრალი"
          }
       ],
-      "travel_time": "5:20",
+      "travel_time": "5:35",
       "price": {
          "price_type": "from",
          "price": 35.0
