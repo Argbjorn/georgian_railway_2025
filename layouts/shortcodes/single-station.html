@@ -17,7 +17,7 @@
 
 {{ $t := index $translations $lang }}
 
-<div class="station-page-description">{{ .Page.Params.description }}</div>
+<div class="station-page-description">{{ index .Page.Params.description $lang }}</div>
 
 {{ partial "station-map.html" . $lang }}
 
