@@ -54,6 +54,19 @@ export class SidepanelContent {
 
     stationHeader.innerHTML = this.station.name;
 
+    // Добавляем ссылку на страницу станции
+    let stationLink = document.createElement("a");
+    let stationLinkBase = '/stations/';
+    if (LS.getCurrentLanguage() == "ru") {
+        stationLinkBase = '/ru/stations/';
+    }
+    stationLink.href = `${stationLinkBase}${this.station.code}/`;
+    stationLink.innerHTML = LS.translate("view_station_details");
+    stationLink.classList.add("station-more-info");
+    stationLink.setAttribute("target", "_blank");
+    
+    stationBody.insertBefore(stationLink, stationDescription);
+
     if (this.station.description) {
       stationDescription.innerHTML = this.station.description;
     } else {

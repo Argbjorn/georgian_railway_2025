@@ -394,3 +394,17 @@ nav > a, li > a {
     text-decoration: underline;
     color: var(--link-hover-color);
 }
+
+.station-more-info {
+    display: block;
+    color: var(--link-color);
+    text-decoration: none;
+    font-size: 0.85em;
+    margin: 4px 0 12px 0;
+    font-weight: 500;
+}
+
+.station-more-info:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}

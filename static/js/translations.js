@@ -11,6 +11,7 @@ export const translations = {
         loading_railway_network: "Loading the railway network...",
         loading_route: "Loading the route...",
         view_route_details: "View route details",
+        view_station_details: "View station details",
         show_on_map: "Show on the map",
         default_greeting: "Hello there! This is a train map of Georgia. Here you can see the main train routes, find out their schedules and which cities they pass through. Just click on the station you're interested in to get started."
     },
@@ -27,6 +28,7 @@ export const translations = {
         loading_railway_network: "Загрузка железнодорожной сети...",
         loading_route: "Загрузка маршрута...",
         view_route_details: "Подробнее о маршруте",
+        view_station_details: "Подробнее о станции",
         show_on_map: "Показать на карте",
         default_greeting: "Привет! Это карта железных дорог Грузии. Здесь вы можете узнать о главных маршрутах, станциях и расписании. Просто нажмите на станцию, которая вас интересует, чтобы начать."
     }
