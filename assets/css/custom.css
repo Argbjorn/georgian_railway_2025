@@ -1,3 +1,9 @@
+/* Определяем переменные с цветами для ссылок */
+:root {
+    --link-color: hsl(212 100% 45%);
+    --link-hover-color: hsl(212 100% 45%);
+}
+
 nav > a, li > a {
     color: inherit;
     text-decoration: inherit;
@@ -140,13 +146,13 @@ nav > a, li > a {
     background: none;
     border: none;
     padding: 0;
-    color: #0d6efd; /* или любой другой цвет ссылок */
+    color: var(--link-color);
     text-decoration: underline;
     cursor: pointer;
 }
 
 .link-show:hover {
-    color: #0a58ca; /* цвет при наведении */
+    color: var(--link-hover-color);
 }
 
 .station-routes-list {
@@ -223,7 +229,7 @@ nav > a, li > a {
 
 .route-more-info {
     display: none;
-    color: #0078A8;
+    color: var(--link-color);
     text-decoration: none;
     font-size: 0.85em;
     margin: 4px 0 0 40px;
@@ -238,7 +244,7 @@ nav > a, li > a {
 
 .route-show {
     display: none;
-    color: #0078A8;
+    color: var(--link-color);
     text-decoration: none;
     font-size: 0.85em;
     margin: 4px 0 0 40px;
@@ -253,7 +259,7 @@ nav > a, li > a {
 }
 
 .route-more-info:hover {
-    color: #005580;
+    color: var(--link-hover-color);
 }
 
 .route-destination {
@@ -381,11 +387,10 @@ nav > a, li > a {
 
 .station-name {
     text-decoration: none;
-    color: #0078A8;
-    transition: color 0.2s ease;
+    color: inherit;
 }
 
 .station-name:hover {
     text-decoration: underline;
-    color: #005580;
+    color: var(--link-hover-color);
 }
