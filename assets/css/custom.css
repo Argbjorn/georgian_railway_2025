@@ -378,3 +378,14 @@ nav > a, li > a {
     width: 45px;
     margin-right: 10px;
 }
+
+.station-name {
+    text-decoration: none;
+    color: #0078A8;
+    transition: color 0.2s ease;
+}
+
+.station-name:hover {
+    text-decoration: underline;
+    color: #005580;
+}

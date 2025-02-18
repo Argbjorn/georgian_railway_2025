@@ -69,7 +69,7 @@
     {{ range $index, $station := $stations }}
     <li class="{{ if or (eq $index 0) (eq $index (sub (len $stations) 1)) }}terminal{{ else }}intermediate{{ end }}">
         <span class="station-time">{{ .time }}</span>
-        <span class="station-name">{{ if eq $lang "ru" }}{{ .name_ru }}{{ else }}{{ .name_en }}{{ end }}</span>
+        <a href="/{{ if eq $lang "ru" }}ru/{{ end }}stations/{{ .code }}/" class="station-name">{{ if eq $lang "ru" }}{{ .name_ru }}{{ else }}{{ .name_en }}{{ end }}</a>
     </li>
     {{ end }}
 </ul>
