@@ -70,8 +70,8 @@ params:
   editURL:
     enable: false
 
-search:
-  enable: false
+  search:
+    enable: false
 
 services:
   googleAnalytics:
