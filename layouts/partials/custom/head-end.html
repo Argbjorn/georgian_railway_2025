@@ -13,6 +13,7 @@ rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ "css/leaflet-sidepanel.css" | relURL }}" />
 <script src="https://unpkg.com/current-device/umd/current-device.min.js"></script>
+{{ if hugo.IsProduction }}
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
     (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -30,3 +31,4 @@ rel="stylesheet">
  </script>
  <noscript><div><img src="https://mc.yandex.ru/watch/99610233" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
  <!-- /Yandex.Metrika counter -->
+{{ end }}
