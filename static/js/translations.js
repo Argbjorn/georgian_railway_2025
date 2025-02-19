@@ -4,7 +4,7 @@ export const translations = {
         no_schedule: "There is no schedule for the route yet",
         arrivals: "Arrivals",
         departures: "Departures",
-        passes_through: "Passes through",
+        passes_through: "Stops",
         no_schedule_yet: "There is no schedule yet",
         frequency_daily: "daily",
         incomplete_route: "This route is incomplete, so some train stops aren't in the list. If you have an additional information, change the route on OSM or let me know (see About for contacts).",
