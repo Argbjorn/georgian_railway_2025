@@ -1678,7 +1678,7 @@ export const stations = [
                "name_en": "Batumi → Ozurgeti",
                "name_ru": "Батуми → Озургети",
                "name_ka": "ბათუმი → ოზურგეთი",
-               "time": "22:52"
+               "time": "22:59"
             },
             {
                "ref": 854,

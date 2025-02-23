@@ -30,7 +30,7 @@ export const routesList = [
          {
             "code": "ozurgeti",
             "role": "end",
-            "time": "22:52",
+            "time": "22:59",
             "name_en": "Ozurgeti",
             "name_ru": "Озургети",
             "name_ka": "ოზურგეთი"
