@@ -358,6 +358,19 @@
       }
    },
    {
+      "id": 12616806618,
+      "coords": [
+         41.605095,
+         44.9897291
+      ],
+      "code": "gachiani",
+      "type": "secondary",
+      "name_en": "Gachiani",
+      "name_ka": "გაჩიანი",
+      "name_ru": "Гачиани",
+      "gr_code": 56280
+   },
+   {
       "id": 11001501786,
       "coords": [
          41.4754395,
@@ -1288,10 +1301,10 @@
       }
    },
    {
-      "id": 11139961502,
+      "id": 12112943012,
       "coords": [
-         41.9755789,
-         43.2970233
+         41.9756692,
+         43.2970712
       ],
       "code": "marelisi",
       "type": "secondary",
@@ -1570,6 +1583,19 @@
             }
          ]
       }
+   },
+   {
+      "id": 12616806612,
+      "coords": [
+         41.6859258,
+         44.8546109
+      ],
+      "code": "navtlughi",
+      "type": "secondary",
+      "name_en": "Navtlughi",
+      "name_ka": "ნავთლუღი",
+      "name_ru": "Навтлуги",
+      "gr_code": 56010
    },
    {
       "id": 11139961448,
@@ -1949,6 +1975,19 @@
       }
    },
    {
+      "id": 8342180822,
+      "coords": [
+         41.5341899,
+         45.0419414
+      ],
+      "code": "rustavicargo",
+      "type": "secondary",
+      "name_en": "Rustavi-Cargo",
+      "name_ka": "უცნობი სადგური",
+      "name_ru": "Рустави-Грузовая",
+      "gr_code": 56270
+   },
+   {
       "id": 11001493869,
       "coords": [
          42.3350273,
@@ -2246,8 +2285,8 @@
    {
       "id": 1448030489,
       "coords": [
-         41.7215457,
-         44.7992605
+         41.721053,
+         44.7995883
       ],
       "code": "tbilisicentralstation",
       "type": "main",
@@ -2388,6 +2427,19 @@
          ],
          "via": []
       }
+   },
+   {
+      "id": 12616806614,
+      "coords": [
+         41.6708048,
+         44.9002202
+      ],
+      "code": "tbilisimarshalling",
+      "type": "secondary",
+      "name_en": "Tbilisi Marshalling",
+      "name_ka": "ველი",
+      "name_ru": "Тбилиси-Сортировочная",
+      "gr_code": 56000
    },
    {
       "id": 11139961489,
@@ -2545,6 +2597,19 @@
             }
          ]
       }
+   },
+   {
+      "id": 12616806616,
+      "coords": [
+         41.6435605,
+         44.9484249
+      ],
+      "code": "veli",
+      "type": "secondary",
+      "name_en": "Veli",
+      "name_ka": "ველი",
+      "name_ru": "Вели",
+      "gr_code": 56290
    },
    {
       "id": 10776367473,

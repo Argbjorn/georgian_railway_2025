@@ -358,6 +358,19 @@ export const stations = [
       }
    },
    {
+      "id": 12616806618,
+      "coords": [
+         41.605095,
+         44.9897291
+      ],
+      "code": "gachiani",
+      "type": "secondary",
+      "name_en": "Gachiani",
+      "name_ka": "გაჩიანი",
+      "name_ru": "Гачиани",
+      "gr_code": 56280
+   },
+   {
       "id": 11001501786,
       "coords": [
          41.4754395,
@@ -952,6 +965,10 @@ export const stations = [
       "name_ka": "ქუთაისის საერთაშორისო აეროპორტი",
       "name_ru": "Международный аэропорт Кутаиси",
       "gr_code": 57450,
+      "description": {
+         "en": "Kutaisi International Airport Station, also known as Kopitnari, is located next to the airport of the same name. It’s about 20 km southwest of the Kutaisi center and the railway station <a href='/stations/kutaisi1/'>Kutaisi-1</a>. You can get there by minibus or taxi.",
+         "ru": "Станция Международный аэропорт Кутаиси, она же Копитнари, расположена рядом с одноименным аэропортом. Она находится примерно в 20 км к юго-западу от центра Кутаиси и железнодорожной станции <a href='/ru/stations/kutaisi1/'>Кутаиси-1</a>. Добраться можно на маршрутке или такси."
+      },
       "routes": {
          "departure": [],
          "arrival": [],
@@ -1055,6 +1072,10 @@ export const stations = [
       "name_ka": "ქუთაისი-1",
       "name_ru": "Кутаиси-1",
       "gr_code": 57530,
+      "description": {
+         "en": "Kutaisi-1 is the only operating passenger railway station in Kutaisi. The main railway line from Tbilisi to Batumi runs south of the city, so Kutaisi-1 is a dead-end station with only a few route options.<br><br>9 km south of the city is <a href='/stations/rioni/'>Rioni Station</a>, where most local trains stop. Routes 6353/6354 and 6355/6356 Kutaisi-Rioni-Kutaisi run every other day and are synced with train 853/854 Tbilisi-Ozurgeti-Tbilisi, which stops at Rioni. You can also get to Rioni by minibus or taxi.<br><br>Express trains from Tbilisi to Batumi (Stadler) don’t stop at Rioni – they stop at <a href='/stations/kutaisiinternationalairport/'>Kutaisi International Airport</a> instead. The airport is 20 km southwest of Kutaisi-1, and you can get there by minibus or taxi.",
+         "ru": "Кутаиси-1 — это единственный действующий пассажирский железнодорожный вокзал в Кутаиси. Основная железнодорожная линия из Тбилиси в Батуми проходит южнее города, поэтому Кутаиси-1 является тупиком и выбор маршрутов здесь небольшой.<br><br>В 9 км к югу находится станция <a href='/ru/stations/rioni/'>Риони</a>, на которой останавливается большинство местных поездов. Маршруты 6353/6354 и 6355/6356 Кутаиси-Риони-Кутаиси ходят через день и синхронизированы с 853/854 Тбилиси-Озургети-Тбилиси, который останавливается в Риони. Также до Риони можно добраться на маршрутке или такси.<br><br>Экспрессы из Тбилиси в Батуми (Stadler) останавливаются не в Риони, а в <a href='/ru/stations/kutaisiinternationalairport/'>Международном аэропорту Кутаиси</a>. Он находится в 20 км к юго-западу от Кутаиси-1 и добраться до него можно на маршрутке или такси."
+      },
       "routes": {
          "departure": [
             {
@@ -1280,10 +1301,10 @@ export const stations = [
       }
    },
    {
-      "id": 11139961502,
+      "id": 12112943012,
       "coords": [
-         41.9755789,
-         43.2970233
+         41.9756692,
+         43.2970712
       ],
       "code": "marelisi",
       "type": "secondary",
@@ -1564,6 +1585,19 @@ export const stations = [
       }
    },
    {
+      "id": 12616806612,
+      "coords": [
+         41.6859258,
+         44.8546109
+      ],
+      "code": "navtlughi",
+      "type": "secondary",
+      "name_en": "Navtlughi",
+      "name_ka": "ნავთლუღი",
+      "name_ru": "Навтлуги",
+      "gr_code": 56010
+   },
+   {
       "id": 11139961448,
       "coords": [
          42.0890446,
@@ -1796,6 +1830,10 @@ export const stations = [
       "name_ka": "რიონი",
       "name_ru": "Риони",
       "gr_code": 57510,
+      "description": {
+         "en": "Rioni Station is located a few kilometers south of Kutaisi. Since it’s on the main railway line connecting Western and Eastern Georgia, most local trains, except for the Tbilisi-Batumi (Stadler) express trains, stop here, making Rioni a good alternative to the dead-end <a href='/stations/kutaisi1/'>Kutaisi-1</a>. You can get from Rioni to Kutaisi-1 by minibus or taxi.<br><br>There are also trains 6353/6354 and 6355/6356 running between Rioni and Kutaisi every other day, synced with trains 853/854 Tbilisi-Ozurgeti-Tbilisi, which stop at Rioni.",
+         "ru": "Станция Риони находится в нескольких километрах к югу от Кутаиси. В связи с тем, что она расположена на главной железнодорожной линии, соединяющей Западную и Восточную Грузию, большинство местных поездов, кроме экспрессов Тбилиси-Батуми (Stadler), останавливаются здесь и Риони можно рассматривать как альтернативу тупиковой <a href='/ru/stations/kutaisi1/'>Кутаиси-1</a>. Добраться от Риони до Кутаиси-1 можно на маршрутке или такси.<br><br>Также между Риони и Кутаиси через день курсируют поезда 6353/6354 и 6355/6356, синхронизированные с поездами 853/854 Тбилиси-Озургети-Тбилиси, которые останавливаются в Риони."
+      },
       "routes": {
          "departure": [
             {
@@ -1935,6 +1973,19 @@ export const stations = [
             }
          ]
       }
+   },
+   {
+      "id": 8342180822,
+      "coords": [
+         41.5341899,
+         45.0419414
+      ],
+      "code": "rustavicargo",
+      "type": "secondary",
+      "name_en": "Rustavi-Cargo",
+      "name_ka": "უცნობი სადგური",
+      "name_ru": "Рустави-Грузовая",
+      "gr_code": 56270
    },
    {
       "id": 11001493869,
@@ -2234,8 +2285,8 @@ export const stations = [
    {
       "id": 1448030489,
       "coords": [
-         41.7215457,
-         44.7992605
+         41.721053,
+         44.7995883
       ],
       "code": "tbilisicentralstation",
       "type": "main",
@@ -2376,6 +2427,19 @@ export const stations = [
          ],
          "via": []
       }
+   },
+   {
+      "id": 12616806614,
+      "coords": [
+         41.6708048,
+         44.9002202
+      ],
+      "code": "tbilisimarshalling",
+      "type": "secondary",
+      "name_en": "Tbilisi Marshalling",
+      "name_ka": "ველი",
+      "name_ru": "Тбилиси-Сортировочная",
+      "gr_code": 56000
    },
    {
       "id": 11139961489,
@@ -2533,6 +2597,19 @@ export const stations = [
             }
          ]
       }
+   },
+   {
+      "id": 12616806616,
+      "coords": [
+         41.6435605,
+         44.9484249
+      ],
+      "code": "veli",
+      "type": "secondary",
+      "name_en": "Veli",
+      "name_ka": "ველი",
+      "name_ru": "Вели",
+      "gr_code": 56290
    },
    {
       "id": 10776367473,

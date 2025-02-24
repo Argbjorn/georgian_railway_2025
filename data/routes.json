@@ -36,8 +36,11 @@
             "name_ka": "ოზურგეთი"
          }
       ],
-      "travel_time": "2:12",
-      "price": null
+      "travel_time": "2:19",
+      "price": {
+         "price_type": "exact",
+         "price": 0.8
+      }
    },
    {
       "id": 15675175,
@@ -77,7 +80,10 @@
          }
       ],
       "travel_time": "2:18",
-      "price": null
+      "price": {
+         "price_type": "exact",
+         "price": 0.8
+      }
    },
    {
       "id": 15689521,
@@ -109,7 +115,10 @@
          }
       ],
       "travel_time": "4:20",
-      "price": null
+      "price": {
+         "price_type": "exact",
+         "price": 2.0
+      }
    },
    {
       "id": 15689520,
@@ -141,7 +150,10 @@
          }
       ],
       "travel_time": "4:12",
-      "price": null
+      "price": {
+         "price_type": "exact",
+         "price": 2.0
+      }
    },
    {
       "id": 14631215,
@@ -350,7 +362,7 @@
             "role": "middle",
             "time": "nn:nn",
             "name_en": "Lanchkhuti",
-            "name_ru": "неизвестная станция",
+            "name_ru": "Ланчхути",
             "name_ka": "უცნობი სადგური"
          },
          {
@@ -505,7 +517,7 @@
             "role": "middle",
             "time": "18:10",
             "name_en": "Lanchkhuti",
-            "name_ru": "неизвестная станция",
+            "name_ru": "Ланчхути",
             "name_ka": "უცნობი სადგური"
          },
          {
@@ -617,7 +629,10 @@
          }
       ],
       "travel_time": "4:20",
-      "price": null
+      "price": {
+         "price_type": "exact",
+         "price": 2.0
+      }
    },
    {
       "id": 1198501,
@@ -649,7 +664,10 @@
          }
       ],
       "travel_time": "4:12",
-      "price": null
+      "price": {
+         "price_type": "exact",
+         "price": 2.0
+      }
    },
    {
       "id": 14669018,
@@ -960,7 +978,7 @@
             "role": "middle",
             "time": "10:32",
             "name_en": "Lanchkhuti",
-            "name_ru": "неизвестная станция",
+            "name_ru": "Ланчхути",
             "name_ka": "უცნობი სადგური"
          },
          {
@@ -1267,7 +1285,7 @@
             "role": "middle",
             "time": "14:24",
             "name_en": "Lanchkhuti",
-            "name_ru": "неизвестная станция",
+            "name_ru": "Ланчхути",
             "name_ka": "უცნობი სადგური"
          },
          {
@@ -2060,7 +2078,7 @@
       "name:en": "Tbilisi → Gardabani",
       "name:ru": "Тбилиси → Гардабани",
       "frequency": "daily",
-      "complete": false,
+      "complete": true,
       "online": false,
       "online_tickets_current_site": false,
       "online_tickets_new_site": false,
@@ -2074,12 +2092,52 @@
             "name_ka": "თბილისის ცენტრალური სადგური"
          },
          {
+            "code": "navtlughi",
+            "role": "middle",
+            "time": "07:20",
+            "name_en": "Navtlughi",
+            "name_ru": "Навтлуги",
+            "name_ka": "ნავთლუღი"
+         },
+         {
+            "code": "tbilisimarshalling",
+            "role": "middle",
+            "time": "07:29",
+            "name_en": "Tbilisi Marshalling",
+            "name_ru": "Тбилиси-Сортировочная",
+            "name_ka": "ველი"
+         },
+         {
+            "code": "veli",
+            "role": "middle",
+            "time": "07:39",
+            "name_en": "Veli",
+            "name_ru": "Вели",
+            "name_ka": "ველი"
+         },
+         {
+            "code": "gachiani",
+            "role": "middle",
+            "time": "07:50",
+            "name_en": "Gachiani",
+            "name_ru": "Гачиани",
+            "name_ka": "გაჩიანი"
+         },
+         {
             "code": "rustavicentral",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "07:58",
             "name_en": "Rustavi Central",
             "name_ru": "Рустави Центральная",
             "name_ka": "რუსთავი ცენტრალი"
+         },
+         {
+            "code": "rustavicargo",
+            "role": "middle",
+            "time": "08:03",
+            "name_en": "Rustavi-Cargo",
+            "name_ru": "Рустави-Грузовая",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "gardabani",
@@ -2091,7 +2149,10 @@
          }
       ],
       "travel_time": "1:06",
-      "price": null
+      "price": {
+         "price_type": "exact",
+         "price": 0.5
+      }
    },
    {
       "id": 16011099,
@@ -2100,7 +2161,7 @@
       "name:en": "Gardabani → Tbilisi",
       "name:ru": "Гардабани → Тбилиси",
       "frequency": "daily",
-      "complete": false,
+      "complete": true,
       "online": false,
       "online_tickets_current_site": false,
       "online_tickets_new_site": false,
@@ -2114,12 +2175,52 @@
             "name_ka": "უცნობი სადგური"
          },
          {
+            "code": "rustavicargo",
+            "role": "middle",
+            "time": "08:42",
+            "name_en": "Rustavi-Cargo",
+            "name_ru": "Рустави-Грузовая",
+            "name_ka": "უცნობი სადგური"
+         },
+         {
             "code": "rustavicentral",
             "role": "middle",
-            "time": "nn:nn",
+            "time": "08:47",
             "name_en": "Rustavi Central",
             "name_ru": "Рустави Центральная",
             "name_ka": "რუსთავი ცენტრალი"
+         },
+         {
+            "code": "gachiani",
+            "role": "middle",
+            "time": "08:59",
+            "name_en": "Gachiani",
+            "name_ru": "Гачиани",
+            "name_ka": "გაჩიანი"
+         },
+         {
+            "code": "veli",
+            "role": "middle",
+            "time": "09:08",
+            "name_en": "Veli",
+            "name_ru": "Вели",
+            "name_ka": "ველი"
+         },
+         {
+            "code": "tbilisimarshalling",
+            "role": "middle",
+            "time": "09:18",
+            "name_en": "Tbilisi Marshalling",
+            "name_ru": "Тбилиси-Сортировочная",
+            "name_ka": "ველი"
+         },
+         {
+            "code": "navtlughi",
+            "role": "middle",
+            "time": "09:27",
+            "name_en": "Navtlughi",
+            "name_ru": "Навтлуги",
+            "name_ka": "ნავთლუღი"
          },
          {
             "code": "tbilisicentralstation",
@@ -2131,7 +2232,10 @@
          }
       ],
       "travel_time": "1:08",
-      "price": null
+      "price": {
+         "price_type": "exact",
+         "price": 0.5
+      }
    },
    {
       "id": 16011186,
@@ -2154,12 +2258,52 @@
             "name_ka": "თბილისის ცენტრალური სადგური"
          },
          {
+            "code": "navtlughi",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Navtlughi",
+            "name_ru": "Навтлуги",
+            "name_ka": "ნავთლუღი"
+         },
+         {
+            "code": "tbilisimarshalling",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Tbilisi Marshalling",
+            "name_ru": "Тбилиси-Сортировочная",
+            "name_ka": "ველი"
+         },
+         {
+            "code": "veli",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Veli",
+            "name_ru": "Вели",
+            "name_ka": "ველი"
+         },
+         {
+            "code": "gachiani",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Gachiani",
+            "name_ru": "Гачиани",
+            "name_ka": "გაჩიანი"
+         },
+         {
             "code": "rustavicentral",
             "role": "middle",
             "time": "nn:nn",
             "name_en": "Rustavi Central",
             "name_ru": "Рустави Центральная",
             "name_ka": "რუსთავი ცენტრალი"
+         },
+         {
+            "code": "rustavicargo",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Rustavi-Cargo",
+            "name_ru": "Рустави-Грузовая",
+            "name_ka": "უცნობი სადგური"
          },
          {
             "code": "gardabani",
@@ -2171,7 +2315,10 @@
          }
       ],
       "travel_time": "1:06",
-      "price": null
+      "price": {
+         "price_type": "exact",
+         "price": 0.5
+      }
    },
    {
       "id": 16011098,
@@ -2194,12 +2341,52 @@
             "name_ka": "უცნობი სადგური"
          },
          {
+            "code": "rustavicargo",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Rustavi-Cargo",
+            "name_ru": "Рустави-Грузовая",
+            "name_ka": "უცნობი სადგური"
+         },
+         {
             "code": "rustavicentral",
             "role": "middle",
             "time": "nn:nn",
             "name_en": "Rustavi Central",
             "name_ru": "Рустави Центральная",
             "name_ka": "რუსთავი ცენტრალი"
+         },
+         {
+            "code": "gachiani",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Gachiani",
+            "name_ru": "Гачиани",
+            "name_ka": "გაჩიანი"
+         },
+         {
+            "code": "veli",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Veli",
+            "name_ru": "Вели",
+            "name_ka": "ველი"
+         },
+         {
+            "code": "tbilisimarshalling",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Tbilisi Marshalling",
+            "name_ru": "Тбилиси-Сортировочная",
+            "name_ka": "ველი"
+         },
+         {
+            "code": "navtlughi",
+            "role": "middle",
+            "time": "nn:nn",
+            "name_en": "Navtlughi",
+            "name_ru": "Навтлуги",
+            "name_ka": "ნავთლუღი"
          },
          {
             "code": "tbilisicentralstation",
@@ -2211,7 +2398,10 @@
          }
       ],
       "travel_time": "1:09",
-      "price": null
+      "price": {
+         "price_type": "exact",
+         "price": 0.5
+      }
    },
    {
       "id": 16024301,
@@ -2291,7 +2481,10 @@
          }
       ],
       "travel_time": "2:23",
-      "price": null
+      "price": {
+         "price_type": "exact",
+         "price": 0.5
+      }
    },
    {
       "id": 16024299,
@@ -2371,7 +2564,10 @@
          }
       ],
       "travel_time": "2:27",
-      "price": null
+      "price": {
+         "price_type": "exact",
+         "price": 0.5
+      }
    },
    {
       "id": 16024298,
@@ -2451,7 +2647,10 @@
          }
       ],
       "travel_time": "2:28",
-      "price": null
+      "price": {
+         "price_type": "exact",
+         "price": 0.5
+      }
    },
    {
       "id": 16024300,
@@ -2531,6 +2730,9 @@
          }
       ],
       "travel_time": "2:18",
-      "price": null
+      "price": {
+         "price_type": "exact",
+         "price": 0.5
+      }
    }
 ]
