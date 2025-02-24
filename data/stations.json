@@ -368,7 +368,41 @@
       "name_en": "Gachiani",
       "name_ka": "გაჩიანი",
       "name_ru": "Гачиани",
-      "gr_code": 56280
+      "gr_code": 56280,
+      "routes": {
+         "departure": [],
+         "arrival": [],
+         "via": [
+            {
+               "ref": 6413,
+               "name_en": "Tbilisi → Gardabani",
+               "name_ru": "Тбилиси → Гардабани",
+               "name_ka": "თბილისი → გარდაბანი",
+               "time": "07:50"
+            },
+            {
+               "ref": 6414,
+               "name_en": "Gardabani → Tbilisi",
+               "name_ru": "Гардабани → Тбилиси",
+               "name_ka": "გარდაბანი → თბილისი",
+               "time": "08:59"
+            },
+            {
+               "ref": 6415,
+               "name_en": "Tbilisi → Gardabani",
+               "name_ru": "Тбилиси → Гардабани",
+               "name_ka": "თბილისი → გარდაბანი",
+               "time": "nn:nn"
+            },
+            {
+               "ref": 6416,
+               "name_en": "Gardabani → Tbilisi",
+               "name_ru": "Гардабани → Тбилиси",
+               "name_ka": "გარდაბანი → თბილისი",
+               "time": "nn:nn"
+            }
+         ]
+      }
    },
    {
       "id": 11001501786,
@@ -1595,7 +1629,41 @@
       "name_en": "Navtlughi",
       "name_ka": "ნავთლუღი",
       "name_ru": "Навтлуги",
-      "gr_code": 56010
+      "gr_code": 56010,
+      "routes": {
+         "departure": [],
+         "arrival": [],
+         "via": [
+            {
+               "ref": 6413,
+               "name_en": "Tbilisi → Gardabani",
+               "name_ru": "Тбилиси → Гардабани",
+               "name_ka": "თბილისი → გარდაბანი",
+               "time": "07:20"
+            },
+            {
+               "ref": 6414,
+               "name_en": "Gardabani → Tbilisi",
+               "name_ru": "Гардабани → Тбилиси",
+               "name_ka": "გარდაბანი → თბილისი",
+               "time": "09:27"
+            },
+            {
+               "ref": 6415,
+               "name_en": "Tbilisi → Gardabani",
+               "name_ru": "Тбилиси → Гардабани",
+               "name_ka": "თბილისი → გარდაბანი",
+               "time": "nn:nn"
+            },
+            {
+               "ref": 6416,
+               "name_en": "Gardabani → Tbilisi",
+               "name_ru": "Гардабани → Тбилиси",
+               "name_ka": "გარდაბანი → თბილისი",
+               "time": "nn:nn"
+            }
+         ]
+      }
    },
    {
       "id": 11139961448,
@@ -1948,14 +2016,14 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
-               "time": "nn:nn"
+               "time": "07:58"
             },
             {
                "ref": 6414,
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
-               "time": "nn:nn"
+               "time": "08:47"
             },
             {
                "ref": 6415,
@@ -1985,7 +2053,41 @@
       "name_en": "Rustavi-Cargo",
       "name_ka": "უცნობი სადგური",
       "name_ru": "Рустави-Грузовая",
-      "gr_code": 56270
+      "gr_code": 56270,
+      "routes": {
+         "departure": [],
+         "arrival": [],
+         "via": [
+            {
+               "ref": 6413,
+               "name_en": "Tbilisi → Gardabani",
+               "name_ru": "Тбилиси → Гардабани",
+               "name_ka": "თბილისი → გარდაბანი",
+               "time": "08:03"
+            },
+            {
+               "ref": 6414,
+               "name_en": "Gardabani → Tbilisi",
+               "name_ru": "Гардабани → Тбилиси",
+               "name_ka": "გარდაბანი → თბილისი",
+               "time": "08:42"
+            },
+            {
+               "ref": 6415,
+               "name_en": "Tbilisi → Gardabani",
+               "name_ru": "Тбилиси → Гардабани",
+               "name_ka": "თბილისი → გარდაბანი",
+               "time": "nn:nn"
+            },
+            {
+               "ref": 6416,
+               "name_en": "Gardabani → Tbilisi",
+               "name_ru": "Гардабани → Тбилиси",
+               "name_ka": "გარდაბანი → თბილისი",
+               "time": "nn:nn"
+            }
+         ]
+      }
    },
    {
       "id": 11001493869,
@@ -2439,7 +2541,41 @@
       "name_en": "Tbilisi Marshalling",
       "name_ka": "ველი",
       "name_ru": "Тбилиси-Сортировочная",
-      "gr_code": 56000
+      "gr_code": 56000,
+      "routes": {
+         "departure": [],
+         "arrival": [],
+         "via": [
+            {
+               "ref": 6413,
+               "name_en": "Tbilisi → Gardabani",
+               "name_ru": "Тбилиси → Гардабани",
+               "name_ka": "თბილისი → გარდაბანი",
+               "time": "07:29"
+            },
+            {
+               "ref": 6414,
+               "name_en": "Gardabani → Tbilisi",
+               "name_ru": "Гардабани → Тбилиси",
+               "name_ka": "გარდაბანი → თბილისი",
+               "time": "09:18"
+            },
+            {
+               "ref": 6415,
+               "name_en": "Tbilisi → Gardabani",
+               "name_ru": "Тбилиси → Гардабани",
+               "name_ka": "თბილისი → გარდაბანი",
+               "time": "nn:nn"
+            },
+            {
+               "ref": 6416,
+               "name_en": "Gardabani → Tbilisi",
+               "name_ru": "Гардабани → Тбилиси",
+               "name_ka": "გარდაბანი → თბილისი",
+               "time": "nn:nn"
+            }
+         ]
+      }
    },
    {
       "id": 11139961489,
@@ -2609,7 +2745,41 @@
       "name_en": "Veli",
       "name_ka": "ველი",
       "name_ru": "Вели",
-      "gr_code": 56290
+      "gr_code": 56290,
+      "routes": {
+         "departure": [],
+         "arrival": [],
+         "via": [
+            {
+               "ref": 6413,
+               "name_en": "Tbilisi → Gardabani",
+               "name_ru": "Тбилиси → Гардабани",
+               "name_ka": "თბილისი → გარდაბანი",
+               "time": "07:39"
+            },
+            {
+               "ref": 6414,
+               "name_en": "Gardabani → Tbilisi",
+               "name_ru": "Гардабани → Тбилиси",
+               "name_ka": "გარდაბანი → თბილისი",
+               "time": "09:08"
+            },
+            {
+               "ref": 6415,
+               "name_en": "Tbilisi → Gardabani",
+               "name_ru": "Тбилиси → Гардабани",
+               "name_ka": "თბილისი → გარდაბანი",
+               "time": "nn:nn"
+            },
+            {
+               "ref": 6416,
+               "name_en": "Gardabani → Tbilisi",
+               "name_ru": "Гардабани → Тбилиси",
+               "name_ka": "გარდაბანი → თბილისი",
+               "time": "nn:nn"
+            }
+         ]
+      }
    },
    {
       "id": 10776367473,
