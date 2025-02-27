@@ -1,0 +1,20 @@
+{{ $lang := .lang }}
+{{ $train_type := .train_type }}
+
+{{ $translations := dict
+    "ru" (dict
+        "stadler" "Современные двухэтажные электропоезда, произведенные в Европе. Оснащены кондиционером, имеют сидячие места 2-го, 1-го и бизнес-класса. Есть туалеты. Лучшие поезда в Грузии."
+        "vmk-grt" "Китайские электропоезда, адаптированные для Грузии. Оснащены кондиционером, имеют сидячие места 2-го, 1-го и (не всегда) бизнес-класса. Есть туалеты."
+        "suburban" "Обычная электричка с сидячими местами."
+    )
+    "en" (dict
+        "stadler" "Modern double-decker electric trains manufactured in Europe. They are equipped with air conditioning and offer second-class, first-class, and business-class seats. Have toilets. The best trains in Georgia."
+        "vmk-grt" "Chinese electric trains adapted for Georgia. They are equipped with air conditioning and offer second-class, first-class, and (not always) business-class seats. Have toilets."
+        "suburban" "Regular electric train with sitting places."
+    )
+}}
+
+{{ with (index $translations $lang) }}
+    {{ index . $train_type }}
+{{ end }}
+
