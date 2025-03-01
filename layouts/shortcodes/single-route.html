@@ -20,8 +20,9 @@
         "new_site" "официальном бета-сайте"
         "not_available" "не доступны"
         "uncomplete_disclaimer" "🚧 У меня нет полного списка станций или времени прибытия для этого поезда. Его нет и на официальном сайте. Если вы располагаете информацией, пожалуйста, сообщите мне."
-        "stations" "Станции"
-        "back_to_map" "Вернуться на карту поездов"
+        "schedule" "Расписание"
+        "back_to_map" "На полную карту поездов"
+        "route_on_map" "Маршрут на карте"
     )
     "en" (dict
         "status" "✅ Route is active. Last changes"
@@ -39,8 +40,9 @@
         "new_site" "official website (beta)"
         "not_available" "not available"
         "uncomplete_disclaimer" "🚧 I don't have a complete list of stations or arrival times for this route. Neither is it on the official website. If you have any additional information, please let me know."
-        "stations" "Stations"
-        "back_to_map" "Back to the entire routes map"
+        "schedule" "Schedule"
+        "back_to_map" "To the entire routes map"
+        "route_on_map" "Route on the map"
     )
 }}
 
@@ -81,8 +83,8 @@
 {{ else }}{{ $t.not_available }}
 {{ end }}</p>
 
-<!-- Stations -->
-<h3>{{ $t.stations }}:</h3>
+<!-- Schedule -->
+<h3>{{ $t.schedule }}</h3>
 {{ if not .Page.Params.complete }}
 <p>{{ $t.uncomplete_disclaimer }}</p>
 {{ end }}
@@ -96,7 +98,12 @@
     {{ end }}
 </ul>
 
+<!-- Route map -->
+<h3>{{ $t.route_on_map }}</h3>
+{{ partial "route-map.html" . }}
+
 <p>🗺 <a href='/{{ $lang }}/'>{{ $t.back_to_map }}</a></p>
+<br>
 
 <script>
 function toggleTrainInfo(elementId) {
