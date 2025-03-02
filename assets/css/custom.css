@@ -441,3 +441,95 @@ nav > a, li > a {
     line-height: 1.4;
     color: #333;
 }
+
+.train-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 1rem 0;
+}
+
+.train-gallery img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.train-gallery img:hover {
+    transform: scale(1.05);
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1000;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.lightbox-figure {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.lightbox-figure img {
+    max-width: 100vw;
+    max-height: 90vh;
+    width: auto;
+    height: auto;
+    min-height: 300px;
+    margin: auto;
+    object-fit: contain;
+}
+
+#lightbox-caption {
+    color: white;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    position: relative;
+}
+
+.lightbox-copyright {
+    color: #999;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    font-style: italic;
+    position: relative;
+}
+
+.lightbox-copyright a {
+    color: #999;
+    text-decoration: underline;
+}
+
+.lightbox-copyright a:hover {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .lightbox-figure img {
+        width: 100vw;
+        height: auto;
+        min-height: 300px;
+        object-fit: contain;
+    }
+}
+
+body.lightbox-open {
+    overflow: hidden;
+}

@@ -14,7 +14,116 @@
     )
 }}
 
+{{ $train_photos := dict
+    "stadler" (slice
+        (dict 
+            "src" "/images/trains/stadler/01.jpg" 
+            "alt" "Stadler KISS"
+            "copyright" "© Superalbs"
+            "copyright_link" "https://commons.wikimedia.org/wiki/File:Georgian_Railway_GRS_Class_at_Tbilisi_4.jpg"
+        )
+        (dict 
+            "src" "/images/trains/stadler/02.jpg" 
+            "alt" "Stadler KISS"
+            "copyright" "© Nodara95"
+            "copyright_link" "https://commons.wikimedia.org/wiki/File:Stadler_KISS_for_Georgian_Railways.jpg"
+        )
+        (dict 
+        "src" "/images/trains/stadler/03.jpg" 
+        "alt" "Train Batumi — Tbilisi starts from International airport Kutaisi station"
+        "copyright" "© Александр Сапожников"
+        "copyright_link" "https://commons.wikimedia.org/wiki/File:Stadler_train_at_Kutaisi_airport_station.jpg"
+    )
+    )
+    "vmk-grt" (slice
+        (dict 
+            "src" "/images/test-gallery/0c5dDgTjYCo.jpg" 
+            "alt" "Электропоезд VMK-GRT"
+            "copyright" "© Georgian Railway"
+        )
+        (dict 
+            "src" "/images/test-gallery/0c5dDgTjYCo.jpg" 
+            "alt" "VMK-GRT на станции"
+        )
+    )
+    "suburban" (slice
+        (dict 
+            "src" "/images/test-gallery/0c5dDgTjYCo.jpg" 
+            "alt" "Пригородный электропоезд"
+        )
+    )
+}}
+
 {{ with (index $translations $lang) }}
     {{ index . $train_type }}
+    <div class="train-gallery">
+        {{ range (index $train_photos $train_type) }}
+            <img 
+                src="{{ .src }}" 
+                alt="{{ .alt }}" 
+                onclick="openLightbox(this)" 
+                {{ with .copyright }}data-copyright="{{ . }}"{{ end }}
+                {{ with .copyright_link }}data-copyright-link="{{ . }}"{{ end }}
+            >
+        {{ end }}
+    </div>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <figure class="lightbox-figure">
+            <img id="lightbox-img" src="" alt="">
+            <figcaption id="lightbox-caption"></figcaption>
+            <div id="lightbox-copyright" class="lightbox-copyright"></div>
+        </figure>
+    </div>
+
+    <script>
+    function openLightbox(img) {
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const lightboxCaption = document.getElementById('lightbox-caption');
+        const lightboxCopyright = document.getElementById('lightbox-copyright');
+        
+        document.body.classList.add('lightbox-open');
+        
+        lightboxImg.src = img.src;
+        lightboxImg.alt = img.alt;
+        lightboxCaption.textContent = img.alt;
+        
+        // Обработка копирайта
+        const copyright = img.dataset.copyright;
+        const copyrightLink = img.dataset.copyrightLink;
+        
+        if (copyright) {
+            if (copyrightLink) {
+                lightboxCopyright.innerHTML = `<a href="${copyrightLink}" target="_blank" rel="noopener">${copyright}</a>`;
+            } else {
+                lightboxCopyright.textContent = copyright;
+            }
+            lightboxCopyright.style.display = 'block';
+        } else {
+            lightboxCopyright.style.display = 'none';
+        }
+        
+        lightbox.style.display = 'block';
+    }
+
+    function closeLightbox() {
+        document.getElementById('lightbox').style.display = 'none';
+        document.body.classList.remove('lightbox-open');
+    }
+
+    // Предотвращаем закрытие лайтбокса при клике на ссылку
+    document.getElementById('lightbox-copyright').addEventListener('click', function(e) {
+        if (e.target.tagName === 'A') {
+            e.stopPropagation();
+        }
+    });
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            closeLightbox();
+        }
+    });
+    </script>
 {{ end }}
 
