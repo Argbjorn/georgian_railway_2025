@@ -5,49 +5,74 @@
 
 {{ $translations := dict
     "ru" (dict
+        "analogue" "Аналогичные поезда"
         "status" "✅ Маршрут активен. Последние изменения"
         "frequency" "Частота"
         "frequency_daily" "ежедневно"
         "frequency_odd_days" "по нечётным дням"
         "travel_time" "Время в пути"
+        "train_type" "Тип поезда"
+        "suburban_train" "электричка"
         "price" "Цена"
         "from" "от"
         "online_tickets" "Онлайн билеты"
         "available" "доступны на"
         "current_site" "официальном сайте"
-        "new_site" "официальном бета-сайте (доступен только с территории Грузии)"
+        "new_site" "официальном бета-сайте"
         "not_available" "не доступны"
         "uncomplete_disclaimer" "🚧 У меня нет полного списка станций или времени прибытия для этого поезда. Его нет и на официальном сайте. Если вы располагаете информацией, пожалуйста, сообщите мне."
-        "stations" "Станции"
-        "back_to_map" "Вернуться на карту поездов"
+        "schedule" "Расписание"
+        "back_to_map" "На полную карту поездов"
+        "route_on_map" "Маршрут на карте"
     )
     "en" (dict
+        "analogue" "Similar trains"
         "status" "✅ Route is active. Last changes"
         "frequency" "Frequency"
         "frequency_daily" "daily"
         "frequency_odd_days" "on odd days"
         "travel_time" "Travel time"
+        "train_type" "Train type"
+        "suburban_train" "suburban"
         "price" "Price"
         "from" "from"
         "online_tickets" "Online tickets"
         "available" "available on the"
         "current_site" "official website"
-        "new_site" "official website (beta, available only from Georgia)"
+        "new_site" "official website (beta)"
         "not_available" "not available"
         "uncomplete_disclaimer" "🚧 I don't have a complete list of stations or arrival times for this route. Neither is it on the official website. If you have any additional information, please let me know."
-        "stations" "Stations"
-        "back_to_map" "Back to the entire routes map"
+        "schedule" "Schedule"
+        "back_to_map" "To the entire routes map"
+        "route_on_map" "Route on the map"
     )
 }}
 
 {{ $t := index $translations $lang }}
 
+<!-- Status -->
 <p>{{ $t.status }}: {{ now.Format "02.01.2006" }}</p>
+
+<!-- Frequency -->
 <p><strong>{{ $t.frequency }}:</strong> {{ if eq .Page.Params.frequency "daily" }}{{ $t.frequency_daily }}{{ else if eq .Page.Params.frequency "on odd days" }}{{ $t.frequency_odd_days }}{{ end }} <br>
+
+<!-- Travel time -->
 <strong>{{ $t.travel_time }}:</strong> {{ .Page.Params.travel_time }} <br>
+
+<!-- Train type -->
+{{ if .Page.Params.train_type }}
+    <strong>{{ $t.train_type }}:</strong><button class="train-type-button" onclick="toggleTrainInfo('train-info-{{ .Page.Params.train_type }}')">{{ if eq .Page.Params.train_type "stadler" }}Stadler KISS{{ else if eq .Page.Params.train_type "vmk-grt" }}VMK/GRT{{ else if eq .Page.Params.train_type "suburban" }}{{ $t.suburban_train }}{{ end }}</button>
+    <div id="train-info-{{ .Page.Params.train_type }}" class="train-info-description">
+        {{ partial "shortcodes/train-description.html" (dict "lang" $lang "train_type" .Page.Params.train_type) }}
+    </div>
+{{ end }}
+
+<!-- Price -->
 {{ if .Page.Params.price }}
     <strong>{{ $t.price }}:</strong> {{ if eq .Page.Params.price.price_type "from" }}{{ $t.from }} {{ end }}{{ .Page.Params.price.price }} ₾<br>
 {{ end }}
+
+<!-- Online tickets -->
 <strong>{{ $t.online_tickets }}:</strong> 
 {{ if or (eq $online_tickets_current_site "true") (eq $online_tickets_new_site "true") }}
     {{ $t.available }} 
@@ -60,7 +85,8 @@
 {{ else }}{{ $t.not_available }}
 {{ end }}</p>
 
-<h3>{{ $t.stations }}:</h3>
+<!-- Schedule -->
+<h3>{{ $t.schedule }}</h3>
 {{ if not .Page.Params.complete }}
 <p>{{ $t.uncomplete_disclaimer }}</p>
 {{ end }}
@@ -74,4 +100,38 @@
     {{ end }}
 </ul>
 
+<!-- Analogues -->
+{{ if .Page.Params.analogue }}
+    <h3>{{ $t.analogue }}</h3>
+    {{ range .Page.Params.analogue }}
+        {{ $analogueRef := . }}
+        {{ range $route := $.Site.Data.routes }}
+            {{ if eq (string $route.ref) (string $analogueRef) }}
+                {{ $url := printf "%s/routes/%v/" (cond (eq $lang "ru") "/ru" "") $analogueRef }}
+                <a href="{{ $url }}" class="station-route">
+                    <span class="station-route-ref">{{ $analogueRef }}</span>
+                    <span class="station-route-name">{{ index $route (printf "name:%s" $lang) }}</span>
+                </a>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
+
+<!-- Route map -->
+<h3>{{ $t.route_on_map }}</h3>
+{{ partial "route-map.html" . }}
+
 <p>🗺 <a href='/{{ $lang }}/'>{{ $t.back_to_map }}</a></p>
+<br>
+
+<script>
+function toggleTrainInfo(elementId) {
+    const description = document.getElementById(elementId);
+    if (!description) return;
+    if (description.style.display === 'block') {
+        description.style.display = 'none';
+    } else {
+        description.style.display = 'block';
+    }
+}
+</script>

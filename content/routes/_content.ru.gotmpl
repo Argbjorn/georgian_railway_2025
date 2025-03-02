@@ -4,6 +4,7 @@
         "value" (printf "{{< single-route \"%v\" \"%v\" \"%v\" >}}" .online_tickets_current_site .online_tickets_new_site "ru")
     }}
     {{ $params := dict 
+        "id" .id
         "ref" .ref
         "stations" .stations
         "frequency" .frequency
@@ -11,6 +12,8 @@
         "online" .online
         "travel_time" .travel_time
         "price" .price
+        "train_type" .train_type
+        "analogue" .analogue
     }}
     {{ $name := index . "name:ru" }}
     {{ $page := dict
