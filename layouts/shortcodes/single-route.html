@@ -5,6 +5,7 @@
 
 {{ $translations := dict
     "ru" (dict
+        "analogue" "Аналогичные поезда"
         "status" "✅ Маршрут активен. Последние изменения"
         "frequency" "Частота"
         "frequency_daily" "ежедневно"
@@ -25,6 +26,7 @@
         "route_on_map" "Маршрут на карте"
     )
     "en" (dict
+        "analogue" "Similar trains"
         "status" "✅ Route is active. Last changes"
         "frequency" "Frequency"
         "frequency_daily" "daily"
@@ -97,6 +99,23 @@
     </li>
     {{ end }}
 </ul>
+
+<!-- Analogues -->
+{{ if .Page.Params.analogue }}
+    <h3>{{ $t.analogue }}</h3>
+    {{ range .Page.Params.analogue }}
+        {{ $analogueRef := . }}
+        {{ range $route := $.Site.Data.routes }}
+            {{ if eq (string $route.ref) (string $analogueRef) }}
+                {{ $url := printf "%s/routes/%v/" (cond (eq $lang "ru") "/ru" "") $analogueRef }}
+                <a href="{{ $url }}" class="station-route">
+                    <span class="station-route-ref">{{ $analogueRef }}</span>
+                    <span class="station-route-name">{{ index $route (printf "name:%s" $lang) }}</span>
+                </a>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+{{ end }}
 
 <!-- Route map -->
 <h3>{{ $t.route_on_map }}</h3>

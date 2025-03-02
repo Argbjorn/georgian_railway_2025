@@ -41,7 +41,8 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 0.8
-      }
+      },
+      "analogue": []
    },
    {
       "id": 15675175,
@@ -85,7 +86,8 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 0.8
-      }
+      },
+      "analogue": []
    },
    {
       "id": 15689521,
@@ -121,7 +123,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 2.0
-      }
+      },
+      "analogue": [
+         "685"
+      ]
    },
    {
       "id": 15689520,
@@ -157,7 +162,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 2.0
-      }
+      },
+      "analogue": [
+         "686"
+      ]
    },
    {
       "id": 14631215,
@@ -217,7 +225,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 2.0
-      }
+      },
+      "analogue": [
+         "683"
+      ]
    },
    {
       "id": 14631214,
@@ -277,7 +288,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 2.0
-      }
+      },
+      "analogue": [
+         "682"
+      ]
    },
    {
       "id": 14631216,
@@ -441,7 +455,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 2.0
-      }
+      },
+      "analogue": [
+         "681"
+      ]
    },
    {
       "id": 14630243,
@@ -605,7 +622,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 2.0
-      }
+      },
+      "analogue": [
+         "684"
+      ]
    },
    {
       "id": 15689522,
@@ -641,7 +661,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 2.0
-      }
+      },
+      "analogue": [
+         "617"
+      ]
    },
    {
       "id": 1198501,
@@ -677,7 +700,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 2.0
-      }
+      },
+      "analogue": [
+         "618"
+      ]
    },
    {
       "id": 14669018,
@@ -737,7 +763,10 @@ export const routesList = [
       "price": {
          "price_type": "from",
          "price": 35.0
-      }
+      },
+      "analogue": [
+         "803"
+      ]
    },
    {
       "id": 14669015,
@@ -797,7 +826,10 @@ export const routesList = [
       "price": {
          "price_type": "from",
          "price": 35.0
-      }
+      },
+      "analogue": [
+         "804"
+      ]
    },
    {
       "id": 14669017,
@@ -857,7 +889,10 @@ export const routesList = [
       "price": {
          "price_type": "from",
          "price": 35.0
-      }
+      },
+      "analogue": [
+         "801"
+      ]
    },
    {
       "id": 14669014,
@@ -917,7 +952,10 @@ export const routesList = [
       "price": {
          "price_type": "from",
          "price": 35.0
-      }
+      },
+      "analogue": [
+         "802"
+      ]
    },
    {
       "id": 18681735,
@@ -1137,7 +1175,8 @@ export const routesList = [
       "price": {
          "price_type": "from",
          "price": 16.0
-      }
+      },
+      "analogue": []
    },
    {
       "id": 18681734,
@@ -1381,7 +1420,8 @@ export const routesList = [
       "price": {
          "price_type": "from",
          "price": 16.0
-      }
+      },
+      "analogue": []
    },
    {
       "id": 15667577,
@@ -1521,7 +1561,8 @@ export const routesList = [
       "price": {
          "price_type": "from",
          "price": 16.0
-      }
+      },
+      "analogue": []
    },
    {
       "id": 6409429,
@@ -1669,7 +1710,8 @@ export const routesList = [
       "price": {
          "price_type": "from",
          "price": 16.0
-      }
+      },
+      "analogue": []
    },
    {
       "id": 15683666,
@@ -1809,7 +1851,8 @@ export const routesList = [
       "price": {
          "price_type": "from",
          "price": 16.0
-      }
+      },
+      "analogue": []
    },
    {
       "id": 15683667,
@@ -1949,7 +1992,8 @@ export const routesList = [
       "price": {
          "price_type": "from",
          "price": 16.0
-      }
+      },
+      "analogue": []
    },
    {
       "id": 18681733,
@@ -1985,7 +2029,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 0.5
-      }
+      },
+      "analogue": [
+         "6355"
+      ]
    },
    {
       "id": 18681731,
@@ -2021,7 +2068,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 0.5
-      }
+      },
+      "analogue": [
+         "6356"
+      ]
    },
    {
       "id": 18681732,
@@ -2057,7 +2107,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 0.5
-      }
+      },
+      "analogue": [
+         "6353"
+      ]
    },
    {
       "id": 18681730,
@@ -2093,7 +2146,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 0.5
-      }
+      },
+      "analogue": [
+         "6354"
+      ]
    },
    {
       "id": 16011187,
@@ -2177,7 +2233,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 0.5
-      }
+      },
+      "analogue": [
+         "6415"
+      ]
    },
    {
       "id": 16011099,
@@ -2261,7 +2320,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 0.5
-      }
+      },
+      "analogue": [
+         "6416"
+      ]
    },
    {
       "id": 16011186,
@@ -2345,7 +2407,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 0.5
-      }
+      },
+      "analogue": [
+         "6413"
+      ]
    },
    {
       "id": 16011098,
@@ -2429,7 +2494,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 0.5
-      }
+      },
+      "analogue": [
+         "6414"
+      ]
    },
    {
       "id": 16024301,
@@ -2513,7 +2581,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 0.5
-      }
+      },
+      "analogue": [
+         "6447"
+      ]
    },
    {
       "id": 16024299,
@@ -2597,7 +2668,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 0.5
-      }
+      },
+      "analogue": [
+         "6446"
+      ]
    },
    {
       "id": 16024298,
@@ -2681,7 +2755,10 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 0.5
-      }
+      },
+      "analogue": [
+         "6418"
+      ]
    },
    {
       "id": 16024300,
@@ -2765,6 +2842,9 @@ export const routesList = [
       "price": {
          "price_type": "exact",
          "price": 0.5
-      }
+      },
+      "analogue": [
+         "6417"
+      ]
    }
 ]
