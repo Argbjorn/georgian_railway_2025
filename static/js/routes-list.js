@@ -765,7 +765,8 @@ export const routesList = [
          "price": 35.0
       },
       "analogue": [
-         "803"
+         "803",
+         "811"
       ]
    },
    {
@@ -828,7 +829,8 @@ export const routesList = [
          "price": 35.0
       },
       "analogue": [
-         "804"
+         "804",
+         "812"
       ]
    },
    {
@@ -891,7 +893,8 @@ export const routesList = [
          "price": 35.0
       },
       "analogue": [
-         "801"
+         "801",
+         "811"
       ]
    },
    {
@@ -954,7 +957,136 @@ export const routesList = [
          "price": 35.0
       },
       "analogue": [
-         "802"
+         "802",
+         "812"
+      ]
+   },
+   {
+      "id": 17890098,
+      "ref": 811,
+      "name:ka": "ბათუმი → თბილისი",
+      "name:en": "Batumi → Tbilisi",
+      "name:ru": "Батуми → Тбилиси",
+      "frequency": "8, 9, 10, 15, 16, 17, 22, 23, 24, 29, 30, 31 March",
+      "complete": true,
+      "online": true,
+      "online_tickets_current_site": true,
+      "online_tickets_new_site": false,
+      "train_type": "stadler",
+      "stations": [
+         {
+            "code": "batumicentral",
+            "role": "start",
+            "time": "00:40",
+            "name_en": "Batumi-Central",
+            "name_ru": "Батуми-Пассажирская",
+            "name_ka": "ბათუმი-ცენტრალი"
+         },
+         {
+            "code": "kobuleti",
+            "role": "middle",
+            "time": "01:00",
+            "name_en": "Kobuleti",
+            "name_ru": "Кобулети",
+            "name_ka": "ქობულეთი"
+         },
+         {
+            "code": "ureki",
+            "role": "middle",
+            "time": "01:30",
+            "name_en": "Ureki",
+            "name_ru": "Уреки",
+            "name_ka": "ურეკი"
+         },
+         {
+            "code": "kutaisiinternationalairport",
+            "role": "middle",
+            "time": "02:29",
+            "name_en": "Kutaisi International Airport",
+            "name_ru": "Международный аэропорт Кутаиси",
+            "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
+         },
+         {
+            "code": "tbilisicentralstation",
+            "role": "end",
+            "time": "05:41",
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
+         }
+      ],
+      "travel_time": "5:01",
+      "price": {
+         "price_type": "from",
+         "price": 35.0
+      },
+      "analogue": [
+         "801",
+         "803"
+      ]
+   },
+   {
+      "id": 17890096,
+      "ref": 812,
+      "name:ka": "თბილისი → ბათუმი",
+      "name:en": "Tbilisi → Batumi",
+      "name:ru": "Тбилиси → Батуми",
+      "frequency": "8, 9, 10, 15, 16, 17, 22, 23, 24, 29, 30, 31 March",
+      "complete": true,
+      "online": true,
+      "online_tickets_current_site": true,
+      "online_tickets_new_site": false,
+      "train_type": "stadler",
+      "stations": [
+         {
+            "code": "tbilisicentralstation",
+            "role": "start",
+            "time": "00:30",
+            "name_en": "Tbilisi Central Station",
+            "name_ru": "Центральный вокзал Тбилиси",
+            "name_ka": "თბილისის ცენტრალური სადგური"
+         },
+         {
+            "code": "kutaisiinternationalairport",
+            "role": "middle",
+            "time": "03:49",
+            "name_en": "Kutaisi International Airport",
+            "name_ru": "Международный аэропорт Кутаиси",
+            "name_ka": "ქუთაისის საერთაშორისო აეროპორტი"
+         },
+         {
+            "code": "ureki",
+            "role": "middle",
+            "time": "04:46",
+            "name_en": "Ureki",
+            "name_ru": "Уреки",
+            "name_ka": "ურეკი"
+         },
+         {
+            "code": "kobuleti",
+            "role": "middle",
+            "time": "05:13",
+            "name_en": "Kobuleti",
+            "name_ru": "Кобулети",
+            "name_ka": "ქობულეთი"
+         },
+         {
+            "code": "batumicentral",
+            "role": "end",
+            "time": "05:38",
+            "name_en": "Batumi-Central",
+            "name_ru": "Батуми-Пассажирская",
+            "name_ka": "ბათუმი-ცენტრალი"
+         }
+      ],
+      "travel_time": "5:08",
+      "price": {
+         "price_type": "from",
+         "price": 35.0
+      },
+      "analogue": [
+         "802",
+         "804"
       ]
    },
    {

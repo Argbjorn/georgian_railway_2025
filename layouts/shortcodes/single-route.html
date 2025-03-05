@@ -54,7 +54,16 @@
 <p>{{ $t.status }}: {{ now.Format "02.01.2006" }}</p>
 
 <!-- Frequency -->
-<p><strong>{{ $t.frequency }}:</strong> {{ if eq .Page.Params.frequency "daily" }}{{ $t.frequency_daily }}{{ else if eq .Page.Params.frequency "on odd days" }}{{ $t.frequency_odd_days }}{{ end }} <br>
+<!-- TODO: Refactor for non daily frequencies -->
+<p><strong>{{ $t.frequency }}:</strong> 
+    {{ if eq .Page.Params.frequency "daily" }}
+        {{ $t.frequency_daily }}
+    {{ else if eq .Page.Params.frequency "on odd days" }}
+        {{ $t.frequency_odd_days }}
+    {{ else }}
+        {{ $replace := cond (eq $lang "ru") "марта" "March" }}
+        {{ replace .Page.Params.frequency "March" $replace }}
+    {{ end }} <br>
 
 <!-- Travel time -->
 <strong>{{ $t.travel_time }}:</strong> {{ .Page.Params.travel_time }} <br>
