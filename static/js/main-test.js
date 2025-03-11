@@ -22,53 +22,52 @@ export async function getOverpassData(query) {
   return result;
 }
 
+// Returns JSON with local routes data
+export async function getRoutesData(routeId) {
+  var result = await fetch(`data/routes_geodata/${routeId}.json`, {
+    method: "GET",
+  }).then((data) => data.json());
+  return result;
+}
+
 // Map layers
 
 // Creates a route
 async function createRoute(routeId) {
   const newRoute = new Route(routeId);
   let route = L.featureGroup();
-  const routeData = await getOverpassData(newRoute.query);
+  const routeData = await getRoutesData(routeId);
 
   // Sets bounds for fly to bounds
-  const b = routeData.elements[0].bounds;
+  const b = routeData.bounds;
   newRoute.setBounds(
     L.latLngBounds([b.minlat - 1, b.minlon], [b.maxlat + 1, b.maxlon + 1])
   ); // Corrections are for better pan with an opened sidepanel
 
-  routeData.elements.forEach(async (element) => {
-    let stations = [];
-    element.members.forEach(async (member) => {
-      // Gathers route relation's ways and combine them in an one polyline
-      if (member.type == "way") {
-        route.addLayer(L.polyline(member.geometry, newRoute.polylineOptions));
-      }
-      // Gathers route relation nodes (stations)
-      else if (member.type == "node") {
-        stations.push(member.ref);
-      }
-    });
-    // Combines overpass query to gather all the stations data
-    let query = "[out:json][timeout:25];(";
-    stations.forEach((station) => {
-      query += "node(" + station + ");";
-    });
-    query += ");out geom;";
-    // Runs overpass query
-    const stationData = await getOverpassData(query);
-    // Creates all the station markers
-    stationData.elements.forEach((element) => {
-      route.addLayer(
-        L.circleMarker(
-          [element.lat, element.lon],
-          newRoute.cirkleMarkerOptions
-        ).bindTooltip(getStationName(element), {
-          permanent: false,
-          direction: "top",
-          opacity: 0.9,
-        })
-      );
-    });
+  routeData.members.forEach(async (member) => {
+    // Gathers route relation's ways and combine them in an one polyline
+    if (member.type == "way") {
+      route.addLayer(L.polyline(member.geometry, newRoute.polylineOptions));
+    }
+    else if (member.type == "node") {
+      stations.push(member);
+    }
+  });
+  
+  let stationData;
+  
+  // Creates all the station markers
+  stationData.forEach((element) => {
+    route.addLayer(
+      L.circleMarker(
+        [element.coords[0], element.coords[1]],
+        newRoute.cirkleMarkerOptions
+      ).bindTooltip(getStationName(element), {
+        permanent: false,
+        direction: "top",
+        opacity: 0.9,
+      })
+    );
   });
   newRoute.setFeatureGroup(route);
   routes.push(newRoute);
@@ -161,18 +160,19 @@ async function handleStationClick(station) {
 
 // Handling with routes data
 
+// Returns station code by name_en
+function getStationCode(name_en) {
+  return name_en.toLowerCase().split(' ').join('').replace('-', '');
+}
+
 // Returns the station name from raw overpass data, if exists
 function getStationName(data) {
   let stationName;
-  if ("tags" in data) {
-    const lang = LS.getCurrentLanguage();
-    if ("name:" + lang in data.tags) {
-      stationName = data.tags["name:" + lang];
-    } else if ("name" in data.tags) {
-      stationName = data.tags["name"];
-    } else {
-      stationName = LS.translate("unknown_station");
-    }
+  const lang = LS.getCurrentLanguage();
+  if ("name_" + lang in data) {
+    stationName = data["name_" + lang];
+  } else if ("name" in data) {
+    stationName = data["name"];
   } else {
     stationName = LS.translate("unknown_station");
   }
