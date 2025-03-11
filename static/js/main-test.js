@@ -24,7 +24,8 @@ export async function getOverpassData(query) {
 
 // Returns JSON with local routes data
 export async function getRoutesData(routeId) {
-  var result = await fetch(`data/routes_geodata/${routeId}.json`, {
+  const path = `/data/routes_geodata/${routeId}.json`;
+  var result = await fetch(path, {
     method: "GET",
   }).then((data) => data.json());
   return result;
@@ -37,6 +38,7 @@ async function createRoute(routeId) {
   const newRoute = new Route(routeId);
   let route = L.featureGroup();
   const routeData = await getRoutesData(routeId);
+  let routeStations = [];
 
   // Sets bounds for fly to bounds
   const b = routeData.bounds;
@@ -49,20 +51,32 @@ async function createRoute(routeId) {
     if (member.type == "way") {
       route.addLayer(L.polyline(member.geometry, newRoute.polylineOptions));
     }
-    else if (member.type == "node") {
-      stations.push(member);
+    else if (member.role == "stop") {
+      routeStations.push(member);
     }
   });
   
-  let stationData;
-  
-  // Creates all the station markers
-  stationData.forEach((element) => {
+  // Creates all the route's stations markers
+  routeStations.forEach((element) => {
+    const names = {
+      'en': "unknown station",
+      'ru': "неизвестная станция",
+      'ka': "სამოცნელო სტაციონი"
+    };
+    for (const station of stationsList) {
+      if (station.id.includes(element.ref)) {
+        names['en'] = station.name_en;
+        names['ru'] = station.name_ru;
+        names['ka'] = station.name_ka;
+        break;
+      }
+    };
+
     route.addLayer(
       L.circleMarker(
-        [element.coords[0], element.coords[1]],
+        [element.lat, element.lon],
         newRoute.cirkleMarkerOptions
-      ).bindTooltip(getStationName(element), {
+      ).bindTooltip(names[LS.getCurrentLanguage()], {
         permanent: false,
         direction: "top",
         opacity: 0.9,
