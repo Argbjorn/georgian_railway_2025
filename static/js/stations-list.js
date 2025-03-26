@@ -471,7 +471,7 @@ export const stations = [
       "code": "brotseula",
       "type": "secondary",
       "name_en": "Brotseula",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "ბროწეულა",
       "name_ru": "Броцеула",
       "gr_code": 57461,
       "routes": {
@@ -618,7 +618,7 @@ export const stations = [
       "code": "chiatura",
       "type": "secondary",
       "name_en": "Chiatura",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "ჭიათურა",
       "name_ru": "Чиатура",
       "gr_code": "00000",
       "routes": {
@@ -895,7 +895,7 @@ export const stations = [
       "code": "gardabani",
       "type": "secondary",
       "name_en": "Gardabani",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "გარდაბანი",
       "name_ru": "Гардабани",
       "gr_code": 56260,
       "routes": {
@@ -1137,7 +1137,7 @@ export const stations = [
       "code": "ingiri",
       "type": "secondary",
       "name_en": "Ingiri",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "ინგირი",
       "name_ru": "Ингири",
       "gr_code": 57280,
       "routes": {
@@ -1173,7 +1173,7 @@ export const stations = [
       "code": "jumati",
       "type": "secondary",
       "name_en": "Jumati",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "ჯუმათი",
       "name_ru": "Джумати",
       "gr_code": 57050,
       "routes": {
@@ -2130,7 +2130,7 @@ export const stations = [
       "code": "kvaloni",
       "type": "secondary",
       "name_en": "Kvaloni",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "ქვალონი",
       "name_ru": "Квалони",
       "gr_code": 57194,
       "routes": {
@@ -2165,7 +2165,7 @@ export const stations = [
       "code": "lanchkhuti",
       "type": "secondary",
       "name_en": "Lanchkhuti",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "ლანჩხუთი",
       "name_ru": "Ланчхути",
       "gr_code": 57040,
       "routes": {
@@ -2440,7 +2440,7 @@ export const stations = [
       "code": "meria",
       "type": "secondary",
       "name_en": "Meria",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "მერია",
       "name_ru": "Мэриа",
       "gr_code": 57090,
       "routes": {
@@ -2638,7 +2638,7 @@ export const stations = [
       "code": "natanebi",
       "type": "secondary",
       "name_en": "Natanebi",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "ნატანები",
       "name_ru": "Натанеби",
       "gr_code": 57080,
       "routes": {
@@ -2765,7 +2765,7 @@ export const stations = [
       "code": "nigoiti",
       "type": "secondary",
       "name_en": "Nigoiti",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "ნიგოითი",
       "name_ru": "Нигоити",
       "gr_code": 57030,
       "routes": {
@@ -2941,7 +2941,7 @@ export const stations = [
       "code": "platform11km",
       "type": "secondary",
       "name_en": "Platform 11 km",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "ბაქანი 11 კმ",
       "name_ru": "Платформа 11 км",
       "gr_code": 57091,
       "routes": {
@@ -2976,7 +2976,7 @@ export const stations = [
       "code": "platform16km",
       "type": "secondary",
       "name_en": "Platform 16 km",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "ბაქანი 16 კმ",
       "name_ru": "Платформа 16 км",
       "gr_code": 57093,
       "routes": {
@@ -3004,7 +3004,7 @@ export const stations = [
       "code": "poti",
       "type": "secondary",
       "name_en": "Poti",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "ფოთი",
       "name_ru": "Поти",
       "gr_code": 57210,
       "routes": {
@@ -3231,7 +3231,7 @@ export const stations = [
       "code": "rustavicargo",
       "type": "secondary",
       "name_en": "Rustavi-Cargo",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "რუსთავი-სატვირთო",
       "name_ru": "Рустави-Грузовая",
       "gr_code": 56270,
       "routes": {
@@ -3280,7 +3280,7 @@ export const stations = [
       "code": "sachkhere",
       "type": "secondary",
       "name_en": "Sachkhere",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "საჩხერე",
       "name_ru": "Сачхере",
       "gr_code": "00000",
       "routes": {
@@ -3316,7 +3316,7 @@ export const stations = [
       "code": "sajavakho",
       "type": "secondary",
       "name_en": "Sajavakho",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "საჯავახო",
       "name_ru": "Саджавахо",
       "gr_code": "00000",
       "routes": {
@@ -3555,7 +3555,7 @@ export const stations = [
       "code": "shukhuti",
       "type": "secondary",
       "name_en": "Shukhuti",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "შუხუთი",
       "name_ru": "Шухути",
       "gr_code": 57031,
       "routes": {
@@ -3590,7 +3590,7 @@ export const stations = [
       "code": "supsa",
       "type": "secondary",
       "name_en": "Supsa",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "სუფსა",
       "name_ru": "Супса",
       "gr_code": 57060,
       "routes": {
@@ -3654,7 +3654,7 @@ export const stations = [
       "code": "sviri",
       "type": "secondary",
       "name_en": "Sviri",
-      "name_ka": "უცნობი სადგური",
+      "name_ka": "სვირი",
       "name_ru": "Свири",
       "gr_code": 57580,
       "routes": {

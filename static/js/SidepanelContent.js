@@ -60,6 +60,9 @@ export class SidepanelContent {
     if (LS.getCurrentLanguage() == "ru") {
         stationLinkBase = '/ru/stations/';
     }
+    if (LS.getCurrentLanguage() == "ka") {
+      stationLinkBase = '/ka/stations/';
+    }
     stationLink.href = `${stationLinkBase}${this.station.code}/`;
     stationLink.innerHTML = LS.translate("view_station_details");
     stationLink.classList.add("station-more-info");
@@ -195,6 +198,9 @@ export class SidepanelContent {
     let routeLinkBase = '/routes/';
     if (LS.getCurrentLanguage() == "ru") {
         routeLinkBase = '/ru/routes/';
+    }
+    if (LS.getCurrentLanguage() == "ka") {
+      routeLinkBase = '/ka/routes/';
     }
     routeMoreInfo.href = `${routeLinkBase}${route.ref}`;
     routeMoreInfo.innerHTML = LS.translate("view_route_details");

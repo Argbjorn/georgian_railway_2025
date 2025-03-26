@@ -58,7 +58,7 @@ export const routesList = [
             "time": "21:49",
             "name_en": "Natanebi",
             "name_ru": "Натанеби",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ნატანები"
          },
          {
             "code": "ozurgeti",
@@ -103,7 +103,7 @@ export const routesList = [
             "time": "08:15",
             "name_en": "Natanebi",
             "name_ru": "Натанеби",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ნატანები"
          },
          {
             "code": "ochkhamuri",
@@ -538,7 +538,7 @@ export const routesList = [
             "time": "08:33",
             "name_en": "Chiatura",
             "name_ru": "Чиатура",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ჭიათურა"
          },
          {
             "code": "chikauri",
@@ -562,7 +562,7 @@ export const routesList = [
             "time": "09:19",
             "name_en": "Sachkhere",
             "name_ru": "Сачхере",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "საჩხერე"
          }
       ],
       "travel_time": "3:29",
@@ -591,7 +591,7 @@ export const routesList = [
             "time": "10:35",
             "name_en": "Sachkhere",
             "name_ru": "Сачхере",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "საჩხერე"
          },
          {
             "code": "darkveti",
@@ -615,7 +615,7 @@ export const routesList = [
             "time": "11:16",
             "name_en": "Chiatura",
             "name_ru": "Чиатура",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ჭიათურა"
          },
          {
             "code": "beghlevi",
@@ -732,7 +732,7 @@ export const routesList = [
             "time": "20:48",
             "name_en": "Natanebi",
             "name_ru": "Натанеби",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ნატანები"
          },
          {
             "code": "ureki",
@@ -748,7 +748,7 @@ export const routesList = [
             "time": "21:15",
             "name_en": "Supsa",
             "name_ru": "Супса",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "სუფსა"
          },
          {
             "code": "jumati",
@@ -756,7 +756,7 @@ export const routesList = [
             "time": "21:32",
             "name_en": "Jumati",
             "name_ru": "Джумати",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ჯუმათი"
          },
          {
             "code": "lanchkhuti",
@@ -764,7 +764,7 @@ export const routesList = [
             "time": "21:55",
             "name_en": "Lanchkhuti",
             "name_ru": "Ланчхути",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ლანჩხუთი"
          },
          {
             "code": "nigoiti",
@@ -772,7 +772,7 @@ export const routesList = [
             "time": "22:09",
             "name_en": "Nigoiti",
             "name_ru": "Нигоити",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ნიგოითი"
          },
          {
             "code": "sajavakho",
@@ -780,7 +780,7 @@ export const routesList = [
             "time": "22:31",
             "name_en": "Sajavakho",
             "name_ru": "Саджавахо",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "საჯავახო"
          },
          {
             "code": "samtredia1",
@@ -812,7 +812,7 @@ export const routesList = [
             "time": "23:32",
             "name_en": "Brotseula",
             "name_ru": "Броцеула",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ბროწეულა"
          },
          {
             "code": "rioni",
@@ -875,7 +875,7 @@ export const routesList = [
             "time": "06:51",
             "name_en": "Brotseula",
             "name_ru": "Броцеула",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ბროწეულა"
          },
          {
             "code": "kutaisiinternationalairport",
@@ -907,7 +907,7 @@ export const routesList = [
             "time": "07:40",
             "name_en": "Sajavakho",
             "name_ru": "Саджавахо",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "საჯავახო"
          },
          {
             "code": "nigoiti",
@@ -915,7 +915,7 @@ export const routesList = [
             "time": "08:11",
             "name_en": "Nigoiti",
             "name_ru": "Нигоити",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ნიგოითი"
          },
          {
             "code": "lanchkhuti",
@@ -923,7 +923,7 @@ export const routesList = [
             "time": "08:25",
             "name_en": "Lanchkhuti",
             "name_ru": "Ланчхути",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ლანჩხუთი"
          },
          {
             "code": "jumati",
@@ -931,7 +931,7 @@ export const routesList = [
             "time": "08:43",
             "name_en": "Jumati",
             "name_ru": "Джумати",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ჯუმათი"
          },
          {
             "code": "supsa",
@@ -939,7 +939,7 @@ export const routesList = [
             "time": "08:59",
             "name_en": "Supsa",
             "name_ru": "Супса",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "სუფსა"
          },
          {
             "code": "ureki",
@@ -955,7 +955,7 @@ export const routesList = [
             "time": "09:29",
             "name_en": "Natanebi",
             "name_ru": "Натанеби",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ნატანები"
          },
          {
             "code": "ochkhamuri",
@@ -1066,7 +1066,7 @@ export const routesList = [
             "time": "11:00",
             "name_en": "Natanebi",
             "name_ru": "Натанеби",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ნატანები"
          },
          {
             "code": "ureki",
@@ -1082,7 +1082,7 @@ export const routesList = [
             "time": "11:26",
             "name_en": "Supsa",
             "name_ru": "Супса",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "სუფსა"
          },
          {
             "code": "jumati",
@@ -1090,7 +1090,7 @@ export const routesList = [
             "time": "11:42",
             "name_en": "Jumati",
             "name_ru": "Джумати",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ჯუმათი"
          },
          {
             "code": "lanchkhuti",
@@ -1098,7 +1098,7 @@ export const routesList = [
             "time": "11:59",
             "name_en": "Lanchkhuti",
             "name_ru": "Ланчхути",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ლანჩხუთი"
          },
          {
             "code": "nigoiti",
@@ -1106,7 +1106,7 @@ export const routesList = [
             "time": "12:12",
             "name_en": "Nigoiti",
             "name_ru": "Нигоити",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ნიგოითი"
          },
          {
             "code": "sajavakho",
@@ -1114,7 +1114,7 @@ export const routesList = [
             "time": "12:35",
             "name_en": "Sajavakho",
             "name_ru": "Саджавахо",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "საჯავახო"
          },
          {
             "code": "samtredia1",
@@ -1146,7 +1146,7 @@ export const routesList = [
             "time": "13:33",
             "name_en": "Brotseula",
             "name_ru": "Броцеула",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ბროწეულა"
          },
          {
             "code": "rioni",
@@ -1209,7 +1209,7 @@ export const routesList = [
             "time": "16:36",
             "name_en": "Brotseula",
             "name_ru": "Броцеула",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ბროწეულა"
          },
          {
             "code": "kutaisiinternationalairport",
@@ -1241,7 +1241,7 @@ export const routesList = [
             "time": "17:35",
             "name_en": "Sajavakho",
             "name_ru": "Саджавахо",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "საჯავახო"
          },
          {
             "code": "nigoiti",
@@ -1249,7 +1249,7 @@ export const routesList = [
             "time": "17:56",
             "name_en": "Nigoiti",
             "name_ru": "Нигоити",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ნიგოითი"
          },
          {
             "code": "lanchkhuti",
@@ -1257,7 +1257,7 @@ export const routesList = [
             "time": "18:10",
             "name_en": "Lanchkhuti",
             "name_ru": "Ланчхути",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ლანჩხუთი"
          },
          {
             "code": "jumati",
@@ -1265,7 +1265,7 @@ export const routesList = [
             "time": "18:30",
             "name_en": "Jumati",
             "name_ru": "Джумати",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ჯუმათი"
          },
          {
             "code": "supsa",
@@ -1273,7 +1273,7 @@ export const routesList = [
             "time": "18:46",
             "name_en": "Supsa",
             "name_ru": "Супса",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "სუფსა"
          },
          {
             "code": "ureki",
@@ -1289,7 +1289,7 @@ export const routesList = [
             "time": "19:11",
             "name_en": "Natanebi",
             "name_ru": "Натанеби",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ნატანები"
          },
          {
             "code": "ochkhamuri",
@@ -2070,7 +2070,7 @@ export const routesList = [
             "time": "09:14",
             "name_en": "Platform 11 km",
             "name_ru": "Платформа 11 км",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ბაქანი 11 კმ"
          },
          {
             "code": "meria",
@@ -2078,7 +2078,7 @@ export const routesList = [
             "time": "09:26",
             "name_en": "Meria",
             "name_ru": "Мэриа",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "მერია"
          },
          {
             "code": "natanebi",
@@ -2086,7 +2086,7 @@ export const routesList = [
             "time": "09:40",
             "name_en": "Natanebi",
             "name_ru": "Натанеби",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ნატანები"
          },
          {
             "code": "ureki",
@@ -2102,7 +2102,7 @@ export const routesList = [
             "time": "10:10",
             "name_en": "Supsa",
             "name_ru": "Супса",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "სუფსა"
          },
          {
             "code": "jumati",
@@ -2110,7 +2110,7 @@ export const routesList = [
             "time": "10:21",
             "name_en": "Jumati",
             "name_ru": "Джумати",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ჯუმათი"
          },
          {
             "code": "lanchkhuti",
@@ -2118,7 +2118,7 @@ export const routesList = [
             "time": "10:32",
             "name_en": "Lanchkhuti",
             "name_ru": "Ланчхути",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ლანჩხუთი"
          },
          {
             "code": "shukhuti",
@@ -2126,7 +2126,7 @@ export const routesList = [
             "time": "10:40",
             "name_en": "Shukhuti",
             "name_ru": "Шухути",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "შუხუთი"
          },
          {
             "code": "nigoiti",
@@ -2134,7 +2134,7 @@ export const routesList = [
             "time": "10:44",
             "name_en": "Nigoiti",
             "name_ru": "Нигоити",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ნიგოითი"
          },
          {
             "code": "samtredia1",
@@ -2166,7 +2166,7 @@ export const routesList = [
             "time": "12:03",
             "name_en": "Sviri",
             "name_ru": "Свири",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "სვირი"
          },
          {
             "code": "zestafoni",
@@ -2379,7 +2379,7 @@ export const routesList = [
             "time": "12:50",
             "name_en": "Sviri",
             "name_ru": "Свири",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "სვირი"
          },
          {
             "code": "rioni",
@@ -2411,7 +2411,7 @@ export const routesList = [
             "time": "14:13",
             "name_en": "Nigoiti",
             "name_ru": "Нигоити",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ნიგოითი"
          },
          {
             "code": "shukhuti",
@@ -2419,7 +2419,7 @@ export const routesList = [
             "time": "14:17",
             "name_en": "Shukhuti",
             "name_ru": "Шухути",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "შუხუთი"
          },
          {
             "code": "lanchkhuti",
@@ -2427,7 +2427,7 @@ export const routesList = [
             "time": "14:24",
             "name_en": "Lanchkhuti",
             "name_ru": "Ланчхути",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ლანჩხუთი"
          },
          {
             "code": "jumati",
@@ -2435,7 +2435,7 @@ export const routesList = [
             "time": "14:36",
             "name_en": "Jumati",
             "name_ru": "Джумати",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ჯუმათი"
          },
          {
             "code": "supsa",
@@ -2443,7 +2443,7 @@ export const routesList = [
             "time": "14:47",
             "name_en": "Supsa",
             "name_ru": "Супса",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "სუფსა"
          },
          {
             "code": "ureki",
@@ -2459,7 +2459,7 @@ export const routesList = [
             "time": "15:08",
             "name_en": "Natanebi",
             "name_ru": "Натанеби",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ნატანები"
          },
          {
             "code": "meria",
@@ -2467,7 +2467,7 @@ export const routesList = [
             "time": "15:30",
             "name_en": "Meria",
             "name_ru": "Мэриа",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "მერია"
          },
          {
             "code": "platform11km",
@@ -2475,7 +2475,7 @@ export const routesList = [
             "time": "15:45",
             "name_en": "Platform 11 km",
             "name_ru": "Платформа 11 км",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ბაქანი 11 კმ"
          },
          {
             "code": "kakhuri",
@@ -2491,7 +2491,7 @@ export const routesList = [
             "time": "16:05",
             "name_en": "Platform 16 km",
             "name_ru": "Платформа 16 км",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ბაქანი 16 კმ"
          },
          {
             "code": "ozurgeti",
@@ -2536,7 +2536,7 @@ export const routesList = [
             "time": "17:08",
             "name_en": "Ingiri",
             "name_ru": "Ингири",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ინგირი"
          },
          {
             "code": "kheta",
@@ -2797,7 +2797,7 @@ export const routesList = [
             "time": "14:52",
             "name_en": "Ingiri",
             "name_ru": "Ингири",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ინგირი"
          },
          {
             "code": "zugdidi",
@@ -2834,7 +2834,7 @@ export const routesList = [
             "time": "07:00",
             "name_en": "Poti",
             "name_ru": "Поти",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ფოთი"
          },
          {
             "code": "chaladidi",
@@ -2850,7 +2850,7 @@ export const routesList = [
             "time": "07:32",
             "name_en": "Kvaloni",
             "name_ru": "Квалони",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ქვალონი"
          },
          {
             "code": "senaki",
@@ -3071,7 +3071,7 @@ export const routesList = [
             "time": "23:03",
             "name_en": "Kvaloni",
             "name_ru": "Квалони",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ქვალონი"
          },
          {
             "code": "chaladidi",
@@ -3087,7 +3087,7 @@ export const routesList = [
             "time": "23:37",
             "name_en": "Poti",
             "name_ru": "Поти",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "ფოთი"
          }
       ],
       "travel_time": "6:07",
@@ -3352,7 +3352,7 @@ export const routesList = [
             "time": "08:03",
             "name_en": "Rustavi-Cargo",
             "name_ru": "Рустави-Грузовая",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "რუსთავი-სატვირთო"
          },
          {
             "code": "gardabani",
@@ -3360,7 +3360,7 @@ export const routesList = [
             "time": "08:16",
             "name_en": "Gardabani",
             "name_ru": "Гардабани",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "გარდაბანი"
          }
       ],
       "travel_time": "1:06",
@@ -3391,7 +3391,7 @@ export const routesList = [
             "time": "08:30",
             "name_en": "Gardabani",
             "name_ru": "Гардабани",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "გარდაბანი"
          },
          {
             "code": "rustavicargo",
@@ -3399,7 +3399,7 @@ export const routesList = [
             "time": "08:42",
             "name_en": "Rustavi-Cargo",
             "name_ru": "Рустави-Грузовая",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "რუსთავი-სატვირთო"
          },
          {
             "code": "rustavicentral",
@@ -3526,7 +3526,7 @@ export const routesList = [
             "time": "19:53",
             "name_en": "Rustavi-Cargo",
             "name_ru": "Рустави-Грузовая",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "რუსთავი-სატვირთო"
          },
          {
             "code": "gardabani",
@@ -3534,7 +3534,7 @@ export const routesList = [
             "time": "20:06",
             "name_en": "Gardabani",
             "name_ru": "Гардабани",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "გარდაბანი"
          }
       ],
       "travel_time": "1:06",
@@ -3565,7 +3565,7 @@ export const routesList = [
             "time": "20:20",
             "name_en": "Gardabani",
             "name_ru": "Гардабани",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "გარდაბანი"
          },
          {
             "code": "rustavicargo",
@@ -3573,7 +3573,7 @@ export const routesList = [
             "time": "20:32",
             "name_en": "Rustavi-Cargo",
             "name_ru": "Рустави-Грузовая",
-            "name_ka": "უცნობი სადგური"
+            "name_ka": "რუსთავი-სატვირთო"
          },
          {
             "code": "rustavicentral",

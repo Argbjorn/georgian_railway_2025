@@ -141,8 +141,16 @@ export async function toggleRoute(routeId) {
 // Shows stations and sets station markers interaction
 async function showStations() {
   stationsList.forEach((station) => {
-    let name =
-      LS.getCurrentLanguage() == "en" ? station.name_en : station.name_ru;
+    let name;
+    const currentLanguage = LS.getCurrentLanguage();
+    if (currentLanguage == "en") {
+      name = station.name_en;
+    } else if (currentLanguage == "ru") {
+      name = station.name_ru;
+    } else if (currentLanguage == "ka") {
+      name = station.name_ka;
+    }
+    
     let newStation = new Station(
       name,
       station.coords,
@@ -240,8 +248,14 @@ export function getStationNameByCode(stationCode) {
 
   stationsList.forEach((station) => {
     if (station.code == stationCode) {
-      stationName =
-        LS.getCurrentLanguage() == "en" ? station.name_en : station.name_ru;
+      const currentLanguage = LS.getCurrentLanguage();
+      if (currentLanguage == "en") {
+        stationName = station.name_en;
+      } else if (currentLanguage == "ru") {
+        stationName = station.name_ru;
+      } else if (currentLanguage == "ka") {
+        stationName = station.name_ka;
+      }
     }
   });
   if (isSet(stationName)) {
