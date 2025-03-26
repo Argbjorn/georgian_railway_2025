@@ -46,6 +46,27 @@
         "back_to_map" "To the entire routes map"
         "route_on_map" "Route on the map"
     )
+    "ka" (dict
+        "analogue" "ანალოგიური მარშრუტი"
+        "status" "✅ მარშრუტი აქტიურია. ბოლო ცვლილებები"
+        "frequency" "სიხშირე"
+        "frequency_daily" "ყოველდღიურად"
+        "frequency_odd_days" "კენტ დღეებში"
+        "travel_time" "მოგზაურობის დრო"
+        "train_type" "მატარებლის ტიპი"
+        "suburban_train" "საგარეუბნო მატარებელი"
+        "price" "ფასი"
+        "from" "დან"
+        "online_tickets" "ონლაინ ბილეთები"
+        "available" "ხელმისაწვდომია"
+        "current_site" "ოფიციალურ საიტზე"
+        "new_site" "ოფიციალურ ბეტა-საიტზე"
+        "not_available" "არაა ხელმისაწვდომი"
+        "uncomplete_disclaimer" "🚧 მე არ მაქვს ამ მარშრუტის გაჩერებების სრული სია ან/და ჩამოსვლის დრო. არც ოფიციალურ საიტზეა. თუ თქვენ ფლობთ ინფორმაციას, გთხოვთ შემატყობინოთ."
+        "schedule" "განრიგი"
+        "back_to_map" "მარშრუტთა სრულ რუკაზე დაბრუნება"
+        "route_on_map" "მარშრუტი რუკაზე"
+    )
 }}
 
 {{ $t := index $translations $lang }}
@@ -59,30 +80,48 @@
         {{ $t.frequency_daily }}
     {{ else if eq .Page.Params.frequency "on odd days" }}
         {{ $t.frequency_odd_days }}
-    {{ else }}
-        {{ if eq $lang "ru" }}
-            {{ $months := dict 
-                "January" "января"
-                "February" "февраля" 
-                "March" "марта" 
-                "April" "апреля" 
-                "May" "мая" 
-                "June" "июня" 
-                "July" "июля" 
-                "August" "августа" 
-                "September" "сентября" 
-                "October" "октября" 
-                "November" "ноября" 
-                "December" "декабря" }}
-            
-            {{ $frequency := .Page.Params.frequency }}
-            {{ range $en, $ru := $months }}
-                {{ $frequency = replace $frequency $en $ru }}
-            {{ end }}
-            {{ $frequency }}
-        {{ else }}
-            {{ .Page.Params.frequency }}
+    {{ else if eq $lang "ru" }}
+        {{ $months := dict 
+            "January" "января"
+            "February" "февраля" 
+            "March" "марта" 
+            "April" "апреля" 
+            "May" "мая" 
+            "June" "июня" 
+            "July" "июля" 
+            "August" "августа" 
+            "September" "сентября" 
+            "October" "октября" 
+            "November" "ноября" 
+            "December" "декабря" }}
+        
+        {{ $frequency := .Page.Params.frequency }}
+        {{ range $en, $ru := $months }}
+            {{ $frequency = replace $frequency $en $ru }}
         {{ end }}
+        {{ $frequency }}
+    {{ else if eq $lang "ka" }}
+        {{ $months := dict 
+            "January" "იანვარი"
+            "February" "თებერვალი" 
+            "March" "მარტი" 
+            "April" "აპრილი" 
+            "May" "მაისი" 
+            "June" "ივნისი" 
+            "July" "ივლისი" 
+            "August" "აგვისტო" 
+            "September" "სექტემბერი" 
+            "October" "ოქტომბერი" 
+            "November" "ნოემბერი" 
+            "December" "დეკემბერი" }}
+        
+        {{ $frequency := .Page.Params.frequency }}
+        {{ range $en, $ka := $months }}
+            {{ $frequency = replace $frequency $en $ka }}
+        {{ end }}
+        {{ $frequency }}
+    {{ else }}
+        {{ .Page.Params.frequency }}
     {{ end }} <br>
 
 <!-- Travel time -->
@@ -120,11 +159,20 @@
 <p>{{ $t.uncomplete_disclaimer }}</p>
 {{ end }}
 
+<!-- Stations -->
 <ul class="route-timeline">
     {{ range $index, $station := $stations }}
     <li class="{{ if or (eq $index 0) (eq $index (sub (len $stations) 1)) }}terminal{{ else }}intermediate{{ end }}">
         <span class="station-time">{{ .time }}</span>
-        <a href="/{{ if eq $lang "ru" }}ru/{{ end }}stations/{{ .code }}/" class="station-name">{{ if eq $lang "ru" }}{{ .name_ru }}{{ else }}{{ .name_en }}{{ end }}</a>
+        <a href="/{{ if eq $lang "ru" }}ru/{{ else if eq $lang "ka" }}ka/{{ end }}stations/{{ .code }}/" class="station-name">
+            {{ if eq $lang "ru" }}
+                {{ .name_ru }}
+            {{ else if eq $lang "ka" }}
+                {{ .name_ka }}
+            {{ else }}
+                {{ .name_en }}
+            {{ end }}
+        </a>
     </li>
     {{ end }}
 </ul>

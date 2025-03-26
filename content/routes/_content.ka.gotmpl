@@ -1,0 +1,29 @@
+{{ range site.Data.routes }}
+    {{ $content := dict
+        "mediaType" "text/markdown"
+        "value" (printf "{{< single-route \"%v\" \"%v\" \"%v\" >}}" .online_tickets_current_site .online_tickets_new_site "ka")
+    }}
+    {{ $params := dict 
+        "id" .id
+        "ref" .ref
+        "stations" .stations
+        "frequency" .frequency
+        "complete" .complete
+        "online" .online
+        "travel_time" .travel_time
+        "price" .price
+        "train_type" .train_type
+        "analogue" .analogue
+    }}
+    {{ $name := index . "name:ka" }}
+    {{ $page := dict
+        "content" $content
+        "description" (printf "მატარებელი %v: %s საქართველოს რკინიგზის. მარშრუტი რუკაზე, განრიგი, ღირებულება და სხვა დეტალები." .ref $name)
+        "kind" "page"
+        "path" .ref
+        "title" (printf "მატარებელი %v: %s" .ref $name)
+        "params" $params
+        "weight" .ref
+    }}
+    {{ $.AddPage $page }}
+{{ end }}

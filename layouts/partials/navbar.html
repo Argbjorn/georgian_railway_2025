@@ -5,6 +5,7 @@
 {{- $logoDarkPath := .Site.Params.navbar.logo.dark | default $logoPath -}}
 {{- $enFlag := "images/en-lang.png" -}}
 {{- $ruFlag := "images/ru-lang.png" -}}
+{{- $kaFlag := "images/ka-lang.png" -}}
 
 {{- $navWidth := "hx-max-w-[90rem]" -}}
 {{- with .Site.Params.navbar.width -}}
@@ -65,11 +66,69 @@
     {{- end -}}
     
     {{ if hugo.IsMultilingual }}
-		{{ range $.Translations }}
-		<a href="{{ .Permalink }}" class="">{{ if eq .Language.LanguageName "English" }}<img src={{ $enFlag | relURL }} />{{ else }}<img src={{ $ruFlag | relURL }} />{{ end }}</a>
-	{{ end }}
-{{ end }}
+    <div class="language-switcher hx-relative">
+      <button id="language-toggle" class="hx-flex hx-items-center hx-gap-1 hx-px-2 hx-py-1 hx-rounded hover:hx-bg-gray-100 dark:hover:hx-bg-gray-800">
+        {{ if eq .Language.Lang "en" }}
+          <img src="{{ $enFlag | relURL }}" alt="English" class="hx-w-[22px] hx-h-[22px]" />
+        {{ else if eq .Language.Lang "ru" }}
+          <img src="{{ $ruFlag | relURL }}" alt="Русский" class="hx-w-[22px] hx-h-[22px]" />
+        {{ else if eq .Language.Lang "ka" }}
+          <img src="{{ $kaFlag | relURL }}" alt="ქართული" class="hx-w-[22px] hx-h-[22px]" />
+        {{ end }}
+        <span class="hx-ml-1" style="font-size: 14px;">{{ .Language.LanguageName }}</span>
+        {{- partial "utils/icon.html" (dict "name" "chevron-down" "attributes" "height=14") -}}
+      </button>
+      <div id="language-dropdown" class="hx-hidden hx-absolute hx-right-0 hx-mt-1 hx-bg-white dark:hx-bg-gray-900 hx-shadow-md hx-rounded hx-py-1 hx-z-50" style="min-width: 160px; width: auto;">
+        {{ range $.Translations }}
+          <div class="hx-px-4 hx-py-2 hover:hx-bg-gray-100 dark:hover:hx-bg-gray-800 hx-cursor-pointer" style="font-size: 14px;" data-lang-url="{{ .Permalink }}">
+            {{ if eq .Language.Lang "en" }}
+              <div class="hx-flex hx-items-center">
+                <img src="{{ $enFlag | relURL }}" alt="English" class="hx-w-[22px] hx-h-[22px] hx-mr-2" />
+                <span>English</span>
+              </div>
+            {{ else if eq .Language.Lang "ru" }}
+              <div class="hx-flex hx-items-center">
+                <img src="{{ $ruFlag | relURL }}" alt="Русский" class="hx-w-[22px] hx-h-[22px] hx-mr-2" />
+                <span>Русский</span>
+              </div>
+            {{ else if eq .Language.Lang "ka" }}
+              <div class="hx-flex hx-items-center">
+                <img src="{{ $kaFlag | relURL }}" alt="ქართული" class="hx-w-[22px] hx-h-[22px] hx-mr-2" />
+                <span>ქართული</span>
+              </div>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+    <script>
+      document.getElementById('language-toggle').addEventListener('click', function(event) {
+        const dropdown = document.getElementById('language-dropdown');
+        dropdown.classList.toggle('hx-hidden');
+        event.stopPropagation();
+      });
       
+      // Навигация по клику на элемент языка
+      const langItems = document.querySelectorAll('#language-dropdown [data-lang-url]');
+      langItems.forEach(item => {
+        item.addEventListener('click', function() {
+          const url = this.getAttribute('data-lang-url');
+          if (url) {
+            window.location.href = url;
+          }
+        });
+      });
+      
+      // Закрытие дропдауна при клике вне
+      document.addEventListener('click', function(event) {
+        const toggle = document.getElementById('language-toggle');
+        const dropdown = document.getElementById('language-dropdown');
+        if (!toggle.contains(event.target) && !dropdown.contains(event.target)) {
+          dropdown.classList.add('hx-hidden');
+        }
+      });
+    </script>
+    {{ end }}
       
     <button type="button" aria-label="Menu" class="hamburger-menu -hx-mr-2 hx-rounded hx-p-2 active:hx-bg-gray-400/20 md:hx-hidden">
       {{- partial "utils/icon.html" (dict "name" "hamburger-menu" "attributes" "height=24") -}}

@@ -35,7 +35,7 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "name_ka": "ფოთი → თბილისი",
                "time": "08:07"
             },
             {
@@ -298,7 +298,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "20:27"
             },
             {
@@ -503,7 +503,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "16:36"
             }
          ]
@@ -566,7 +566,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "20:01"
             }
          ]
@@ -594,7 +594,7 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "name_ka": "ფოთი → თბილისი",
                "time": "07:18"
             },
             {
@@ -1063,7 +1063,7 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "name_ka": "ფოთი → თბილისი",
                "time": "11:53"
             },
             {
@@ -1205,7 +1205,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "18:30"
             },
             {
@@ -1483,7 +1483,7 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "name_ka": "ფოთი → თბილისი",
                "time": "09:58"
             },
             {
@@ -1647,7 +1647,7 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "name_ka": "ფოთი → თბილისი",
                "time": "11:13"
             },
             {
@@ -1787,7 +1787,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "19:41"
             },
             {
@@ -1933,7 +1933,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "16:56"
             },
             {
@@ -2010,7 +2010,7 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "name_ka": "ფოთი → თბილისი",
                "time": "08:43"
             },
             {
@@ -2061,7 +2061,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "16:00"
             },
             {
@@ -2141,7 +2141,7 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "name_ka": "ფოთი → თბილისი",
                "time": "07:32"
             },
             {
@@ -2197,7 +2197,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "18:10"
             },
             {
@@ -2331,7 +2331,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "20:21"
             }
          ]
@@ -2388,7 +2388,7 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "name_ka": "ფოთი → თბილისი",
                "time": "10:19"
             },
             {
@@ -2514,7 +2514,7 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "name_ka": "ფოთი → თბილისი",
                "time": "10:31"
             },
             {
@@ -2684,7 +2684,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "19:11"
             },
             {
@@ -2797,7 +2797,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "17:56"
             },
             {
@@ -2874,7 +2874,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "19:27"
             }
          ]
@@ -3013,7 +3013,7 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "name_ka": "ფოთი → თბილისი",
                "time": "07:00"
             }
          ],
@@ -3121,7 +3121,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "16:20"
             },
             {
@@ -3156,7 +3156,7 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "name_ka": "ფოთი → თბილისი",
                "time": "09:00"
             },
             {
@@ -3348,7 +3348,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "17:35"
             }
          ]
@@ -3447,7 +3447,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "17:17"
             },
             {
@@ -3482,7 +3482,7 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "name_ka": "ფოთი → თბილისი",
                "time": "08:25"
             },
             {
@@ -3531,7 +3531,7 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "name_ka": "ფოთი → თბილისი",
                "time": "07:44"
             },
             {
@@ -3622,7 +3622,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "18:46"
             },
             {
@@ -3821,7 +3821,7 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "name_ka": "ფოთი → თბილისი",
                "time": "13:02"
             },
             {
@@ -4063,7 +4063,7 @@ export const stations = [
                "ref": 684,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
-               "name_ka": "მატარებელი №684: ქუთაისი → ბათუმი",
+               "name_ka": "ქუთაისი → ბათუმი",
                "time": "18:58"
             },
             {
@@ -4327,7 +4327,7 @@ export const stations = [
                "ref": 873,
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
-               "name_ka": "მატარებელი №873: ფოთი → თბილისი",
+               "name_ka": "ფოთი → თბილისი",
                "time": "09:28"
             },
             {

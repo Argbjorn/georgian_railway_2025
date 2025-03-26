@@ -9,6 +9,9 @@ languages:
     weight: 1
   ru:
     languageName: Русский
+    weight: 3
+  ka:
+    languageName: ქართული
     weight: 2
 
 # import hextra as module

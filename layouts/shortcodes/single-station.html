@@ -13,6 +13,12 @@
         "stops" "Stops"
         "back_to_map" "Back to the entire routes map"
     )
+    "ka" (dict
+    "departures" "გამგზავრება"
+    "arrivals" "ჩამოსვლა"
+    "stops" "ჩერდება"
+    "back_to_map" "მარშრუტთა რუკაზე დაბრუნება"
+)
 }}
 
 {{ $t := index $translations $lang }}
@@ -25,11 +31,11 @@
 {{ if .Page.Params.routes.departure }}
 <h2>{{ $t.departures }}</h2>
     {{ range sort .Page.Params.routes.departure "time" }}
-    {{ $url := printf "%s/routes/%v/" (cond (eq $lang "ru") "/ru" "") .ref }}
+    {{ $url := printf "%s/routes/%v/" (cond (eq $lang "ru") "/ru" (cond (eq $lang "ka") "/ka" "")) .ref }}
     <a href="{{ $url }}" class="station-route">
         <span class="station-route-time">{{ .time }}</span>
         <span class="station-route-ref">{{ .ref }}</span>
-        <span class="station-route-name">{{ if eq $lang "ru" }}{{ .name_ru }}{{ else }}{{ .name_en }}{{ end }}</span>
+        <span class="station-route-name">{{ if eq $lang "ru" }}{{ .name_ru }}{{ else if eq $lang "ka" }}{{ .name_ka }}{{ else }}{{ .name_en }}{{ end }}</span>
     </a>
     {{ end }}
 {{ end }}
@@ -37,11 +43,11 @@
 {{ if .Page.Params.routes.arrival }}
 <h2>{{ $t.arrivals }}</h2>
     {{ range sort .Page.Params.routes.arrival "time" }}
-    {{ $url := printf "%s/routes/%v/" (cond (eq $lang "ru") "/ru" "") .ref }}
+    {{ $url := printf "%s/routes/%v/" (cond (eq $lang "ru") "/ru" (cond (eq $lang "ka") "/ka" "")) .ref }}
     <a href="{{ $url }}" class="station-route">
         <span class="station-route-time">{{ .time }}</span>
         <span class="station-route-ref">{{ .ref }}</span>
-        <span class="station-route-name">{{ if eq $lang "ru" }}{{ .name_ru }}{{ else }}{{ .name_en }}{{ end }}</span>
+        <span class="station-route-name">{{ if eq $lang "ru" }}{{ .name_ru }}{{ else if eq $lang "ka" }}{{ .name_ka }}{{ else }}{{ .name_en }}{{ end }}</span>
     </a>
     {{ end }}
 {{ end }}
@@ -49,11 +55,11 @@
 {{ if .Page.Params.routes.via }}
 <h2>{{ $t.stops }}</h2>
     {{ range sort .Page.Params.routes.via "time" }}
-    {{ $url := printf "%s/routes/%v/" (cond (eq $lang "ru") "/ru" "") .ref }}
+    {{ $url := printf "%s/routes/%v/" (cond (eq $lang "ru") "/ru" (cond (eq $lang "ka") "/ka" "")) .ref }}
     <a href="{{ $url }}" class="station-route">
         <span class="station-route-time">{{ .time }}</span>
         <span class="station-route-ref">{{ .ref }}</span>
-        <span class="station-route-name">{{ if eq $lang "ru" }}{{ .name_ru }}{{ else }}{{ .name_en }}{{ end }}</span>
+        <span class="station-route-name">{{ if eq $lang "ru" }}{{ .name_ru }}{{ else if eq $lang "ka" }}{{ .name_ka }}{{ else }}{{ .name_en }}{{ end }}</span>
     </a>
     {{ end }}
 {{ end }}
