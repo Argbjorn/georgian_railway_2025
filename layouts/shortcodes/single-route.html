@@ -54,15 +54,35 @@
 <p>{{ $t.status }}: {{ now.Format "02.01.2006" }}</p>
 
 <!-- Frequency -->
-<!-- TODO: Refactor for non daily frequencies -->
 <p><strong>{{ $t.frequency }}:</strong> 
     {{ if eq .Page.Params.frequency "daily" }}
         {{ $t.frequency_daily }}
     {{ else if eq .Page.Params.frequency "on odd days" }}
         {{ $t.frequency_odd_days }}
     {{ else }}
-        {{ $replace := cond (eq $lang "ru") "марта" "March" }}
-        {{ replace .Page.Params.frequency "March" $replace }}
+        {{ if eq $lang "ru" }}
+            {{ $months := dict 
+                "January" "января"
+                "February" "февраля" 
+                "March" "марта" 
+                "April" "апреля" 
+                "May" "мая" 
+                "June" "июня" 
+                "July" "июля" 
+                "August" "августа" 
+                "September" "сентября" 
+                "October" "октября" 
+                "November" "ноября" 
+                "December" "декабря" }}
+            
+            {{ $frequency := .Page.Params.frequency }}
+            {{ range $en, $ru := $months }}
+                {{ $frequency = replace $frequency $en $ru }}
+            {{ end }}
+            {{ $frequency }}
+        {{ else }}
+            {{ .Page.Params.frequency }}
+        {{ end }}
     {{ end }} <br>
 
 <!-- Travel time -->
