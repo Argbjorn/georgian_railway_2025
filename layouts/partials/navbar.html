@@ -78,7 +78,7 @@
         <span class="hx-ml-1" style="font-size: 14px;">{{ .Language.LanguageName }}</span>
         {{- partial "utils/icon.html" (dict "name" "chevron-down" "attributes" "height=14") -}}
       </button>
-      <div id="language-dropdown" class="hx-hidden hx-absolute hx-right-0 hx-mt-1 hx-bg-white dark:hx-bg-gray-900 hx-shadow-md hx-rounded hx-py-1 hx-z-50" style="min-width: 160px; width: auto;">
+      <div id="language-dropdown" class="hx-hidden hx-absolute hx-right-0 hx-mt-1 hx-bg-white dark:hx-bg-gray-900 hx-shadow-md hx-rounded hx-py-1 hx-z-50 hx-border hx-border-gray-200 dark:hx-border-gray-700" style="min-width: 160px; width: auto;">
         {{ range $.Translations }}
           <div class="hx-px-4 hx-py-2 hover:hx-bg-gray-100 dark:hover:hx-bg-gray-800 hx-cursor-pointer" style="font-size: 14px;" data-lang-url="{{ .Permalink }}">
             {{ if eq .Language.Lang "en" }}
