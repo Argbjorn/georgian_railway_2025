@@ -454,3 +454,45 @@ railwayNetwork.show();
 
 showStations();
 showPoi();
+
+// Добавляем подсказку о кликабельных станциях
+function createStationHint() {
+  // Проверяем, видел ли пользователь подсказку раньше
+  if (localStorage.getItem('stationHintShown') === 'true') {
+    return;
+  }
+  
+  // Получаем контейнер карты
+  const mapContainer = document.getElementById('map');
+  
+  // Создаем элемент подсказки
+  const hintElement = document.createElement('div');
+  hintElement.className = 'station-hint';
+  hintElement.innerHTML = `
+    <div class="hint-content">
+      <span>${LS.translate("station_hint_text") || "Нажмите на станцию, чтобы увидеть расписание поездов"}</span>
+      <button class="hint-close-btn">&times;</button>
+    </div>
+  `;
+  
+  // Добавляем в контейнер карты
+  mapContainer.appendChild(hintElement);
+  
+  // Обработчик для кнопки закрытия
+  const closeBtn = hintElement.querySelector('.hint-close-btn');
+  closeBtn.addEventListener('click', () => {
+    hintElement.remove();
+    localStorage.setItem('stationHintShown', 'true');
+  });
+  
+  // Скрываем подсказку при открытии панели
+  UIStateManager.subscribe("panel", (panelState) => {
+    if (panelState.isOpen && hintElement.parentElement) {
+      hintElement.remove();
+      localStorage.setItem('stationHintShown', 'true');
+    }
+  });
+}
+
+// Вызываем создание подсказки после загрузки карты
+setTimeout(createStationHint, 1500);

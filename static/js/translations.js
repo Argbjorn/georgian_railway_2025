@@ -13,7 +13,8 @@ export const translations = {
         view_route_details: "View route details",
         view_station_details: "View station details",
         show_on_map: "Show on the map",
-        default_greeting: "Hello there! This is a train map of Georgia. Here you can see the main train routes, find out their schedules and which cities they pass through. Just click on the station you're interested in to get started."
+        default_greeting: "Hello there! This is a train map of Georgia. Here you can see the main train routes, find out their schedules and which cities they pass through. Just click on the station you're interested in to get started.",
+        station_hint_text: "Click on a station to see the schedule"
     },
 
     ru: {
@@ -30,7 +31,8 @@ export const translations = {
         view_route_details: "Подробнее о поезде",
         view_station_details: "Подробнее о станции",
         show_on_map: "Показать на карте",
-        default_greeting: "Привет! Это карта железных дорог Грузии. Здесь вы можете узнать о поездах, станциях и расписании. Просто нажмите на станцию, которая вас интересует, чтобы начать."
+        default_greeting: "Привет! Это карта железных дорог Грузии. Здесь вы можете узнать о поездах, станциях и расписании. Просто нажмите на станцию, которая вас интересует, чтобы начать.",
+        station_hint_text: "Нажмите на станцию, чтобы увидеть расписание поездов"
     },
 
     ka: {
@@ -47,6 +49,7 @@ export const translations = {
         view_route_details: "მარშრუტის დეტალები",
         view_station_details: "უფრო მეტი სადგურის შესახებ",
         show_on_map: "რუკაზე ჩვენება",
-        default_greeting: "მოგესალმებით! ეს საქართველოს რკინიგზის რუკაა. აქ შეგიძლიათ გაიგოთ მატარებლების, სადგურებისა და განრიგის შესახებ. დასაწყებად უბრალოდ დააწკაპუნეთ სადგურზე, რომელიც გაინტერესებთ."
+        default_greeting: "მოგესალმებით! ეს საქართველოს რკინიგზის რუკაა. აქ შეგიძლიათ გაიგოთ მატარებლების, სადგურებისა და განრიგის შესახებ. დასაწყებად უბრალოდ დააწკაპუნეთ სადგურზე, რომელიც გაინტერესებთ.",
+        station_hint_text: "დააწკაპუნეთ სადგურზე, რომელიც გაინტერესებთ."
     }
 };

@@ -533,3 +533,62 @@ nav > a, li > a {
 body.lightbox-open {
     overflow: hidden;
 }
+
+/* Стили для подсказки о станциях */
+.station-hint {
+  position: absolute;
+  bottom: 15vh;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  z-index: 1000;
+  backdrop-filter: blur(4px);
+  font-weight: 500;
+  font-size: 0.9em;
+  animation: fade-in 0.3s ease-in-out;
+  width: 320px;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.hint-content {
+  display: block;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.hint-close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  position: absolute;
+  top: 8px;
+  right: 12px;
+}
+
+.hint-close-btn:hover {
+  color: #ddd;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; transform: translate(-50%, 10px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+@media (max-width: 480px) {
+  .station-hint {
+    width: 280px;
+  }
+}
+
+/* Предотвращение прокрутки для карты */
+body, html {
+  overflow-x: hidden;
+}
