@@ -1668,8 +1668,8 @@ export const routesList = [
       "frequency": "daily",
       "complete": true,
       "online": true,
-      "online_tickets_current_site": true,
-      "online_tickets_new_site": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": true,
       "train_type": "stadler",
       "stations": [
          {
@@ -1732,8 +1732,8 @@ export const routesList = [
       "frequency": "daily",
       "complete": true,
       "online": true,
-      "online_tickets_current_site": true,
-      "online_tickets_new_site": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": true,
       "train_type": "stadler",
       "stations": [
          {
@@ -1796,8 +1796,8 @@ export const routesList = [
       "frequency": "daily",
       "complete": true,
       "online": true,
-      "online_tickets_current_site": true,
-      "online_tickets_new_site": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": true,
       "train_type": "stadler",
       "stations": [
          {
@@ -1860,8 +1860,8 @@ export const routesList = [
       "frequency": "daily",
       "complete": true,
       "online": true,
-      "online_tickets_current_site": true,
-      "online_tickets_new_site": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": true,
       "train_type": "stadler",
       "stations": [
          {
@@ -1924,8 +1924,8 @@ export const routesList = [
       "frequency": "29, 30, 31 March / 5, 6, 7, 12, 13, 14, 18, 19, 20, 21, 22 April",
       "complete": true,
       "online": true,
-      "online_tickets_current_site": true,
-      "online_tickets_new_site": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": true,
       "train_type": "stadler",
       "stations": [
          {
@@ -1988,8 +1988,8 @@ export const routesList = [
       "frequency": "29, 30, 31 March / 5, 6, 7, 12, 13, 14, 18, 19, 20, 21, 22 April",
       "complete": true,
       "online": true,
-      "online_tickets_current_site": true,
-      "online_tickets_new_site": false,
+      "online_tickets_current_site": false,
+      "online_tickets_new_site": true,
       "train_type": "stadler",
       "stations": [
          {
