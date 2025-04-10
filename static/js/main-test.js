@@ -182,6 +182,26 @@ async function handleStationClick(station) {
   UIStateManager.updateMapState({ activeStation: station });
 }
 
+// Функция для отправки событий в аналитику
+function sendAnalyticsEvent(eventName, eventParams = {}) {
+  try {
+    // Отправка события в Google Analytics 4
+    if (typeof gtag === 'function') {
+      gtag('event', eventName, eventParams);
+      console.log('GA4 событие отправлено:', eventName, eventParams);
+    }
+    
+    // Отправка события в Яндекс.Метрику
+    if (typeof ym === 'function') {
+      const metrikaId = '99610233'; // Используем реальный ID метрики
+      ym(metrikaId, 'reachGoal', eventName, eventParams);
+      console.log('Яндекс.Метрика событие отправлено:', eventName, eventParams);
+    }
+  } catch (error) {
+    console.error('Ошибка при отправке события аналитики:', error);
+  }
+}
+
 async function showPoi() {
   let description;
   const currentLanguage = LS.getCurrentLanguage();
@@ -194,6 +214,14 @@ async function showPoi() {
       description = poi.description_ka;
     }
     let newPoi = new Poi(description, poi.coords);
+    
+    // Добавляем обработчик клика для отслеживания в аналитике
+    newPoi.marker.on("click", () => {
+      sendAnalyticsEvent('poi_click', {
+        language: currentLanguage
+      });
+    });
+    
     pois.push(newPoi);
   });
 }
