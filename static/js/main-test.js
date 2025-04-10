@@ -7,9 +7,11 @@ import { map } from "./map.js";
 import { LanguageService as LS } from "./LanguageService.js";
 import { SidepanelContent } from "./SidepanelContent.js";
 import UIStateManager from "./state/UIStateManager.js";
+import { Poi, poiInfo } from "./poi.js";
 
 let routes = [];
 let stations = [];
+let pois = [];
 
 // Getting data
 
@@ -178,6 +180,22 @@ async function handleStationClick(station) {
   }
   // Clicked station is not active and there is no active station
   UIStateManager.updateMapState({ activeStation: station });
+}
+
+async function showPoi() {
+  let description;
+  const currentLanguage = LS.getCurrentLanguage();
+  poiInfo.forEach((poi) => {
+    if (currentLanguage == "en") {
+      description = poi.description_en;
+    } else if (currentLanguage == "ru") {
+      description = poi.description_ru;
+    } else if (currentLanguage == "ka") {
+      description = poi.description_ka;
+    }
+    let newPoi = new Poi(description, poi.coords);
+    pois.push(newPoi);
+  });
 }
 
 // Handling with routes data
@@ -435,3 +453,4 @@ export let railwayNetwork = new RailwayNetwork(mapContainer);
 railwayNetwork.show();
 
 showStations();
+showPoi();
