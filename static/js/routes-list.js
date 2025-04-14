@@ -559,13 +559,13 @@ export const routesList = [
          {
             "code": "sachkhere",
             "role": "end",
-            "time": "09:19",
+            "time": "09:24",
             "name_en": "Sachkhere",
             "name_ru": "Сачхере",
             "name_ka": "საჩხერე"
          }
       ],
-      "travel_time": "3:29",
+      "travel_time": "3:34",
       "price": {
          "price_type": "exact",
          "price": 2.0
@@ -588,7 +588,7 @@ export const routesList = [
          {
             "code": "sachkhere",
             "role": "start",
-            "time": "10:35",
+            "time": "10:30",
             "name_en": "Sachkhere",
             "name_ru": "Сачхере",
             "name_ka": "საჩხერე"
@@ -666,7 +666,7 @@ export const routesList = [
             "name_ka": "ქუთაისი-1"
          }
       ],
-      "travel_time": "3:57",
+      "travel_time": "4:02",
       "price": {
          "price_type": "exact",
          "price": 2.0
@@ -1921,7 +1921,7 @@ export const routesList = [
       "name:ka": "ბათუმი → თბილისი",
       "name:en": "Batumi → Tbilisi",
       "name:ru": "Батуми → Тбилиси",
-      "frequency": "29, 30, 31 March / 5, 6, 7, 12, 13, 14, 18, 19, 20, 21, 22 April",
+      "frequency": "12, 13, 14, 18, 19, 20, 21, 22 April",
       "complete": true,
       "online": true,
       "online_tickets_current_site": false,
@@ -1985,7 +1985,7 @@ export const routesList = [
       "name:ka": "თბილისი → ბათუმი",
       "name:en": "Tbilisi → Batumi",
       "name:ru": "Тбилиси → Батуми",
-      "frequency": "29, 30, 31 March / 5, 6, 7, 12, 13, 14, 18, 19, 20, 21, 22 April",
+      "frequency": "12, 13, 14, 18, 19, 20, 21, 22 April",
       "complete": true,
       "online": true,
       "online_tickets_current_site": false,
