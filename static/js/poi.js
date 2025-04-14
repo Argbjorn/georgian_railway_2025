@@ -28,6 +28,12 @@ export const poiInfo = [
         description_en: "Passenger trains in Kakheti do not run since 2007. There are no news about plans to resume passenger transportation.",
         description_ka: "სამგზავრო მატარებლები კახეთში არ დადიან 2007 წლიდან. სამგზავრო გადაზიდვების განახლების გეგმების შესახებ ჯერჯერობით სიახლეები არ არის.",
         coords: [41.6467, 45.6118],
+    },
+    {
+        description_ru: "Крайняя точка для пассажирских поездов на этой ветке - Боржоми. В сторону Ахалцихе поезда не ходят с 2010 года.",
+        description_en: "The farthest point for passenger trains on this branch is Borjomi. Passenger trains to Akhaltsikhe do not run since 2010.",
+        description_ka: "მგზავრული მატარებლებისთვის ამ ხაზზე საბოლოო წერტილია ბორჯომი. ახალციხის მიმართულებით მატარებლები 2010 წლიდან აღარ მოძრაობენ.",
+        coords: [41.69444, 43.11855],
     }
 ]
 
