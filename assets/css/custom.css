@@ -372,14 +372,16 @@ nav > a, li > a {
 }
 
 .station-route-name {
+    text-decoration: underline dotted #0078A8;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
     color: #333;
     display: inline;
-    border-bottom: 1px dotted #0078A8;
 }
 
 .station-route:hover .station-route-name {
     color: var(--link-hover-color);
-    border-bottom: 1px solid var(--link-hover-color);
+    text-decoration: underline solid var(--link-hover-color);
 }
 
 .station-route-time {
@@ -393,14 +395,15 @@ nav > a, li > a {
 }
 
 .station-name {
-    text-decoration: none;
+    text-decoration: underline dotted #0078A8;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
     color: #333;
-    border-bottom: 1px dotted #0078A8;
 }
 
 .station-name:hover {
     color: var(--link-hover-color);
-    border-bottom: 1px solid var(--link-hover-color);
+    text-decoration: underline solid var(--link-hover-color);
 }
 
 .station-more-info {
