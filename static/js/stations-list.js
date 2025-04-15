@@ -234,6 +234,10 @@ export const stations = [
       "name_ka": "ბათუმი-ცენტრალი",
       "name_ru": "Батуми-Пассажирская",
       "gr_code": 57151,
+      "description": {
+         "en": "This is the main station in Batumi. It's a bit off the main part of the city, but there are no other stations closer.",
+         "ru": "Это главный вокзал в Батуми. Он находится немного в стороне от основной части города, но других станций ближе нет."
+      },
       "routes": {
          "departure": [
             {
@@ -270,6 +274,13 @@ export const stations = [
                "name_ru": "Батуми → Тбилиси",
                "name_ka": "ბათუმი → თბილისი",
                "time": "08:00"
+            },
+            {
+               "ref": 807,
+               "name_en": "Batumi → Tbilisi",
+               "name_ru": "Батуми → Тбилиси",
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "18:30"
             },
             {
                "ref": 811,
@@ -314,6 +325,13 @@ export const stations = [
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
                "time": "22:45"
+            },
+            {
+               "ref": 808,
+               "name_en": "Tbilisi → Batumi",
+               "name_ru": "Тбилиси → Батуми",
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "16:10"
             },
             {
                "ref": 812,
@@ -375,6 +393,10 @@ export const stations = [
       "name_ka": "ბორჯომი",
       "name_ru": "Боржоми",
       "gr_code": 57760,
+      "description": {
+         "en": "This station is located far from the center of the city. Tourists usually need to go to the station <a href='/stations/borjomiparki/'>Borjomi-Parki</a>, which is located in the center of the city near the park.",
+         "ru": "Эта станция находится далеко от центра города. Туристы обычно едут до станции <a href='/ru/stations/borjomiparki/'>Боржоми-Парк</a>, которая находится в центре города рядом с парком."
+      },
       "routes": {
          "departure": [],
          "arrival": [],
@@ -424,6 +446,10 @@ export const stations = [
       "name_ka": "ბორჯომი-პარკი",
       "name_ru": "Боржоми-Парк",
       "gr_code": 57760,
+      "description": {
+         "en": "This station is the terminus for trains from Tbilisi. It's located in the center of the city, within walking distance of the park and other attractions. Tourists usually need this station.",
+         "ru": "Эта станция - конечная для поездов из Тбилиси. Она расположена в центре города, в пешей доступности от парка и остальных достопримечательностей. Обычно туристам нужна именно она."
+      },
       "routes": {
          "departure": [
             {
@@ -1819,6 +1845,20 @@ export const stations = [
                "time": "22:19"
             },
             {
+               "ref": 807,
+               "name_en": "Batumi → Tbilisi",
+               "name_ru": "Батуми → Тбилиси",
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "18:51"
+            },
+            {
+               "ref": 808,
+               "name_en": "Tbilisi → Batumi",
+               "name_ru": "Тбилиси → Батуми",
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "15:44"
+            },
+            {
                "ref": 811,
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
@@ -1901,8 +1941,8 @@ export const stations = [
       "name_ru": "Международный аэропорт Кутаиси",
       "gr_code": 57450,
       "description": {
-         "en": "Kutaisi International Airport Station, also known as Kopitnari, is located next to the airport of the same name. It’s about 20 km southwest of the Kutaisi center and the railway station <a href='/stations/kutaisi1/'>Kutaisi-1</a>. You can get there by minibus or taxi.",
-         "ru": "Станция Международный аэропорт Кутаиси, она же Копитнари, расположена рядом с одноименным аэропортом. Она находится примерно в 20 км к юго-западу от центра Кутаиси и железнодорожной станции <a href='/ru/stations/kutaisi1/'>Кутаиси-1</a>. Добраться можно на маршрутке или такси."
+         "en": "Kutaisi International Airport Station, also known as Kopitnari, is located next to the airport of the same name. It’s about 20 km southwest of the Kutaisi center and the railway station <a href='/stations/kutaisi1/'>Kutaisi-1</a>.<br>A free shuttle runs between the station and the airport.",
+         "ru": "Станция Международный аэропорт Кутаиси, она же Копитнари, расположена рядом с одноименным аэропортом. Она находится примерно в 20 км к юго-западу от центра Кутаиси и железнодорожной станции <a href='/ru/stations/kutaisi1/'>Кутаиси-1</a>.<br>Между станцией и аэропортом ходит бесплатный шаттл."
       },
       "routes": {
          "departure": [],
@@ -1963,6 +2003,20 @@ export const stations = [
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
                "time": "20:53"
+            },
+            {
+               "ref": 807,
+               "name_en": "Batumi → Tbilisi",
+               "name_ru": "Батуми → Тбилиси",
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "20:22"
+            },
+            {
+               "ref": 808,
+               "name_en": "Tbilisi → Batumi",
+               "name_ru": "Тбилиси → Батуми",
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "14:18"
             },
             {
                "ref": 811,
@@ -2038,8 +2092,8 @@ export const stations = [
       "name_ru": "Кутаиси-1",
       "gr_code": 57530,
       "description": {
-         "en": "Kutaisi-1 is the only operating passenger railway station in Kutaisi. The main railway line from Tbilisi to Batumi runs south of the city, so Kutaisi-1 is a dead-end station with only a few route options.<br><br>9 km south of the city is <a href='/stations/rioni/'>Rioni Station</a>, where most local trains stop. Routes 6353/6354 and 6355/6356 Kutaisi-Rioni-Kutaisi run every other day and are synced with train 853/854 Tbilisi-Ozurgeti-Tbilisi, which stops at Rioni. You can also get to Rioni by minibus or taxi.<br><br>Express trains from Tbilisi to Batumi (Stadler) don’t stop at Rioni – they stop at <a href='/stations/kutaisiinternationalairport/'>Kutaisi International Airport</a> instead. The airport is 20 km southwest of Kutaisi-1, and you can get there by minibus or taxi.",
-         "ru": "Кутаиси-1 — это единственный действующий пассажирский железнодорожный вокзал в Кутаиси. Основная железнодорожная линия из Тбилиси в Батуми проходит южнее города, поэтому Кутаиси-1 является тупиком и выбор маршрутов здесь небольшой.<br><br>В 9 км к югу находится станция <a href='/ru/stations/rioni/'>Риони</a>, на которой останавливается большинство местных поездов. Маршруты 6353/6354 и 6355/6356 Кутаиси-Риони-Кутаиси ходят через день и синхронизированы с 853/854 Тбилиси-Озургети-Тбилиси, который останавливается в Риони. Также до Риони можно добраться на маршрутке или такси.<br><br>Экспрессы из Тбилиси в Батуми (Stadler) останавливаются не в Риони, а в <a href='/ru/stations/kutaisiinternationalairport/'>Международном аэропорту Кутаиси</a>. Он находится в 20 км к юго-западу от Кутаиси-1 и добраться до него можно на маршрутке или такси."
+         "en": "Kutaisi-1 is the only operating passenger railway station in Kutaisi. The main railway line from Tbilisi to Batumi runs south of the city, so Kutaisi-1 is a dead-end station with only a few route options.<br><br>9 km south of the city is <a href='/stations/rioni/'>Rioni Station</a>, where most local trains stop. Routes 6353/6354 and 6355/6356 Kutaisi-Rioni-Kutaisi run every other day and are synced with train 853/854 Tbilisi-Ozurgeti-Tbilisi, which stops at Rioni. You can also get to Rioni by minibus or taxi.<br><br>Express trains from Tbilisi to Batumi (Stadler) don’t stop at Rioni – they stop at <a href='/stations/kutaisiinternationalairport/'>Kutaisi International Airport</a> instead. The airport is 20 km southwest of Kutaisi-1, and you can get there by minibus, taxi or <a href='https://kutaisi.aero/en/transport/shuttle-bus' target='_blank'>shuttle bus</a>.",
+         "ru": "Кутаиси-1 — это единственный действующий пассажирский железнодорожный вокзал в Кутаиси. Основная железнодорожная линия из Тбилиси в Батуми проходит южнее города, поэтому Кутаиси-1 является тупиком и выбор маршрутов здесь небольшой.<br><br>В 9 км к югу находится станция <a href='/ru/stations/rioni/'>Риони</a>, на которой останавливается большинство местных поездов. Маршруты 6353/6354 и 6355/6356 Кутаиси-Риони-Кутаиси ходят через день и синхронизированы с 853/854 Тбилиси-Озургети-Тбилиси, который останавливается в Риони. Также до Риони можно добраться на маршрутке или такси.<br><br>Экспрессы из Тбилиси в Батуми (Stadler) останавливаются не в Риони, а в <a href='/ru/stations/kutaisiinternationalairport/'>Международном аэропорту Кутаиси</a>. Он находится в 20 км к юго-западу от Кутаиси-1 и добраться до него можно на маршрутке, такси или <a href='https://kutaisi.aero/en/transport/shuttle-bus' target='_blank'>шаттле аэропорта</a>."
       },
       "routes": {
          "departure": [
@@ -3007,6 +3061,10 @@ export const stations = [
       "name_ka": "ფოთი",
       "name_ru": "Поти",
       "gr_code": 57210,
+      "description": {
+         "en": "To Poti you can get only one train from Tbilisi, with inconvenient arrival and departure times, so it's easier to get to Poti by minibus or taxi. You can also consider the station <a href='/stations/ureki/'>Ureki</a> in 20 km to the southeast: it serves all local trains, has direct trains to Batumi and Tbilisi, and there are minibuses between Poti and Ureki.",
+         "ru": "В Поти приезжает только один поезд из Тбилиси, причем с неудобным временем и прибытия, и отправления, поэтому до Поти проще добраться на маршрутке или такси. Также можно рассмотреть станцию <a href='/ru/stations/ureki/'>Уреки</a> в 20 км к юго-востоку: на ней останавливаются все местные поезда, есть прямые поезда в Батуми и Тбилиси. Между Поти и Уреки ходят маршрутки."
+      },
       "routes": {
          "departure": [
             {
@@ -3046,7 +3104,7 @@ export const stations = [
       "gr_code": 57510,
       "description": {
          "en": "Rioni Station is located a few kilometers south of Kutaisi. Since it’s on the main railway line connecting Western and Eastern Georgia, most local trains, except for the Tbilisi-Batumi (Stadler) express trains, stop here, making Rioni a good alternative to the dead-end <a href='/stations/kutaisi1/'>Kutaisi-1</a>. You can get from Rioni to Kutaisi-1 by minibus or taxi.<br><br>There are also trains 6353/6354 and 6355/6356 running between Rioni and Kutaisi every other day, synced with trains 853/854 Tbilisi-Ozurgeti-Tbilisi, which stop at Rioni.",
-         "ru": "Станция Риони находится в нескольких километрах к югу от Кутаиси. В связи с тем, что она расположена на главной железнодорожной линии, соединяющей Западную и Восточную Грузию, большинство местных поездов, кроме экспрессов Тбилиси-Батуми (Stadler), останавливаются здесь и Риони можно рассматривать как альтернативу тупиковой <a href='/ru/stations/kutaisi1/'>Кутаиси-1</a>. Добраться от Риони до Кутаиси-1 можно на маршрутке или такси.<br><br>Также между Риони и Кутаиси через день курсируют поезда 6353/6354 и 6355/6356, синхронизированные с поездами 853/854 Тбилиси-Озургети-Тбилиси, которые останавливаются в Риони."
+         "ru": "Станция Риони находится в нескольких километрах к югу от Кутаиси. В связи с тем, что она расположена на главной железнодорожной линии, соединяющей Западную и Восточную Грузию, большинство местных поездов, кроме экспрессов Тбилиси-Батуми (Stadler), останавливаются здесь, и Риони можно рассматривать как альтернативу тупиковой <a href='/ru/stations/kutaisi1/'>Кутаиси-1</a>. Добраться от Риони до Кутаиси-1 можно на маршрутке или такси.<br><br>Также между Риони и Кутаиси через день курсируют поезда 6353/6354 и 6355/6356, синхронизированные с поездами 853/854 Тбилиси-Озургети-Тбилиси, которые останавливаются в Риони."
       },
       "routes": {
          "departure": [
@@ -3290,7 +3348,7 @@ export const stations = [
                "name_en": "Sachkhere → Kutaisi",
                "name_ru": "Сачхере → Кутаиси",
                "name_ka": "საჩხერე → ქუთაისი",
-               "time": "10:35"
+               "time": "10:30"
             }
          ],
          "arrival": [
@@ -3299,7 +3357,7 @@ export const stations = [
                "name_en": "Kutaisi → Sachkhere",
                "name_ru": "Кутаиси → Сачхере",
                "name_ka": "ქუთაისი → საჩხერე",
-               "time": "09:19"
+               "time": "09:24"
             }
          ],
          "via": []
@@ -3694,6 +3752,10 @@ export const stations = [
       "name_ka": "თბილისის ცენტრალური სადგური",
       "name_ru": "Центральный вокзал Тбилиси",
       "gr_code": 56014,
+      "description": {
+         "en": "This is the main station in Tbilisi. All railway journeys in Georgia start here.",
+         "ru": "Это главный вокзал в Тбилиси. Здесь начинаются все железнодорожные путешествия по Грузии."
+      },
       "routes": {
          "departure": [
             {
@@ -3723,6 +3785,13 @@ export const stations = [
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
                "time": "17:10"
+            },
+            {
+               "ref": 808,
+               "name_en": "Tbilisi → Batumi",
+               "name_ru": "Тбилиси → Батуми",
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "10:35"
             },
             {
                "ref": 812,
@@ -3795,6 +3864,13 @@ export const stations = [
                "name_ru": "Батуми → Тбилиси",
                "name_ka": "ბათუმი → თბილისი",
                "time": "13:17"
+            },
+            {
+               "ref": 807,
+               "name_en": "Batumi → Tbilisi",
+               "name_ru": "Батуми → Тбилиси",
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "23:47"
             },
             {
                "ref": 811,
@@ -4034,6 +4110,10 @@ export const stations = [
       "name_ka": "ურეკი",
       "name_ru": "Уреки",
       "gr_code": 57070,
+      "description": {
+         "en": "Ureki Station is located 1.5 km from the same-named village and beach, on the road to Batumi. To the beach you can get by taxi, and in the season - by a strange beach shuttle. Nearby minibuses stop in many settlements, including Tbilisi and Batumi.",
+         "ru": "Станция Уреки находится в 1.5 км от одноименного поселка и пляжа, на трассе в Батуми. До пляжа можно доехать на такси, а в сезон - на странном пляжном автобусе. Рядом останавливаются маршрутки во многие населенные пункты, включая Тбилиси и Батуми."
+      },
       "routes": {
          "departure": [],
          "arrival": [],
@@ -4093,6 +4173,20 @@ export const stations = [
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
                "time": "21:51"
+            },
+            {
+               "ref": 807,
+               "name_en": "Batumi → Tbilisi",
+               "name_ru": "Батуми → Тбилиси",
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "19:22"
+            },
+            {
+               "ref": 808,
+               "name_en": "Tbilisi → Batumi",
+               "name_ru": "Тбилиси → Батуми",
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "15:16"
             },
             {
                "ref": 811,

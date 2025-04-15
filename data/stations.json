@@ -276,6 +276,13 @@
                "time": "08:00"
             },
             {
+               "ref": 807,
+               "name_en": "Batumi → Tbilisi",
+               "name_ru": "Батуми → Тбилиси",
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "18:30"
+            },
+            {
                "ref": 811,
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
@@ -318,6 +325,13 @@
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
                "time": "22:45"
+            },
+            {
+               "ref": 808,
+               "name_en": "Tbilisi → Batumi",
+               "name_ru": "Тбилиси → Батуми",
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "16:10"
             },
             {
                "ref": 812,
@@ -1831,6 +1845,20 @@
                "time": "22:19"
             },
             {
+               "ref": 807,
+               "name_en": "Batumi → Tbilisi",
+               "name_ru": "Батуми → Тбилиси",
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "18:51"
+            },
+            {
+               "ref": 808,
+               "name_en": "Tbilisi → Batumi",
+               "name_ru": "Тбилиси → Батуми",
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "15:44"
+            },
+            {
                "ref": 811,
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
@@ -1975,6 +2003,20 @@
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
                "time": "20:53"
+            },
+            {
+               "ref": 807,
+               "name_en": "Batumi → Tbilisi",
+               "name_ru": "Батуми → Тбилиси",
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "20:22"
+            },
+            {
+               "ref": 808,
+               "name_en": "Tbilisi → Batumi",
+               "name_ru": "Тбилиси → Батуми",
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "14:18"
             },
             {
                "ref": 811,
@@ -3306,7 +3348,7 @@
                "name_en": "Sachkhere → Kutaisi",
                "name_ru": "Сачхере → Кутаиси",
                "name_ka": "საჩხერე → ქუთაისი",
-               "time": "10:35"
+               "time": "10:30"
             }
          ],
          "arrival": [
@@ -3315,7 +3357,7 @@
                "name_en": "Kutaisi → Sachkhere",
                "name_ru": "Кутаиси → Сачхере",
                "name_ka": "ქუთაისი → საჩხერე",
-               "time": "09:19"
+               "time": "09:24"
             }
          ],
          "via": []
@@ -3745,6 +3787,13 @@
                "time": "17:10"
             },
             {
+               "ref": 808,
+               "name_en": "Tbilisi → Batumi",
+               "name_ru": "Тбилиси → Батуми",
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "10:35"
+            },
+            {
                "ref": 812,
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
@@ -3815,6 +3864,13 @@
                "name_ru": "Батуми → Тбилиси",
                "name_ka": "ბათუმი → თბილისი",
                "time": "13:17"
+            },
+            {
+               "ref": 807,
+               "name_en": "Batumi → Tbilisi",
+               "name_ru": "Батуми → Тбилиси",
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "23:47"
             },
             {
                "ref": 811,
@@ -4117,6 +4173,20 @@
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
                "time": "21:51"
+            },
+            {
+               "ref": 807,
+               "name_en": "Batumi → Tbilisi",
+               "name_ru": "Батуми → Тбилиси",
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "19:22"
+            },
+            {
+               "ref": 808,
+               "name_en": "Tbilisi → Batumi",
+               "name_ru": "Тбилиси → Батуми",
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "15:16"
             },
             {
                "ref": 811,
