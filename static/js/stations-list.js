@@ -274,6 +274,13 @@ export const stations = [
                "name_ru": "Батуми → Тбилиси",
                "name_ka": "ბათუმი → თბილისი",
                "time": "08:00"
+            },
+            {
+               "ref": 811,
+               "name_en": "Batumi → Tbilisi",
+               "name_ru": "Батуми → Тбилиси",
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "00:40"
             }
          ],
          "arrival": [
@@ -311,6 +318,13 @@ export const stations = [
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
                "time": "22:45"
+            },
+            {
+               "ref": 812,
+               "name_en": "Tbilisi → Batumi",
+               "name_ru": "Тбилиси → Батуми",
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "05:38"
             }
          ],
          "via": []
@@ -1815,6 +1829,20 @@ export const stations = [
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
                "time": "22:19"
+            },
+            {
+               "ref": 811,
+               "name_en": "Batumi → Tbilisi",
+               "name_ru": "Батуми → Тбилиси",
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "01:00"
+            },
+            {
+               "ref": 812,
+               "name_en": "Tbilisi → Batumi",
+               "name_ru": "Тбилиси → Батуми",
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "05:13"
             }
          ]
       }
@@ -1947,6 +1975,20 @@ export const stations = [
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
                "time": "20:53"
+            },
+            {
+               "ref": 811,
+               "name_en": "Batumi → Tbilisi",
+               "name_ru": "Батуми → Тбилиси",
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "02:29"
+            },
+            {
+               "ref": 812,
+               "name_en": "Tbilisi → Batumi",
+               "name_ru": "Тбилиси → Батуми",
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "03:49"
             },
             {
                "ref": 853,
@@ -3703,6 +3745,13 @@ export const stations = [
                "time": "17:10"
             },
             {
+               "ref": 812,
+               "name_en": "Tbilisi → Batumi",
+               "name_ru": "Тбилиси → Батуми",
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "00:30"
+            },
+            {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
@@ -3766,6 +3815,13 @@ export const stations = [
                "name_ru": "Батуми → Тбилиси",
                "name_ka": "ბათუმი → თბილისი",
                "time": "13:17"
+            },
+            {
+               "ref": 811,
+               "name_en": "Batumi → Tbilisi",
+               "name_ru": "Батуми → Тбилиси",
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "05:41"
             },
             {
                "ref": 853,
@@ -4061,6 +4117,20 @@ export const stations = [
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
                "time": "21:51"
+            },
+            {
+               "ref": 811,
+               "name_en": "Batumi → Tbilisi",
+               "name_ru": "Батуми → Тбилиси",
+               "name_ka": "ბათუმი → თბილისი",
+               "time": "01:30"
+            },
+            {
+               "ref": 812,
+               "name_en": "Tbilisi → Batumi",
+               "name_ru": "Тбилиси → Батуми",
+               "name_ka": "თბილისი → ბათუმი",
+               "time": "04:46"
             },
             {
                "ref": 853,
