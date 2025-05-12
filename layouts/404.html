@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class='hx-mx-auto hx-flex {{ partial "utils/page-width" . }}'>
+    <article
+        class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+        <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
+            <div class="content hx-text-center">
+                <h1 class="hx-text-4xl hx-font-bold hx-mt-10">404</h1>
+                <h2 class="hx-text-2xl hx-mt-4">{{ i18n "pageNotFound" | default "Страница не найдена" }}</h2>
+                <p class="hx-mt-6">{{ i18n "pageNotFoundText" | default "Запрошенная страница не существует или была перемещена." }}</p>
+                <a href="/" class="hx-mt-8 hx-inline-block hx-px-4 hx-py-2 hx-bg-blue-500 hx-text-white hx-rounded hx-hover:hx-bg-blue-600 hx-transition-colors">
+                  {{ i18n "returnHome" | default "Вернуться на главную" }}
+                </a>
+            </div>
+        </main>
+    </article>
+</div>
+{{ end }} 

@@ -1,0 +1,7 @@
+routes: Routes
+stations: Stations
+about: About
+blog: Blog
+pageNotFound: Page Not Found
+pageNotFoundText: The requested page doesn't exist or has been moved.
+returnHome: Return to Home 
