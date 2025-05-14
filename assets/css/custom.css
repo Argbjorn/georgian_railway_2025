@@ -4,6 +4,11 @@
     --link-hover-color: hsl(212 100% 45%);
 }
 
+a {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
 nav > a, li > a {
     color: inherit;
     text-decoration: inherit;

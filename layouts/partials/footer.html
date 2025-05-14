@@ -17,9 +17,28 @@
 
 {{ if not .IsHome }}
 <footer class="hextra-footer {{ $footerWidth }} hx:mx-auto hx:bg-gray-100 hx:pb-[env(safe-area-inset-bottom)] hx:dark:bg-neutral-900 hx:print:bg-transparent">
-    <div style="max-width: 1280px; margin-left: auto; margin-right: auto; text-align: center; padding: 2rem 1rem; display: flex; justify-content: center;">
-        
+    <div style="max-width: 1280px; margin-left: auto; margin-right: auto; margin-top: 1rem; text-align: center; padding: 2rem 1rem; display: flex; justify-content: center;border-top: 1px solid #e0e0e0;">
+      <p>
+        {{ T "supportPrompt" | default "Сайт полезен? <a href=\"https://boosty.to/argbjorn\" onclick=\"trackSupportClick(); return true;\" target=\"_blank\">Поддержите проект на Boosty</a> - это поможет ему развиваться!" | safeHTML }}
+      </p>
     </div>
+    
+    <script>
+      function trackSupportClick() {
+        // Яндекс Метрика
+        if (typeof ym !== 'undefined') {
+          ym({{ site.Params.analytics.yandexMetrikaId | default "XXXXXXXX" }}, 'reachGoal', 'boosty_support_click');
+        }
+        
+        // Google Analytics
+        if (typeof gtag !== 'undefined') {
+          gtag('event', 'support_click', {
+            'event_category': 'engagement',
+            'event_label': 'boosty'
+          });
+        }
+      }
+    </script>
     
     <div
       class="hextra-custom-footer {{ $footerWidth }} hx:mx-auto hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-right),1.5rem)] hx:text-gray-600 hx:dark:text-gray-400"

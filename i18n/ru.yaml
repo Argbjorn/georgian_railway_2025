@@ -5,3 +5,4 @@ blog: Блог
 pageNotFound: Страница не найдена
 pageNotFoundText: Запрошенная страница не существует или была перемещена.
 returnHome: Вернуться на главную
+supportPrompt: Сайт полезен? <a href="https://boosty.to/argbjorn" onclick="trackSupportClick(); return true;" target="_blank">Поддержите проект на Boosty</a> - это поможет ему развиваться!
