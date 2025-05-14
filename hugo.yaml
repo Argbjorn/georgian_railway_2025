@@ -51,7 +51,7 @@ menu:
 params:
   description: Georgia's train routes on the map and the up-to-date schedule.
   footer:
-    enable: false
+    enable: true
   navbar:
     displayTitle: true
     displayLogo: true
