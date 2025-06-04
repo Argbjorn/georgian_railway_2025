@@ -6,4 +6,4 @@ blog: ბლოგი
 pageNotFound: გვერდი ვერ მოიძებნა
 pageNotFoundText: მოთხოვნილი გვერდი არ არსებობს ან გადატანილია.
 returnHome: მთავარ გვერდზე დაბრუნება
-supportPrompt: 🚂 ეს საიტი სასარგებლოა? <a href="https://boosty.to/argbjorn" onclick="trackSupportClick(); return true;" target="_blank">მხარი დაუჭირეთ პროექტს Boosty-ზე</a> - ეს დაეხმარება მის განვითარებას!
+supportPrompt: "🚂 ეს საიტი სასარგებლოა? მხარი დაუჭირეთ პროექტს: <a href=\"https://boosty.to/argbjorn\" onclick=\"trackSupportClick('boosty'); return true;\" target=\"_blank\">Boosty</a> ან <a href=\"https://buymeacoffee.com/konstantin_remnev\" onclick=\"trackSupportClick('buymeacoffee'); return true;\" target=\"_blank\">Buy Me a Coffee</a> - ეს დაეხმარება მის განვითარებას!"

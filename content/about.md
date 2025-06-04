@@ -4,7 +4,7 @@ type: about
 description: About the project.
 toc: false
 ---
-This map has been created to help you navigate Georgia's railway system. Use it in conjunction with other sources of information for a more complete picture.
+This website has been created to help you navigate Georgia's railway system. Use it in conjunction with other sources of information for a more complete picture.
 
 ### Data sources
 - [Georgian Railways website](https://www.railway.ge/en/traffic-general-schedule/) for general schedule.
@@ -12,10 +12,19 @@ This map has been created to help you navigate Georgia's railway system. Use it 
 - Icons made by Freepik from [www.flaticon.com](https://www.flaticon.com)
 
 ### Author
-Konstantin Remnev. [Telegram](https://t.me/konstantin_remnev), [email](geo.railways.help@gmail.com). 
+Konstantin Remnev. [Telegram](https://t.me/konstantin_remnev), [email](geo.railways.help@gmail.com)
 
 ### Other useful resources
 - An amazing guide to all aspects of rail travel in Georgia by Emily Lush: https://wander-lush.org/trains-in-georgia-country-tips-map/.
 - Great project about Georgian Marsrutkas by Radek Chocholouš: https://marshrutka.info/.
+
+### Project support
+This project is created and maintained by an enthusiast in their spare time. Your support helps develop the map, add new features and keep the data up to date.
+
+**Ways to support:**
+- [Boosty](https://boosty.to/argbjorn) - for Russian users.
+- Buy Me a Coffee - for everyone else.
+
+{{< buymeacoffee >}}
 
 Have a nice trip!

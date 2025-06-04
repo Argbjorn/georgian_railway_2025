@@ -6,4 +6,4 @@ blog: Blog
 pageNotFound: Page Not Found
 pageNotFoundText: The requested page doesn't exist or has been moved.
 returnHome: Return to Home 
-supportPrompt: 🚂 Is this site helpful? <a href="https://boosty.to/argbjorn" onclick="trackSupportClick(); return true;" target="_blank">Support the project on Boosty</a> - it will help it grow! 
+supportPrompt: "🚂 Is this site helpful? Support the project: <a href=\"https://boosty.to/argbjorn\" onclick=\"trackSupportClick('boosty'); return true;\" target=\"_blank\">Boosty</a> or <a href=\"https://buymeacoffee.com/konstantin_remnev\" onclick=\"trackSupportClick('buymeacoffee'); return true;\" target=\"_blank\">Buy Me a Coffee</a> - it will help it grow!" 
