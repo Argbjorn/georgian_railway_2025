@@ -34,6 +34,12 @@ export const poiInfo = [
         description_en: "The farthest point for passenger trains on this branch is Borjomi. Passenger trains to Akhaltsikhe do not run since 2010.",
         description_ka: "მგზავრული მატარებლებისთვის ამ ხაზზე საბოლოო წერტილია ბორჯომი. ახალციხის მიმართულებით მატარებლები 2010 წლიდან აღარ მოძრაობენ.",
         coords: [41.69444, 43.11855],
+    },
+    {
+      description_ru: "Здесь должна быть информация об узкоколейном маршруте Боржоми - Бакуриани («Кукушка»), но он был отменен в 2020. СМИ пишут, что поезду и инфраструктуре требуется ремонт и реконструкция. Официальных заявлений о восстановлении сообщения нет.",
+      description_en: "Here should be information about the narrow-gauge route Borjomi - Bakuriani («Kukushka»), but it was canceled in 2020. The media write that the train and infrastructure need repair and reconstruction. There are no official statements about the resumption of communication.",
+      description_ka: "აქ უნდა იყოს ინფორმაცია ბორჯომის და ბაკურიანის მგზავრულ მატარებლების მიმართულებით მოძრაობის შესახებ («კუკუშკა»), მაგრამ ის 2020 წლიდან გაუქმებულია. სამომხმარებლო სახელობები მიუთითებს, რომ მატარებლებს და ინფრასტრუქტურას გადასცემს რემონტს და რეკონსტრუქციას. ონლაინ განცხადებები არ აქვს მიმოხილვის შესახებ.",
+      coords: [41.78172, 43.46672],
     }
 ]
 
