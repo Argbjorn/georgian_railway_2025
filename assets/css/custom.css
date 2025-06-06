@@ -429,7 +429,7 @@ nav > a, li > a {
     display: inline;
 }
 
-.train-type-button {
+.dashed-link {
     background: none;
     border: none;
     padding: 0;
@@ -442,7 +442,7 @@ nav > a, li > a {
     line-height: 1;
 }
 
-.train-type-button:hover {
+.dashed-link:hover {
     color: var(--link-hover-color);
     border-bottom-color: var(--link-hover-color);
 }
