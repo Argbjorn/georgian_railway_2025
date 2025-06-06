@@ -1,0 +1,137 @@
+<!-- Flatpickr CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+<!-- Flatpickr JS -->
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ru.js"></script>
+
+<style>
+.calendar-trigger {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.calendar-trigger:hover {
+    color: #0056b3;
+}
+
+.flatpickr-day {
+    cursor: default !important;
+    border: initial !important;
+}
+
+.flatpickr-day:hover {
+    background: initial !important;
+    border: initial !important;
+}
+
+.flatpickr-day.selected {
+    background: initial !important;
+    border: initial !important;
+    color: initial !important;
+}
+
+.flatpickr-day.train-day {
+    background: #f0f9f0 !important;
+    color: #2d5a2d !important;
+    font-weight: 600 !important;
+    border: initial !important;
+}
+
+.flatpickr-day.today {
+    background: initial !important;
+    color: initial !important;
+    font-weight: 600 !important;
+}
+
+.flatpickr-day.train-day.today {
+    background: #f0f9f0 !important;
+    color: initial !important;
+    font-weight: 600 !important;
+    border: initial !important;
+}
+
+.flatpickr-day.prevMonthDay,
+.flatpickr-day.nextMonthDay {
+    visibility: hidden;
+}
+</style>
+
+<script>
+const calendarName = "{{ .className }}";
+document.addEventListener('DOMContentLoaded', function() {
+    // Находим все триггеры календаря на странице
+    const calendarTriggers = document.querySelectorAll('.' + calendarName);
+    
+    calendarTriggers.forEach(function(trigger) {
+        const timestampStr = trigger.dataset.timestamp;
+        const lang = trigger.dataset.lang || 'en'; // Получаем язык из data-атрибута
+        
+        // Парсим timestamp - используем Number() для обработки научной нотации
+        let timestamp = Number(timestampStr);
+        
+        // Если timestamp выглядит как секунды (меньше чем типичное значение в миллисекундах)
+        if (timestamp < 10000000000) {
+            timestamp = timestamp * 1000; // Конвертируем секунды в миллисекунды
+        }
+        
+        const startDate = new Date(timestamp);
+        
+        // Создаем массив всех дат поезда (каждый второй день в течение 3 месяцев)
+        const trainDates = [];
+        const todayDate = new Date();
+        todayDate.setHours(0, 0, 0, 0); // Обнуляем время до 00:00:00.000
+        const currentDate = new Date(startDate);
+        const endDate = new Date(startDate);
+        endDate.setMonth(endDate.getMonth() + 3); // +3 месяца
+        
+        while (currentDate <= endDate) {
+            if (currentDate >= todayDate) {
+                trainDates.push(new Date(currentDate));
+            }
+            currentDate.setDate(currentDate.getDate() + 2); // Каждый второй день
+        }
+        
+        // Создаем скрытый input рядом с триггером
+        const hiddenInput = document.createElement('input');
+        hiddenInput.type = 'text';
+        hiddenInput.style.display = 'none';
+        trigger.parentNode.insertBefore(hiddenInput, trigger.nextSibling);
+        
+        // Инициализируем Flatpickr
+        const fp = flatpickr(hiddenInput, {
+            animate: false,
+            disableMobile: true,
+            closeOnSelect: false,
+            locale: lang, // Используем динамическую локаль
+            inline: false,
+            dateFormat: "d.m.Y",
+            minDate: "today",
+            maxDate: endDate,
+            monthSelectorType: "static",
+            positionElement: trigger, // Позиционируем относительно триггера
+            appendTo: trigger.parentNode, // Добавляем календарь в контейнер триггера
+            onDayCreate: function(dObj, dStr, fp, dayElem) {
+                const dayDate = dayElem.dateObj;
+                
+                // Проверяем, является ли этот день днем поезда
+                const isTrainDay = trainDates.some(function(trainDate) {
+                    return trainDate.getDate() === dayDate.getDate() && 
+                           trainDate.getMonth() === dayDate.getMonth() && 
+                           trainDate.getFullYear() === dayDate.getFullYear();
+                });
+                
+                if (isTrainDay) {
+                    dayElem.classList.add('train-day');
+                }
+            }
+        });
+        
+        // При клике на триггер открываем календарь
+        trigger.addEventListener('click', function() {
+            fp.open();
+        });
+    });
+});
+</script>
