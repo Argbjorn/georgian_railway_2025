@@ -51,6 +51,9 @@
             <ul>
                 {{ range $availableRoutes }}
                     {{ $departureTime := "" }}
+                    {{ $routeNameEn := index . "name:en" }}
+                    {{ $routeNameRu := index . "name:ru" }}
+                    {{ $routeNameKa := index . "name:ka" }}
                     
                     <!-- Find departure time -->
                     {{ range .stations }}
@@ -58,20 +61,7 @@
                             {{ $departureTime = .time }}
                         {{ end }}
                     {{ end }}
-                    
-                    <a href="/{{ if eq $lang "ru" }}ru/{{ else if eq $lang "ka" }}ka/{{ end }}routes/{{ .ref }}/" class="station-route">
-                        <span class="station-route-time">{{ $departureTime }}</span>
-                        <span class="station-route-ref">{{ .ref }}</span>
-                        <span class="station-route-name">
-                            {{ if eq $lang "ru" }}
-                                {{ index . "name:ru" }}
-                            {{ else if eq $lang "ka" }}
-                                {{ index . "name:ka" }}
-                            {{ else }}
-                                {{ index . "name:en" }}
-                            {{ end }}
-                        </span>
-                    </a>
+                    {{ partial "route-link.html" (dict "time" $departureTime "ref" .ref "lang" $lang "name_ru" $routeNameRu "name_ka" $routeNameKa "name_en" $routeNameEn) }}
                 {{ end }}
             </ul>
         </div>

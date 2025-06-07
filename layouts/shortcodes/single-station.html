@@ -31,36 +31,21 @@
 {{ if .Page.Params.routes.departure }}
 <h2>{{ $t.departures }}</h2>
     {{ range sort .Page.Params.routes.departure "time" }}
-    {{ $url := printf "%s/routes/%v/" (cond (eq $lang "ru") "/ru" (cond (eq $lang "ka") "/ka" "")) .ref }}
-    <a href="{{ $url }}" class="station-route">
-        <span class="station-route-time">{{ .time }}</span>
-        <span class="station-route-ref">{{ .ref }}</span>
-        <span class="station-route-name">{{ if eq $lang "ru" }}{{ .name_ru }}{{ else if eq $lang "ka" }}{{ .name_ka }}{{ else }}{{ .name_en }}{{ end }}</span>
-    </a>
+    {{ partial "route-link.html" (dict "time" .time "ref" .ref "lang" $lang "name_ru" .name_ru "name_ka" .name_ka "name_en" .name_en) }}
     {{ end }}
 {{ end }}
 
 {{ if .Page.Params.routes.arrival }}
 <h2>{{ $t.arrivals }}</h2>
     {{ range sort .Page.Params.routes.arrival "time" }}
-    {{ $url := printf "%s/routes/%v/" (cond (eq $lang "ru") "/ru" (cond (eq $lang "ka") "/ka" "")) .ref }}
-    <a href="{{ $url }}" class="station-route">
-        <span class="station-route-time">{{ .time }}</span>
-        <span class="station-route-ref">{{ .ref }}</span>
-        <span class="station-route-name">{{ if eq $lang "ru" }}{{ .name_ru }}{{ else if eq $lang "ka" }}{{ .name_ka }}{{ else }}{{ .name_en }}{{ end }}</span>
-    </a>
+    {{ partial "route-link.html" (dict "time" .time "ref" .ref "lang" $lang "name_ru" .name_ru "name_ka" .name_ka "name_en" .name_en) }}
     {{ end }}
 {{ end }}
 
 {{ if .Page.Params.routes.via }}
 <h2>{{ $t.stops }}</h2>
     {{ range sort .Page.Params.routes.via "time" }}
-    {{ $url := printf "%s/routes/%v/" (cond (eq $lang "ru") "/ru" (cond (eq $lang "ka") "/ka" "")) .ref }}
-    <a href="{{ $url }}" class="station-route">
-        <span class="station-route-time">{{ .time }}</span>
-        <span class="station-route-ref">{{ .ref }}</span>
-        <span class="station-route-name">{{ if eq $lang "ru" }}{{ .name_ru }}{{ else if eq $lang "ka" }}{{ .name_ka }}{{ else }}{{ .name_en }}{{ end }}</span>
-    </a>
+    {{ partial "route-link.html" (dict "time" .time "ref" .ref "lang" $lang "name_ru" .name_ru "name_ka" .name_ka "name_en" .name_en) }}
     {{ end }}
 {{ end }}
 </div>
