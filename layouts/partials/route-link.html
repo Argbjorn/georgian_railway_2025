@@ -1,7 +1,12 @@
 {{ $url := printf "%s/routes/%v/" (cond (eq .lang "ru") "/ru" (cond (eq .lang "ka") "/ka" "")) .ref }}
 
-<a href="{{ $url }}" class="station-route">
-    <span class="station-route-time">{{ .time }}</span>
-    <span class="station-route-ref">{{ .ref }}</span>
-    <span class="station-route-name">{{ if eq .lang "ru" }}{{ .name_ru }}{{ else if eq .lang "ka" }}{{ .name_ka }}{{ else }}{{ .name_en }}{{ end }}</span>
-</a>
+<div class="station-route-container">
+    <a href="{{ $url }}" class="station-route">
+        <span class="station-route-time">{{ .time }}</span>
+        <span class="station-route-ref">{{ .ref }}</span>
+        <span class="station-route-name">{{ if eq .lang "ru" }}{{ .name_ru }}{{ else if eq .lang "ka" }}{{ .name_ka }}{{ else }}{{ .name_en }}{{ end }}</span>
+    </a>
+    {{ if .every_second_day_start }}
+    <button class="dashed-link esd-calendar" data-timestamp="{{ .every_second_day_start }}" data-lang="{{ .lang }}">🗓</button>
+    {{ end }}
+</div>

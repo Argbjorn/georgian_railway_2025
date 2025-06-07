@@ -66,9 +66,8 @@ document.addEventListener('DOMContentLoaded', function() {
     
     calendarTriggers.forEach(function(trigger) {
         const timestampStr = trigger.dataset.timestamp;
-        const lang = trigger.dataset.lang || 'en'; // Получаем язык из data-атрибута
+        const lang = trigger.dataset.lang || 'en';
         
-        // Парсим timestamp - используем Number() для обработки научной нотации
         let timestamp = Number(timestampStr);
         
         // Если timestamp выглядит как секунды (меньше чем типичное значение в миллисекундах)
@@ -84,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
         todayDate.setHours(0, 0, 0, 0); // Обнуляем время до 00:00:00.000
         const currentDate = new Date(startDate);
         const endDate = new Date(todayDate);
-        endDate.setMonth(endDate.getMonth() + 3); // +3 месяца
+        endDate.setMonth(endDate.getMonth() + 3); // +3 месяца от сегодняшнего дня
         
         while (currentDate <= endDate) {
             if (currentDate >= todayDate) {
@@ -104,14 +103,13 @@ document.addEventListener('DOMContentLoaded', function() {
             animate: false,
             disableMobile: true,
             closeOnSelect: false,
-            locale: lang, // Используем динамическую локаль
+            locale: lang,
             inline: false,
             dateFormat: "d.m.Y",
             minDate: "today",
             maxDate: endDate,
             monthSelectorType: "static",
-            positionElement: trigger, // Позиционируем относительно триггера
-            appendTo: trigger.parentNode, // Добавляем календарь в контейнер триггера
+            positionElement: trigger,
             onDayCreate: function(dObj, dStr, fp, dayElem) {
                 const dayDate = dayElem.dateObj;
                 

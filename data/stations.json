@@ -22,6 +22,8 @@
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
                "name_ka": "ზუგდიდი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:38"
             },
             {
@@ -29,6 +31,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "13:26"
             },
             {
@@ -36,6 +40,8 @@
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
                "name_ka": "ფოთი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:07"
             },
             {
@@ -43,6 +49,8 @@
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
                "name_ka": "თბილისი → ფოთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "22:31"
             }
          ]
@@ -72,6 +80,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:34"
             },
             {
@@ -79,6 +89,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:42"
             },
             {
@@ -86,6 +98,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:54"
             },
             {
@@ -93,6 +107,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:42"
             }
          ]
@@ -122,6 +138,8 @@
                "name_en": "Kutaisi → Sachkhere",
                "name_ru": "Кутаиси → Сачхере",
                "name_ka": "ქუთაისი → საჩხერე",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "06:21"
             },
             {
@@ -129,6 +147,8 @@
                "name_en": "Sachkhere → Kutaisi",
                "name_ru": "Сачхере → Кутаиси",
                "name_ka": "საჩხერე → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "13:36"
             }
          ]
@@ -158,6 +178,8 @@
                "name_en": "Kutaisi → Sachkhere",
                "name_ru": "Кутаиси → Сачхере",
                "name_ka": "ქუთაისი → საჩხერე",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "06:40"
             },
             {
@@ -165,6 +187,8 @@
                "name_en": "Sachkhere → Kutaisi",
                "name_ru": "Сачхере → Кутаиси",
                "name_ka": "საჩხერე → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "13:13"
             }
          ]
@@ -194,6 +218,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:28"
             },
             {
@@ -201,6 +227,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "06:48"
             },
             {
@@ -208,6 +236,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:48"
             },
             {
@@ -215,6 +245,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:48"
             }
          ]
@@ -245,6 +277,8 @@
                "name_en": "Batumi → Ozurgeti",
                "name_ru": "Батуми → Озургети",
                "name_ka": "ბათუმი → ოზურგეთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:40"
             },
             {
@@ -252,6 +286,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:35"
             },
             {
@@ -259,6 +295,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:50"
             },
             {
@@ -266,6 +304,8 @@
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
                "name_ka": "ბათუმი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "16:55"
             },
             {
@@ -273,6 +313,8 @@
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
                "name_ka": "ბათუმი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:00"
             }
          ],
@@ -282,6 +324,8 @@
                "name_en": "Ozurgeti → Batumi",
                "name_ru": "Озургети → Батуми",
                "name_ka": "ოზურგეთი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:33"
             },
             {
@@ -289,6 +333,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "10:39"
             },
             {
@@ -296,6 +342,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:27"
             },
             {
@@ -303,6 +351,8 @@
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "13:35"
             },
             {
@@ -310,6 +360,8 @@
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "22:45"
             }
          ],
@@ -339,6 +391,8 @@
                "name_en": "Kutaisi → Sachkhere",
                "name_ru": "Кутаиси → Сачхере",
                "name_ka": "ქუთაისი → საჩხერე",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:43"
             },
             {
@@ -346,6 +400,8 @@
                "name_en": "Sachkhere → Kutaisi",
                "name_ru": "Сачхере → Кутаиси",
                "name_ka": "საჩხერე → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "12:08"
             }
          ]
@@ -378,6 +434,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "16:40"
             },
             {
@@ -385,6 +443,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "10:32"
             },
             {
@@ -392,6 +452,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "06:00"
             },
             {
@@ -399,6 +461,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "22:32"
             }
          ]
@@ -429,6 +493,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "16:30"
             },
             {
@@ -436,6 +502,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "05:50"
             }
          ],
@@ -445,6 +513,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "10:47"
             },
             {
@@ -452,6 +522,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "22:47"
             }
          ],
@@ -481,6 +553,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "23:32"
             },
             {
@@ -488,6 +562,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "06:51"
             },
             {
@@ -495,6 +571,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "13:33"
             },
             {
@@ -502,6 +580,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "16:36"
             }
          ]
@@ -530,6 +610,8 @@
                "name_en": "Batumi → Ozurgeti",
                "name_ru": "Батуми → Озургети",
                "name_ka": "ბათუმი → ოზურგეთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:03"
             },
             {
@@ -537,6 +619,8 @@
                "name_en": "Ozurgeti → Batumi",
                "name_ru": "Озургети → Батуми",
                "name_ka": "ოზურგეთი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:09"
             },
             {
@@ -544,6 +628,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:58"
             },
             {
@@ -551,6 +637,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "10:15"
             },
             {
@@ -558,6 +646,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "10:13"
             },
             {
@@ -565,6 +655,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:01"
             }
          ]
@@ -593,6 +685,8 @@
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
                "name_ka": "ფოთი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:18"
             },
             {
@@ -600,6 +694,8 @@
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
                "name_ka": "თბილისი → ფოთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "23:17"
             }
          ]
@@ -628,6 +724,8 @@
                "name_en": "Kutaisi → Sachkhere",
                "name_ru": "Кутаиси → Сачхере",
                "name_ka": "ქუთაისი → საჩხერე",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:33"
             },
             {
@@ -635,6 +733,8 @@
                "name_en": "Sachkhere → Kutaisi",
                "name_ru": "Сачхере → Кутаиси",
                "name_ka": "საჩხერე → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "11:16"
             }
          ]
@@ -663,6 +763,8 @@
                "name_en": "Kutaisi → Sachkhere",
                "name_ru": "Кутаиси → Сачхере",
                "name_ka": "ქუთაისი → საჩხერე",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:50"
             },
             {
@@ -670,6 +772,8 @@
                "name_en": "Sachkhere → Kutaisi",
                "name_ru": "Сачхере → Кутаиси",
                "name_ka": "საჩხერე → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "11:01"
             }
          ]
@@ -698,6 +802,8 @@
                "name_en": "Kutaisi → Sachkhere",
                "name_ru": "Кутаиси → Сачхере",
                "name_ka": "ქუთაისი → საჩხერე",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:02"
             },
             {
@@ -705,6 +811,8 @@
                "name_en": "Sachkhere → Kutaisi",
                "name_ru": "Сачхере → Кутаиси",
                "name_ka": "საჩხერე → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "10:50"
             }
          ]
@@ -734,6 +842,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:06"
             },
             {
@@ -741,6 +851,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:10"
             },
             {
@@ -748,6 +860,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:26"
             },
             {
@@ -755,6 +869,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:10"
             }
          ]
@@ -784,6 +900,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "12:33"
             },
             {
@@ -791,6 +909,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "12:19"
             },
             {
@@ -798,6 +918,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:20"
             },
             {
@@ -805,6 +927,8 @@
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
                "name_ka": "ხაშური → ზესტაფონი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:30"
             },
             {
@@ -812,6 +936,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "17:00"
             },
             {
@@ -819,6 +945,8 @@
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
                "name_ka": "ხაშური → ზესტაფონი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:06"
             },
             {
@@ -826,6 +954,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "14:33"
             }
          ]
@@ -855,6 +985,8 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:50"
             },
             {
@@ -862,6 +994,8 @@
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:59"
             },
             {
@@ -869,6 +1003,8 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:40"
             },
             {
@@ -876,6 +1012,8 @@
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:49"
             }
          ]
@@ -903,6 +1041,8 @@
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:30"
             },
             {
@@ -910,6 +1050,8 @@
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:20"
             }
          ],
@@ -919,6 +1061,8 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:16"
             },
             {
@@ -926,6 +1070,8 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:06"
             }
          ],
@@ -956,6 +1102,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:23"
             },
             {
@@ -963,6 +1111,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:53"
             },
             {
@@ -970,6 +1120,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:43"
             },
             {
@@ -977,6 +1129,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:53"
             }
          ]
@@ -1006,6 +1160,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:02"
             },
             {
@@ -1013,6 +1169,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:12"
             },
             {
@@ -1020,6 +1178,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:22"
             },
             {
@@ -1027,6 +1187,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:12"
             },
             {
@@ -1034,6 +1196,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "14:47"
             },
             {
@@ -1041,6 +1205,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "10:06"
             },
             {
@@ -1048,6 +1214,8 @@
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
                "name_ka": "ზუგდიდი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "22:28"
             },
             {
@@ -1055,6 +1223,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:20"
             },
             {
@@ -1062,6 +1232,8 @@
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
                "name_ka": "ფოთი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "11:53"
             },
             {
@@ -1069,6 +1241,8 @@
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
                "name_ka": "თბილისი → ფოთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:30"
             }
          ]
@@ -1098,6 +1272,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:21"
             },
             {
@@ -1105,6 +1281,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:55"
             },
             {
@@ -1112,6 +1290,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:41"
             },
             {
@@ -1119,6 +1299,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:55"
             }
          ]
@@ -1147,6 +1329,8 @@
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
                "name_ka": "ზუგდიდი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "17:08"
             },
             {
@@ -1154,6 +1338,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "14:52"
             }
          ]
@@ -1183,6 +1369,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:32"
             },
             {
@@ -1190,6 +1378,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:43"
             },
             {
@@ -1197,6 +1387,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "11:42"
             },
             {
@@ -1204,6 +1396,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:30"
             },
             {
@@ -1211,6 +1405,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "10:21"
             },
             {
@@ -1218,6 +1414,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "14:36"
             }
          ]
@@ -1246,6 +1444,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "15:55"
             }
          ]
@@ -1275,6 +1475,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:42"
             },
             {
@@ -1282,6 +1484,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:34"
             },
             {
@@ -1289,6 +1493,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:02"
             },
             {
@@ -1296,6 +1502,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:34"
             },
             {
@@ -1303,6 +1511,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "14:33"
             },
             {
@@ -1310,6 +1520,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "10:23"
             }
          ]
@@ -1339,6 +1551,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:36"
             },
             {
@@ -1346,6 +1560,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:39"
             },
             {
@@ -1353,6 +1569,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:56"
             },
             {
@@ -1360,6 +1578,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:39"
             },
             {
@@ -1367,6 +1587,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "15:10"
             },
             {
@@ -1374,6 +1596,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "09:44"
             }
          ]
@@ -1403,6 +1627,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:45"
             },
             {
@@ -1410,6 +1636,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:31"
             },
             {
@@ -1417,6 +1645,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:05"
             },
             {
@@ -1424,6 +1654,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:31"
             }
          ]
@@ -1454,6 +1686,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "12:47"
             },
             {
@@ -1461,6 +1695,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "12:04"
             },
             {
@@ -1468,6 +1704,8 @@
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
                "name_ka": "ზუგდიდი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:34"
             },
             {
@@ -1475,6 +1713,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "11:18"
             },
             {
@@ -1482,6 +1722,8 @@
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
                "name_ka": "ფოთი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:58"
             },
             {
@@ -1489,6 +1731,8 @@
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
                "name_ka": "თბილისი → ფოთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:28"
             },
             {
@@ -1496,6 +1740,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:44"
             },
             {
@@ -1503,6 +1749,8 @@
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
                "name_ka": "ხაშური → ზესტაფონი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:05"
             },
             {
@@ -1510,6 +1758,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "17:24"
             },
             {
@@ -1517,6 +1767,8 @@
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
                "name_ka": "ხაშური → ზესტაფონი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:40"
             },
             {
@@ -1524,6 +1776,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "14:57"
             }
          ]
@@ -1551,6 +1805,8 @@
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
                "name_ka": "ხაშური → ზესტაფონი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "17:25"
             },
             {
@@ -1558,6 +1814,8 @@
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
                "name_ka": "ხაშური → ზესტაფონი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:00"
             }
          ],
@@ -1567,6 +1825,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:23"
             },
             {
@@ -1574,6 +1834,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "16:38"
             },
             {
@@ -1581,6 +1843,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "16:38"
             }
          ],
@@ -1590,6 +1854,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:05"
             },
             {
@@ -1597,6 +1863,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:07"
             },
             {
@@ -1604,6 +1872,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:25"
             },
             {
@@ -1611,6 +1881,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:07"
             },
             {
@@ -1618,6 +1890,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "14:01"
             },
             {
@@ -1625,6 +1899,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "10:45"
             },
             {
@@ -1632,6 +1908,8 @@
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
                "name_ka": "ზუგდიდი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:49"
             },
             {
@@ -1639,6 +1917,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:56"
             },
             {
@@ -1646,6 +1926,8 @@
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
                "name_ka": "ფოთი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "11:13"
             },
             {
@@ -1653,6 +1935,8 @@
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
                "name_ka": "თბილისი → ფოთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:06"
             }
          ]
@@ -1681,6 +1965,8 @@
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
                "name_ka": "ზუგდიდი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "17:45"
             },
             {
@@ -1688,6 +1974,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "14:18"
             }
          ]
@@ -1716,6 +2004,8 @@
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
                "name_ka": "ზუგდიდი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "17:55"
             },
             {
@@ -1723,6 +2013,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "14:06"
             }
          ]
@@ -1751,6 +2043,8 @@
                "name_en": "Batumi → Ozurgeti",
                "name_ru": "Батуми → Озургети",
                "name_ka": "ბათუმი → ოზურგეთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:21"
             },
             {
@@ -1758,6 +2052,8 @@
                "name_en": "Ozurgeti → Batumi",
                "name_ru": "Озургети → Батуми",
                "name_ka": "ოზურგეთი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:49"
             },
             {
@@ -1765,6 +2061,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:20"
             },
             {
@@ -1772,6 +2070,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:56"
             },
             {
@@ -1779,6 +2079,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "10:33"
             },
             {
@@ -1786,6 +2088,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:41"
             },
             {
@@ -1793,6 +2097,8 @@
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
                "name_ka": "ბათუმი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "17:16"
             },
             {
@@ -1800,6 +2106,8 @@
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "13:09"
             },
             {
@@ -1807,6 +2115,8 @@
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
                "name_ka": "ბათუმი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:21"
             },
             {
@@ -1814,6 +2124,8 @@
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "22:19"
             }
          ]
@@ -1843,6 +2155,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:58"
             },
             {
@@ -1850,6 +2164,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:18"
             },
             {
@@ -1857,6 +2173,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:18"
             },
             {
@@ -1864,6 +2182,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:18"
             }
          ]
@@ -1897,6 +2217,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "23:11"
             },
             {
@@ -1904,6 +2226,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:11"
             },
             {
@@ -1911,6 +2235,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "13:13"
             },
             {
@@ -1918,6 +2244,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "16:56"
             },
             {
@@ -1925,6 +2253,8 @@
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
                "name_ka": "ბათუმი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:47"
             },
             {
@@ -1932,6 +2262,8 @@
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "11:43"
             },
             {
@@ -1939,6 +2271,8 @@
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
                "name_ka": "ბათუმი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:52"
             },
             {
@@ -1946,6 +2280,8 @@
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:53"
             },
             {
@@ -1953,6 +2289,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "11:23"
             },
             {
@@ -1960,6 +2298,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "13:34"
             },
             {
@@ -1967,6 +2307,8 @@
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
                "name_ka": "ზუგდიდი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:14"
             },
             {
@@ -1974,6 +2316,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "12:48"
             },
             {
@@ -1981,6 +2325,8 @@
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
                "name_ka": "ფოთი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:43"
             },
             {
@@ -1988,6 +2334,8 @@
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
                "name_ka": "თბილისი → ფოთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:53"
             }
          ]
@@ -2018,6 +2366,8 @@
                "name_en": "Kutaisi → Sachkhere",
                "name_ru": "Кутаиси → Сачхере",
                "name_ka": "ქუთაისი → საჩხერე",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "05:50"
             },
             {
@@ -2025,6 +2375,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "06:15"
             },
             {
@@ -2032,6 +2384,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "16:00"
             },
             {
@@ -2039,6 +2393,8 @@
                "name_en": "Kutaisi → Rioni",
                "name_ru": "Кутаиси → Риони",
                "name_ka": "ქუთაისი → რიონი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "11:15"
             },
             {
@@ -2046,6 +2402,8 @@
                "name_en": "Kutaisi → Rioni",
                "name_ru": "Кутаиси → Риони",
                "name_ka": "ქუთაისი → რიონი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "12:35"
             }
          ],
@@ -2055,6 +2413,8 @@
                "name_en": "Sachkhere → Kutaisi",
                "name_ru": "Сачхере → Кутаиси",
                "name_ka": "საჩხერე → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "14:32"
             },
             {
@@ -2062,6 +2422,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "00:13"
             },
             {
@@ -2069,6 +2431,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "14:10"
             },
             {
@@ -2076,6 +2440,8 @@
                "name_en": "Rioni → Kutaisi",
                "name_ru": "Риони → Кутаиси",
                "name_ka": "რიონი → ქუთაისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "12:15"
             },
             {
@@ -2083,6 +2449,8 @@
                "name_en": "Rioni → Kutaisi",
                "name_ru": "Риони → Кутаиси",
                "name_ka": "რიონი → ქუთაისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "13:45"
             }
          ],
@@ -2112,6 +2480,8 @@
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
                "name_ka": "ფოთი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:32"
             },
             {
@@ -2119,6 +2489,8 @@
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
                "name_ka": "თბილისი → ფოთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "23:03"
             }
          ]
@@ -2147,6 +2519,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:55"
             },
             {
@@ -2154,6 +2528,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:25"
             },
             {
@@ -2161,6 +2537,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "11:59"
             },
             {
@@ -2168,6 +2546,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:10"
             },
             {
@@ -2175,6 +2555,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "10:32"
             },
             {
@@ -2182,6 +2564,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "14:24"
             }
          ]
@@ -2211,6 +2595,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:58"
             },
             {
@@ -2218,6 +2604,8 @@
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
                "name_ka": "ხაშური → ზესტაფონი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "17:46"
             },
             {
@@ -2225,6 +2613,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:38"
             },
             {
@@ -2232,6 +2622,8 @@
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
                "name_ka": "ხაშური → ზესტაფონი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:21"
             },
             {
@@ -2239,6 +2631,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "16:13"
             }
          ]
@@ -2267,6 +2661,8 @@
                "name_en": "Batumi → Ozurgeti",
                "name_ru": "Батуми → Озургети",
                "name_ka": "ბათუმი → ოზურგეთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:45"
             },
             {
@@ -2274,6 +2670,8 @@
                "name_en": "Ozurgeti → Batumi",
                "name_ru": "Озургети → Батуми",
                "name_ka": "ოზურგეთი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:27"
             },
             {
@@ -2281,6 +2679,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:40"
             },
             {
@@ -2288,6 +2688,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "10:33"
             },
             {
@@ -2295,6 +2697,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:55"
             },
             {
@@ -2302,6 +2706,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:21"
             }
          ]
@@ -2331,6 +2737,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "13:07"
             },
             {
@@ -2338,6 +2746,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "11:49"
             },
             {
@@ -2345,6 +2755,8 @@
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
                "name_ka": "ზუგდიდი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:55"
             },
             {
@@ -2352,6 +2764,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "11:03"
             },
             {
@@ -2359,6 +2773,8 @@
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
                "name_ka": "ფოთი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "10:19"
             },
             {
@@ -2366,6 +2782,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:07"
             },
             {
@@ -2373,6 +2791,8 @@
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
                "name_ka": "ხაშური → ზესტაფონი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:43"
             },
             {
@@ -2380,6 +2800,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "17:47"
             },
             {
@@ -2387,6 +2809,8 @@
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
                "name_ka": "ხაშური → ზესტაფონი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:18"
             },
             {
@@ -2394,6 +2818,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "15:20"
             }
          ]
@@ -2422,6 +2848,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "09:26"
             },
             {
@@ -2429,6 +2857,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "15:30"
             }
          ]
@@ -2457,6 +2887,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "13:19"
             },
             {
@@ -2464,6 +2896,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "11:35"
             },
             {
@@ -2471,6 +2905,8 @@
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
                "name_ka": "ზუგდიდი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:07"
             },
             {
@@ -2478,6 +2914,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "10:49"
             },
             {
@@ -2485,6 +2923,8 @@
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
                "name_ka": "ფოთი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "10:31"
             },
             {
@@ -2492,6 +2932,8 @@
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
                "name_ka": "თბილისი → ფოთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:59"
             },
             {
@@ -2499,6 +2941,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:23"
             },
             {
@@ -2506,6 +2950,8 @@
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
                "name_ka": "ხაშური → ზესტაფონი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:25"
             },
             {
@@ -2513,6 +2959,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:03"
             },
             {
@@ -2520,6 +2968,8 @@
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
                "name_ka": "ხაშური → ზესტაფონი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:00"
             },
             {
@@ -2527,6 +2977,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "15:38"
             }
          ]
@@ -2556,6 +3008,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:15"
             },
             {
@@ -2563,6 +3017,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:01"
             },
             {
@@ -2570,6 +3026,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:35"
             },
             {
@@ -2577,6 +3035,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:01"
             },
             {
@@ -2584,6 +3044,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "15:33"
             },
             {
@@ -2591,6 +3053,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "09:21"
             }
          ]
@@ -2620,6 +3084,8 @@
                "name_en": "Batumi → Ozurgeti",
                "name_ru": "Батуми → Озургети",
                "name_ka": "ბათუმი → ოზურგეთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:49"
             },
             {
@@ -2627,6 +3093,8 @@
                "name_en": "Ozurgeti → Batumi",
                "name_ru": "Озургети → Батуми",
                "name_ka": "ოზურგეთი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:15"
             },
             {
@@ -2634,6 +3102,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:48"
             },
             {
@@ -2641,6 +3111,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:29"
             },
             {
@@ -2648,6 +3120,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "11:00"
             },
             {
@@ -2655,6 +3129,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:11"
             },
             {
@@ -2662,6 +3138,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "09:40"
             },
             {
@@ -2669,6 +3147,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "15:08"
             }
          ]
@@ -2698,6 +3178,8 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:20"
             },
             {
@@ -2705,6 +3187,8 @@
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:27"
             },
             {
@@ -2712,6 +3196,8 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:10"
             },
             {
@@ -2719,6 +3205,8 @@
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:18"
             }
          ]
@@ -2747,6 +3235,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "22:09"
             },
             {
@@ -2754,6 +3244,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:11"
             },
             {
@@ -2761,6 +3253,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "12:12"
             },
             {
@@ -2768,6 +3262,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "17:56"
             },
             {
@@ -2775,6 +3271,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "10:44"
             },
             {
@@ -2782,6 +3280,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "14:13"
             }
          ]
@@ -2810,6 +3310,8 @@
                "name_en": "Batumi → Ozurgeti",
                "name_ru": "Батуми → Озургети",
                "name_ka": "ბათუმი → ოზურგეთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:36"
             },
             {
@@ -2817,6 +3319,8 @@
                "name_en": "Ozurgeti → Batumi",
                "name_ru": "Озургети → Батуми",
                "name_ka": "ოზურგეთი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:30"
             },
             {
@@ -2824,6 +3328,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:34"
             },
             {
@@ -2831,6 +3337,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:43"
             },
             {
@@ -2838,6 +3346,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "10:47"
             },
             {
@@ -2845,6 +3355,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:27"
             }
          ]
@@ -2871,6 +3383,8 @@
                "name_en": "Ozurgeti → Batumi",
                "name_ru": "Озургети → Батуми",
                "name_ka": "ოზურგეთი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:15"
             },
             {
@@ -2878,6 +3392,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "08:40"
             }
          ],
@@ -2887,6 +3403,8 @@
                "name_en": "Batumi → Ozurgeti",
                "name_ru": "Батуми → Озургети",
                "name_ka": "ბათუმი → ოზურგეთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "22:59"
             },
             {
@@ -2894,6 +3412,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "16:18"
             }
          ],
@@ -2923,6 +3443,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "09:14"
             },
             {
@@ -2930,6 +3452,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "15:45"
             }
          ]
@@ -2958,6 +3482,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "16:05"
             }
          ]
@@ -2988,6 +3514,8 @@
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
                "name_ka": "ფოთი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:00"
             }
          ],
@@ -2997,6 +3525,8 @@
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
                "name_ka": "თბილისი → ფოთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "23:37"
             }
          ],
@@ -3029,6 +3559,8 @@
                "name_en": "Rioni → Kutaisi",
                "name_ru": "Риони → Кутаиси",
                "name_ka": "რიონი → ქუთაისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "11:55"
             },
             {
@@ -3036,6 +3568,8 @@
                "name_en": "Rioni → Kutaisi",
                "name_ru": "Риони → Кутаиси",
                "name_ka": "რიონი → ქუთაისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "13:25"
             }
          ],
@@ -3045,6 +3579,8 @@
                "name_en": "Kutaisi → Rioni",
                "name_ru": "Кутаиси → Риони",
                "name_ka": "ქუთაისი → რიონი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "11:35"
             },
             {
@@ -3052,6 +3588,8 @@
                "name_en": "Kutaisi → Rioni",
                "name_ru": "Кутаиси → Риони",
                "name_ka": "ქუთაისი → რიონი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "12:55"
             }
          ],
@@ -3061,6 +3599,8 @@
                "name_en": "Kutaisi → Sachkhere",
                "name_ru": "Кутаиси → Сачхере",
                "name_ka": "ქუთაისი → საჩხერე",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "06:10"
             },
             {
@@ -3068,6 +3608,8 @@
                "name_en": "Sachkhere → Kutaisi",
                "name_ru": "Сачхере → Кутаиси",
                "name_ka": "საჩხერე → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "13:47"
             },
             {
@@ -3075,6 +3617,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "23:39"
             },
             {
@@ -3082,6 +3626,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "06:35"
             },
             {
@@ -3089,6 +3635,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "13:40"
             },
             {
@@ -3096,6 +3644,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "16:20"
             },
             {
@@ -3103,6 +3653,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "11:40"
             },
             {
@@ -3110,6 +3662,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "13:12"
             },
             {
@@ -3117,6 +3671,8 @@
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
                "name_ka": "ზუგდიდი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:31"
             },
             {
@@ -3124,6 +3680,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "12:26"
             },
             {
@@ -3131,6 +3689,8 @@
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
                "name_ka": "ფოთი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:00"
             },
             {
@@ -3138,6 +3698,8 @@
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
                "name_ka": "თბილისი → ფოთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:36"
             }
          ]
@@ -3167,6 +3729,8 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:58"
             },
             {
@@ -3174,6 +3738,8 @@
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:47"
             },
             {
@@ -3181,6 +3747,8 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:48"
             },
             {
@@ -3188,6 +3756,8 @@
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:37"
             }
          ]
@@ -3217,6 +3787,8 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:03"
             },
             {
@@ -3224,6 +3796,8 @@
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:42"
             },
             {
@@ -3231,6 +3805,8 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:53"
             },
             {
@@ -3238,6 +3814,8 @@
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:32"
             }
          ]
@@ -3264,6 +3842,8 @@
                "name_en": "Sachkhere → Kutaisi",
                "name_ru": "Сачхере → Кутаиси",
                "name_ka": "საჩხერე → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "10:30"
             }
          ],
@@ -3273,6 +3853,8 @@
                "name_en": "Kutaisi → Sachkhere",
                "name_ru": "Кутаиси → Сачхере",
                "name_ka": "ქუთაისი → საჩხერე",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:24"
             }
          ],
@@ -3302,6 +3884,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "22:31"
             },
             {
@@ -3309,6 +3893,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:40"
             },
             {
@@ -3316,6 +3902,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "12:35"
             },
             {
@@ -3323,6 +3911,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "17:35"
             }
          ]
@@ -3351,6 +3941,8 @@
                "name_en": "Kutaisi → Rioni",
                "name_ru": "Кутаиси → Риони",
                "name_ka": "ქუთაისი → რიონი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "11:25"
             },
             {
@@ -3358,6 +3950,8 @@
                "name_en": "Rioni → Kutaisi",
                "name_ru": "Риони → Кутаиси",
                "name_ka": "რიონი → ქუთაისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "12:05"
             },
             {
@@ -3365,6 +3959,8 @@
                "name_en": "Kutaisi → Rioni",
                "name_ru": "Кутаиси → Риони",
                "name_ka": "ქუთაისი → რიონი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "12:45"
             },
             {
@@ -3372,6 +3968,8 @@
                "name_en": "Rioni → Kutaisi",
                "name_ru": "Риони → Кутаиси",
                "name_ka": "რიონი → ქუთაისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "13:35"
             }
          ]
@@ -3401,6 +3999,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "22:46"
             },
             {
@@ -3408,6 +4008,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:32"
             },
             {
@@ -3415,6 +4017,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "12:49"
             },
             {
@@ -3422,6 +4026,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "17:17"
             },
             {
@@ -3429,6 +4035,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "11:06"
             },
             {
@@ -3436,6 +4044,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "13:49"
             },
             {
@@ -3443,6 +4053,8 @@
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
                "name_ka": "ზუგდიდი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:56"
             },
             {
@@ -3450,6 +4062,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "13:03"
             },
             {
@@ -3457,6 +4071,8 @@
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
                "name_ka": "ფოთი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:25"
             },
             {
@@ -3464,6 +4080,8 @@
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
                "name_ka": "თბილისი → ფოთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "22:08"
             }
          ]
@@ -3492,6 +4110,8 @@
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
                "name_ka": "ზუგდიდი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:15"
             },
             {
@@ -3499,6 +4119,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "13:43"
             },
             {
@@ -3506,6 +4128,8 @@
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
                "name_ka": "ფოთი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:44"
             },
             {
@@ -3513,6 +4137,8 @@
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
                "name_ka": "თბილისი → ფოთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "22:48"
             }
          ]
@@ -3541,6 +4167,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "10:40"
             },
             {
@@ -3548,6 +4176,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "14:17"
             }
          ]
@@ -3576,6 +4206,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:15"
             },
             {
@@ -3583,6 +4215,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:59"
             },
             {
@@ -3590,6 +4224,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "11:26"
             },
             {
@@ -3597,6 +4233,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:46"
             },
             {
@@ -3604,6 +4242,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "10:10"
             },
             {
@@ -3611,6 +4251,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "14:47"
             }
          ]
@@ -3640,6 +4282,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "12:03"
             },
             {
@@ -3647,6 +4291,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "12:50"
             }
          ]
@@ -3679,6 +4325,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "06:35"
             },
             {
@@ -3686,6 +4334,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:35"
             },
             {
@@ -3693,6 +4343,8 @@
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:00"
             },
             {
@@ -3700,6 +4352,8 @@
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "17:10"
             },
             {
@@ -3707,6 +4361,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "09:00"
             },
             {
@@ -3714,6 +4370,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:20"
             },
             {
@@ -3721,6 +4379,8 @@
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
                "name_ka": "თბილისი → ფოთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "17:30"
             },
             {
@@ -3728,6 +4388,8 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:10"
             },
             {
@@ -3735,6 +4397,8 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:00"
             }
          ],
@@ -3744,6 +4408,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:50"
             },
             {
@@ -3751,6 +4417,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "10:10"
             },
             {
@@ -3758,6 +4426,8 @@
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
                "name_ka": "ბათუმი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "22:17"
             },
             {
@@ -3765,6 +4435,8 @@
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
                "name_ka": "ბათუმი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "13:17"
             },
             {
@@ -3772,6 +4444,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "16:00"
             },
             {
@@ -3779,6 +4453,8 @@
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
                "name_ka": "ზუგდიდი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "23:37"
             },
             {
@@ -3786,6 +4462,8 @@
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
                "name_ka": "ფოთი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "13:02"
             },
             {
@@ -3793,6 +4471,8 @@
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:38"
             },
             {
@@ -3800,6 +4480,8 @@
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:29"
             }
          ],
@@ -3830,6 +4512,8 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:29"
             },
             {
@@ -3837,6 +4521,8 @@
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:18"
             },
             {
@@ -3844,6 +4530,8 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:19"
             },
             {
@@ -3851,6 +4539,8 @@
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:08"
             }
          ]
@@ -3880,6 +4570,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:44"
             },
             {
@@ -3887,6 +4579,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "06:39"
             },
             {
@@ -3894,6 +4588,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "10:04"
             },
             {
@@ -3901,6 +4597,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:39"
             }
          ]
@@ -3930,6 +4628,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "11:19"
             },
             {
@@ -3937,6 +4637,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "10:33"
             },
             {
@@ -3944,6 +4646,8 @@
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
                "name_ka": "თბილისი → ფოთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:43"
             },
             {
@@ -3951,6 +4655,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:39"
             },
             {
@@ -3958,6 +4664,8 @@
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
                "name_ka": "ხაშური → ზესტაფონი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:05"
             },
             {
@@ -3965,6 +4673,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:19"
             },
             {
@@ -3972,6 +4682,8 @@
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
                "name_ka": "ხაშური → ზესტაფონი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:40"
             },
             {
@@ -3979,6 +4691,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "15:54"
             }
          ]
@@ -4011,6 +4725,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:01"
             },
             {
@@ -4018,6 +4734,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:15"
             },
             {
@@ -4025,6 +4743,8 @@
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "11:12"
             },
             {
@@ -4032,6 +4752,8 @@
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
                "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:58"
             },
             {
@@ -4039,6 +4761,8 @@
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
                "name_ka": "ბათუმი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "17:47"
             },
             {
@@ -4046,6 +4770,8 @@
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "12:41"
             },
             {
@@ -4053,6 +4779,8 @@
                "name_en": "Batumi → Tbilisi",
                "name_ru": "Батуми → Тбилиси",
                "name_ka": "ბათუმი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "08:52"
             },
             {
@@ -4060,6 +4788,8 @@
                "name_en": "Tbilisi → Batumi",
                "name_ru": "Тбилиси → Батуми",
                "name_ka": "თბილისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:51"
             },
             {
@@ -4067,6 +4797,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "09:59"
             },
             {
@@ -4074,6 +4806,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "14:55"
             }
          ]
@@ -4103,6 +4837,8 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:39"
             },
             {
@@ -4110,6 +4846,8 @@
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:08"
             },
             {
@@ -4117,6 +4855,8 @@
                "name_en": "Tbilisi → Gardabani",
                "name_ru": "Тбилиси → Гардабани",
                "name_ka": "თბილისი → გარდაბანი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:29"
             },
             {
@@ -4124,6 +4864,8 @@
                "name_en": "Gardabani → Tbilisi",
                "name_ru": "Гардабани → Тбилиси",
                "name_ka": "გარდაბანი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:58"
             }
          ]
@@ -4153,6 +4895,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:23"
             },
             {
@@ -4160,6 +4904,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "06:53"
             },
             {
@@ -4167,6 +4913,8 @@
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
                "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:43"
             },
             {
@@ -4174,6 +4922,8 @@
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
                "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "18:53"
             }
          ]
@@ -4201,6 +4951,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "07:00"
             },
             {
@@ -4208,6 +4960,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "16:40"
             },
             {
@@ -4215,6 +4969,8 @@
                "name_en": "Zestafoni → Khashuri",
                "name_ru": "Зестафони → Хашури",
                "name_ka": "ზესტაფონი → ხაშური",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "14:13"
             }
          ],
@@ -4224,6 +4980,8 @@
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
                "name_ka": "ხაშური → ზესტაფონი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "19:52"
             },
             {
@@ -4231,6 +4989,8 @@
                "name_en": "Khashuri → Zestafoni",
                "name_ru": "Хашури → Зестафони",
                "name_ka": "ხაშური → ზესტაფონი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:28"
             }
          ],
@@ -4240,6 +5000,8 @@
                "name_en": "Kutaisi → Sachkhere",
                "name_ru": "Кутаиси → Сачхере",
                "name_ka": "ქუთაისი → საჩხერე",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "06:54"
             },
             {
@@ -4247,6 +5009,8 @@
                "name_en": "Sachkhere → Kutaisi",
                "name_ru": "Сачхере → Кутаиси",
                "name_ka": "საჩხერე → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "12:55"
             },
             {
@@ -4254,6 +5018,8 @@
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748822400000,
                "time": "12:16"
             },
             {
@@ -4261,6 +5027,8 @@
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
+               "frequency": "every second day",
+               "every_second_day_start": 1748736000000,
                "time": "12:35"
             },
             {
@@ -4268,6 +5036,8 @@
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
                "name_ka": "ზუგდიდი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "20:04"
             },
             {
@@ -4275,6 +5045,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "11:50"
             },
             {
@@ -4282,6 +5054,8 @@
                "name_en": "Poti → Tbilisi",
                "name_ru": "Поти → Тбилиси",
                "name_ka": "ფოთი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "09:28"
             },
             {
@@ -4289,6 +5063,8 @@
                "name_en": "Tbilisi → Poti",
                "name_ru": "Тбилиси → Поти",
                "name_ka": "თბილისი → ფოთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "21:00"
             }
          ]
@@ -4315,6 +5091,8 @@
                "name_en": "Zugdidi → Tbilisi",
                "name_ru": "Зугдиди → Тбилиси",
                "name_ka": "ზუგდიდი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "16:55"
             }
          ],
@@ -4324,6 +5102,8 @@
                "name_en": "Tbilisi → Zugdidi",
                "name_ru": "Тбилиси → Зугдиди",
                "name_ka": "თბილისი → ზუგდიდი",
+               "frequency": "daily",
+               "every_second_day_start": null,
                "time": "15:08"
             }
          ],

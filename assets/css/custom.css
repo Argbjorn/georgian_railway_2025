@@ -348,7 +348,6 @@ nav > a, li > a {
 }
 
 .station-route {
-    margin-bottom: 10px;
     padding: 8px;
     border-radius: 4px;
     transition: background-color 0.2s;
@@ -397,6 +396,39 @@ nav > a, li > a {
     font-weight: 500;
     width: 45px;
     margin-right: 10px;
+}
+
+.station-route-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.calendar-icon {
+    background: none;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+    padding: 4px 6px;
+    margin-left: 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    flex-shrink: 0;
+}
+
+.calendar-icon:hover {
+    background-color: #f0f7ff;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.calendar-icon:active {
+    transform: scale(0.95);
 }
 
 .station-name {
