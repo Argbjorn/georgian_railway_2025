@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const todayDate = new Date();
         todayDate.setHours(0, 0, 0, 0); // Обнуляем время до 00:00:00.000
         const currentDate = new Date(startDate);
-        const endDate = new Date(startDate);
+        const endDate = new Date(todayDate);
         endDate.setMonth(endDate.getMonth() + 3); // +3 месяца
         
         while (currentDate <= endDate) {
