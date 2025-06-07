@@ -6,4 +6,4 @@ blog: Блог
 pageNotFound: Страница не найдена
 pageNotFoundText: Запрошенная страница не существует или была перемещена.
 returnHome: Вернуться на главную
-supportPrompt: "Сайт полезен? Поддержите проект: <a href=\"https://boosty.to/argbjorn\" onclick=\"trackSupportClick('boosty'); return true;\" target=\"_blank\">Boosty</a> или <a href=\"https://buymeacoffee.com/konstantin_remnev\" onclick=\"trackSupportClick('buymeacoffee'); return true;\" target=\"_blank\">Buy Me a Coffee</a> - это поможет ему развиваться!"
+supportPrompt: "🚂 Поддержите проект: <a href=\"https://boosty.to/argbjorn\" onclick=\"trackSupportClick('boosty'); return true;\" target=\"_blank\">Boosty</a> или <a href=\"https://buymeacoffee.com/konstantin_remnev\" onclick=\"trackSupportClick('buymeacoffee'); return true;\" target=\"_blank\">Buy Me a Coffee</a>."
