@@ -3781,13 +3781,13 @@ export const routesList = [
          {
             "code": "khashuri",
             "role": "end",
-            "time": "16:38",
+            "time": "19:03",
             "name_en": "Khashuri",
             "name_ru": "Хашури",
             "name_ka": "ხაშური"
          }
       ],
-      "travel_time": "23:58",
+      "travel_time": "2:23",
       "price": {
          "price_type": "exact",
          "price": 0.5
