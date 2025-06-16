@@ -21,7 +21,7 @@ const overlays = {}
 export const map = L.map('map', {
     center: getDefaultMapCenter(),
     zoom: 8,
-    layers: [atlasTiles],
+    layers: [osmTiles],
     preferCanvas: true,
     zoomControl: false
 });
