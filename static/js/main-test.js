@@ -316,7 +316,15 @@ export function getRouteTimeByStation(route, stationCode) {
   let routeTime;
   route.stations.forEach((station) => {
     if (station.code == stationCode) {
-      routeTime = station.time;
+      if (!route.has_arrival_time) {
+        routeTime = station.departure_time;
+      } else {
+        if (station.role === 'start') {
+          routeTime = station.departure_time;
+        } else {
+          routeTime = station.arrival_time;
+        }
+      }
     }
   });
   return routeTime;

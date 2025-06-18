@@ -19,9 +19,14 @@
         "available" "доступны на"
         "current_site" "официальном сайте"
         "new_site" "официальном бета-сайте"
+        "armenian_site" "официальном сайте Южно-Кавказской железной дороги (Армения)"
         "not_available" "не доступны"
         "uncomplete_disclaimer" "🚧 У меня нет полного списка станций или времени прибытия для этого поезда. Его нет и на официальном сайте. Если вы располагаете информацией, пожалуйста, сообщите мне."
         "schedule" "Расписание"
+        "station" "Станция"
+        "arrival" "Прибытие"
+        "stop" "Стоянка, мин"
+        "departure" "Отправление"
         "back_to_map" "На полную карту поездов"
         "route_on_map" "Маршрут на карте"
     )
@@ -40,9 +45,14 @@
         "available" "available on the"
         "current_site" "official website"
         "new_site" "official website (beta)"
+        "armenian_site" "official website of the South Caucasus Railway (Armenia)"
         "not_available" "not available"
         "uncomplete_disclaimer" "🚧 I don't have a complete list of stations or arrival times for this route. Neither is it on the official website. If you have any additional information, please let me know."
         "schedule" "Schedule"
+        "station" "Station"
+        "arrival" "Arrival"
+        "stop" "Stop, min"
+        "departure" "Departure"
         "back_to_map" "To the entire routes map"
         "route_on_map" "Route on the map"
     )
@@ -61,9 +71,14 @@
         "available" "ხელმისაწვდომია"
         "current_site" "ოფიციალურ საიტზე"
         "new_site" "ოფიციალურ ბეტა-საიტზე"
+        "armenian_site" "სამხრეთ კავკასიის რკინიგზის (სომხეთი) ოფიციალურ ვებგვერდზე"
         "not_available" "არაა ხელმისაწვდომი"
         "uncomplete_disclaimer" "🚧 მე არ მაქვს ამ მარშრუტის გაჩერებების სრული სია ან/და ჩამოსვლის დრო. არც ოფიციალურ საიტზეა. თუ თქვენ ფლობთ ინფორმაციას, გთხოვთ შემატყობინოთ."
         "schedule" "განრიგი"
+        "station" "სადგური"
+        "arrival" "ჩამოსვლა"
+        "stop" "გამგზავრება, წ"
+        "departure" "გამგზავრება"
         "back_to_map" "მარშრუტთა სრულ რუკაზე დაბრუნება"
         "route_on_map" "მარშრუტი რუკაზე"
     )
@@ -146,13 +161,17 @@
 
 <!-- Online tickets -->
 <strong>{{ $t.online_tickets }}:</strong> 
-{{ if or (eq $online_tickets_current_site "true") (eq $online_tickets_new_site "true") }}
+{{ if or (eq $online_tickets_current_site "true") (eq $online_tickets_new_site "true") (eq (int .Page.Params.ref) 201) (eq (int .Page.Params.ref) 202) }}
     {{ $t.available }} 
-    {{ if eq $online_tickets_current_site "true" }}
-        <a href="https://ticket.railway.ge/" target="_blank">{{ $t.current_site }}</a>
-    {{ end }}
-    {{ if eq $online_tickets_new_site "true" }}
-        <a href="https://gr.com.ge/en" target="_blank">{{ $t.new_site }}</a>
+    {{ if or (eq (int .Page.Params.ref) 201) (eq (int .Page.Params.ref) 202) }}
+        <a href="https://www.railway.am/eng" target="_blank">{{ $t.armenian_site }}</a>
+    {{ else }}
+        {{ if eq $online_tickets_current_site "true" }}
+            <a href="https://ticket.railway.ge/" target="_blank">{{ $t.current_site }}</a>
+        {{ end }}
+        {{ if eq $online_tickets_new_site "true" }}
+            <a href="https://gr.com.ge/en" target="_blank">{{ $t.new_site }}</a>
+        {{ end }}
     {{ end }}
 {{ else }}{{ $t.not_available }}
 {{ end }}</p>
@@ -164,10 +183,11 @@
 {{ end }}
 
 <!-- Stations -->
+{{ if not .Page.Params.has_arrival_time }}
 <ul class="route-timeline">
     {{ range $index, $station := $stations }}
     <li class="{{ if or (eq $index 0) (eq $index (sub (len $stations) 1)) }}terminal{{ else }}intermediate{{ end }}">
-        <span class="station-time">{{ .time }}</span>
+        <span class="station-time">{{ .departure_time }}</span>
         <a href="/{{ if eq $lang "ru" }}ru/{{ else if eq $lang "ka" }}ka/{{ end }}stations/{{ .code }}/" class="station-name">
             {{ if eq $lang "ru" }}
                 {{ .name_ru }}
@@ -180,6 +200,52 @@
     </li>
     {{ end }}
 </ul>
+{{ else }}
+<table class="route-schedule-table">
+    <tr>
+        <th>{{ $t.station }}</th>
+        <th>{{ $t.arrival }}</th>
+        <th>{{ $t.stop }}</th>
+        <th>{{ $t.departure }}</th>
+    </tr>
+    {{ range $index, $station := $stations }}
+    <tr>
+        <td>
+            <a href="/{{ if eq $lang "ru" }}ru/{{ else if eq $lang "ka" }}ka/{{ end }}stations/{{ .code }}/" class="station-name">
+                {{ if eq $lang "ru" }}
+                    {{ .name_ru }}
+                {{ else if eq $lang "ka" }}
+                    {{ .name_ka }}
+                {{ else }}
+                    {{ .name_en }}
+                {{ end }}
+            </a>
+        </td>
+        <td>
+            {{ if eq .role "start" }}
+                -
+            {{ else if .arrival_time }}
+                {{ .arrival_time }}
+            {{ else }}
+                {{ .time }}
+            {{ end }}
+        </td>
+        {{ if .stop_time }}
+            <td>{{ .stop_time }}</td>
+        {{ else }}
+            <td>-</td>
+        {{ end }}
+        <td>
+            {{ if eq .role "end" }}
+                -
+            {{ else }}
+                {{ .departure_time }}
+            {{ end }}
+        </td>
+    </tr>
+    {{ end }}
+</table>
+{{ end }}
 
 <!-- Analogues -->
 {{ if .Page.Params.analogue }}
@@ -195,7 +261,7 @@
                 {{ $departureTime := "" }}
                 {{ range $route.stations }}
                     {{ if eq .role "start" }}
-                        {{ $departureTime = .time }}
+                        {{ $departureTime = .departure_time }}
                     {{ end }}
                 {{ end }}
                 {{ $routeData := dict "time" $departureTime "ref" $route.ref "lang" $lang "name_ru" $routeNameRu "name_ka" $routeNameKa "name_en" $routeNameEn "every_second_day_start" $route.every_second_day_start }}

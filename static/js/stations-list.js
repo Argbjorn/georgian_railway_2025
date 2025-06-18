@@ -24,7 +24,9 @@ export const stations = [
                "name_ka": "ზუგდიდი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:38"
+               "arrival_time": null,
+               "departure_time": "18:38",
+               "stop_time": null
             },
             {
                "ref": 870,
@@ -33,7 +35,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "13:26"
+               "arrival_time": null,
+               "departure_time": "13:26",
+               "stop_time": null
             },
             {
                "ref": 873,
@@ -42,7 +46,9 @@ export const stations = [
                "name_ka": "ფოთი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:07"
+               "arrival_time": null,
+               "departure_time": "08:07",
+               "stop_time": null
             },
             {
                "ref": 874,
@@ -51,7 +57,9 @@ export const stations = [
                "name_ka": "თბილისი → ფოთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "22:31"
+               "arrival_time": null,
+               "departure_time": "22:31",
+               "stop_time": null
             }
          ]
       }
@@ -82,7 +90,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:34"
+               "arrival_time": null,
+               "departure_time": "18:34",
+               "stop_time": null
             },
             {
                "ref": 618,
@@ -91,7 +101,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:42"
+               "arrival_time": null,
+               "departure_time": "08:42",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -100,7 +112,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:54"
+               "arrival_time": null,
+               "departure_time": "07:54",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -109,7 +123,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:42"
+               "arrival_time": null,
+               "departure_time": "20:42",
+               "stop_time": null
             }
          ]
       }
@@ -140,7 +156,9 @@ export const stations = [
                "name_ka": "ქუთაისი → საჩხერე",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "06:21"
+               "arrival_time": null,
+               "departure_time": "06:21",
+               "stop_time": null
             },
             {
                "ref": 634,
@@ -149,7 +167,9 @@ export const stations = [
                "name_ka": "საჩხერე → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "13:36"
+               "arrival_time": null,
+               "departure_time": "13:36",
+               "stop_time": null
             }
          ]
       }
@@ -180,7 +200,9 @@ export const stations = [
                "name_ka": "ქუთაისი → საჩხერე",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "06:40"
+               "arrival_time": null,
+               "departure_time": "06:40",
+               "stop_time": null
             },
             {
                "ref": 634,
@@ -189,7 +211,52 @@ export const stations = [
                "name_ka": "საჩხერე → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "13:13"
+               "arrival_time": null,
+               "departure_time": "13:13",
+               "stop_time": null
+            }
+         ]
+      }
+   },
+   {
+      "id": [
+         3063675927
+      ],
+      "coords": [
+         40.1459096,
+         44.031846
+      ],
+      "code": "armavir",
+      "type": "secondary",
+      "name_en": "Armavir",
+      "name_ka": "არმავირი",
+      "name_ru": "Армавир",
+      "gr_code": "00000",
+      "routes": {
+         "departure": [],
+         "arrival": [],
+         "via": [
+            {
+               "ref": 201,
+               "name_en": "Batumi → Yerevan",
+               "name_ru": "Батуми → Ереван",
+               "name_ka": "ბათუმი → ერევანი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749945600000,
+               "arrival_time": "08:08",
+               "departure_time": "08:10",
+               "stop_time": 2
+            },
+            {
+               "ref": 202,
+               "name_en": "Yerevan → Batumi",
+               "name_ru": "Ереван → Батуми",
+               "name_ka": "ერევანი → ბათუმი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749859200000,
+               "arrival_time": "14:48",
+               "departure_time": "14:50",
+               "stop_time": 2
             }
          ]
       }
@@ -220,7 +287,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:28"
+               "arrival_time": null,
+               "departure_time": "20:28",
+               "stop_time": null
             },
             {
                "ref": 618,
@@ -229,7 +298,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "06:48"
+               "arrival_time": null,
+               "departure_time": "06:48",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -238,7 +309,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:48"
+               "arrival_time": null,
+               "departure_time": "09:48",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -247,7 +320,52 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:48"
+               "arrival_time": null,
+               "departure_time": "18:48",
+               "stop_time": null
+            }
+         ]
+      }
+   },
+   {
+      "id": [
+         618739635
+      ],
+      "coords": [
+         41.1897147,
+         44.8937791
+      ],
+      "code": "ayrum",
+      "type": "secondary",
+      "name_en": "Ayrum",
+      "name_ka": "აირუმი",
+      "name_ru": "Айрум",
+      "gr_code": "00000",
+      "routes": {
+         "departure": [],
+         "arrival": [],
+         "via": [
+            {
+               "ref": 201,
+               "name_en": "Batumi → Yerevan",
+               "name_ru": "Батуми → Ереван",
+               "name_ka": "ბათუმი → ერევანი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749945600000,
+               "arrival_time": "02:03",
+               "departure_time": "03:00",
+               "stop_time": 57
+            },
+            {
+               "ref": 202,
+               "name_en": "Yerevan → Batumi",
+               "name_ru": "Ереван → Батуми",
+               "name_ka": "ერევანი → ბათუმი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749859200000,
+               "arrival_time": "19:57",
+               "departure_time": "20:55",
+               "stop_time": 58
             }
          ]
       }
@@ -273,13 +391,26 @@ export const stations = [
       "routes": {
          "departure": [
             {
+               "ref": 201,
+               "name_en": "Batumi → Yerevan",
+               "name_ru": "Батуми → Ереван",
+               "name_ka": "ბათუმი → ერევანი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749945600000,
+               "arrival_time": "-",
+               "departure_time": "14:45",
+               "stop_time": null
+            },
+            {
                "ref": 613,
                "name_en": "Batumi → Ozurgeti",
                "name_ru": "Батуми → Озургети",
                "name_ka": "ბათუმი → ოზურგეთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:40"
+               "arrival_time": null,
+               "departure_time": "20:40",
+               "stop_time": null
             },
             {
                "ref": 681,
@@ -288,7 +419,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:35"
+               "arrival_time": null,
+               "departure_time": "19:35",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -297,7 +430,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:50"
+               "arrival_time": null,
+               "departure_time": "09:50",
+               "stop_time": null
             },
             {
                "ref": 801,
@@ -306,7 +441,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "16:30"
+               "arrival_time": null,
+               "departure_time": "16:30",
+               "stop_time": null
             },
             {
                "ref": 803,
@@ -315,7 +452,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:00"
+               "arrival_time": null,
+               "departure_time": "08:00",
+               "stop_time": null
             },
             {
                "ref": 807,
@@ -324,7 +463,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:30"
+               "arrival_time": null,
+               "departure_time": "18:30",
+               "stop_time": null
             },
             {
                "ref": 811,
@@ -333,10 +474,23 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "00:45"
+               "arrival_time": null,
+               "departure_time": "00:45",
+               "stop_time": null
             }
          ],
          "arrival": [
+            {
+               "ref": 202,
+               "name_en": "Yerevan → Batumi",
+               "name_ru": "Ереван → Батуми",
+               "name_ka": "ერევანი → ბათუმი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749859200000,
+               "arrival_time": "07:57",
+               "departure_time": "-",
+               "stop_time": null
+            },
             {
                "ref": 614,
                "name_en": "Ozurgeti → Batumi",
@@ -344,7 +498,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:33"
+               "arrival_time": null,
+               "departure_time": "09:33",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -353,7 +509,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:39"
+               "arrival_time": null,
+               "departure_time": "10:39",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -362,7 +520,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:27"
+               "arrival_time": null,
+               "departure_time": "20:27",
+               "stop_time": null
             },
             {
                "ref": 802,
@@ -371,7 +531,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "13:35"
+               "arrival_time": null,
+               "departure_time": "13:35",
+               "stop_time": null
             },
             {
                "ref": 804,
@@ -380,7 +542,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "22:45"
+               "arrival_time": null,
+               "departure_time": "22:45",
+               "stop_time": null
             },
             {
                "ref": 808,
@@ -389,7 +553,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "16:40"
+               "arrival_time": null,
+               "departure_time": "16:40",
+               "stop_time": null
             },
             {
                "ref": 812,
@@ -398,7 +564,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "06:05"
+               "arrival_time": null,
+               "departure_time": "06:05",
+               "stop_time": null
             }
          ],
          "via": []
@@ -429,7 +597,9 @@ export const stations = [
                "name_ka": "ქუთაისი → საჩხერე",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:43"
+               "arrival_time": null,
+               "departure_time": "07:43",
+               "stop_time": null
             },
             {
                "ref": 634,
@@ -438,7 +608,9 @@ export const stations = [
                "name_ka": "საჩხერე → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "12:08"
+               "arrival_time": null,
+               "departure_time": "12:08",
+               "stop_time": null
             }
          ]
       }
@@ -472,7 +644,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "16:40"
+               "arrival_time": null,
+               "departure_time": "16:40",
+               "stop_time": null
             },
             {
                "ref": 618,
@@ -481,7 +655,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:32"
+               "arrival_time": null,
+               "departure_time": "10:32",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -490,7 +666,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "06:00"
+               "arrival_time": null,
+               "departure_time": "06:00",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -499,7 +677,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "22:32"
+               "arrival_time": null,
+               "departure_time": "22:32",
+               "stop_time": null
             }
          ]
       }
@@ -531,7 +711,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "16:30"
+               "arrival_time": null,
+               "departure_time": "16:30",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -540,7 +722,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "05:50"
+               "arrival_time": null,
+               "departure_time": "05:50",
+               "stop_time": null
             }
          ],
          "arrival": [
@@ -551,7 +735,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:47"
+               "arrival_time": null,
+               "departure_time": "10:47",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -560,7 +746,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "22:47"
+               "arrival_time": null,
+               "departure_time": "22:47",
+               "stop_time": null
             }
          ],
          "via": []
@@ -591,7 +779,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "23:32"
+               "arrival_time": null,
+               "departure_time": "23:32",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -600,7 +790,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "06:51"
+               "arrival_time": null,
+               "departure_time": "06:51",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -609,7 +801,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "13:33"
+               "arrival_time": null,
+               "departure_time": "13:33",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -618,7 +812,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "16:36"
+               "arrival_time": null,
+               "departure_time": "16:36",
+               "stop_time": null
             }
          ]
       }
@@ -648,7 +844,9 @@ export const stations = [
                "name_ka": "ბათუმი → ოზურგეთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:03"
+               "arrival_time": null,
+               "departure_time": "21:03",
+               "stop_time": null
             },
             {
                "ref": 614,
@@ -657,7 +855,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:09"
+               "arrival_time": null,
+               "departure_time": "09:09",
+               "stop_time": null
             },
             {
                "ref": 681,
@@ -666,7 +866,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:58"
+               "arrival_time": null,
+               "departure_time": "19:58",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -675,7 +877,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:15"
+               "arrival_time": null,
+               "departure_time": "10:15",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -684,7 +888,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:13"
+               "arrival_time": null,
+               "departure_time": "10:13",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -693,7 +899,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:01"
+               "arrival_time": null,
+               "departure_time": "20:01",
+               "stop_time": null
             }
          ]
       }
@@ -723,7 +931,9 @@ export const stations = [
                "name_ka": "ფოთი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:18"
+               "arrival_time": null,
+               "departure_time": "07:18",
+               "stop_time": null
             },
             {
                "ref": 874,
@@ -732,7 +942,9 @@ export const stations = [
                "name_ka": "თბილისი → ფოთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "23:17"
+               "arrival_time": null,
+               "departure_time": "23:17",
+               "stop_time": null
             }
          ]
       }
@@ -762,7 +974,9 @@ export const stations = [
                "name_ka": "ქუთაისი → საჩხერე",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:33"
+               "arrival_time": null,
+               "departure_time": "08:33",
+               "stop_time": null
             },
             {
                "ref": 634,
@@ -771,7 +985,9 @@ export const stations = [
                "name_ka": "საჩხერე → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "11:16"
+               "arrival_time": null,
+               "departure_time": "11:16",
+               "stop_time": null
             }
          ]
       }
@@ -801,7 +1017,9 @@ export const stations = [
                "name_ka": "ქუთაისი → საჩხერე",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:50"
+               "arrival_time": null,
+               "departure_time": "08:50",
+               "stop_time": null
             },
             {
                "ref": 634,
@@ -810,7 +1028,9 @@ export const stations = [
                "name_ka": "საჩხერე → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "11:01"
+               "arrival_time": null,
+               "departure_time": "11:01",
+               "stop_time": null
             }
          ]
       }
@@ -840,7 +1060,9 @@ export const stations = [
                "name_ka": "ქუთაისი → საჩხერე",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:02"
+               "arrival_time": null,
+               "departure_time": "09:02",
+               "stop_time": null
             },
             {
                "ref": 634,
@@ -849,7 +1071,9 @@ export const stations = [
                "name_ka": "საჩხერე → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:50"
+               "arrival_time": null,
+               "departure_time": "10:50",
+               "stop_time": null
             }
          ]
       }
@@ -880,7 +1104,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:06"
+               "arrival_time": null,
+               "departure_time": "20:06",
+               "stop_time": null
             },
             {
                "ref": 618,
@@ -889,7 +1115,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:10"
+               "arrival_time": null,
+               "departure_time": "07:10",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -898,7 +1126,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:26"
+               "arrival_time": null,
+               "departure_time": "09:26",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -907,7 +1137,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:10"
+               "arrival_time": null,
+               "departure_time": "19:10",
+               "stop_time": null
             }
          ]
       }
@@ -938,7 +1170,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "12:33"
+               "arrival_time": null,
+               "departure_time": "12:33",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -947,7 +1181,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "12:19"
+               "arrival_time": null,
+               "departure_time": "12:19",
+               "stop_time": null
             },
             {
                "ref": 6417,
@@ -956,7 +1192,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:20"
+               "arrival_time": null,
+               "departure_time": "07:20",
+               "stop_time": null
             },
             {
                "ref": 6418,
@@ -965,7 +1203,9 @@ export const stations = [
                "name_ka": "ხაშური → ზესტაფონი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:30"
+               "arrival_time": null,
+               "departure_time": "19:30",
+               "stop_time": null
             },
             {
                "ref": 6445,
@@ -974,7 +1214,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "17:00"
+               "arrival_time": null,
+               "departure_time": "17:00",
+               "stop_time": null
             },
             {
                "ref": 6446,
@@ -983,7 +1225,9 @@ export const stations = [
                "name_ka": "ხაშური → ზესტაფონი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:06"
+               "arrival_time": null,
+               "departure_time": "09:06",
+               "stop_time": null
             },
             {
                "ref": 6447,
@@ -992,7 +1236,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "14:33"
+               "arrival_time": null,
+               "departure_time": "14:33",
+               "stop_time": null
             }
          ]
       }
@@ -1023,7 +1269,9 @@ export const stations = [
                "name_ka": "თბილისი → გარდაბანი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:50"
+               "arrival_time": null,
+               "departure_time": "07:50",
+               "stop_time": null
             },
             {
                "ref": 6414,
@@ -1032,7 +1280,9 @@ export const stations = [
                "name_ka": "გარდაბანი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:59"
+               "arrival_time": null,
+               "departure_time": "08:59",
+               "stop_time": null
             },
             {
                "ref": 6415,
@@ -1041,7 +1291,9 @@ export const stations = [
                "name_ka": "თბილისი → გარდაბანი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:40"
+               "arrival_time": null,
+               "departure_time": "19:40",
+               "stop_time": null
             },
             {
                "ref": 6416,
@@ -1050,7 +1302,9 @@ export const stations = [
                "name_ka": "გარდაბანი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:49"
+               "arrival_time": null,
+               "departure_time": "20:49",
+               "stop_time": null
             }
          ]
       }
@@ -1079,7 +1333,9 @@ export const stations = [
                "name_ka": "გარდაბანი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:30"
+               "arrival_time": null,
+               "departure_time": "08:30",
+               "stop_time": null
             },
             {
                "ref": 6416,
@@ -1088,7 +1344,9 @@ export const stations = [
                "name_ka": "გარდაბანი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:20"
+               "arrival_time": null,
+               "departure_time": "20:20",
+               "stop_time": null
             }
          ],
          "arrival": [
@@ -1099,7 +1357,9 @@ export const stations = [
                "name_ka": "თბილისი → გარდაბანი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:16"
+               "arrival_time": null,
+               "departure_time": "08:16",
+               "stop_time": null
             },
             {
                "ref": 6415,
@@ -1108,7 +1368,9 @@ export const stations = [
                "name_ka": "თბილისი → გარდაბანი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:06"
+               "arrival_time": null,
+               "departure_time": "20:06",
+               "stop_time": null
             }
          ],
          "via": []
@@ -1140,7 +1402,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:23"
+               "arrival_time": null,
+               "departure_time": "18:23",
+               "stop_time": null
             },
             {
                "ref": 618,
@@ -1149,7 +1413,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:53"
+               "arrival_time": null,
+               "departure_time": "08:53",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -1158,7 +1424,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:43"
+               "arrival_time": null,
+               "departure_time": "07:43",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -1167,7 +1435,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:53"
+               "arrival_time": null,
+               "departure_time": "20:53",
+               "stop_time": null
             }
          ]
       }
@@ -1198,7 +1468,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:02"
+               "arrival_time": null,
+               "departure_time": "19:02",
+               "stop_time": null
             },
             {
                "ref": 618,
@@ -1207,7 +1479,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:12"
+               "arrival_time": null,
+               "departure_time": "08:12",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -1216,7 +1490,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:22"
+               "arrival_time": null,
+               "departure_time": "08:22",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -1225,7 +1501,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:12"
+               "arrival_time": null,
+               "departure_time": "20:12",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -1234,7 +1512,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "14:47"
+               "arrival_time": null,
+               "departure_time": "14:47",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -1243,7 +1523,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "10:06"
+               "arrival_time": null,
+               "departure_time": "10:06",
+               "stop_time": null
             },
             {
                "ref": 869,
@@ -1252,7 +1534,9 @@ export const stations = [
                "name_ka": "ზუგდიდი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "22:28"
+               "arrival_time": null,
+               "departure_time": "22:28",
+               "stop_time": null
             },
             {
                "ref": 870,
@@ -1261,7 +1545,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:20"
+               "arrival_time": null,
+               "departure_time": "09:20",
+               "stop_time": null
             },
             {
                "ref": 873,
@@ -1270,7 +1556,9 @@ export const stations = [
                "name_ka": "ფოთი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "11:53"
+               "arrival_time": null,
+               "departure_time": "11:53",
+               "stop_time": null
             },
             {
                "ref": 874,
@@ -1279,7 +1567,9 @@ export const stations = [
                "name_ka": "თბილისი → ფოთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:30"
+               "arrival_time": null,
+               "departure_time": "18:30",
+               "stop_time": null
             }
          ]
       }
@@ -1310,7 +1600,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:21"
+               "arrival_time": null,
+               "departure_time": "19:21",
+               "stop_time": null
             },
             {
                "ref": 618,
@@ -1319,7 +1611,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:55"
+               "arrival_time": null,
+               "departure_time": "07:55",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -1328,7 +1622,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:41"
+               "arrival_time": null,
+               "departure_time": "08:41",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -1337,7 +1633,52 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:55"
+               "arrival_time": null,
+               "departure_time": "19:55",
+               "stop_time": null
+            }
+         ]
+      }
+   },
+   {
+      "id": [
+         1411538807
+      ],
+      "coords": [
+         40.7876084,
+         43.860237
+      ],
+      "code": "gyumri",
+      "type": "secondary",
+      "name_en": "Gyumri",
+      "name_ka": "გიუმრი",
+      "name_ru": "Гюмри",
+      "gr_code": "00000",
+      "routes": {
+         "departure": [],
+         "arrival": [],
+         "via": [
+            {
+               "ref": 201,
+               "name_en": "Batumi → Yerevan",
+               "name_ru": "Батуми → Ереван",
+               "name_ka": "ბათუმი → ერევანი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749945600000,
+               "arrival_time": "06:05",
+               "departure_time": "06:25",
+               "stop_time": 20
+            },
+            {
+               "ref": 202,
+               "name_en": "Yerevan → Batumi",
+               "name_ru": "Ереван → Батуми",
+               "name_ka": "ერევანი → ბათუმი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749859200000,
+               "arrival_time": "16:29",
+               "departure_time": "16:45",
+               "stop_time": 16
             }
          ]
       }
@@ -1367,7 +1708,9 @@ export const stations = [
                "name_ka": "ზუგდიდი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "17:08"
+               "arrival_time": null,
+               "departure_time": "17:08",
+               "stop_time": null
             },
             {
                "ref": 870,
@@ -1376,7 +1719,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "14:52"
+               "arrival_time": null,
+               "departure_time": "14:52",
+               "stop_time": null
             }
          ]
       }
@@ -1407,7 +1752,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:32"
+               "arrival_time": null,
+               "departure_time": "21:32",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -1416,7 +1763,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:43"
+               "arrival_time": null,
+               "departure_time": "08:43",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -1425,7 +1774,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "11:42"
+               "arrival_time": null,
+               "departure_time": "11:42",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -1434,7 +1785,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:30"
+               "arrival_time": null,
+               "departure_time": "18:30",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -1443,7 +1796,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "10:21"
+               "arrival_time": null,
+               "departure_time": "10:21",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -1452,7 +1807,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "14:36"
+               "arrival_time": null,
+               "departure_time": "14:36",
+               "stop_time": null
             }
          ]
       }
@@ -1482,7 +1839,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "15:55"
+               "arrival_time": null,
+               "departure_time": "15:55",
+               "stop_time": null
             }
          ]
       }
@@ -1513,7 +1872,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:42"
+               "arrival_time": null,
+               "departure_time": "18:42",
+               "stop_time": null
             },
             {
                "ref": 618,
@@ -1522,7 +1883,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:34"
+               "arrival_time": null,
+               "departure_time": "08:34",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -1531,7 +1894,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:02"
+               "arrival_time": null,
+               "departure_time": "08:02",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -1540,7 +1905,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:34"
+               "arrival_time": null,
+               "departure_time": "20:34",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -1549,7 +1916,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "14:33"
+               "arrival_time": null,
+               "departure_time": "14:33",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -1558,7 +1927,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "10:23"
+               "arrival_time": null,
+               "departure_time": "10:23",
+               "stop_time": null
             }
          ]
       }
@@ -1589,7 +1960,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:36"
+               "arrival_time": null,
+               "departure_time": "19:36",
+               "stop_time": null
             },
             {
                "ref": 618,
@@ -1598,7 +1971,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:39"
+               "arrival_time": null,
+               "departure_time": "07:39",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -1607,7 +1982,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:56"
+               "arrival_time": null,
+               "departure_time": "08:56",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -1616,7 +1993,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:39"
+               "arrival_time": null,
+               "departure_time": "19:39",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -1625,7 +2004,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "15:10"
+               "arrival_time": null,
+               "departure_time": "15:10",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -1634,7 +2015,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "09:44"
+               "arrival_time": null,
+               "departure_time": "09:44",
+               "stop_time": null
             }
          ]
       }
@@ -1665,7 +2048,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:45"
+               "arrival_time": null,
+               "departure_time": "19:45",
+               "stop_time": null
             },
             {
                "ref": 618,
@@ -1674,7 +2059,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:31"
+               "arrival_time": null,
+               "departure_time": "07:31",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -1683,7 +2070,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:05"
+               "arrival_time": null,
+               "departure_time": "09:05",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -1692,7 +2081,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:31"
+               "arrival_time": null,
+               "departure_time": "19:31",
+               "stop_time": null
             }
          ]
       }
@@ -1724,7 +2115,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "12:47"
+               "arrival_time": null,
+               "departure_time": "12:47",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -1733,7 +2126,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "12:04"
+               "arrival_time": null,
+               "departure_time": "12:04",
+               "stop_time": null
             },
             {
                "ref": 869,
@@ -1742,7 +2137,9 @@ export const stations = [
                "name_ka": "ზუგდიდი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:34"
+               "arrival_time": null,
+               "departure_time": "20:34",
+               "stop_time": null
             },
             {
                "ref": 870,
@@ -1751,7 +2148,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "11:18"
+               "arrival_time": null,
+               "departure_time": "11:18",
+               "stop_time": null
             },
             {
                "ref": 873,
@@ -1760,7 +2159,9 @@ export const stations = [
                "name_ka": "ფოთი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:58"
+               "arrival_time": null,
+               "departure_time": "09:58",
+               "stop_time": null
             },
             {
                "ref": 874,
@@ -1769,7 +2170,9 @@ export const stations = [
                "name_ka": "თბილისი → ფოთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:28"
+               "arrival_time": null,
+               "departure_time": "20:28",
+               "stop_time": null
             },
             {
                "ref": 6417,
@@ -1778,7 +2181,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:44"
+               "arrival_time": null,
+               "departure_time": "07:44",
+               "stop_time": null
             },
             {
                "ref": 6418,
@@ -1787,7 +2192,9 @@ export const stations = [
                "name_ka": "ხაშური → ზესტაფონი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:05"
+               "arrival_time": null,
+               "departure_time": "19:05",
+               "stop_time": null
             },
             {
                "ref": 6445,
@@ -1796,7 +2203,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "17:24"
+               "arrival_time": null,
+               "departure_time": "17:24",
+               "stop_time": null
             },
             {
                "ref": 6446,
@@ -1805,7 +2214,9 @@ export const stations = [
                "name_ka": "ხაშური → ზესტაფონი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:40"
+               "arrival_time": null,
+               "departure_time": "08:40",
+               "stop_time": null
             },
             {
                "ref": 6447,
@@ -1814,7 +2225,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "14:57"
+               "arrival_time": null,
+               "departure_time": "14:57",
+               "stop_time": null
             }
          ]
       }
@@ -1843,7 +2256,9 @@ export const stations = [
                "name_ka": "ხაშური → ზესტაფონი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "17:25"
+               "arrival_time": null,
+               "departure_time": "17:25",
+               "stop_time": null
             },
             {
                "ref": 6446,
@@ -1852,7 +2267,9 @@ export const stations = [
                "name_ka": "ხაშური → ზესტაფონი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:00"
+               "arrival_time": null,
+               "departure_time": "07:00",
+               "stop_time": null
             }
          ],
          "arrival": [
@@ -1863,7 +2280,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:23"
+               "arrival_time": null,
+               "departure_time": "09:23",
+               "stop_time": null
             },
             {
                "ref": 6445,
@@ -1872,7 +2291,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:03"
+               "arrival_time": null,
+               "departure_time": "19:03",
+               "stop_time": null
             },
             {
                "ref": 6447,
@@ -1881,10 +2302,34 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "16:38"
+               "arrival_time": null,
+               "departure_time": "16:38",
+               "stop_time": null
             }
          ],
          "via": [
+            {
+               "ref": 201,
+               "name_en": "Batumi → Yerevan",
+               "name_ru": "Батуми → Ереван",
+               "name_ka": "ბათუმი → ერევანი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749945600000,
+               "arrival_time": "19:43",
+               "departure_time": "19:53",
+               "stop_time": 10
+            },
+            {
+               "ref": 202,
+               "name_en": "Yerevan → Batumi",
+               "name_ru": "Ереван → Батуми",
+               "name_ka": "ერევანი → ბათუმი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749859200000,
+               "arrival_time": "02:35",
+               "departure_time": "02:55",
+               "stop_time": 20
+            },
             {
                "ref": 617,
                "name_en": "Borjomi → Tbilisi",
@@ -1892,7 +2337,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:05"
+               "arrival_time": null,
+               "departure_time": "18:05",
+               "stop_time": null
             },
             {
                "ref": 618,
@@ -1901,7 +2348,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:07"
+               "arrival_time": null,
+               "departure_time": "09:07",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -1910,7 +2359,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:25"
+               "arrival_time": null,
+               "departure_time": "07:25",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -1919,7 +2370,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:07"
+               "arrival_time": null,
+               "departure_time": "21:07",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -1928,7 +2381,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "14:01"
+               "arrival_time": null,
+               "departure_time": "14:01",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -1937,7 +2392,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "10:45"
+               "arrival_time": null,
+               "departure_time": "10:45",
+               "stop_time": null
             },
             {
                "ref": 869,
@@ -1946,7 +2403,9 @@ export const stations = [
                "name_ka": "ზუგდიდი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:49"
+               "arrival_time": null,
+               "departure_time": "21:49",
+               "stop_time": null
             },
             {
                "ref": 870,
@@ -1955,7 +2414,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:56"
+               "arrival_time": null,
+               "departure_time": "09:56",
+               "stop_time": null
             },
             {
                "ref": 873,
@@ -1964,7 +2425,9 @@ export const stations = [
                "name_ka": "ფოთი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "11:13"
+               "arrival_time": null,
+               "departure_time": "11:13",
+               "stop_time": null
             },
             {
                "ref": 874,
@@ -1973,7 +2436,9 @@ export const stations = [
                "name_ka": "თბილისი → ფოთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:06"
+               "arrival_time": null,
+               "departure_time": "19:06",
+               "stop_time": null
             }
          ]
       }
@@ -2003,7 +2468,9 @@ export const stations = [
                "name_ka": "ზუგდიდი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "17:45"
+               "arrival_time": null,
+               "departure_time": "17:45",
+               "stop_time": null
             },
             {
                "ref": 870,
@@ -2012,7 +2479,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "14:18"
+               "arrival_time": null,
+               "departure_time": "14:18",
+               "stop_time": null
             }
          ]
       }
@@ -2042,7 +2511,9 @@ export const stations = [
                "name_ka": "ზუგდიდი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "17:55"
+               "arrival_time": null,
+               "departure_time": "17:55",
+               "stop_time": null
             },
             {
                "ref": 870,
@@ -2051,7 +2522,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "14:06"
+               "arrival_time": null,
+               "departure_time": "14:06",
+               "stop_time": null
             }
          ]
       }
@@ -2075,13 +2548,37 @@ export const stations = [
          "arrival": [],
          "via": [
             {
+               "ref": 201,
+               "name_en": "Batumi → Yerevan",
+               "name_ru": "Батуми → Ереван",
+               "name_ka": "ბათუმი → ერევანი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749945600000,
+               "arrival_time": "15:11",
+               "departure_time": "15:22",
+               "stop_time": 11
+            },
+            {
+               "ref": 202,
+               "name_en": "Yerevan → Batumi",
+               "name_ru": "Ереван → Батуми",
+               "name_ka": "ერევანი → ბათუმი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749859200000,
+               "arrival_time": "07:25",
+               "departure_time": "07:32",
+               "stop_time": 7
+            },
+            {
                "ref": 613,
                "name_en": "Batumi → Ozurgeti",
                "name_ru": "Батуми → Озургети",
                "name_ka": "ბათუმი → ოზურგეთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:21"
+               "arrival_time": null,
+               "departure_time": "21:21",
+               "stop_time": null
             },
             {
                "ref": 614,
@@ -2090,7 +2587,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:49"
+               "arrival_time": null,
+               "departure_time": "08:49",
+               "stop_time": null
             },
             {
                "ref": 681,
@@ -2099,7 +2598,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:20"
+               "arrival_time": null,
+               "departure_time": "20:20",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -2108,7 +2609,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:56"
+               "arrival_time": null,
+               "departure_time": "09:56",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -2117,7 +2620,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:33"
+               "arrival_time": null,
+               "departure_time": "10:33",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -2126,7 +2631,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:41"
+               "arrival_time": null,
+               "departure_time": "19:41",
+               "stop_time": null
             },
             {
                "ref": 801,
@@ -2135,7 +2642,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "16:51"
+               "arrival_time": null,
+               "departure_time": "16:51",
+               "stop_time": null
             },
             {
                "ref": 802,
@@ -2144,7 +2653,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "13:09"
+               "arrival_time": null,
+               "departure_time": "13:09",
+               "stop_time": null
             },
             {
                "ref": 803,
@@ -2153,7 +2664,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:21"
+               "arrival_time": null,
+               "departure_time": "08:21",
+               "stop_time": null
             },
             {
                "ref": 804,
@@ -2162,7 +2675,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "22:19"
+               "arrival_time": null,
+               "departure_time": "22:19",
+               "stop_time": null
             },
             {
                "ref": 807,
@@ -2171,7 +2686,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:51"
+               "arrival_time": null,
+               "departure_time": "18:51",
+               "stop_time": null
             },
             {
                "ref": 808,
@@ -2180,7 +2697,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "16:05"
+               "arrival_time": null,
+               "departure_time": "16:05",
+               "stop_time": null
             },
             {
                "ref": 811,
@@ -2189,7 +2708,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "01:06"
+               "arrival_time": null,
+               "departure_time": "01:06",
+               "stop_time": null
             },
             {
                "ref": 812,
@@ -2198,7 +2719,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "05:39"
+               "arrival_time": null,
+               "departure_time": "05:39",
+               "stop_time": null
             }
          ]
       }
@@ -2229,7 +2752,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:58"
+               "arrival_time": null,
+               "departure_time": "19:58",
+               "stop_time": null
             },
             {
                "ref": 618,
@@ -2238,7 +2763,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:18"
+               "arrival_time": null,
+               "departure_time": "07:18",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -2247,7 +2774,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:18"
+               "arrival_time": null,
+               "departure_time": "09:18",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -2256,7 +2785,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:18"
+               "arrival_time": null,
+               "departure_time": "19:18",
+               "stop_time": null
             }
          ]
       }
@@ -2291,7 +2822,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "23:11"
+               "arrival_time": null,
+               "departure_time": "23:11",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -2300,7 +2833,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:11"
+               "arrival_time": null,
+               "departure_time": "07:11",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -2309,7 +2844,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "13:13"
+               "arrival_time": null,
+               "departure_time": "13:13",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -2318,7 +2855,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "16:56"
+               "arrival_time": null,
+               "departure_time": "16:56",
+               "stop_time": null
             },
             {
                "ref": 801,
@@ -2327,7 +2866,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:24"
+               "arrival_time": null,
+               "departure_time": "18:24",
+               "stop_time": null
             },
             {
                "ref": 802,
@@ -2336,7 +2877,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "11:43"
+               "arrival_time": null,
+               "departure_time": "11:43",
+               "stop_time": null
             },
             {
                "ref": 803,
@@ -2345,7 +2888,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:52"
+               "arrival_time": null,
+               "departure_time": "09:52",
+               "stop_time": null
             },
             {
                "ref": 804,
@@ -2354,7 +2899,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:53"
+               "arrival_time": null,
+               "departure_time": "20:53",
+               "stop_time": null
             },
             {
                "ref": 807,
@@ -2363,7 +2910,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:22"
+               "arrival_time": null,
+               "departure_time": "20:22",
+               "stop_time": null
             },
             {
                "ref": 808,
@@ -2372,7 +2921,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "14:33"
+               "arrival_time": null,
+               "departure_time": "14:33",
+               "stop_time": null
             },
             {
                "ref": 811,
@@ -2381,7 +2932,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "02:37"
+               "arrival_time": null,
+               "departure_time": "02:37",
+               "stop_time": null
             },
             {
                "ref": 812,
@@ -2390,7 +2943,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "04:13"
+               "arrival_time": null,
+               "departure_time": "04:13",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -2399,7 +2954,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "11:23"
+               "arrival_time": null,
+               "departure_time": "11:23",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -2408,7 +2965,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "13:34"
+               "arrival_time": null,
+               "departure_time": "13:34",
+               "stop_time": null
             },
             {
                "ref": 869,
@@ -2417,7 +2976,9 @@ export const stations = [
                "name_ka": "ზუგდიდი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:14"
+               "arrival_time": null,
+               "departure_time": "19:14",
+               "stop_time": null
             },
             {
                "ref": 870,
@@ -2426,7 +2987,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "12:48"
+               "arrival_time": null,
+               "departure_time": "12:48",
+               "stop_time": null
             },
             {
                "ref": 873,
@@ -2435,7 +2998,9 @@ export const stations = [
                "name_ka": "ფოთი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:43"
+               "arrival_time": null,
+               "departure_time": "08:43",
+               "stop_time": null
             },
             {
                "ref": 874,
@@ -2444,7 +3009,9 @@ export const stations = [
                "name_ka": "თბილისი → ფოთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:53"
+               "arrival_time": null,
+               "departure_time": "21:53",
+               "stop_time": null
             }
          ]
       }
@@ -2476,7 +3043,9 @@ export const stations = [
                "name_ka": "ქუთაისი → საჩხერე",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "05:50"
+               "arrival_time": null,
+               "departure_time": "05:50",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -2485,7 +3054,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "06:15"
+               "arrival_time": null,
+               "departure_time": "06:15",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -2494,7 +3065,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "16:00"
+               "arrival_time": null,
+               "departure_time": "16:00",
+               "stop_time": null
             },
             {
                "ref": 6353,
@@ -2503,7 +3076,9 @@ export const stations = [
                "name_ka": "ქუთაისი → რიონი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "11:15"
+               "arrival_time": null,
+               "departure_time": "11:15",
+               "stop_time": null
             },
             {
                "ref": 6355,
@@ -2512,7 +3087,9 @@ export const stations = [
                "name_ka": "ქუთაისი → რიონი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "12:35"
+               "arrival_time": null,
+               "departure_time": "12:35",
+               "stop_time": null
             }
          ],
          "arrival": [
@@ -2523,7 +3100,9 @@ export const stations = [
                "name_ka": "საჩხერე → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "14:32"
+               "arrival_time": null,
+               "departure_time": "14:32",
+               "stop_time": null
             },
             {
                "ref": 681,
@@ -2532,7 +3111,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "00:13"
+               "arrival_time": null,
+               "departure_time": "00:13",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -2541,7 +3122,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "14:10"
+               "arrival_time": null,
+               "departure_time": "14:10",
+               "stop_time": null
             },
             {
                "ref": 6354,
@@ -2550,7 +3133,9 @@ export const stations = [
                "name_ka": "რიონი → ქუთაისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "12:15"
+               "arrival_time": null,
+               "departure_time": "12:15",
+               "stop_time": null
             },
             {
                "ref": 6356,
@@ -2559,7 +3144,9 @@ export const stations = [
                "name_ka": "რიონი → ქუთაისი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "13:45"
+               "arrival_time": null,
+               "departure_time": "13:45",
+               "stop_time": null
             }
          ],
          "via": []
@@ -2590,7 +3177,9 @@ export const stations = [
                "name_ka": "ფოთი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:32"
+               "arrival_time": null,
+               "departure_time": "07:32",
+               "stop_time": null
             },
             {
                "ref": 874,
@@ -2599,7 +3188,9 @@ export const stations = [
                "name_ka": "თბილისი → ფოთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "23:03"
+               "arrival_time": null,
+               "departure_time": "23:03",
+               "stop_time": null
             }
          ]
       }
@@ -2629,7 +3220,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:55"
+               "arrival_time": null,
+               "departure_time": "21:55",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -2638,7 +3231,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:25"
+               "arrival_time": null,
+               "departure_time": "08:25",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -2647,7 +3242,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "11:59"
+               "arrival_time": null,
+               "departure_time": "11:59",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -2656,7 +3253,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:10"
+               "arrival_time": null,
+               "departure_time": "18:10",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -2665,7 +3264,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "10:32"
+               "arrival_time": null,
+               "departure_time": "10:32",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -2674,7 +3275,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "14:24"
+               "arrival_time": null,
+               "departure_time": "14:24",
+               "stop_time": null
             }
          ]
       }
@@ -2705,7 +3308,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:58"
+               "arrival_time": null,
+               "departure_time": "08:58",
+               "stop_time": null
             },
             {
                "ref": 6418,
@@ -2714,7 +3319,9 @@ export const stations = [
                "name_ka": "ხაშური → ზესტაფონი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "17:46"
+               "arrival_time": null,
+               "departure_time": "17:46",
+               "stop_time": null
             },
             {
                "ref": 6445,
@@ -2723,7 +3330,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:38"
+               "arrival_time": null,
+               "departure_time": "18:38",
+               "stop_time": null
             },
             {
                "ref": 6446,
@@ -2732,7 +3341,9 @@ export const stations = [
                "name_ka": "ხაშური → ზესტაფონი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:21"
+               "arrival_time": null,
+               "departure_time": "07:21",
+               "stop_time": null
             },
             {
                "ref": 6447,
@@ -2741,7 +3352,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "16:13"
+               "arrival_time": null,
+               "departure_time": "16:13",
+               "stop_time": null
             }
          ]
       }
@@ -2765,13 +3378,37 @@ export const stations = [
          "arrival": [],
          "via": [
             {
+               "ref": 201,
+               "name_en": "Batumi → Yerevan",
+               "name_ru": "Батуми → Ереван",
+               "name_ka": "ბათუმი → ერევანი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749945600000,
+               "arrival_time": "14:50",
+               "departure_time": "14:51",
+               "stop_time": 1
+            },
+            {
+               "ref": 202,
+               "name_en": "Yerevan → Batumi",
+               "name_ru": "Ереван → Батуми",
+               "name_ka": "ერევანი → ბათუმი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749859200000,
+               "arrival_time": "07:51",
+               "departure_time": "07:52",
+               "stop_time": 1
+            },
+            {
                "ref": 613,
                "name_en": "Batumi → Ozurgeti",
                "name_ru": "Батуми → Озургети",
                "name_ka": "ბათუმი → ოზურგეთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:45"
+               "arrival_time": null,
+               "departure_time": "20:45",
+               "stop_time": null
             },
             {
                "ref": 614,
@@ -2780,7 +3417,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:27"
+               "arrival_time": null,
+               "departure_time": "09:27",
+               "stop_time": null
             },
             {
                "ref": 681,
@@ -2789,7 +3428,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:40"
+               "arrival_time": null,
+               "departure_time": "19:40",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -2798,7 +3439,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:33"
+               "arrival_time": null,
+               "departure_time": "10:33",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -2807,7 +3450,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:55"
+               "arrival_time": null,
+               "departure_time": "09:55",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -2816,7 +3461,41 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:21"
+               "arrival_time": null,
+               "departure_time": "20:21",
+               "stop_time": null
+            }
+         ]
+      }
+   },
+   {
+      "id": [
+         618740140
+      ],
+      "coords": [
+         41.5462555,
+         44.8031892
+      ],
+      "code": "marabda",
+      "type": "secondary",
+      "name_en": "Marabda",
+      "name_ka": "მარაბდა",
+      "name_ru": "Марабда",
+      "gr_code": 56303,
+      "routes": {
+         "departure": [],
+         "arrival": [],
+         "via": [
+            {
+               "ref": 201,
+               "name_en": "Batumi → Yerevan",
+               "name_ru": "Батуми → Ереван",
+               "name_ka": "ბათუმი → ერევანი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749945600000,
+               "arrival_time": "23:24",
+               "departure_time": "23:29",
+               "stop_time": 5
             }
          ]
       }
@@ -2847,7 +3526,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "13:07"
+               "arrival_time": null,
+               "departure_time": "13:07",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -2856,7 +3537,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "11:49"
+               "arrival_time": null,
+               "departure_time": "11:49",
+               "stop_time": null
             },
             {
                "ref": 869,
@@ -2865,7 +3548,9 @@ export const stations = [
                "name_ka": "ზუგდიდი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:55"
+               "arrival_time": null,
+               "departure_time": "20:55",
+               "stop_time": null
             },
             {
                "ref": 870,
@@ -2874,7 +3559,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "11:03"
+               "arrival_time": null,
+               "departure_time": "11:03",
+               "stop_time": null
             },
             {
                "ref": 873,
@@ -2883,7 +3570,9 @@ export const stations = [
                "name_ka": "ფოთი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:19"
+               "arrival_time": null,
+               "departure_time": "10:19",
+               "stop_time": null
             },
             {
                "ref": 6417,
@@ -2892,7 +3581,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:07"
+               "arrival_time": null,
+               "departure_time": "08:07",
+               "stop_time": null
             },
             {
                "ref": 6418,
@@ -2901,7 +3592,9 @@ export const stations = [
                "name_ka": "ხაშური → ზესტაფონი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:43"
+               "arrival_time": null,
+               "departure_time": "18:43",
+               "stop_time": null
             },
             {
                "ref": 6445,
@@ -2910,7 +3603,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "17:47"
+               "arrival_time": null,
+               "departure_time": "17:47",
+               "stop_time": null
             },
             {
                "ref": 6446,
@@ -2919,7 +3614,9 @@ export const stations = [
                "name_ka": "ხაშური → ზესტაფონი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:18"
+               "arrival_time": null,
+               "departure_time": "08:18",
+               "stop_time": null
             },
             {
                "ref": 6447,
@@ -2928,7 +3625,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "15:20"
+               "arrival_time": null,
+               "departure_time": "15:20",
+               "stop_time": null
             }
          ]
       }
@@ -2958,7 +3657,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "09:26"
+               "arrival_time": null,
+               "departure_time": "09:26",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -2967,7 +3668,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "15:30"
+               "arrival_time": null,
+               "departure_time": "15:30",
+               "stop_time": null
             }
          ]
       }
@@ -2991,13 +3694,26 @@ export const stations = [
          "arrival": [],
          "via": [
             {
+               "ref": 202,
+               "name_en": "Yerevan → Batumi",
+               "name_ru": "Ереван → Батуми",
+               "name_ka": "ერევანი → ბათუმი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749859200000,
+               "arrival_time": "03:43",
+               "departure_time": "03:46",
+               "stop_time": 3
+            },
+            {
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "13:19"
+               "arrival_time": null,
+               "departure_time": "13:19",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -3006,7 +3722,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "11:35"
+               "arrival_time": null,
+               "departure_time": "11:35",
+               "stop_time": null
             },
             {
                "ref": 869,
@@ -3015,7 +3733,9 @@ export const stations = [
                "name_ka": "ზუგდიდი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:07"
+               "arrival_time": null,
+               "departure_time": "21:07",
+               "stop_time": null
             },
             {
                "ref": 870,
@@ -3024,7 +3744,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:49"
+               "arrival_time": null,
+               "departure_time": "10:49",
+               "stop_time": null
             },
             {
                "ref": 873,
@@ -3033,7 +3755,9 @@ export const stations = [
                "name_ka": "ფოთი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:31"
+               "arrival_time": null,
+               "departure_time": "10:31",
+               "stop_time": null
             },
             {
                "ref": 874,
@@ -3042,7 +3766,9 @@ export const stations = [
                "name_ka": "თბილისი → ფოთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:59"
+               "arrival_time": null,
+               "departure_time": "19:59",
+               "stop_time": null
             },
             {
                "ref": 6417,
@@ -3051,7 +3777,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:23"
+               "arrival_time": null,
+               "departure_time": "08:23",
+               "stop_time": null
             },
             {
                "ref": 6418,
@@ -3060,7 +3788,9 @@ export const stations = [
                "name_ka": "ხაშური → ზესტაფონი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:25"
+               "arrival_time": null,
+               "departure_time": "18:25",
+               "stop_time": null
             },
             {
                "ref": 6445,
@@ -3069,7 +3799,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:03"
+               "arrival_time": null,
+               "departure_time": "18:03",
+               "stop_time": null
             },
             {
                "ref": 6446,
@@ -3078,7 +3810,9 @@ export const stations = [
                "name_ka": "ხაშური → ზესტაფონი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:00"
+               "arrival_time": null,
+               "departure_time": "08:00",
+               "stop_time": null
             },
             {
                "ref": 6447,
@@ -3087,7 +3821,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "15:38"
+               "arrival_time": null,
+               "departure_time": "15:38",
+               "stop_time": null
             }
          ]
       }
@@ -3118,7 +3854,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:15"
+               "arrival_time": null,
+               "departure_time": "20:15",
+               "stop_time": null
             },
             {
                "ref": 618,
@@ -3127,7 +3865,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:01"
+               "arrival_time": null,
+               "departure_time": "07:01",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -3136,7 +3876,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:35"
+               "arrival_time": null,
+               "departure_time": "09:35",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -3145,7 +3887,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:01"
+               "arrival_time": null,
+               "departure_time": "19:01",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -3154,7 +3898,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "15:33"
+               "arrival_time": null,
+               "departure_time": "15:33",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -3163,7 +3909,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "09:21"
+               "arrival_time": null,
+               "departure_time": "09:21",
+               "stop_time": null
             }
          ]
       }
@@ -3194,7 +3942,9 @@ export const stations = [
                "name_ka": "ბათუმი → ოზურგეთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:49"
+               "arrival_time": null,
+               "departure_time": "21:49",
+               "stop_time": null
             },
             {
                "ref": 614,
@@ -3203,7 +3953,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:15"
+               "arrival_time": null,
+               "departure_time": "08:15",
+               "stop_time": null
             },
             {
                "ref": 681,
@@ -3212,7 +3964,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:48"
+               "arrival_time": null,
+               "departure_time": "20:48",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -3221,7 +3975,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:29"
+               "arrival_time": null,
+               "departure_time": "09:29",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -3230,7 +3986,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "11:00"
+               "arrival_time": null,
+               "departure_time": "11:00",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -3239,7 +3997,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:11"
+               "arrival_time": null,
+               "departure_time": "19:11",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -3248,7 +4008,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "09:40"
+               "arrival_time": null,
+               "departure_time": "09:40",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -3257,7 +4019,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "15:08"
+               "arrival_time": null,
+               "departure_time": "15:08",
+               "stop_time": null
             }
          ]
       }
@@ -3288,7 +4052,9 @@ export const stations = [
                "name_ka": "თბილისი → გარდაბანი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:20"
+               "arrival_time": null,
+               "departure_time": "07:20",
+               "stop_time": null
             },
             {
                "ref": 6414,
@@ -3297,7 +4063,9 @@ export const stations = [
                "name_ka": "გარდაბანი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:27"
+               "arrival_time": null,
+               "departure_time": "09:27",
+               "stop_time": null
             },
             {
                "ref": 6415,
@@ -3306,7 +4074,9 @@ export const stations = [
                "name_ka": "თბილისი → გარდაბანი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:10"
+               "arrival_time": null,
+               "departure_time": "19:10",
+               "stop_time": null
             },
             {
                "ref": 6416,
@@ -3315,7 +4085,9 @@ export const stations = [
                "name_ka": "გარდაბანი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:18"
+               "arrival_time": null,
+               "departure_time": "21:18",
+               "stop_time": null
             }
          ]
       }
@@ -3345,7 +4117,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "22:09"
+               "arrival_time": null,
+               "departure_time": "22:09",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -3354,7 +4128,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:11"
+               "arrival_time": null,
+               "departure_time": "08:11",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -3363,7 +4139,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "12:12"
+               "arrival_time": null,
+               "departure_time": "12:12",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -3372,7 +4150,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "17:56"
+               "arrival_time": null,
+               "departure_time": "17:56",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -3381,7 +4161,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "10:44"
+               "arrival_time": null,
+               "departure_time": "10:44",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -3390,7 +4172,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "14:13"
+               "arrival_time": null,
+               "departure_time": "14:13",
+               "stop_time": null
             }
          ]
       }
@@ -3420,7 +4204,9 @@ export const stations = [
                "name_ka": "ბათუმი → ოზურგეთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:36"
+               "arrival_time": null,
+               "departure_time": "21:36",
+               "stop_time": null
             },
             {
                "ref": 614,
@@ -3429,7 +4215,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:30"
+               "arrival_time": null,
+               "departure_time": "08:30",
+               "stop_time": null
             },
             {
                "ref": 681,
@@ -3438,7 +4226,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:34"
+               "arrival_time": null,
+               "departure_time": "20:34",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -3447,7 +4237,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:43"
+               "arrival_time": null,
+               "departure_time": "09:43",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -3456,7 +4248,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:47"
+               "arrival_time": null,
+               "departure_time": "10:47",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -3465,7 +4259,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:27"
+               "arrival_time": null,
+               "departure_time": "19:27",
+               "stop_time": null
             }
          ]
       }
@@ -3493,7 +4289,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:15"
+               "arrival_time": null,
+               "departure_time": "07:15",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -3502,7 +4300,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "08:40"
+               "arrival_time": null,
+               "departure_time": "08:40",
+               "stop_time": null
             }
          ],
          "arrival": [
@@ -3513,7 +4313,9 @@ export const stations = [
                "name_ka": "ბათუმი → ოზურგეთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "22:59"
+               "arrival_time": null,
+               "departure_time": "22:59",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -3522,7 +4324,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "16:18"
+               "arrival_time": null,
+               "departure_time": "16:18",
+               "stop_time": null
             }
          ],
          "via": []
@@ -3553,7 +4357,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "09:14"
+               "arrival_time": null,
+               "departure_time": "09:14",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -3562,7 +4368,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "15:45"
+               "arrival_time": null,
+               "departure_time": "15:45",
+               "stop_time": null
             }
          ]
       }
@@ -3592,7 +4400,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "16:05"
+               "arrival_time": null,
+               "departure_time": "16:05",
+               "stop_time": null
             }
          ]
       }
@@ -3624,7 +4434,9 @@ export const stations = [
                "name_ka": "ფოთი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:00"
+               "arrival_time": null,
+               "departure_time": "07:00",
+               "stop_time": null
             }
          ],
          "arrival": [
@@ -3635,7 +4447,9 @@ export const stations = [
                "name_ka": "თბილისი → ფოთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "23:37"
+               "arrival_time": null,
+               "departure_time": "23:37",
+               "stop_time": null
             }
          ],
          "via": []
@@ -3669,7 +4483,9 @@ export const stations = [
                "name_ka": "რიონი → ქუთაისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "11:55"
+               "arrival_time": null,
+               "departure_time": "11:55",
+               "stop_time": null
             },
             {
                "ref": 6356,
@@ -3678,7 +4494,9 @@ export const stations = [
                "name_ka": "რიონი → ქუთაისი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "13:25"
+               "arrival_time": null,
+               "departure_time": "13:25",
+               "stop_time": null
             }
          ],
          "arrival": [
@@ -3689,7 +4507,9 @@ export const stations = [
                "name_ka": "ქუთაისი → რიონი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "11:35"
+               "arrival_time": null,
+               "departure_time": "11:35",
+               "stop_time": null
             },
             {
                "ref": 6355,
@@ -3698,7 +4518,9 @@ export const stations = [
                "name_ka": "ქუთაისი → რიონი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "12:55"
+               "arrival_time": null,
+               "departure_time": "12:55",
+               "stop_time": null
             }
          ],
          "via": [
@@ -3709,7 +4531,9 @@ export const stations = [
                "name_ka": "ქუთაისი → საჩხერე",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "06:10"
+               "arrival_time": null,
+               "departure_time": "06:10",
+               "stop_time": null
             },
             {
                "ref": 634,
@@ -3718,7 +4542,9 @@ export const stations = [
                "name_ka": "საჩხერე → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "13:47"
+               "arrival_time": null,
+               "departure_time": "13:47",
+               "stop_time": null
             },
             {
                "ref": 681,
@@ -3727,7 +4553,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "23:39"
+               "arrival_time": null,
+               "departure_time": "23:39",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -3736,7 +4564,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "06:35"
+               "arrival_time": null,
+               "departure_time": "06:35",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -3745,7 +4575,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "13:40"
+               "arrival_time": null,
+               "departure_time": "13:40",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -3754,7 +4586,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "16:20"
+               "arrival_time": null,
+               "departure_time": "16:20",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -3763,7 +4597,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "11:40"
+               "arrival_time": null,
+               "departure_time": "11:40",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -3772,7 +4608,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "13:12"
+               "arrival_time": null,
+               "departure_time": "13:12",
+               "stop_time": null
             },
             {
                "ref": 869,
@@ -3781,7 +4619,9 @@ export const stations = [
                "name_ka": "ზუგდიდი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:31"
+               "arrival_time": null,
+               "departure_time": "19:31",
+               "stop_time": null
             },
             {
                "ref": 870,
@@ -3790,7 +4630,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "12:26"
+               "arrival_time": null,
+               "departure_time": "12:26",
+               "stop_time": null
             },
             {
                "ref": 873,
@@ -3799,7 +4641,9 @@ export const stations = [
                "name_ka": "ფოთი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:00"
+               "arrival_time": null,
+               "departure_time": "09:00",
+               "stop_time": null
             },
             {
                "ref": 874,
@@ -3808,7 +4652,9 @@ export const stations = [
                "name_ka": "თბილისი → ფოთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:36"
+               "arrival_time": null,
+               "departure_time": "21:36",
+               "stop_time": null
             }
          ]
       }
@@ -3839,7 +4685,9 @@ export const stations = [
                "name_ka": "თბილისი → გარდაბანი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:58"
+               "arrival_time": null,
+               "departure_time": "07:58",
+               "stop_time": null
             },
             {
                "ref": 6414,
@@ -3848,7 +4696,9 @@ export const stations = [
                "name_ka": "გარდაბანი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:47"
+               "arrival_time": null,
+               "departure_time": "08:47",
+               "stop_time": null
             },
             {
                "ref": 6415,
@@ -3857,7 +4707,9 @@ export const stations = [
                "name_ka": "თბილისი → გარდაბანი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:48"
+               "arrival_time": null,
+               "departure_time": "19:48",
+               "stop_time": null
             },
             {
                "ref": 6416,
@@ -3866,7 +4718,9 @@ export const stations = [
                "name_ka": "გარდაბანი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:37"
+               "arrival_time": null,
+               "departure_time": "20:37",
+               "stop_time": null
             }
          ]
       }
@@ -3897,7 +4751,9 @@ export const stations = [
                "name_ka": "თბილისი → გარდაბანი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:03"
+               "arrival_time": null,
+               "departure_time": "08:03",
+               "stop_time": null
             },
             {
                "ref": 6414,
@@ -3906,7 +4762,9 @@ export const stations = [
                "name_ka": "გარდაბანი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:42"
+               "arrival_time": null,
+               "departure_time": "08:42",
+               "stop_time": null
             },
             {
                "ref": 6415,
@@ -3915,7 +4773,9 @@ export const stations = [
                "name_ka": "თბილისი → გარდაბანი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:53"
+               "arrival_time": null,
+               "departure_time": "19:53",
+               "stop_time": null
             },
             {
                "ref": 6416,
@@ -3924,7 +4784,9 @@ export const stations = [
                "name_ka": "გარდაბანი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:32"
+               "arrival_time": null,
+               "departure_time": "20:32",
+               "stop_time": null
             }
          ]
       }
@@ -3952,7 +4814,9 @@ export const stations = [
                "name_ka": "საჩხერე → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:30"
+               "arrival_time": null,
+               "departure_time": "10:30",
+               "stop_time": null
             }
          ],
          "arrival": [
@@ -3963,10 +4827,55 @@ export const stations = [
                "name_ka": "ქუთაისი → საჩხერე",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:24"
+               "arrival_time": null,
+               "departure_time": "09:24",
+               "stop_time": null
             }
          ],
          "via": []
+      }
+   },
+   {
+      "id": [
+         7965676834
+      ],
+      "coords": [
+         41.2453317,
+         44.8078289
+      ],
+      "code": "sadakhlo",
+      "type": "secondary",
+      "name_en": "Sadakhlo",
+      "name_ka": "სადახლო",
+      "name_ru": "Садахло",
+      "gr_code": "00000",
+      "routes": {
+         "departure": [],
+         "arrival": [],
+         "via": [
+            {
+               "ref": 201,
+               "name_en": "Batumi → Yerevan",
+               "name_ru": "Батуми → Ереван",
+               "name_ka": "ბათუმი → ერევანი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749945600000,
+               "arrival_time": "00:38",
+               "departure_time": "01:38",
+               "stop_time": 60
+            },
+            {
+               "ref": 202,
+               "name_en": "Yerevan → Batumi",
+               "name_ru": "Ереван → Батуми",
+               "name_ka": "ერევანი → ბათუმი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749859200000,
+               "arrival_time": "21:20",
+               "departure_time": "22:20",
+               "stop_time": 60
+            }
+         ]
       }
    },
    {
@@ -3994,7 +4903,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "22:31"
+               "arrival_time": null,
+               "departure_time": "22:31",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -4003,7 +4914,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:40"
+               "arrival_time": null,
+               "departure_time": "07:40",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -4012,7 +4925,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "12:35"
+               "arrival_time": null,
+               "departure_time": "12:35",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -4021,7 +4936,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "17:35"
+               "arrival_time": null,
+               "departure_time": "17:35",
+               "stop_time": null
             }
          ]
       }
@@ -4051,7 +4968,9 @@ export const stations = [
                "name_ka": "ქუთაისი → რიონი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "11:25"
+               "arrival_time": null,
+               "departure_time": "11:25",
+               "stop_time": null
             },
             {
                "ref": 6354,
@@ -4060,7 +4979,9 @@ export const stations = [
                "name_ka": "რიონი → ქუთაისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "12:05"
+               "arrival_time": null,
+               "departure_time": "12:05",
+               "stop_time": null
             },
             {
                "ref": 6355,
@@ -4069,7 +4990,9 @@ export const stations = [
                "name_ka": "ქუთაისი → რიონი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "12:45"
+               "arrival_time": null,
+               "departure_time": "12:45",
+               "stop_time": null
             },
             {
                "ref": 6356,
@@ -4078,7 +5001,9 @@ export const stations = [
                "name_ka": "რიონი → ქუთაისი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "13:35"
+               "arrival_time": null,
+               "departure_time": "13:35",
+               "stop_time": null
             }
          ]
       }
@@ -4103,13 +5028,37 @@ export const stations = [
          "arrival": [],
          "via": [
             {
+               "ref": 201,
+               "name_en": "Batumi → Yerevan",
+               "name_ru": "Батуми → Ереван",
+               "name_ka": "ბათუმი → ერევანი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749945600000,
+               "arrival_time": "16:56",
+               "departure_time": "16:58",
+               "stop_time": 2
+            },
+            {
+               "ref": 202,
+               "name_en": "Yerevan → Batumi",
+               "name_ru": "Ереван → Батуми",
+               "name_ka": "ერევანი → ბათუმი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749859200000,
+               "arrival_time": "05:54",
+               "departure_time": "05:56",
+               "stop_time": 2
+            },
+            {
                "ref": 681,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "22:46"
+               "arrival_time": null,
+               "departure_time": "22:46",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -4118,7 +5067,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:32"
+               "arrival_time": null,
+               "departure_time": "07:32",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -4127,7 +5078,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "12:49"
+               "arrival_time": null,
+               "departure_time": "12:49",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -4136,7 +5089,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "17:17"
+               "arrival_time": null,
+               "departure_time": "17:17",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -4145,7 +5100,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "11:06"
+               "arrival_time": null,
+               "departure_time": "11:06",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -4154,7 +5111,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "13:49"
+               "arrival_time": null,
+               "departure_time": "13:49",
+               "stop_time": null
             },
             {
                "ref": 869,
@@ -4163,7 +5122,9 @@ export const stations = [
                "name_ka": "ზუგდიდი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:56"
+               "arrival_time": null,
+               "departure_time": "18:56",
+               "stop_time": null
             },
             {
                "ref": 870,
@@ -4172,7 +5133,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "13:03"
+               "arrival_time": null,
+               "departure_time": "13:03",
+               "stop_time": null
             },
             {
                "ref": 873,
@@ -4181,7 +5144,9 @@ export const stations = [
                "name_ka": "ფოთი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:25"
+               "arrival_time": null,
+               "departure_time": "08:25",
+               "stop_time": null
             },
             {
                "ref": 874,
@@ -4190,7 +5155,9 @@ export const stations = [
                "name_ka": "თბილისი → ფოთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "22:08"
+               "arrival_time": null,
+               "departure_time": "22:08",
+               "stop_time": null
             }
          ]
       }
@@ -4220,7 +5187,9 @@ export const stations = [
                "name_ka": "ზუგდიდი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:15"
+               "arrival_time": null,
+               "departure_time": "18:15",
+               "stop_time": null
             },
             {
                "ref": 870,
@@ -4229,7 +5198,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "13:43"
+               "arrival_time": null,
+               "departure_time": "13:43",
+               "stop_time": null
             },
             {
                "ref": 873,
@@ -4238,7 +5209,9 @@ export const stations = [
                "name_ka": "ფოთი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:44"
+               "arrival_time": null,
+               "departure_time": "07:44",
+               "stop_time": null
             },
             {
                "ref": 874,
@@ -4247,7 +5220,9 @@ export const stations = [
                "name_ka": "თბილისი → ფოთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "22:48"
+               "arrival_time": null,
+               "departure_time": "22:48",
+               "stop_time": null
             }
          ]
       }
@@ -4277,7 +5252,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "10:40"
+               "arrival_time": null,
+               "departure_time": "10:40",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -4286,7 +5263,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "14:17"
+               "arrival_time": null,
+               "departure_time": "14:17",
+               "stop_time": null
             }
          ]
       }
@@ -4316,7 +5295,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:15"
+               "arrival_time": null,
+               "departure_time": "21:15",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -4325,7 +5306,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:59"
+               "arrival_time": null,
+               "departure_time": "08:59",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -4334,7 +5317,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "11:26"
+               "arrival_time": null,
+               "departure_time": "11:26",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -4343,7 +5328,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:46"
+               "arrival_time": null,
+               "departure_time": "18:46",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -4352,7 +5339,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "10:10"
+               "arrival_time": null,
+               "departure_time": "10:10",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -4361,7 +5350,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "14:47"
+               "arrival_time": null,
+               "departure_time": "14:47",
+               "stop_time": null
             }
          ]
       }
@@ -4392,7 +5383,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "12:03"
+               "arrival_time": null,
+               "departure_time": "12:03",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -4401,7 +5394,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "12:50"
+               "arrival_time": null,
+               "departure_time": "12:50",
+               "stop_time": null
             }
          ]
       }
@@ -4435,7 +5430,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "06:35"
+               "arrival_time": null,
+               "departure_time": "06:35",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -4444,7 +5441,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:35"
+               "arrival_time": null,
+               "departure_time": "18:35",
+               "stop_time": null
             },
             {
                "ref": 802,
@@ -4453,7 +5452,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:00"
+               "arrival_time": null,
+               "departure_time": "08:00",
+               "stop_time": null
             },
             {
                "ref": 804,
@@ -4462,7 +5463,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "17:10"
+               "arrival_time": null,
+               "departure_time": "17:10",
+               "stop_time": null
             },
             {
                "ref": 808,
@@ -4471,7 +5474,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:50"
+               "arrival_time": null,
+               "departure_time": "10:50",
+               "stop_time": null
             },
             {
                "ref": 812,
@@ -4480,7 +5485,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "00:30"
+               "arrival_time": null,
+               "departure_time": "00:30",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -4489,7 +5496,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "09:00"
+               "arrival_time": null,
+               "departure_time": "09:00",
+               "stop_time": null
             },
             {
                "ref": 870,
@@ -4498,7 +5507,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:20"
+               "arrival_time": null,
+               "departure_time": "08:20",
+               "stop_time": null
             },
             {
                "ref": 874,
@@ -4507,7 +5518,9 @@ export const stations = [
                "name_ka": "თბილისი → ფოთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "17:30"
+               "arrival_time": null,
+               "departure_time": "17:30",
+               "stop_time": null
             },
             {
                "ref": 6413,
@@ -4516,7 +5529,9 @@ export const stations = [
                "name_ka": "თბილისი → გარდაბანი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:10"
+               "arrival_time": null,
+               "departure_time": "07:10",
+               "stop_time": null
             },
             {
                "ref": 6415,
@@ -4525,7 +5540,9 @@ export const stations = [
                "name_ka": "თბილისი → გარდაბანი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:00"
+               "arrival_time": null,
+               "departure_time": "19:00",
+               "stop_time": null
             }
          ],
          "arrival": [
@@ -4536,7 +5553,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:50"
+               "arrival_time": null,
+               "departure_time": "20:50",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -4545,7 +5564,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:10"
+               "arrival_time": null,
+               "departure_time": "10:10",
+               "stop_time": null
             },
             {
                "ref": 801,
@@ -4554,7 +5575,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:55"
+               "arrival_time": null,
+               "departure_time": "21:55",
+               "stop_time": null
             },
             {
                "ref": 803,
@@ -4563,7 +5586,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "13:17"
+               "arrival_time": null,
+               "departure_time": "13:17",
+               "stop_time": null
             },
             {
                "ref": 807,
@@ -4572,7 +5597,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "23:47"
+               "arrival_time": null,
+               "departure_time": "23:47",
+               "stop_time": null
             },
             {
                "ref": 811,
@@ -4581,7 +5608,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "06:02"
+               "arrival_time": null,
+               "departure_time": "06:02",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -4590,7 +5619,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "16:00"
+               "arrival_time": null,
+               "departure_time": "16:00",
+               "stop_time": null
             },
             {
                "ref": 869,
@@ -4599,7 +5630,9 @@ export const stations = [
                "name_ka": "ზუგდიდი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "23:37"
+               "arrival_time": null,
+               "departure_time": "23:37",
+               "stop_time": null
             },
             {
                "ref": 873,
@@ -4608,7 +5641,9 @@ export const stations = [
                "name_ka": "ფოთი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "13:02"
+               "arrival_time": null,
+               "departure_time": "13:02",
+               "stop_time": null
             },
             {
                "ref": 6414,
@@ -4617,7 +5652,9 @@ export const stations = [
                "name_ka": "გარდაბანი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:38"
+               "arrival_time": null,
+               "departure_time": "09:38",
+               "stop_time": null
             },
             {
                "ref": 6416,
@@ -4626,10 +5663,35 @@ export const stations = [
                "name_ka": "გარდაბანი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:29"
+               "arrival_time": null,
+               "departure_time": "21:29",
+               "stop_time": null
             }
          ],
-         "via": []
+         "via": [
+            {
+               "ref": 201,
+               "name_en": "Batumi → Yerevan",
+               "name_ru": "Батуми → Ереван",
+               "name_ka": "ბათუმი → ერევანი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749945600000,
+               "arrival_time": "21:47",
+               "departure_time": "22:40",
+               "stop_time": 53
+            },
+            {
+               "ref": 202,
+               "name_en": "Yerevan → Batumi",
+               "name_ru": "Ереван → Батуми",
+               "name_ka": "ერევანი → ბათუმი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749859200000,
+               "arrival_time": "00:11",
+               "departure_time": "00:45",
+               "stop_time": 34
+            }
+         ]
       }
    },
    {
@@ -4658,7 +5720,9 @@ export const stations = [
                "name_ka": "თბილისი → გარდაბანი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:29"
+               "arrival_time": null,
+               "departure_time": "07:29",
+               "stop_time": null
             },
             {
                "ref": 6414,
@@ -4667,7 +5731,9 @@ export const stations = [
                "name_ka": "გარდაბანი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:18"
+               "arrival_time": null,
+               "departure_time": "09:18",
+               "stop_time": null
             },
             {
                "ref": 6415,
@@ -4676,7 +5742,9 @@ export const stations = [
                "name_ka": "თბილისი → გარდაბანი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:19"
+               "arrival_time": null,
+               "departure_time": "19:19",
+               "stop_time": null
             },
             {
                "ref": 6416,
@@ -4685,7 +5753,9 @@ export const stations = [
                "name_ka": "გარდაბანი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:08"
+               "arrival_time": null,
+               "departure_time": "21:08",
+               "stop_time": null
             }
          ]
       }
@@ -4716,7 +5786,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:44"
+               "arrival_time": null,
+               "departure_time": "20:44",
+               "stop_time": null
             },
             {
                "ref": 618,
@@ -4725,7 +5797,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "06:39"
+               "arrival_time": null,
+               "departure_time": "06:39",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -4734,7 +5808,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:04"
+               "arrival_time": null,
+               "departure_time": "10:04",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -4743,7 +5819,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:39"
+               "arrival_time": null,
+               "departure_time": "18:39",
+               "stop_time": null
             }
          ]
       }
@@ -4768,13 +5846,26 @@ export const stations = [
          "arrival": [],
          "via": [
             {
+               "ref": 202,
+               "name_en": "Yerevan → Batumi",
+               "name_ru": "Ереван → Батуми",
+               "name_ka": "ერევანი → ბათუმი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749859200000,
+               "arrival_time": "03:26",
+               "departure_time": "03:30",
+               "stop_time": 4
+            },
+            {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "11:19"
+               "arrival_time": null,
+               "departure_time": "11:19",
+               "stop_time": null
             },
             {
                "ref": 870,
@@ -4783,7 +5874,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "10:33"
+               "arrival_time": null,
+               "departure_time": "10:33",
+               "stop_time": null
             },
             {
                "ref": 874,
@@ -4792,7 +5885,9 @@ export const stations = [
                "name_ka": "თბილისი → ფოთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:43"
+               "arrival_time": null,
+               "departure_time": "19:43",
+               "stop_time": null
             },
             {
                "ref": 6417,
@@ -4801,7 +5896,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:39"
+               "arrival_time": null,
+               "departure_time": "08:39",
+               "stop_time": null
             },
             {
                "ref": 6418,
@@ -4810,7 +5907,9 @@ export const stations = [
                "name_ka": "ხაშური → ზესტაფონი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:05"
+               "arrival_time": null,
+               "departure_time": "18:05",
+               "stop_time": null
             },
             {
                "ref": 6445,
@@ -4819,7 +5918,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:19"
+               "arrival_time": null,
+               "departure_time": "18:19",
+               "stop_time": null
             },
             {
                "ref": 6446,
@@ -4828,7 +5929,9 @@ export const stations = [
                "name_ka": "ხაშური → ზესტაფონი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:40"
+               "arrival_time": null,
+               "departure_time": "07:40",
+               "stop_time": null
             },
             {
                "ref": 6447,
@@ -4837,7 +5940,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "15:54"
+               "arrival_time": null,
+               "departure_time": "15:54",
+               "stop_time": null
             }
          ]
       }
@@ -4865,13 +5970,37 @@ export const stations = [
          "arrival": [],
          "via": [
             {
+               "ref": 201,
+               "name_en": "Batumi → Yerevan",
+               "name_ru": "Батуми → Ереван",
+               "name_ka": "ბათუმი → ერევანი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749945600000,
+               "arrival_time": "15:56",
+               "departure_time": "16:01",
+               "stop_time": 5
+            },
+            {
+               "ref": 202,
+               "name_en": "Yerevan → Batumi",
+               "name_ru": "Ереван → Батуми",
+               "name_ka": "ერევანი → ბათუმი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749859200000,
+               "arrival_time": "06:51",
+               "departure_time": "06:56",
+               "stop_time": 5
+            },
+            {
                "ref": 681,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:01"
+               "arrival_time": null,
+               "departure_time": "21:01",
+               "stop_time": null
             },
             {
                "ref": 682,
@@ -4880,7 +6009,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:15"
+               "arrival_time": null,
+               "departure_time": "09:15",
+               "stop_time": null
             },
             {
                "ref": 683,
@@ -4889,7 +6020,9 @@ export const stations = [
                "name_ka": "ბათუმი → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "11:12"
+               "arrival_time": null,
+               "departure_time": "11:12",
+               "stop_time": null
             },
             {
                "ref": 684,
@@ -4898,7 +6031,9 @@ export const stations = [
                "name_ka": "ქუთაისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:58"
+               "arrival_time": null,
+               "departure_time": "18:58",
+               "stop_time": null
             },
             {
                "ref": 801,
@@ -4907,7 +6042,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "17:23"
+               "arrival_time": null,
+               "departure_time": "17:23",
+               "stop_time": null
             },
             {
                "ref": 802,
@@ -4916,7 +6053,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "12:41"
+               "arrival_time": null,
+               "departure_time": "12:41",
+               "stop_time": null
             },
             {
                "ref": 803,
@@ -4925,7 +6064,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "08:52"
+               "arrival_time": null,
+               "departure_time": "08:52",
+               "stop_time": null
             },
             {
                "ref": 804,
@@ -4934,7 +6075,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:51"
+               "arrival_time": null,
+               "departure_time": "21:51",
+               "stop_time": null
             },
             {
                "ref": 807,
@@ -4943,7 +6086,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:22"
+               "arrival_time": null,
+               "departure_time": "19:22",
+               "stop_time": null
             },
             {
                "ref": 808,
@@ -4952,7 +6097,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "15:31"
+               "arrival_time": null,
+               "departure_time": "15:31",
+               "stop_time": null
             },
             {
                "ref": 811,
@@ -4961,7 +6108,9 @@ export const stations = [
                "name_ka": "ბათუმი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "01:37"
+               "arrival_time": null,
+               "departure_time": "01:37",
+               "stop_time": null
             },
             {
                "ref": 812,
@@ -4970,7 +6119,9 @@ export const stations = [
                "name_ka": "თბილისი → ბათუმი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "05:11"
+               "arrival_time": null,
+               "departure_time": "05:11",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -4979,7 +6130,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "09:59"
+               "arrival_time": null,
+               "departure_time": "09:59",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -4988,7 +6141,52 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "14:55"
+               "arrival_time": null,
+               "departure_time": "14:55",
+               "stop_time": null
+            }
+         ]
+      }
+   },
+   {
+      "id": [
+         10775367088
+      ],
+      "coords": [
+         40.8162479,
+         44.486681
+      ],
+      "code": "vanadzor",
+      "type": "secondary",
+      "name_en": "Vanadzor",
+      "name_ka": "ვანაძორი",
+      "name_ru": "Ванадзор",
+      "gr_code": "00000",
+      "routes": {
+         "departure": [],
+         "arrival": [],
+         "via": [
+            {
+               "ref": 201,
+               "name_en": "Batumi → Yerevan",
+               "name_ru": "Батуми → Ереван",
+               "name_ka": "ბათუმი → ერევანი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749945600000,
+               "arrival_time": "04:42",
+               "departure_time": "04:47",
+               "stop_time": 5
+            },
+            {
+               "ref": 202,
+               "name_en": "Yerevan → Batumi",
+               "name_ru": "Ереван → Батуми",
+               "name_ka": "ერევანი → ბათუმი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749859200000,
+               "arrival_time": "18:04",
+               "departure_time": "18:09",
+               "stop_time": 5
             }
          ]
       }
@@ -5019,7 +6217,9 @@ export const stations = [
                "name_ka": "თბილისი → გარდაბანი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:39"
+               "arrival_time": null,
+               "departure_time": "07:39",
+               "stop_time": null
             },
             {
                "ref": 6414,
@@ -5028,7 +6228,9 @@ export const stations = [
                "name_ka": "გარდაბანი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:08"
+               "arrival_time": null,
+               "departure_time": "09:08",
+               "stop_time": null
             },
             {
                "ref": 6415,
@@ -5037,7 +6239,9 @@ export const stations = [
                "name_ka": "თბილისი → გარდაბანი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:29"
+               "arrival_time": null,
+               "departure_time": "19:29",
+               "stop_time": null
             },
             {
                "ref": 6416,
@@ -5046,9 +6250,55 @@ export const stations = [
                "name_ka": "გარდაბანი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:58"
+               "arrival_time": null,
+               "departure_time": "20:58",
+               "stop_time": null
             }
          ]
+      }
+   },
+   {
+      "id": [
+         369670355
+      ],
+      "coords": [
+         40.1553328,
+         44.507897
+      ],
+      "code": "yerevan",
+      "type": "secondary",
+      "name_en": "Yerevan",
+      "name_ka": "ერევანი",
+      "name_ru": "Ереван",
+      "gr_code": "00000",
+      "routes": {
+         "departure": [
+            {
+               "ref": 202,
+               "name_en": "Yerevan → Batumi",
+               "name_ru": "Ереван → Батуми",
+               "name_ka": "ერევანი → ბათუმი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749859200000,
+               "arrival_time": "-",
+               "departure_time": "14:00",
+               "stop_time": null
+            }
+         ],
+         "arrival": [
+            {
+               "ref": 201,
+               "name_en": "Batumi → Yerevan",
+               "name_ru": "Батуми → Ереван",
+               "name_ka": "ბათუმი → ერევანი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749945600000,
+               "arrival_time": "08:59",
+               "departure_time": "-",
+               "stop_time": null
+            }
+         ],
+         "via": []
       }
    },
    {
@@ -5077,7 +6327,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:23"
+               "arrival_time": null,
+               "departure_time": "20:23",
+               "stop_time": null
             },
             {
                "ref": 618,
@@ -5086,7 +6338,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "06:53"
+               "arrival_time": null,
+               "departure_time": "06:53",
+               "stop_time": null
             },
             {
                "ref": 685,
@@ -5095,7 +6349,9 @@ export const stations = [
                "name_ka": "ბორჯომი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:43"
+               "arrival_time": null,
+               "departure_time": "09:43",
+               "stop_time": null
             },
             {
                "ref": 686,
@@ -5104,7 +6360,9 @@ export const stations = [
                "name_ka": "თბილისი → ბორჯომი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "18:53"
+               "arrival_time": null,
+               "departure_time": "18:53",
+               "stop_time": null
             }
          ]
       }
@@ -5133,7 +6391,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "07:00"
+               "arrival_time": null,
+               "departure_time": "07:00",
+               "stop_time": null
             },
             {
                "ref": 6445,
@@ -5142,7 +6402,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "16:40"
+               "arrival_time": null,
+               "departure_time": "16:40",
+               "stop_time": null
             },
             {
                "ref": 6447,
@@ -5151,7 +6413,9 @@ export const stations = [
                "name_ka": "ზესტაფონი → ხაშური",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "14:13"
+               "arrival_time": null,
+               "departure_time": "14:13",
+               "stop_time": null
             }
          ],
          "arrival": [
@@ -5162,7 +6426,9 @@ export const stations = [
                "name_ka": "ხაშური → ზესტაფონი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "19:52"
+               "arrival_time": null,
+               "departure_time": "19:52",
+               "stop_time": null
             },
             {
                "ref": 6446,
@@ -5171,10 +6437,34 @@ export const stations = [
                "name_ka": "ხაშური → ზესტაფონი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:28"
+               "arrival_time": null,
+               "departure_time": "09:28",
+               "stop_time": null
             }
          ],
          "via": [
+            {
+               "ref": 201,
+               "name_en": "Batumi → Yerevan",
+               "name_ru": "Батуми → Ереван",
+               "name_ka": "ბათუმი → ერევანი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749945600000,
+               "arrival_time": "17:58",
+               "departure_time": "18:13",
+               "stop_time": 15
+            },
+            {
+               "ref": 202,
+               "name_en": "Yerevan → Batumi",
+               "name_ru": "Ереван → Батуми",
+               "name_ka": "ერევანი → ბათუმი",
+               "frequency": "every second day",
+               "every_second_day_start": 1749859200000,
+               "arrival_time": "04:38",
+               "departure_time": "04:53",
+               "stop_time": 15
+            },
             {
                "ref": 633,
                "name_en": "Kutaisi → Sachkhere",
@@ -5182,7 +6472,9 @@ export const stations = [
                "name_ka": "ქუთაისი → საჩხერე",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "06:54"
+               "arrival_time": null,
+               "departure_time": "06:54",
+               "stop_time": null
             },
             {
                "ref": 634,
@@ -5191,7 +6483,9 @@ export const stations = [
                "name_ka": "საჩხერე → ქუთაისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "12:55"
+               "arrival_time": null,
+               "departure_time": "12:55",
+               "stop_time": null
             },
             {
                "ref": 853,
@@ -5200,7 +6494,9 @@ export const stations = [
                "name_ka": "ოზურგეთი → თბილისი",
                "frequency": "every second day",
                "every_second_day_start": 1748822400000,
-               "time": "12:16"
+               "arrival_time": null,
+               "departure_time": "12:16",
+               "stop_time": null
             },
             {
                "ref": 854,
@@ -5209,7 +6505,9 @@ export const stations = [
                "name_ka": "თბილისი → ოზურგეთი",
                "frequency": "every second day",
                "every_second_day_start": 1748736000000,
-               "time": "12:35"
+               "arrival_time": null,
+               "departure_time": "12:35",
+               "stop_time": null
             },
             {
                "ref": 869,
@@ -5218,7 +6516,9 @@ export const stations = [
                "name_ka": "ზუგდიდი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "20:04"
+               "arrival_time": null,
+               "departure_time": "20:04",
+               "stop_time": null
             },
             {
                "ref": 870,
@@ -5227,7 +6527,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "11:50"
+               "arrival_time": null,
+               "departure_time": "11:50",
+               "stop_time": null
             },
             {
                "ref": 873,
@@ -5236,7 +6538,9 @@ export const stations = [
                "name_ka": "ფოთი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "09:28"
+               "arrival_time": null,
+               "departure_time": "09:28",
+               "stop_time": null
             },
             {
                "ref": 874,
@@ -5245,7 +6549,9 @@ export const stations = [
                "name_ka": "თბილისი → ფოთი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "21:00"
+               "arrival_time": null,
+               "departure_time": "21:00",
+               "stop_time": null
             }
          ]
       }
@@ -5273,7 +6579,9 @@ export const stations = [
                "name_ka": "ზუგდიდი → თბილისი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "16:55"
+               "arrival_time": null,
+               "departure_time": "16:55",
+               "stop_time": null
             }
          ],
          "arrival": [
@@ -5284,7 +6592,9 @@ export const stations = [
                "name_ka": "თბილისი → ზუგდიდი",
                "frequency": "daily",
                "every_second_day_start": null,
-               "time": "15:08"
+               "arrival_time": null,
+               "departure_time": "15:08",
+               "stop_time": null
             }
          ],
          "via": []

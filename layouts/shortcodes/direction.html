@@ -29,7 +29,10 @@
                 <!-- Check if this route goes to destination -->
                 {{ range .stations }}
                     {{ if eq .code $to }}
-                        {{ $availableRoutes = $availableRoutes | append $route }}
+                        <!-- Exclude routes 201 and 202 -->
+                        {{ if and (ne (int $routeRef) 201) (ne (int $routeRef) 202) }}
+                            {{ $availableRoutes = $availableRoutes | append $route }}
+                        {{ end }}
                     {{ end }}
                 {{ end }}
             {{ end }}
@@ -38,6 +41,17 @@
 
     <!-- Show routes -->
     {{ if $availableRoutes }}
+        <!-- Sort routes by departure time of first station manually -->
+        {{ $sortedRoutes := slice }}
+        {{ range sort $availableRoutes "ref" }}
+            {{ $firstStationTime := "" }}
+            {{ if .stations }}
+                {{ $firstStationTime = (index .stations 0).departure_time }}
+            {{ end }}
+            {{ $sortedRoutes = $sortedRoutes | append (dict "route" . "time" $firstStationTime) }}
+        {{ end }}
+        {{ $sortedRoutes = sort $sortedRoutes "time" }}
+        
         <div class="direction-routes">
             <h3>
                 {{ if eq $lang "ru" }}
@@ -49,19 +63,19 @@
                 {{ end }}
             </h3>
             <ul>
-                {{ range $availableRoutes }}
+                {{ range $sortedRoutes }}
                     {{ $departureTime := "" }}
-                    {{ $routeNameEn := index . "name:en" }}
-                    {{ $routeNameRu := index . "name:ru" }}
-                    {{ $routeNameKa := index . "name:ka" }}
+                    {{ $routeNameEn := index .route "name:en" }}
+                    {{ $routeNameRu := index .route "name:ru" }}
+                    {{ $routeNameKa := index .route "name:ka" }}
                     
                     <!-- Find departure time -->
-                    {{ range .stations }}
+                    {{ range .route.stations }}
                         {{ if eq .code $from }}
-                            {{ $departureTime = .time }}
+                            {{ $departureTime = .departure_time }}
                         {{ end }}
                     {{ end }}
-                    {{ partial "route-link.html" (dict "time" $departureTime "ref" .ref "lang" $lang "name_ru" $routeNameRu "name_ka" $routeNameKa "name_en" $routeNameEn) }}
+                    {{ partial "route-link.html" (dict "time" $departureTime "ref" .route.ref "lang" $lang "name_ru" $routeNameRu "name_ka" $routeNameKa "name_en" $routeNameEn) }}
                 {{ end }}
             </ul>
         </div>

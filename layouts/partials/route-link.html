@@ -6,7 +6,10 @@
         <span class="station-route-ref">{{ .ref }}</span>
         <span class="station-route-name">{{ if eq .lang "ru" }}{{ .name_ru }}{{ else if eq .lang "ka" }}{{ .name_ka }}{{ else }}{{ .name_en }}{{ end }}</span>
     </a>
+    {{ if .stop_time }}
+    <span class="station-route-stop-time">({{ if eq .lang "ru" }}остановка {{ else if eq .lang "ka" }}გაჩერება{{ else }}stop for{{ end }} {{ .stop_time }} {{ if eq .lang "ru" }}мин{{ else if eq .lang "ka" }}წთ{{ else }}min{{ end }})</span>
+    {{ end }}
     {{ if .every_second_day_start }}
-    <button class="dashed-link esd-calendar" data-timestamp="{{ .every_second_day_start }}" data-lang="{{ .lang }}">🗓</button>
+    <button class="esd-calendar" data-timestamp="{{ .every_second_day_start }}" data-lang="{{ .lang }}">🗓</button>
     {{ end }}
 </div>

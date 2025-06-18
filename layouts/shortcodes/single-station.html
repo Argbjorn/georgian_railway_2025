@@ -30,22 +30,35 @@
 <div class="station-page-content">
 {{ if .Page.Params.routes.departure }}
 <h2>{{ $t.departures }}</h2>
-    {{ range sort .Page.Params.routes.departure "time" }}
-    {{ partial "route-link.html" (dict "time" .time "ref" .ref "lang" $lang "name_ru" .name_ru "name_ka" .name_ka "name_en" .name_en "every_second_day_start" .every_second_day_start) }}
+    {{ range sort .Page.Params.routes.departure "departure_time" }}
+    {{ partial "route-link.html" (dict "time" .departure_time "ref" .ref "lang" $lang "name_ru" .name_ru "name_ka" .name_ka "name_en" .name_en "every_second_day_start" .every_second_day_start "stop_time" .stop_time) }}
     {{ end }}
 {{ end }}
 
 {{ if .Page.Params.routes.arrival }}
 <h2>{{ $t.arrivals }}</h2>
-    {{ range sort .Page.Params.routes.arrival "time" }}
-    {{ partial "route-link.html" (dict "time" .time "ref" .ref "lang" $lang "name_ru" .name_ru "name_ka" .name_ka "name_en" .name_en "every_second_day_start" .every_second_day_start) }}
+    {{ $routes := slice }}
+    {{ range .Page.Params.routes.arrival }}
+        {{ $time := .arrival_time }}
+        {{ if not $time }}
+            {{ $time = .departure_time }}
+        {{ end }}
+        {{ $route := merge . (dict "time" $time) }}
+        {{ $routes = $routes | append $route }}
+    {{ end }}
+    {{ range sort $routes "time" }}
+        {{ partial "route-link.html" (dict "time" .time "ref" .ref "lang" $lang "name_ru" .name_ru "name_ka" .name_ka "name_en" .name_en "every_second_day_start" .every_second_day_start "stop_time" .stop_time) }}
     {{ end }}
 {{ end }}
 
 {{ if .Page.Params.routes.via }}
 <h2>{{ $t.stops }}</h2>
-    {{ range sort .Page.Params.routes.via "time" }}
-    {{ partial "route-link.html" (dict "time" .time "ref" .ref "lang" $lang "name_ru" .name_ru "name_ka" .name_ka "name_en" .name_en "every_second_day_start" .every_second_day_start) }}
+    {{ range sort .Page.Params.routes.via "departure_time" }}
+    {{ $time := .departure_time }}
+    {{ if .arrival_time }}
+        {{ $time = .arrival_time }}
+    {{ end }}
+    {{ partial "route-link.html" (dict "time" $time "ref" .ref "lang" $lang "name_ru" .name_ru "name_ka" .name_ka "name_en" .name_en "every_second_day_start" .every_second_day_start "stop_time" .stop_time) }}
     {{ end }}
 {{ end }}
 </div>
