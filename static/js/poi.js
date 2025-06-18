@@ -40,7 +40,25 @@ export const poiInfo = [
       description_en: "Here should be information about the narrow-gauge route Borjomi - Bakuriani («Kukushka»), but it was canceled in 2020. The media write that the train and infrastructure need repair and reconstruction. There are no official statements about the resumption of communication.",
       description_ka: "აქ უნდა იყოს ინფორმაცია ბორჯომის და ბაკურიანის მგზავრულ მატარებლების მიმართულებით მოძრაობის შესახებ («კუკუშკა»), მაგრამ ის 2020 წლიდან გაუქმებულია. სამომხმარებლო სახელობები მიუთითებს, რომ მატარებლებს და ინფრასტრუქტურას გადასცემს რემონტს და რეკონსტრუქციას. ონლაინ განცხადებები არ აქვს მიმოხილვის შესახებ.",
       coords: [41.78172, 43.46672],
-    }
+    },
+    {
+      description_ru: "Технически рельсы проложены практически до Цхинвали (и разобраны перед городом), но на практике ветка функционирует только до Гори. Вокзал Цхинвали функционирует как автобусный.",
+      description_en: "Technically, the rails are laid almost to Tskhinvali (and dismantled before the city), but in practice the line only operates to Gori. The Tskhinvali station functions as a bus station.",
+      description_ka: "ტექნიკურად, რელსები თითქმის ცხინვალამდეა გაყვანილი (და დაშლილია ქალაქის წინ), მაგრამ პრაქტიკაში ხაზის ფუნქციონირება მხოლოდ გორიმდე ხდება. ცხინვალის ვაგზალი ფუნქციონირებს როგორც ავტობუსის სადგური.",
+      coords: [42.22909, 43.96977],
+    },
+    {
+      description_ru: "Регулярно появляются сообщения о восстановлении пассажирского сообщения с Баку, но на данный момент маршрут не запущен.",
+      description_en: "Regularly appearing messages about the restoration of passenger communication from Baku, but at the moment the route is not launched.",
+      description_ka: "დროდადრო ჩნდება ცნობები ბაქოსთან სამგზავრო მიმოსვლის აღდგენაზე, თუმცა ამ ეტაპზე მარშრუტი ჯერ არ არის გაშვებული.",
+      coords: [40.37931, 49.83579],
+    },
+    {
+      description_ru: "Данная часть железнодорожной сети в направлении Карса используется только для грузовых перевозок.",
+      description_en: "This part of the railway network in the direction of Kars is used only for freight traffic.",
+      description_ka: "რკინიგზის ეს მონაკვეთი კარის მიმართულებით გამოიყენება მხოლოდ სატვირთო გადაზიდვებისთვის.",
+      coords: [41.27316, 43.37754],
+    },
 ]
 
 export class Poi {
