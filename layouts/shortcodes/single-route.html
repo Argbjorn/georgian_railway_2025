@@ -89,6 +89,15 @@
 <!-- Status -->
 <p>{{ $t.status }}: {{ now.Format "02.01.2006" }}</p>
 
+<!-- Description -->
+{{ if .Page.Params.description_ka }}
+    <p>{{ .Page.Params.description_ka | safeHTML }}</p>
+{{ else if .Page.Params.description_ru }}
+    <p>{{ .Page.Params.description_ru | safeHTML }}</p>
+{{ else if .Page.Params.description_en }}
+    <p>{{ .Page.Params.description_en | safeHTML }}</p>
+{{ end }}
+
 <!-- Frequency -->
 <p><strong>{{ $t.frequency }}:</strong> 
     {{ if eq .Page.Params.frequency "daily" }}

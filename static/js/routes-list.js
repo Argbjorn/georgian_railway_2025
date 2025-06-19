@@ -13,6 +13,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": null,
       "has_arrival_time": true,
+      "description_en": "This train is the summer version of train #371 Tbilisi – Yerevan. In 2025, it operates from June 15 to October 2. Tickets can be purchased online on the South Caucasus Railway website via the link below. Georgian Railways does not sell tickets for this train online, but they can be bought at station ticket offices. Platskart (open sleeper), coupe (compartment), and SV (luxury) classes are available. Prices vary by month; currently, information is available for <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_06.pdf\" target=\"_blank\">June</a> and <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_07.pdf\" target=\"_blank\">July</a>.",
+      "description_ru": "Этот поезд - летняя версия поезда №371 Тбилиси - Ереван. В 2025 году он ходит с 15 июня по 2 октября. Билеты можно купить онлайн на сайте ЮКЖД по ссылке ниже. Грузинская железная дорога не продает билеты на этот поезд онлайн, однако их можно приобрести в кассах вокзалов. Доступны плацкарт, купе и СВ. Цены отличаются по месяцам, сейчас доступна информация на <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_rus_06.pdf\" target=\"_blank\">июнь</a> и <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_rus_07.pdf\" target=\"_blank\">июль</a>.",
+      "description_ka": "ეს მატარებელი №371 თბილისი – ერევნის ზაფხულის ვერსიაა. 2025 წელს იგი იმოძრავებს 15 ივნისიდან 2 ოქტომბრამდე. ბილეთების შეძენა ონლაინ შეგიძლიათ სამხრეთ კავკასიური რკინიგზის ვებგვერდზე ქვემოთ მოცემული ბმულის საშუალებით. საქართველოს რკინიგზა ამ მატარებელზე ბილეთებს ონლაინ არ ყიდის, თუმცა მათი შეძენა შესაძლებელია სადგურების სალაროებში. ხელმისაწვდომია პლაცკარტი, კუპე და სვ. ფასები თვეების მიხედვით განსხვავდება; ამჟამად ხელმისაწვდომია ინფორმაცია <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_06.pdf\" target=\"_blank\">ივნისისთვის</a> და <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_07.pdf\" target=\"_blank\">ივლისისთვის</a>.",
       "stations": [
          {
             "code": "batumicentral",
@@ -183,6 +186,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": null,
       "has_arrival_time": true,
+      "description_en": "This train is the summer version of train #372 Yerevan - Tbilisi. In 2025, it operates from June 14 to October 1. Tickets can be purchased online on the South Caucasus Railway website via the link below. Georgian Railways does not sell tickets for this train online, but they can be bought at station ticket offices. Platskart (open sleeper), coupe (compartment), and SV (luxury) classes are available. Prices vary by month; currently, information is available for <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_06.pdf\" target=\"_blank\">June</a> and <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_07.pdf\" target=\"_blank\">July</a>.",
+      "description_ru": "Этот поезд - летняя версия поезда №372 Ереван - Тбилиси. В 2025 году он ходит с 14 июня по 1 октября. Билеты можно купить онлайн на сайте ЮКЖД по ссылке ниже. Грузинская железная дорога не продает билеты на этот поезд онлайн, однако их можно приобрести в кассах вокзалов. Доступны плацкарт, купе и СВ. Цены отличаются по месяцам, сейчас доступна информация на <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_rus_06.pdf\" target=\"_blank\">июнь</a> и <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_rus_07.pdf\" target=\"_blank\">июль</a>.",
+      "description_ka": "ეს მატარებელი №372 ერევნის - თბილისი ზაფხულის ვერსიაა. 2025 წელს იგი იმოძრავებს 14 ივნისიდან 1 ოქტომბრამდე. ბილეთების შეძენა ონლაინ შეგიძლიათ სამხრეთ კავკასიური რკინიგზის ვებგვერდზე ქვემოთ მოცემული ბმულის საშუალებით. საქართველოს რკინიგზა ამ მატარებელზე ბილეთებს ონლაინ არ ყიდის, თუმცა მათი შეძენა შესაძლებელია სადგურების სალაროებში. ხელმისაწვდომია პლაცკარტი, კუპე და სვ. ფასები თვეების მიხედვით განსხვავდება; ამჟამად ხელმისაწვდომია ინფორმაცია <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_06.pdf\" target=\"_blank\">ივნისისთვის</a> და <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_07.pdf\" target=\"_blank\">ივლისისთვის</a>.",
       "stations": [
          {
             "code": "yerevan",
@@ -363,6 +369,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "batumicentral",
@@ -456,6 +465,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "ozurgeti",
@@ -549,6 +561,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "borjomiparki",
@@ -744,6 +759,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -939,6 +957,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "kutaisi1",
@@ -1062,6 +1083,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "sachkhere",
@@ -1185,6 +1209,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "batumicentral",
@@ -1390,6 +1417,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "kutaisi1",
@@ -1595,6 +1625,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "batumicentral",
@@ -1800,6 +1833,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "kutaisi1",
@@ -2005,6 +2041,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "borjomiparki",
@@ -2200,6 +2239,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -2395,6 +2437,9 @@ export const routesList = [
       "online_tickets_new_site": true,
       "train_type": "stadler",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "batumicentral",
@@ -2472,6 +2517,9 @@ export const routesList = [
       "online_tickets_new_site": true,
       "train_type": "stadler",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -2549,6 +2597,9 @@ export const routesList = [
       "online_tickets_new_site": true,
       "train_type": "stadler",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "batumicentral",
@@ -2626,6 +2677,9 @@ export const routesList = [
       "online_tickets_new_site": true,
       "train_type": "stadler",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -2703,6 +2757,9 @@ export const routesList = [
       "online_tickets_new_site": true,
       "train_type": "stadler",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "batumicentral",
@@ -2780,6 +2837,9 @@ export const routesList = [
       "online_tickets_new_site": true,
       "train_type": "stadler",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -2857,6 +2917,9 @@ export const routesList = [
       "online_tickets_new_site": true,
       "train_type": "stadler",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "batumicentral",
@@ -2934,6 +2997,9 @@ export const routesList = [
       "online_tickets_new_site": true,
       "train_type": "stadler",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -3011,6 +3077,9 @@ export const routesList = [
       "online_tickets_new_site": true,
       "train_type": "vmk-grt",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "ozurgeti",
@@ -3284,6 +3353,9 @@ export const routesList = [
       "online_tickets_new_site": true,
       "train_type": "vmk-grt",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -3587,6 +3659,9 @@ export const routesList = [
       "online_tickets_new_site": true,
       "train_type": "vmk-grt",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "zugdidi",
@@ -3770,6 +3845,9 @@ export const routesList = [
       "online_tickets_new_site": true,
       "train_type": "vmk-grt",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -3963,6 +4041,9 @@ export const routesList = [
       "online_tickets_new_site": true,
       "train_type": "vmk-grt",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "poti",
@@ -4136,6 +4217,9 @@ export const routesList = [
       "online_tickets_new_site": true,
       "train_type": "vmk-grt",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -4309,6 +4393,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "kutaisi1",
@@ -4364,6 +4451,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "rioni",
@@ -4419,6 +4509,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "kutaisi1",
@@ -4474,6 +4567,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "rioni",
@@ -4529,6 +4625,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -4634,6 +4733,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "gardabani",
@@ -4739,6 +4841,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -4844,6 +4949,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": "suburban",
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "gardabani",
@@ -4949,6 +5057,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": null,
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "zestafoni",
@@ -5055,6 +5166,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": null,
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "khashuri",
@@ -5160,6 +5274,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": null,
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "zestafoni",
@@ -5266,6 +5383,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": null,
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "khashuri",
@@ -5371,6 +5491,9 @@ export const routesList = [
       "online_tickets_new_site": false,
       "train_type": null,
       "has_arrival_time": false,
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "zestafoni",
