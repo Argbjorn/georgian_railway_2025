@@ -44,9 +44,14 @@ jobs:
         with:
           python-version: '3.11'
           
-      - name: Test data files
+      - name: Install dependencies
         run: |
-          python scripts/test-data.py
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Run data tests
+        run: |
+          pytest scripts/test_data_files.py -v --tb=short
           
       - name: Setup Go
         uses: actions/setup-go@v5
