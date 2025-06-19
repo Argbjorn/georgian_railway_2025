@@ -38,6 +38,16 @@ jobs:
         with:
           fetch-depth: 0  # fetch all history for .GitInfo and .Lastmod
           submodules: recursive
+          
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          
+      - name: Test data files
+        run: |
+          python scripts/test-data.py
+          
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
