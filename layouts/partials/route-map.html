@@ -83,8 +83,12 @@
         preferCanvas: true
     }).setView([41.721700, 44.799748], 8);
     
-    L.tileLayer('https://tile.thunderforest.com/atlas/{z}/{x}/{y}.png?apikey=6fb239b3c88b4c93b4524271cdbd7e1d', {
+    {{/*  L.tileLayer('https://tile.thunderforest.com/atlas/{z}/{x}/{y}.png?apikey=6fb239b3c88b4c93b4524271cdbd7e1d', {
         attribution: 'Tiles &copy; <a href="https://www.thunderforest.com/" target="_blank">Thunderforest</a> | Data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a>'
+    }).addTo(map);  */}}
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '<a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a>'
     }).addTo(map);
 
     const routeId = {{ .Page.Params.id }};
