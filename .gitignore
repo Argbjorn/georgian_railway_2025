@@ -7,3 +7,4 @@ resources/
 .vscode/
 
 TODO.md
+scripts/__pycache__/
