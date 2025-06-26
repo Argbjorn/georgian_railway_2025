@@ -530,10 +530,8 @@ function createStationHint() {
   });
 }
 
-// Вызываем создание подсказки после загрузки карты
-setTimeout(createStationHint, 1500);
-
-// Добавляем класс loaded к body для показа sidepanel
+// Вызываем создание подсказки после загрузки карты и добавляем класс loaded к body для показа sidepanel
 setTimeout(() => {
+    createStationHint();
     document.body.classList.add('loaded');
 }, 1500);
