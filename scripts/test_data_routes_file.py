@@ -37,6 +37,9 @@ ROUTE_SCHEMA = {
     "every_second_day_start": {
       "type": ["integer", "null"]
     },
+    "end_date": {
+      "type": ["integer", "null"]
+    },
     "complete": {
       "type": "boolean"
     },

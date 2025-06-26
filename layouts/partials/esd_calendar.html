@@ -67,6 +67,12 @@ document.addEventListener('DOMContentLoaded', function() {
     calendarTriggers.forEach(function(trigger) {
         const timestampStr = trigger.dataset.timestamp;
         const lang = trigger.dataset.lang || 'en';
+        const endDateStr = trigger.dataset.endDate; // Получаем значение data-end-date
+        
+        // Отладочная информация
+        if (endDateStr) {
+            console.log('endDateStr:', endDateStr, 'type:', typeof endDateStr);
+        }
         
         let timestamp = Number(timestampStr);
         
@@ -82,8 +88,34 @@ document.addEventListener('DOMContentLoaded', function() {
         const todayDate = new Date();
         todayDate.setHours(0, 0, 0, 0); // Обнуляем время до 00:00:00.000
         const currentDate = new Date(startDate);
-        const endDate = new Date(todayDate);
-        endDate.setMonth(endDate.getMonth() + 3); // +3 месяца от сегодняшнего дня
+        
+        // Определяем конечную дату
+        let endDate;
+        if (endDateStr) {
+            // Если указан data-end-date, используем его
+            let endTimestamp = Number(endDateStr);
+            
+            // Если timestamp выглядит как секунды (меньше чем типичное значение в миллисекундах)
+            if (endTimestamp < 10000000000) {
+                endTimestamp = endTimestamp * 1000; // Конвертируем секунды в миллисекунды
+            }
+            
+            endDate = new Date(endTimestamp);
+            
+            // Проверяем, что дата валидна
+            if (isNaN(endDate.getTime())) {
+                console.error('Invalid endDate provided:', endDateStr);
+                // Если дата невалидна, используем старую логику
+                endDate = new Date(todayDate);
+                endDate.setMonth(endDate.getMonth() + 3);
+            } else {
+                endDate.setHours(23, 59, 59, 999); // Устанавливаем конец дня
+            }
+        } else {
+            // Иначе используем стандартную логику - 3 месяца вперед
+            endDate = new Date(todayDate);
+            endDate.setMonth(endDate.getMonth() + 3);
+        }
         
         while (currentDate <= endDate) {
             if (currentDate >= todayDate) {

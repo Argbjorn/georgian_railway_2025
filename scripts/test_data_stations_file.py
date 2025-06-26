@@ -91,6 +91,9 @@ STATIONS_SCHEMA = {
           "every_second_day_start": {
             "type": ["integer", "null"]
           },
+          "end_date": {
+            "type": ["integer", "null"]
+          },
           "arrival_time": {
             "type": ["string", "null"],
             "anyOf": [{"pattern": "^([01]?[0-9]|2[0-3]):[0-5][0-9]$"},
