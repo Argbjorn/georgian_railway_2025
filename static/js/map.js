@@ -1,8 +1,8 @@
 // Tile providers
-var mapTilerTiles = L.tileLayer('https://round-recipe-7619.dalwyn.workers.dev/proxy/{z}/{x}/{y}.png?v=5', {
-    maxZoom: 19,
-    attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
-});
+// var mapTilerTiles = L.tileLayer('https://round-recipe-7619.dalwyn.workers.dev/proxy/{z}/{x}/{y}.png?v=5', {
+//     maxZoom: 19,
+//     attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
+// });
 var atlasTiles = L.tileLayer('https://tile.thunderforest.com/atlas/{z}/{x}/{y}.png?apikey=6fb239b3c88b4c93b4524271cdbd7e1d', {
     maxZoom: 19,
     attribution: 'Tiles &copy; <a href="https://www.thunderforest.com/" target="_blank">Thunderforest ❤️</a> | Data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a>'
@@ -18,7 +18,6 @@ import { LanguageService } from './LanguageService.js';
 const tiles = {
     "Standard": osmTiles,
     "Atlas": atlasTiles,
-    "MapTiler": mapTilerTiles
 };
 const overlays = {}
 
@@ -26,7 +25,7 @@ const overlays = {}
 export const map = L.map('map', {
     center: getDefaultMapCenter(),
     zoom: 8,
-    layers: [mapTilerTiles],
+    layers: [atlasTiles],
     preferCanvas: true,
     zoomControl: false
 });
