@@ -1,5 +1,6 @@
 import { railwayNetworkData } from "./railway-network-data.js";
 import { stations } from "./stations-list.js";
+import { handleStationClick, handleMapClick } from "./sidebar.js";
 
 let map;
 
@@ -9,6 +10,10 @@ map = new maplibregl.Map({
     center: [44.799748, 41.721700],
     zoom: 8
 });
+
+// Make map available globally for sidebar
+window.mapInstance = map;
+window.testRoute = null;
 
 map.addControl(new maplibregl.NavigationControl(), 'top-right');
 
@@ -56,5 +61,26 @@ map.on('load', () => {
             'circle-stroke-width': 1,
             'circle-stroke-color': '#FFFFFF'
         }
+    });
+
+    // Station click handler
+    map.on('click', 'stations', (e) => {
+        const stationName = e.features[0].properties.name_ru;
+        handleStationClick(stationName);
+        e.stopPropagation();
+    });
+
+    // Close sidebar when clicking on empty map (desktop only)
+    map.on('click', (e) => {
+        handleMapClick();
+    });
+
+    // Change cursor to pointer when hovering over stations
+    map.on('mouseenter', 'stations', () => {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+
+    map.on('mouseleave', 'stations', () => {
+        map.getCanvas().style.cursor = '';
     });
 });

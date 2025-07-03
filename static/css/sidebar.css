@@ -1,0 +1,149 @@
+/* Sidebar Base Styles */
+.sidebar {
+    position: fixed;
+    right: -100%;
+    background: white;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+    transition: right 0.3s ease;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar.active {
+    right: 0;
+}
+
+.sidebar-header {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar-title {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sidebar-close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.sidebar-close:hover {
+    background: #f0f0f0;
+}
+
+.sidebar-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-body {
+    padding: 20px;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.sidebar-tail {
+    display: none;
+}
+
+.test-route-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.test-route-link:hover {
+    background: #0056b3;
+}
+
+/* Desktop Styles */
+@media (min-width: 769px) {
+    .sidebar {
+        width: 400px;
+        right: -400px;
+    }
+    
+    .sidebar.active {
+        right: 0;
+    }
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        right: -100%;
+    }
+    
+    .sidebar.active {
+        right: 0;
+    }
+    
+    .sidebar.collapsed-auto {
+        right: -calc(100% - 50px);
+    }
+    
+    .sidebar-tail {
+        display: none;
+        position: fixed;
+        right: 0;
+        transform: translateY(-50%);
+        width: 50px;
+        height: 80px;
+        background: white;
+        border-radius: 8px 0 0 8px;
+        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+        z-index: 1001;
+    }
+    
+    .sidebar.collapsed-auto .sidebar-tail {
+        display: flex;
+    }
+    
+    .sidebar-handle {
+        width: 4px;
+        height: 30px;
+        background: #ccc;
+        border-radius: 2px;
+    }
+    
+    .sidebar-tail:hover .sidebar-handle {
+        background: #999;
+    }
+    
+    .sidebar-title {
+        font-size: 16px;
+    }
+    
+    .sidebar-header {
+        padding: 15px;
+    }
+    
+    .sidebar-body {
+        padding: 15px;
+    }
+} 
