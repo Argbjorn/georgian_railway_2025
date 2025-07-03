@@ -1,3 +1,5 @@
+import stateManager from "./state/mapStateManager.js";
+
 // Sidebar module
 let sidebar = null;
 let currentPopup = null;
@@ -99,7 +101,15 @@ function showTestRoute() {
 
 // Sidebar functions
 function showSidebar(stationName) {
-    if (!sidebar) createSidebar();
+    console.log("showSidebar function called with:", stationName);
+    
+    if (!sidebar) {
+        console.log("Creating new sidebar");
+        createSidebar();
+    }
+    
+    console.log("Sidebar element:", sidebar);
+    console.log("Adding 'active' class");
     
     updateSidebarSize();
     
@@ -108,6 +118,8 @@ function showSidebar(stationName) {
     
     sidebar.classList.add('active');
     sidebar.classList.remove('collapsed-auto');
+    
+    console.log("Sidebar classes:", sidebar.className);
 }
 
 function closeSidebar() {
@@ -123,34 +135,20 @@ function toggleSidebar() {
     }
 }
 
-// Handle station click
-function handleStationClick(stationName) {
-    // Close any existing popup
-    if (currentPopup) {
-        currentPopup.remove();
-        currentPopup = null;
-    }
-    
-    // Show sidebar
-    showSidebar(stationName);
-}
-
-// Handle map click (desktop only)
-function handleMapClick() {
-    if (window.innerWidth > 768) {
-        closeSidebar();
-    }
-}
-
 // Make functions global
 window.showTestRoute = showTestRoute;
 window.closeSidebar = closeSidebar;
 window.toggleSidebar = toggleSidebar;
-window.handleStationClick = handleStationClick;
-window.handleMapClick = handleMapClick;
 
 // Update sidebar size on window resize
 window.addEventListener('resize', updateSidebarSize);
 
 // Export functions for module usage
-export { showSidebar, closeSidebar, toggleSidebar, handleStationClick, handleMapClick }; 
+export { showSidebar, closeSidebar, toggleSidebar }; 
+
+stateManager.subscribe(state => {
+    if (state.selectedStation) {
+        console.log("Sidebar received station selection");
+        showSidebar(state.selectedStation);
+    }
+})

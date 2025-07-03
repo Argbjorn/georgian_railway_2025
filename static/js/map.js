@@ -1,14 +1,13 @@
 import { railwayNetworkData } from "./railway-network-data.js";
 import { stations } from "./stations-list.js";
-import { handleStationClick, handleMapClick } from "./sidebar.js";
-
+import stateManager from "./state/mapStateManager.js"
 let map;
 
 map = new maplibregl.Map({
     container: 'map',
     style: 'https://api.maptiler.com/maps/streets-v2/style.json?key=KxWbLysHDIRHxmljrz4c',
     center: [44.799748, 41.721700],
-    zoom: 8
+    zoom: 7
 });
 
 // Make map available globally for sidebar
@@ -25,8 +24,8 @@ map.on('load', () => {
         type: 'line',
         source: 'railway',
         paint: {
-            'line-color': '#000000',
-            'line-width': 2
+            'line-color': '#32373B',
+            'line-width': 3
         }
     });
 
@@ -56,23 +55,23 @@ map.on('load', () => {
         type: 'circle',
         source: 'stations',
         paint: {
-            'circle-color': '#FF0000',
-            'circle-radius': 4,
-            'circle-stroke-width': 1,
-            'circle-stroke-color': '#FFFFFF'
+            'circle-color': '#FFF',
+            'circle-radius': 8,
+            'circle-stroke-width': 2,
+            'circle-stroke-color': '#c1121f'
         }
     });
 
     // Station click handler
     map.on('click', 'stations', (e) => {
-        const stationName = e.features[0].properties.name_ru;
-        handleStationClick(stationName);
-        e.stopPropagation();
+        const stationName = e.features[0].properties.name_en;
+        console.log("Clicked station:", stationName);
+        stateManager.selectStation(stationName);
     });
 
     // Close sidebar when clicking on empty map (desktop only)
     map.on('click', (e) => {
-        handleMapClick();
+        
     });
 
     // Change cursor to pointer when hovering over stations
