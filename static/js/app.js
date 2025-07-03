@@ -1,9 +1,15 @@
+// Временно отключен весь функционал для миграции на MapLibre GL
+// Оставляем только базовую инициализацию карты
+
+/*
 import { RailwayNetwork } from "./railway-network.js";
 import { Route } from "./route.js";
 import { routesList } from "./routes-list.js";
 import { Station } from "./station.js";
 import { stations as stationsList } from "./stations-list.js";
-import { map } from "./map.js";
+*/
+// import { map } from "./map.js";
+/*
 import { LanguageService as LS } from "./LanguageService.js";
 import { SidepanelContent } from "./SidepanelContent.js";
 import UIStateManager from "./state/UIStateManager.js";
@@ -535,3 +541,4 @@ setTimeout(() => {
     createStationHint();
     document.body.classList.add('loaded');
 }, 1500);
+*/
