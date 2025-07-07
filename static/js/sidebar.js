@@ -8,7 +8,7 @@ class Sidebar {
         this.container = container;
         this.sidebar = null;
     }
-    createSidebar() {
+    create() {
         this.sidebar = document.createElement('div');
         this.sidebar.id = 'sidebar';
         this.sidebar.className = 'sidebar';
@@ -22,7 +22,6 @@ class Sidebar {
             </div>
             <div class="sidebar-content">
                 <div class="sidebar-body">
-                    <p>Содержимое панели</p>
                 </div>
             </div>
         `;
@@ -86,8 +85,9 @@ class Sidebar {
         this.sidebar.querySelectorAll(".route-line").forEach((element) => {
             const routeLink = element.querySelector(".route-link");
             routeLink.addEventListener("click", () => {
+                stateManager.selectRoute(routeLink.getAttribute("data-route-ref"));
                 const route = new Route(this.map, routeLink.getAttribute("data-route-ref"));
-                route.create();
+                route.show();
             });
         });
     }

@@ -28,6 +28,7 @@ class BaseMap {
             });
             if (features.length === 0) {
                 stateManager.clearSelectedStation();
+                stateManager.clearSelectedRoute();
             }
         })
     }
@@ -35,7 +36,7 @@ class BaseMap {
     onMapLoad() {
         this.railwayNetwork.create();
         this.stationsGroup.create();
-        this.sidebar.createSidebar();
+        this.sidebar.create();
     }
 }
 

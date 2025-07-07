@@ -1,10 +1,19 @@
 import { routes } from "./routes-list.js";
+import stateManager from "./state/mapStateManager.js";
 
 export class Route {
     constructor(map, ref) {
         this.ref = parseInt(ref);
         this.map = map;
         this.routeData = routes.find(route => route.ref === this.ref);
+
+        stateManager.subscribe((data) => {
+            if (data.selectedRoute && data.selectedRoute.ref === this.ref) {
+                this.show();
+            } else {
+                this.hide();
+            }
+        });
     }
 
     async create() {
@@ -56,5 +65,19 @@ export class Route {
                 name: routeData.tags?.name || `Маршрут ${this.ref}`
             }
         };
+    }
+
+    show() {
+        if (!this.map.getLayer(`route-${this.ref}`)) {
+            this.create();
+            return;
+        }
+        this.map.setLayoutProperty(`route-${this.ref}`, 'visibility', 'visible');
+    }
+
+    hide() {
+        if (this.map.getLayer(`route-${this.ref}`)) {
+            this.map.setLayoutProperty(`route-${this.ref}`, 'visibility', 'none');
+        }
     }
 }

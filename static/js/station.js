@@ -15,6 +15,7 @@ export class Station {
                 this.setDefault();
             }
         });
+        
 
     }
 
@@ -51,5 +52,13 @@ export class Station {
     setDefault() {
         this.marker.getElement().style.background = '#fff';
         this.marker.getElement().style.border = '2px solid #C8102E';
+    }
+
+    hide() {
+        this.marker.remove();
+    }
+
+    show() {
+        this.marker.addTo(this.map);
     }
 }

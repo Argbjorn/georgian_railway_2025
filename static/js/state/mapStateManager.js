@@ -1,10 +1,9 @@
-import { Station } from "../station.js";
-
 class MapStateManager {
     constructor() {
         this.state = {
             selectedStation: null,
             railwayNetwork: null,
+            selectedRoute: null
         };
 
         this.listeners = [];
@@ -61,12 +60,32 @@ class MapStateManager {
         this.emit(this.state);
     }
 
+    selectRoute(route) {
+        this.state = {
+            ...this.state,
+            selectedRoute: route
+        }
+        this.emit(this.state);
+    }
+
+    clearSelectedRoute() {
+        this.state = {
+            ...this.state,
+            selectedRoute: null
+        }
+        this.emit(this.state);
+    }
+
     get selectedStation() {
         return this.state.selectedStation;
     }
 
     get railwayNetwork() {
         return this.state.railwayNetwork;
+    }
+
+    get selectedRoute() {
+        return this.state.selectedRoute;
     }
 }
 
