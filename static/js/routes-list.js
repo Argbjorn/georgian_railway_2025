@@ -1,4 +1,4 @@
-export const routesList = [
+export const routes = [
    {
       "id": 19197563,
       "ref": 201,

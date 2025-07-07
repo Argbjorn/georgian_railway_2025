@@ -1,9 +1,8 @@
 import stateManager from "./state/mapStateManager.js"
 
 export class Station {
-    constructor(map, lat, lng) {
-        this.lat = lat;
-        this.lng = lng;
+    constructor(map, stationData) {
+        Object.assign(this, { ...stationData })
         this.map = map;
         this.marker = null;
         
@@ -26,12 +25,12 @@ export class Station {
         markerEl.style.height = '18px';
         markerEl.style.borderRadius = '50%';
         markerEl.style.border = '2px solid #C8102E';
-        markerEl.style.background = this.isActive ? '#C8102E' : '#fff';
+        markerEl.style.background = '#fff';
         markerEl.style.boxSizing = 'border-box';
         markerEl.style.cursor = 'pointer';
 
         this.marker = new maplibregl.Marker({ element: markerEl })
-            .setLngLat([this.lng, this.lat]);
+            .setLngLat([this.coords[1], this.coords[0]]);
     }
 
     create() {
