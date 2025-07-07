@@ -1,4 +1,4 @@
-import { Station } from "./Station.js"
+import { Station } from "./station.js"
 import { stations } from "./stations-list.js"
 
 export class StationsGroup {

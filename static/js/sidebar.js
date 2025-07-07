@@ -102,7 +102,6 @@ function showTestRoute() {
 // Sidebar functions
 function showSidebar(stationName) {
     if (!sidebar) {
-        console.log("Creating new sidebar");
         createSidebar();
     }
     
@@ -141,14 +140,12 @@ export { showSidebar, closeSidebar, toggleSidebar };
 
 stateManager.subscribe(state => {
     if (state.selectedStation) {
-        console.log("Sidebar received station selection");
         showSidebar(state.selectedStation);
     }
 })
 
 stateManager.subscribe(state => {
     if (!state.selectedStation) {
-        console.log("Sidebar received empty station selection");
         closeSidebar();
     }
 })

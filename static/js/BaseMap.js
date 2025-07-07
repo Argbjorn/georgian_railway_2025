@@ -1,5 +1,6 @@
 import { RailwayNetwork } from "./RailwayNetwork.js"
 import { StationsGroup } from "./StationsGroup.js"
+import stateManager from "./state/mapStateManager.js"
 
 class BaseMap {
     constructor(container) {
@@ -17,6 +18,15 @@ class BaseMap {
         this.map.addControl(new maplibregl.NavigationControl(), 'top-right');
         this.map.on('load', () => {
             this.onMapLoad();
+        })
+        this.map.on('click', (e) => {
+            // Проверяем только наши кастомные слои
+            const features = this.map.queryRenderedFeatures(e.point, {
+                layers: ['railwayNetwork']
+            });
+            if (features.length === 0) {
+                stateManager.clearSelectedStation();
+            }
         })
     }
 

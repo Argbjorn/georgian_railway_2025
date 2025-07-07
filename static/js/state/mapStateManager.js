@@ -1,4 +1,4 @@
-import { Station } from "../Station.js";
+import { Station } from "../station.js";
 
 class MapStateManager {
     constructor() {
@@ -37,7 +37,7 @@ class MapStateManager {
         try {
             this.state = {
                 ...this.state,
-                selectedStation: this._validateStation(station)
+                selectedStation: station
             }
             this.emit(this.state);
         } catch (error) {
@@ -59,13 +59,6 @@ class MapStateManager {
             railwayNetwork: 'shadowed'
         }
         this.emit(this.state);
-    }
-
-    _validateStation(station) {
-        if (!station || typeof station !== "object" || !(station instanceof Station)) {
-            throw new Error("Incorrect station object");
-        }
-        return station;
     }
 
     get selectedStation() {
