@@ -1,7 +1,10 @@
+import { Station } from "../Station.js";
+
 class MapStateManager {
     constructor() {
         this.state = {
-            selectedStation: null
+            selectedStation: null,
+            railwayNetwork: null,
         };
 
         this.listeners = [];
@@ -9,13 +12,16 @@ class MapStateManager {
 
     subscribe(callback) {
         this.listeners.push(callback);
-    }
-
-    unsubscribe() {
-        
+        return () => {
+            const index = this.listeners.indexOf(callback);
+            if (index !== -1) {
+                this.listeners.splice(index, 1);
+            }
+        }
     }
 
     emit(data) {
+        console.log(data);
         this.listeners.forEach(callback => callback(data));
     }
 
@@ -39,15 +45,35 @@ class MapStateManager {
         }
     }
 
+    showBrightRailwayNetwork() {
+        this.state = {
+            ...this.state,
+            railwayNetwork: 'bright'
+        }
+        this.emit(this.state);
+    }
+    
+    showShadowedRailwayNetwork() {
+        this.state = {
+            ...this.state,
+            railwayNetwork: 'shadowed'
+        }
+        this.emit(this.state);
+    }
+
     _validateStation(station) {
-        if (typeof station != "string" || station.length == 0) {
-            throw new Error("Incorrect station code");
+        if (!station || typeof station !== "object" || !(station instanceof Station)) {
+            throw new Error("Incorrect station object");
         }
         return station;
     }
 
     get selectedStation() {
         return this.state.selectedStation;
+    }
+
+    get railwayNetwork() {
+        return this.state.railwayNetwork;
     }
 }
 

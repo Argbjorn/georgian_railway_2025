@@ -101,15 +101,10 @@ function showTestRoute() {
 
 // Sidebar functions
 function showSidebar(stationName) {
-    console.log("showSidebar function called with:", stationName);
-    
     if (!sidebar) {
         console.log("Creating new sidebar");
         createSidebar();
     }
-    
-    console.log("Sidebar element:", sidebar);
-    console.log("Adding 'active' class");
     
     updateSidebarSize();
     
@@ -118,8 +113,6 @@ function showSidebar(stationName) {
     
     sidebar.classList.add('active');
     sidebar.classList.remove('collapsed-auto');
-    
-    console.log("Sidebar classes:", sidebar.className);
 }
 
 function closeSidebar() {
@@ -150,5 +143,12 @@ stateManager.subscribe(state => {
     if (state.selectedStation) {
         console.log("Sidebar received station selection");
         showSidebar(state.selectedStation);
+    }
+})
+
+stateManager.subscribe(state => {
+    if (!state.selectedStation) {
+        console.log("Sidebar received empty station selection");
+        closeSidebar();
     }
 })
