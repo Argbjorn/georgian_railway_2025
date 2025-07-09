@@ -6,6 +6,9 @@ export class Route {
         this.ref = parseInt(ref);
         this.map = map;
         this.routeData = routes.find(route => route.ref === this.ref);
+        this.layer = null;
+
+        this.create();
 
         stateManager.subscribe((data) => {
             if (data.selectedRoute && data.selectedRoute.ref === this.ref) {
@@ -20,13 +23,13 @@ export class Route {
         try {
             // Загружаем геоданные маршрута из файла
             const response = await fetch(`/data/routes_geodata/${this.routeData.id}.json`);
-            const routeData = await response.json();
+            const routeGeoJSONData = await response.json();
             
             // Создаем GeoJSON из данных маршрута
-            const geojson = this.createGeoJSON(routeData);
+            const geojson = this.createGeoJSON(routeGeoJSONData);
             
             // Добавляем слой маршрута на карту
-            this.map.addLayer({
+            this.layer = this.map.addLayer({
                 id: `route-${this.ref}`,
                 type: 'line',
                 source: {
@@ -43,32 +46,29 @@ export class Route {
         }
     }
 
-    createGeoJSON(routeData) {
-        const coordinates = [];
-        
-        // Извлекаем координаты из ways (путей)
-        routeData.members.forEach(member => {
-            if (member.type === 'way' && member.geometry) {
-                member.geometry.forEach(point => {
-                    coordinates.push([point.lon, point.lat]);
-                });
+    createGeoJSON(routeGeoJSONData) {
+        const lines = [];
+        const wayMembers = routeGeoJSONData.members.filter(member => member.type === 'way');
+        wayMembers.forEach(way => {
+            if (way.geometry && way.geometry.length > 0) {
+                lines.push(way.geometry.map(point => [point.lon, point.lat]));
             }
         });
 
         return {
             type: 'Feature',
             geometry: {
-                type: 'LineString',
-                coordinates: coordinates
+                type: 'MultiLineString',
+                coordinates: lines
             },
             properties: {
-                name: routeData.tags?.name || `Маршрут ${this.ref}`
+                name: routeGeoJSONData.tags?.name || `Маршрут ${this.ref}`
             }
         };
     }
 
     show() {
-        if (!this.map.getLayer(`route-${this.ref}`)) {
+        if (!this.layer) {
             this.create();
             return;
         }
@@ -76,7 +76,7 @@ export class Route {
     }
 
     hide() {
-        if (this.map.getLayer(`route-${this.ref}`)) {
+        if (this.layer) {
             this.map.setLayoutProperty(`route-${this.ref}`, 'visibility', 'none');
         }
     }

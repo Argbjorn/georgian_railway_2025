@@ -3,7 +3,8 @@ class MapStateManager {
         this.state = {
             selectedStation: null,
             railwayNetwork: null,
-            selectedRoute: null
+            selectedRoute: null,
+            selectedRouteStations: null
         };
 
         this.listeners = [];

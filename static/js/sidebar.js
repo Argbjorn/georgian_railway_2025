@@ -81,12 +81,13 @@ class Sidebar {
     
     updateSidebarContent(station) {
         const sidebarContent = new SidebarContent(station);
+        this.sidebar.querySelector('.sidebar-body').innerHTML = '';
         this.sidebar.querySelector('.sidebar-body').appendChild(sidebarContent.getContent());
         this.sidebar.querySelectorAll(".route-line").forEach((element) => {
             const routeLink = element.querySelector(".route-link");
             routeLink.addEventListener("click", () => {
-                stateManager.selectRoute(routeLink.getAttribute("data-route-ref"));
                 const route = new Route(this.map, routeLink.getAttribute("data-route-ref"));
+                stateManager.selectRoute(route);
                 route.show();
             });
         });
