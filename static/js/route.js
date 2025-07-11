@@ -8,8 +8,6 @@ export class Route {
         this.routeData = routes.find(route => route.ref === this.ref);
         this.layer = null;
 
-        this.create();
-
         stateManager.subscribe((data) => {
             if (data.selectedRoute && data.selectedRoute.ref === this.ref) {
                 this.show();
@@ -19,14 +17,14 @@ export class Route {
         });
     }
 
-    async create() {
+    async createLayer() {
         try {
             // Загружаем геоданные маршрута из файла
             const response = await fetch(`/data/routes_geodata/${this.routeData.id}.json`);
             const routeGeoJSONData = await response.json();
             
             // Создаем GeoJSON из данных маршрута
-            const geojson = this.createGeoJSON(routeGeoJSONData);
+            const geojson = this._createGeoJSON(routeGeoJSONData);
             
             // Добавляем слой маршрута на карту
             this.layer = this.map.addLayer({
@@ -38,7 +36,10 @@ export class Route {
                 },
                 paint: {
                     'line-color': '#ff0000',
-                    'line-width': 3
+                    'line-width': 3,
+                },
+                layout: {
+                    'visibility': 'none'
                 }
             });
         } catch (error) {
@@ -46,7 +47,7 @@ export class Route {
         }
     }
 
-    createGeoJSON(routeGeoJSONData) {
+    _createGeoJSON(routeGeoJSONData) {
         const lines = [];
         const wayMembers = routeGeoJSONData.members.filter(member => member.type === 'way');
         wayMembers.forEach(way => {
@@ -68,11 +69,9 @@ export class Route {
     }
 
     show() {
-        if (!this.layer) {
-            this.create();
-            return;
+        if (this.layer) {
+            this.map.setLayoutProperty(`route-${this.ref}`, 'visibility', 'visible');
         }
-        this.map.setLayoutProperty(`route-${this.ref}`, 'visibility', 'visible');
     }
 
     hide() {

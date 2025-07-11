@@ -1,10 +1,11 @@
 class MapStateManager {
     constructor() {
         this.state = {
-            selectedStation: null,
             railwayNetwork: null,
+            selectedStation: null,
             selectedRoute: null,
-            selectedRouteStations: null
+            selectedRouteStations: null,
+            createdRoutes: []
         };
 
         this.listeners = [];
@@ -77,6 +78,14 @@ class MapStateManager {
         this.emit(this.state);
     }
 
+    createRoute(route) {
+        this.state = {
+            ...this.state,
+            createdRoutes: [...this.state.createdRoutes, route]
+        }
+        this.emit(this.state);
+    }
+
     get selectedStation() {
         return this.state.selectedStation;
     }
@@ -87,6 +96,10 @@ class MapStateManager {
 
     get selectedRoute() {
         return this.state.selectedRoute;
+    }
+
+    get createdRoutes() {
+        return this.state.createdRoutes;
     }
 }
 

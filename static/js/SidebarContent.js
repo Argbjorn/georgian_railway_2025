@@ -15,8 +15,8 @@ export class SidebarContent {
         const viaRoutesHTML = this.station.routes.via.map((route) => {
             return `
                 <div class="route-line">
-                    <div class="route-link" data-route-ref="${route.ref}">
-                        <p>${route.name_en}</p>
+                    <div class="route-link">
+                        <p data-route-ref="${route.ref}" class="route-name">${route.name_en}</p>
                     </div>
                 </div>
             `

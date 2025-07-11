@@ -8,6 +8,7 @@ class Sidebar {
         this.container = container;
         this.sidebar = null;
     }
+
     create() {
         this.sidebar = document.createElement('div');
         this.sidebar.id = 'sidebar';
@@ -31,9 +32,24 @@ class Sidebar {
         // Add event listeners
         const tail = this.sidebar.querySelector('.sidebar-tail');
         const closeBtn = this.sidebar.querySelector('.sidebar-close');
+        const sidebarBody = this.sidebar.querySelector('.sidebar-body');
         
         tail.addEventListener('click', () => this.toggleSidebar());
         closeBtn.addEventListener('click', () => this.closeSidebar());
+        sidebarBody.addEventListener('click', async (e) => {
+            const routeRef = e.target.getAttribute('data-route-ref');
+            if (e.target.classList.contains('route-name')) {
+                if (stateManager.createdRoutes.find(route => route.ref === parseInt(routeRef))) {
+                    stateManager.selectRoute(stateManager.createdRoutes.find(route => route.ref === parseInt(routeRef)));
+                    return;
+                }
+                const route = new Route(this.map, routeRef);
+                stateManager.createRoute(route);
+                stateManager.selectRoute(route);
+                await route.createLayer();
+                route.show();
+            }
+        });
 
         stateManager.subscribe(state => {
             if (state.selectedStation) {
@@ -80,17 +96,9 @@ class Sidebar {
     }
     
     updateSidebarContent(station) {
-        const sidebarContent = new SidebarContent(station);
+        const sidebarContent = new SidebarContent(station).getContent();
         this.sidebar.querySelector('.sidebar-body').innerHTML = '';
-        this.sidebar.querySelector('.sidebar-body').appendChild(sidebarContent.getContent());
-        this.sidebar.querySelectorAll(".route-line").forEach((element) => {
-            const routeLink = element.querySelector(".route-link");
-            routeLink.addEventListener("click", () => {
-                const route = new Route(this.map, routeLink.getAttribute("data-route-ref"));
-                stateManager.selectRoute(route);
-                route.show();
-            });
-        });
+        this.sidebar.querySelector('.sidebar-body').appendChild(sidebarContent);
     }
     
     closeSidebar() {
