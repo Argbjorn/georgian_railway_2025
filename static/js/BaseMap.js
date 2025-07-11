@@ -35,7 +35,7 @@ class BaseMap {
 
     onMapLoad() {
         this.railwayNetwork.create();
-        this.stationsGroup.create();
+        this.stationsGroup.show();
         this.sidebar.create();
     }
 }

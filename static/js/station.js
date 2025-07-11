@@ -15,33 +15,22 @@ export class Station {
                 this.setDefault();
             }
         });
-        
-
     }
 
     createMarker() {
         const markerEl = document.createElement('div');
         markerEl.className = 'station-marker';
-        markerEl.style.width = '18px';
-        markerEl.style.height = '18px';
-        markerEl.style.borderRadius = '50%';
-        markerEl.style.border = '2px solid #C8102E';
-        markerEl.style.background = '#fff';
-        markerEl.style.boxSizing = 'border-box';
-        markerEl.style.cursor = 'pointer';
+
 
         this.marker = new maplibregl.Marker({ element: markerEl })
             .setLngLat([this.coords[1], this.coords[0]]);
-    }
 
-    create() {
-        this.marker.addTo(this.map);
-
-        const markerElement = this.marker.getElement();
-        markerElement.addEventListener('click', (e) => {
+        markerEl.addEventListener('click', (e) => {
             e.stopPropagation();
             stateManager.selectStation(this);
         });
+
+        this.marker.addTo(this.map);
     }
 
     setActive() {
@@ -55,10 +44,10 @@ export class Station {
     }
 
     hide() {
-        this.marker.remove();
+        this.marker.addClassName('hidden');
     }
 
     show() {
-        this.marker.addTo(this.map);
+        this.marker.removeClassName('hidden');
     }
 }

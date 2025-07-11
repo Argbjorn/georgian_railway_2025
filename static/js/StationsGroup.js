@@ -9,15 +9,11 @@ export class StationsGroup {
 
         stateManager.subscribe((data) => {
             if (data.selectedRoute) {
-                this.hide();
+                this.showOnlyRouteStations(data.selectedRoute.routeData);
             } else {
                 this.show();
             }
         });
-    }
-
-    create() {
-        this.stations.forEach(station => station.create());
     }
 
     show() {
@@ -26,5 +22,16 @@ export class StationsGroup {
 
     hide() {
         this.stations.forEach(station => station.hide());
+    }
+
+    showOnlyRouteStations(route) {
+        const routeStations = route.stations.map(station => station.code);
+        this.stations.forEach(station => {
+            if (routeStations.includes(station.code)) {
+                station.show();
+            } else {
+                station.hide();
+            }
+        });
     }
 }
