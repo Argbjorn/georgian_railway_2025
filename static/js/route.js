@@ -19,14 +19,14 @@ export class Route {
 
     async createLayer() {
         try {
-            // Загружаем геоданные маршрута из файла
+            // Load route geodata from file
             const response = await fetch(`/data/routes_geodata/${this.routeData.id}.json`);
             const routeGeoJSONData = await response.json();
             
-            // Создаем GeoJSON из данных маршрута
-            const geojson = this._createGeoJSON(routeGeoJSONData);
+            // Create GeoJSON from route data
+            const geojson = this.createGeoJSON(routeGeoJSONData);
             
-            // Добавляем слой маршрута на карту
+            // Add route layer to map
             this.layer = this.map.addLayer({
                 id: `route-${this.ref}`,
                 type: 'line',
@@ -43,16 +43,17 @@ export class Route {
                 }
             });
         } catch (error) {
-            console.error('Ошибка при загрузке маршрута:', error);
+            console.error('Error loading route:', error);
         }
     }
 
-    _createGeoJSON(routeGeoJSONData) {
+    // Data files are in json format, directly from overpass-turbo, we should convert them to geojson
+    createGeoJSON(routeGeoJSONData) {
         const lines = [];
         const wayMembers = routeGeoJSONData.members.filter(member => member.type === 'way');
         wayMembers.forEach(way => {
             if (way.geometry && way.geometry.length > 0) {
-                lines.push(way.geometry.map(point => [point.lon, point.lat]));
+                lines.push(way.geometry.map(point => [point.lon, point.lat])); // Original data is in format [lat, lon]
             }
         });
 

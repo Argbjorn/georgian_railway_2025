@@ -21,8 +21,9 @@ class BaseMap {
         this.map.on('load', () => {
             this.onMapLoad();
         })
+        // Click on an empty space on a map clears selected station and route
         this.map.on('click', (e) => {
-            // Проверяем только наши кастомные слои
+            // Check only custom layers
             const features = this.map.queryRenderedFeatures(e.point, {
                 layers: ['railwayNetwork']
             });
@@ -34,9 +35,9 @@ class BaseMap {
     }
 
     onMapLoad() {
-        this.railwayNetwork.create();
+        this.railwayNetwork.show();
         this.stationsGroup.show();
-        this.sidebar.create();
+        this.sidebar.show();
     }
 }
 

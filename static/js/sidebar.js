@@ -9,7 +9,7 @@ class Sidebar {
         this.sidebar = null;
     }
 
-    create() {
+    show() {
         this.sidebar = document.createElement('div');
         this.sidebar.id = 'sidebar';
         this.sidebar.className = 'sidebar';

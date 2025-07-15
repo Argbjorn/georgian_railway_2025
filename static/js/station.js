@@ -20,16 +20,12 @@ export class Station {
     createMarker() {
         const markerEl = document.createElement('div');
         markerEl.className = 'station-marker';
-
-
         this.marker = new maplibregl.Marker({ element: markerEl })
             .setLngLat([this.coords[1], this.coords[0]]);
-
         markerEl.addEventListener('click', (e) => {
             e.stopPropagation();
             stateManager.selectStation(this);
         });
-
         this.marker.addTo(this.map);
     }
 

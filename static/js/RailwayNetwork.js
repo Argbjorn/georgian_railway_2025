@@ -13,7 +13,7 @@ export class RailwayNetwork {
         }
     }
 
-    create() {
+    show() {
         if (this.map.getSource('railwayNetwork')) {
             return
         }
