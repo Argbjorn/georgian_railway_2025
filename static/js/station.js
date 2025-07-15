@@ -27,6 +27,22 @@ export class Station {
             stateManager.selectStation(this);
         });
         this.marker.addTo(this.map);
+        const popup = new maplibregl.Popup({
+            offset: 10,
+            closeButton: false,
+            closeOnClick: false,
+            closeOnEscape: false,
+        })
+        .setLngLat([this.coords[1], this.coords[0]])
+        .setHTML(`<div>${this.name_en}</div>`)
+        this.marker.setPopup(popup);
+
+        markerEl.addEventListener('mouseenter', () => {
+            popup.addTo(this.map);
+        });
+        markerEl.addEventListener('mouseleave', () => {
+            popup.remove();
+        });
     }
 
     setActive() {
