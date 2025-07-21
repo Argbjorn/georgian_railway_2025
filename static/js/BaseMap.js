@@ -1,6 +1,7 @@
 import { RailwayNetwork } from "./RailwayNetwork.js"
 import { StationsGroup } from "./StationsGroup.js"
 import { Sidebar } from "./sidebar.js"
+import RouteModal from "./RouteModal.js"
 import stateManager from "./state/mapStateManager.js"
 
 class BaseMap {
@@ -14,6 +15,7 @@ class BaseMap {
         this.railwayNetwork = new RailwayNetwork(this.map)
         this.stationsGroup = new StationsGroup(this.map)
         this.sidebar = new Sidebar(this.map, container)
+        this.routeModal = new RouteModal()
     }
 
     initialize() {
@@ -38,6 +40,7 @@ class BaseMap {
         this.railwayNetwork.show();
         this.stationsGroup.show();
         this.sidebar.show();
+        this.routeModal.show();
     }
 }
 

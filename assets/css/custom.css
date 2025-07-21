@@ -706,3 +706,140 @@ body, html {
     padding-bottom: 5px !important;
     padding-top: 5px !important;
 }
+
+.route-modal {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 85vh;
+  transform: translate(-50%, -50%);
+  z-index: 5000;
+  min-width: 320px;
+  max-width: 340px;
+  width: 90vw;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+  font-size: 0.98em;
+}
+.route-modal.active {
+  display: block;
+}
+.route-modal-content {
+  background: rgba(24, 24, 24, 0.92);
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 18px 18px 12px 18px;
+  position: relative;
+}
+.route-modal-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin: 0 0 12px 0;
+  text-align: center;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+.route-modal-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.3em;
+  cursor: pointer;
+  opacity: 0.8;
+  z-index: 2;
+}
+.route-modal-close-btn:hover {
+  color: #ddd;
+  opacity: 1;
+}
+.route-modal-stations {
+  position: relative;
+  margin: 0 0 10px 7px;
+  padding: 0;
+  list-style: none;
+}
+.route-modal-station-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  position: relative;
+}
+.route-modal-station-row:not(:last-child) .route-modal-station-point::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  width: 3px;
+  height: 22px;
+  background: #199900;
+  z-index: 0;
+}
+.route-modal-station-point {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #199900;
+  background: #fff;
+  margin-right: 10px;
+  position: relative;
+  z-index: 1;
+}
+.route-modal-station-point.terminal {
+  background: #199900;
+  border-color: #199900;
+}
+.route-modal-station-time,
+.route-modal-station-name {
+  color: #fff;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.32);
+}
+.route-modal-station-time {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  font-weight: 500;
+  margin-right: 8px;
+  min-width: 44px;
+  text-align: right;
+}
+.route-modal-station-name {
+  font-size: 1em;
+  font-weight: 400;
+  flex: 1;
+  min-width: 0;
+  word-break: break-word;
+  /* text-decoration: underline dotted #199900; */
+}
+.route-modal-details-link {
+  display: inline-block;
+  color: #4ec3ff;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.32);
+  font-weight: 600;
+  font-size: 0.98em;
+  margin: 10px 0 0 0;
+  cursor: pointer;
+}
+.route-modal-details-link:hover {
+  color: #fff;
+}
+@media (max-width: 480px) {
+  .route-modal {
+    min-width: 0;
+    width: 96vw;
+    max-width: 98vw;
+    left: 50%;
+    bottom: 10vh;
+    transform: translateX(-50%, 0);
+  }
+  .route-modal-content {
+    padding: 10px 4vw 8px 4vw;
+  }
+  .route-modal-title {
+    font-size: 1em;
+  }
+}
