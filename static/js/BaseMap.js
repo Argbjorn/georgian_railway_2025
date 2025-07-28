@@ -40,7 +40,6 @@ class BaseMap {
         this.railwayNetwork.show();
         this.stationsGroup.show();
         this.sidebar.show();
-        this.routeModal.show();
     }
 }
 
