@@ -1,7 +1,7 @@
 class MapStateManager {
     constructor() {
         this.state = {
-            railwayNetwork: null,
+            railwayNetwork: 'bright',
             selectedStation: null,
             selectedRoute: null,
             selectedRouteStations: null,
@@ -44,22 +44,6 @@ class MapStateManager {
         } catch (error) {
             console.log(error);
         }
-    }
-
-    showBrightRailwayNetwork() {
-        this.state = {
-            ...this.state,
-            railwayNetwork: 'bright'
-        }
-        this.emit(this.state);
-    }
-    
-    showShadowedRailwayNetwork() {
-        this.state = {
-            ...this.state,
-            railwayNetwork: 'shadowed'
-        }
-        this.emit(this.state);
     }
 
     selectRoute(route) {

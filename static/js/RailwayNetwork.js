@@ -1,4 +1,5 @@
 import { railwayNetworkData } from "./railway-network-data.js"
+import stateManager from "./state/mapStateManager.js"
 
 export class RailwayNetwork {
     constructor(map) {
@@ -11,6 +12,14 @@ export class RailwayNetwork {
             'line-color': '#808080',
             'line-width': 3
         }
+
+        stateManager.subscribe((data) => {
+            if (data.selectedRoute) {
+                this.showShadow();
+            } else {
+                this.showBright();
+            }
+        });
     }
 
     show() {
