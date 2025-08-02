@@ -9,33 +9,23 @@ class Sidebar {
         this.sidebar = null;
     }
 
-    show() {
+    create() {
         this.sidebar = document.createElement('div');
         this.sidebar.id = 'sidebar';
         this.sidebar.className = 'sidebar';
         this.sidebar.innerHTML = `
-            <div class="sidebar-tail">
-                <div class="sidebar-handle"></div>
-            </div>
-            <div class="sidebar-header">
-                <button class="sidebar-close">&times;</button>
-                <h3 class="sidebar-title">Информация о станции</h3>
-            </div>
             <div class="sidebar-content">
                 <div class="sidebar-body">
+                    Hello, world
                 </div>
             </div>
         `;
         document.body.appendChild(this.sidebar);
-        this.updateSidebarSize();
+        this.updateSize();
 
         // Add event listeners
-        const tail = this.sidebar.querySelector('.sidebar-tail');
-        const closeBtn = this.sidebar.querySelector('.sidebar-close');
         const sidebarBody = this.sidebar.querySelector('.sidebar-body');
         
-        tail.addEventListener('click', () => this.toggleSidebar());
-        closeBtn.addEventListener('click', () => this.closeSidebar());
         sidebarBody.addEventListener('click', async (e) => {
             const routeRef = e.target.getAttribute('data-route-ref');
             if (e.target.classList.contains('route-name')) {
@@ -53,19 +43,13 @@ class Sidebar {
 
         stateManager.subscribe(state => {
             if (state.selectedStation) {
-                this.showSidebar(state.selectedStation);
-            }
-        })
-        
-        stateManager.subscribe(state => {
-            if (!state.selectedStation) {
-                this.closeSidebar();
+                this.show(state.selectedStation);
             }
         })
     }
     
     // Update sidebar size based on map container
-    updateSidebarSize() {
+    updateSize() {
         if (!this.sidebar) return;
         
         const mapContainer = document.getElementById('map');
@@ -73,44 +57,39 @@ class Sidebar {
         
         this.sidebar.style.top = mapRect.top + 'px';
         this.sidebar.style.height = mapRect.height + 'px';
-        
-        // Update tail position for mobile
-        const tail = this.sidebar.querySelector('.sidebar-tail');
-        if (tail) {
-            tail.style.top = (mapRect.top + mapRect.height / 2) + 'px';
-        }
     }
     
-    // Sidebar functions
-    showSidebar(station) {
+    // Show sidebar
+    show(station) {
         if (!this.sidebar) {
-            this.createSidebar();
+            this.create();
         }
         
-        this.updateSidebarSize();
-        
-        this.updateSidebarContent(station);
-        
+        this.updateSize();
         this.sidebar.classList.add('active');
         this.sidebar.classList.remove('collapsed-auto');
+
+        if (station) {
+            this.updateContent(station);
+        }
     }
     
-    updateSidebarContent(station) {
+    // Update sidebar content
+    updateContent(station) {
+        if (!station) {
+            this.sidebar.querySelector('.sidebar-body').innerHTML = 'Hello, world';
+            return;
+        }
+        
         const sidebarContent = new SidebarContent(station).getContent();
         this.sidebar.querySelector('.sidebar-body').innerHTML = '';
         this.sidebar.querySelector('.sidebar-body').appendChild(sidebarContent);
     }
     
-    closeSidebar() {
+    // Close sidebar
+    close() {
         if (this.sidebar) {
             this.sidebar.classList.remove('active', 'collapsed-auto');
-        }
-    }
-    
-    toggleSidebar() {
-        if (this.sidebar && this.sidebar.classList.contains('collapsed-auto')) {
-            this.sidebar.classList.remove('collapsed-auto');
-            this.sidebar.classList.add('active');
         }
     }
 }
