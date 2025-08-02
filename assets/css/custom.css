@@ -688,7 +688,9 @@ body, html {
 }
 
 .station-marker {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     width: 18px;
     height: 18px;
@@ -698,8 +700,35 @@ body, html {
     box-sizing: border-box;
 }
 
+.station-marker.station-marker-with-icon {
+    width: 22px;
+    height: 22px;
+}
+
 .station-marker.hidden {
     display: none;
+}
+
+.station-marker.active {
+    background: #C8102E;
+    border: 2px solid #fff;
+}
+
+.station-icon {
+    width: 14px;
+    height: 14px;
+    color: #C8102E;
+    fill: #C8102E;
+}
+
+.station-icon.active {
+    color: #fff;
+    fill: #fff;
+}
+
+.station-marker.active .station-icon {
+    color: #fff;
+    fill: #fff;
 }
 
 .maplibregl-popup-content {
