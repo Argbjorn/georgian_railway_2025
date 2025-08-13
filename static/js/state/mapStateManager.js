@@ -1,7 +1,7 @@
 class MapStateManager {
     constructor() {
         this.state = {
-            railwayNetwork: 'bright',
+            deviceType: null,
             selectedStation: null,
             selectedRoute: null,
             selectedRouteStations: null,
@@ -70,6 +70,14 @@ class MapStateManager {
         this.emit(this.state);
     }
 
+    setDeviceType(deviceType) {
+        this.state = {
+            ...this.state,
+            deviceType: deviceType
+        }
+        this.emit(this.state);
+    }
+
     get selectedStation() {
         return this.state.selectedStation;
     }
@@ -85,6 +93,11 @@ class MapStateManager {
     get createdRoutes() {
         return this.state.createdRoutes;
     }
+
+    get deviceType() {
+        return this.state.deviceType;
+    }
+
 }
 
 const stateManager = new MapStateManager();
