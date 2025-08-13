@@ -8,7 +8,7 @@ export class SidebarContent {
         this.content.innerHTML = `
             <div class="sidebar-content">
                 <div class="sidebar-body">
-                    <p>${this.station.name_en}</p>
+                    <p></p>
                 </div>
             </div>
         `;
