@@ -10,86 +10,98 @@ class Sidebar {
 
         stateManager.subscribe(state => {
             if (state.deviceType === 'mobile') {
-                if (state.selectedStation) {
-                    this.show(state.selectedStation);
-                    if (state.selectedRoute) {
-                        this.minimize();
-                    } else {
-                        this.maximize();
-                    }
+                if (state.selectedRoute) {
+                    this.show();
+                    this.minimize();
+                    this.updateContent();
+                } else if (state.selectedStation) {
+                    this.show();
+                    this.maximize();
+                    this.updateContent();
                 } else {
                     this.close();
                 }
             }
+
             if (state.deviceType === 'desktop') {
-                if (state.selectedStation) {
-                    this.show(state.selectedStation);
+                if (state.selectedRoute || state.selectedStation) {
+                    this.show();
+                    this.updateContent();
                 } else {
                     this.close();
                 }
             }
-            // Обновляем видимость крестика при изменении типа устройства
+            // Update close button visibility
             if (state.deviceType && this.sidebar) {
-                this.updateCloseButtonVisibility(state.deviceType);
+                this.updateCloseButtonVisibility();
             }
-        })
+        });
     }
 
-    create() {
-        console.log('start creating a sidebar');
-        this.sidebar = document.createElement('div');
-        this.sidebar.id = 'sidebar';
-        this.sidebar.className = 'sidebar';
-        this.sidebar.innerHTML = `
-            <div class="sidebar-header">
-                <h3 class="sidebar-title"></h3>
-                <button class="sidebar-close" id="sidebar-close-btn">×</button>
-            </div>
-            <div class="sidebar-content">
-                <div class="sidebar-body">
-                    <p></p>
-                </div>
-            </div>
-        `;
-        document.body.appendChild(this.sidebar);
+    // Show sidebar
+    show() {
+        if (!this.sidebar) {
+            this.create();
+        }
+        this.sidebar.classList.add('active');
+        this.sidebar.classList.remove('collapsed-auto');
         this.updateSize();
+    }
 
-        // Обновляем видимость крестика в зависимости от типа устройства
-        this.updateCloseButtonVisibility(stateManager.deviceType);
+    // Close sidebar
+    close() {
+        if (this.sidebar) {
+            this.sidebar.classList.remove('active', 'collapsed-auto');
+        }
+    }
 
-        // Add event listeners
-        const sidebarBody = this.sidebar.querySelector('.sidebar-body');
-        const closeButton = this.sidebar.querySelector('#sidebar-close-btn');
-        
-        // Обработчик для закрытия сайдбара
-        closeButton.addEventListener('click', () => {
-            this.close();
-            stateManager.clearSelectedStation();
-        });
-        
-        sidebarBody.addEventListener('click', async (e) => {
-            const routeRef = e.target.getAttribute('data-route-ref');
-            if (e.target.classList.contains('route-name')) {
-                if (stateManager.createdRoutes.find(route => route.ref === parseInt(routeRef))) {
-                    stateManager.selectRoute(stateManager.createdRoutes.find(route => route.ref === parseInt(routeRef)));
-                    return;
-                }
-                const route = new Route(this.map, routeRef);
-                stateManager.createRoute(route);
-                stateManager.selectRoute(route);
-                await route.createLayer();
-                route.show();
-            }
-        });
+    // Minimize sidebar (but not close)
+    minimize() {
+        if (!this.sidebar) {
+            this.create();
+        }
+        this.sidebar.classList.add('minimized');
+    }
+
+    // Maximize sidebar (return to normal size)
+    maximize() {
+        if (!this.sidebar) {
+            this.create();
+        }
+        this.sidebar.classList.remove('minimized');
+    }
+
+    // Update sidebar content
+    updateContent() {
+        if (!this.sidebar) return;
+        let sidebarContent = '';
+        if (stateManager.selectedRoute) {
+            sidebarContent = new SidebarContent(stateManager.selectedRoute, 'route');
+        } else if (stateManager.selectedStation) {
+            sidebarContent = new SidebarContent(stateManager.selectedStation, 'station');
+        }
+        this.sidebar.querySelector('.sidebar-title').innerHTML = sidebarContent.getTitle();
+        this.sidebar.querySelector('.sidebar-body').innerHTML = '';
+        this.sidebar.querySelector('.sidebar-body').appendChild(sidebarContent.getBody());
+    }
+
+    // Create sidebar
+    create() {
+        this.createDOM();
+        this.updateSize();
+        this.setupEvents();
+
+        // Update close button visibility based on device type
+        this.updateCloseButtonVisibility();
     }
     
     // Обновляем видимость крестика закрытия в зависимости от типа устройства
-    updateCloseButtonVisibility(deviceType) {
+    updateCloseButtonVisibility() {
         if (!this.sidebar) return;
         
         const closeButton = this.sidebar.querySelector('#sidebar-close-btn');
         if (closeButton) {
-            if (deviceType === 'mobile') {
+            if (stateManager.deviceType === 'mobile') {
                 closeButton.style.display = 'flex';
             } else {
                 closeButton.style.display = 'none';
@@ -118,61 +130,53 @@ class Sidebar {
         //     this.sidebar.style.left = 'auto';
         //     this.sidebar.style.width = '';
         // }
+    }  
+
+    // Returns template for sidebar content
+    getTemplate() {
+        return `
+            <div class="sidebar-header">
+                <h3 class="sidebar-title"></h3>
+                <button class="sidebar-close" id="sidebar-close-btn">x</button>
+            </div>
+            <div class="sidebar-body"></div>
+        `;
     }
-    
-    // Show sidebar
-    show(station) {
-        if (!this.sidebar) {
-            this.create();
-        }
+
+    createDOM() {
+        this.sidebar = document.createElement('div');
+        this.sidebar.id = 'sidebar';
+        this.sidebar.className = 'sidebar';
+        this.sidebar.innerHTML = this.getTemplate();
+        document.body.appendChild(this.sidebar);
+    }
+
+    // Setup event listeners
+    setupEvents() {
+        const sidebarBody = this.sidebar.querySelector('.sidebar-body');
+        const closeButton = this.sidebar.querySelector('#sidebar-close-btn');
         
-        this.updateSize();
-        this.sidebar.classList.add('active');
-        this.sidebar.classList.remove('collapsed-auto');
-
-        if (station) {
-            this.updateTitle(station.name_en);
-            this.updateContent(station);
-        }
-    }
-    
-    // Update sidebar content
-    updateContent(station) {
-        if (!station) {
-            this.sidebar.querySelector('.sidebar-body').innerHTML = 'Hello, world';
-            return;
-        }
+        // Close sidebar handler
+        closeButton.addEventListener('click', () => {
+            this.close();
+            stateManager.clearSelectedStation();
+        });
         
-        const sidebarContent = new SidebarContent(station).getContent();
-        this.sidebar.querySelector('.sidebar-body').innerHTML = '';
-        this.sidebar.querySelector('.sidebar-body').appendChild(sidebarContent);
-    }
-
-    updateTitle(title) {
-        this.sidebar.querySelector('.sidebar-title').innerHTML = title;
-    }
-    
-    // Close sidebar
-    close() {
-        if (this.sidebar) {
-            this.sidebar.classList.remove('active', 'collapsed-auto');
-        }
-    }
-
-    // Minimize sidebar (but not close)
-    minimize() {
-        if (!this.sidebar) {
-            this.create();
-        }
-        this.sidebar.classList.add('minimized');
-    }
-
-    // Maximize sidebar (return to normal size)
-    maximize() {
-        if (!this.sidebar) {
-            this.create();
-        }
-        this.sidebar.classList.remove('minimized');
+        // Route click handler
+        sidebarBody.addEventListener('click', async (e) => {
+            const routeRef = e.target.getAttribute('data-route-ref');
+            if (e.target.classList.contains('route-name')) {
+                if (stateManager.createdRoutes.find(route => route.ref === parseInt(routeRef))) {
+                    stateManager.selectRoute(stateManager.createdRoutes.find(route => route.ref === parseInt(routeRef)));
+                    return;
+                }
+                const route = new Route(this.map, routeRef);
+                stateManager.createRoute(route);
+                stateManager.selectRoute(route);
+                await route.createLayer();
+                route.show();
+            }
+        });
     }
 }
 
