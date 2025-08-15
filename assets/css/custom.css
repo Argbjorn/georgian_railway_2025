@@ -281,6 +281,25 @@ nav > a, li > a {
     min-width: 0;
 }
 
+/* Стили для групп маршрутов в сайдбаре */
+.route-group {
+    margin-bottom: 20px;
+}
+
+.route-group-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+
+.route-group-content {
+    margin-bottom: 0;
+}
+
 @keyframes sweep {
     0%    {opacity: 0;}
     100%  {opacity: 1;}

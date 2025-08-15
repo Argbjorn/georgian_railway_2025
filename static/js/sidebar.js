@@ -164,17 +164,21 @@ class Sidebar {
         
         // Route click handler
         sidebarBody.addEventListener('click', async (e) => {
-            const routeRef = e.target.getAttribute('data-route-ref');
-            if (e.target.classList.contains('route-name')) {
-                if (stateManager.createdRoutes.find(route => route.ref === parseInt(routeRef))) {
-                    stateManager.selectRoute(stateManager.createdRoutes.find(route => route.ref === parseInt(routeRef)));
-                    return;
+            // Find the route-link element (could be the clicked element or a parent)
+            const routeLink = e.target.closest('.route-link');
+            if (routeLink) {
+                const routeRef = routeLink.getAttribute('data-route-ref');
+                if (routeRef) {
+                    if (stateManager.createdRoutes.find(route => route.ref === parseInt(routeRef))) {
+                        stateManager.selectRoute(stateManager.createdRoutes.find(route => route.ref === parseInt(routeRef)));
+                        return;
+                    }
+                    const route = new Route(this.map, routeRef);
+                    stateManager.createRoute(route);
+                    stateManager.selectRoute(route);
+                    await route.createLayer();
+                    route.show();
                 }
-                const route = new Route(this.map, routeRef);
-                stateManager.createRoute(route);
-                stateManager.selectRoute(route);
-                await route.createLayer();
-                route.show();
             }
         });
     }
