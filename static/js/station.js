@@ -8,6 +8,9 @@ const stationIcons = {
                 </svg>`,
 };
 
+const DESKTOP_BOUNDS_PADDING = 30;
+const MOBILE_BOUNDS_PADDING = 30;
+
 export class Station {
   constructor(map, stationData) {
     Object.assign(this, { ...stationData });
@@ -61,6 +64,8 @@ export class Station {
 
   setActive() {
     this.marker.addClassName("active");
+    // Center the map on the selected station
+    this.fitBounds();
   }
 
   setDefault() {
@@ -73,5 +78,26 @@ export class Station {
 
   show() {
     this.marker.removeClassName("hidden");
+  }
+
+  fitBounds() {
+    this.map.easeTo({
+      center: [this.coords[1], this.coords[0]],
+      padding: this.getBoundsPadding(),
+      duration: 500
+    });
+  }
+  
+  getBoundsPadding() {
+    if (stateManager.deviceType === 'mobile') {
+      return {
+        top: MOBILE_BOUNDS_PADDING,
+        bottom: MOBILE_BOUNDS_PADDING + window.innerHeight * 0.3,
+        left: MOBILE_BOUNDS_PADDING,
+        right: MOBILE_BOUNDS_PADDING
+      };
+    } else {
+      return DESKTOP_BOUNDS_PADDING;
+    }
   }
 }

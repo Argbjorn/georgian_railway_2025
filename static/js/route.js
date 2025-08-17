@@ -1,6 +1,9 @@
 import { routes } from "./routes-list.js";
 import stateManager from "./state/mapStateManager.js";
 
+const DESKTOP_BOUNDS_PADDING = 30;
+const MOBILE_BOUNDS_PADDING = 30;
+
 export class Route {
     constructor(map, ref) {
         this.ref = parseInt(ref);
@@ -79,23 +82,22 @@ export class Route {
     show() {
         if (this.layer) {
             this.map.setLayoutProperty(`route-${this.ref}`, 'visibility', 'visible');
-            if (this.bounds) {
-                this.map.fitBounds(this.bounds, {
-                    padding: {
-                        top: 50,
-                        bottom: 150,
-                        left: 75,
-                        right: 500
-                    },
-                    duration: 500
-                });
-            }
+            this.fitBounds();
         }
     }
 
     hide() {
         if (this.layer) {
             this.map.setLayoutProperty(`route-${this.ref}`, 'visibility', 'none');
+        }
+    }
+
+    fitBounds() {
+        if (this.bounds) {
+            this.map.fitBounds(this.bounds, {
+                padding: stateManager.deviceType === 'mobile' ? MOBILE_BOUNDS_PADDING : DESKTOP_BOUNDS_PADDING,
+                duration: 500
+            });
         }
     }
 }

@@ -22,16 +22,16 @@ class BaseMap {
             this.onMapLoad();
         })
         // Click on an empty space on a map clears selected station and route
-        this.map.on('click', (e) => {
-            // Check only custom layers
-            const features = this.map.queryRenderedFeatures(e.point, {
-                layers: ['railwayNetwork']
-            });
-            if (features.length === 0) {
-                stateManager.clearSelectedStation();
-                stateManager.clearSelectedRoute();
-            }
-        })
+        // this.map.on('click', (e) => {
+        //     // Check only custom layers
+        //     const features = this.map.queryRenderedFeatures(e.point, {
+        //         layers: ['railwayNetwork']
+        //     });
+        //     if (features.length === 0) {
+        //         stateManager.clearSelectedStation();
+        //         stateManager.clearSelectedRoute();
+        //     }
+        // })
     }
 
     onMapLoad() {
