@@ -8,12 +8,23 @@ export class SidebarContent {
         this.currentLanguage = LanguageService.getCurrentLanguage();
     }
 
+    generateRouteDetailsLink() {
+        const baseUrl = '';
+        const routeRef = this.entity.ref;
+        
+        if (this.currentLanguage === 'en') {
+            return `${baseUrl}/routes/${routeRef}/`;
+        } else {
+            return `${baseUrl}/${this.currentLanguage}/routes/${routeRef}/`;
+        }
+    }
+
     getTitle() {
         if (this.type === 'station') {
             return this.entity[`name_${this.currentLanguage}`];
         }
         if (this.type === 'route') {
-            return this.entity[`name_${this.currentLanguage}`];
+            return LanguageService.translate('train') + ' ' + this.entity.ref + ': ' + this.entity.routeData[`name:${this.currentLanguage}`];
         }
     }
 
@@ -52,11 +63,60 @@ export class SidebarContent {
         }
 
         if (this.type === 'route') {
-            this.content.innerHTML = `
-                <div class="sidebar-content">
-                    <div class="sidebar-body">
-                        <p>Route information</p>
-                    </div>
+            this.content.innerHTML = '';
+            
+            // Get start and end stations
+            const startStation = this.entity.routeData.stations.find(station => station.role === 'start');
+            const endStation = this.entity.routeData.stations.find(station => station.role === 'end');
+            
+            // Generate route details link
+            const routeDetailsLink = this.generateRouteDetailsLink();
+            
+            let routeHTML = `
+                <div class="back-to-train-list-container">
+                    <button class="back-to-train-list" data-action="back-to-train-list">
+                        ${LanguageService.translate('back_to_train_list')}
+                    </button>
+                </div>
+            `;
+            
+            // Add timeline with start and end stations
+            if (startStation || endStation) {
+                routeHTML += `<ul class="route-timeline">`;
+                
+                // Add start station
+                if (startStation) {
+                    const startTime = startStation.departure_time !== '-' ? startStation.departure_time : startStation.arrival_time;
+                    const startStationName = startStation[`name_${this.currentLanguage}`] || startStation.name_en;
+                    routeHTML += `
+                        <li class="terminal">
+                            <span class="station-time">${startTime || ''}</span>
+                            <span class="route-station-name">${startStationName}</span>
+                        </li>
+                    `;
+                }
+                
+                // Add end station  
+                if (endStation) {
+                    const endTime = endStation.arrival_time && endStation.arrival_time !== '-' ? endStation.arrival_time : endStation.departure_time;
+                    const endStationName = endStation[`name_${this.currentLanguage}`] || endStation.name_en;
+                    routeHTML += `
+                        <li class="terminal">
+                            <span class="station-time">${endTime || ''}</span>
+                            <span class="route-station-name">${endStationName}</span>
+                        </li>
+                    `;
+                }
+                
+                routeHTML += `</ul>`;
+            }
+            
+            this.content.innerHTML += routeHTML;
+            this.content.innerHTML += `
+                <div class="route-details-link-container">
+                    <a href="${routeDetailsLink}" class="route-details-link" target="_blank">
+                        ${LanguageService.translate('view_route_details')}
+                    </a>
                 </div>
             `;
             return this.content;

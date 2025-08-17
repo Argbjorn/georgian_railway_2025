@@ -164,6 +164,12 @@ class Sidebar {
         
         // Route click handler
         sidebarBody.addEventListener('click', async (e) => {
+            // Handle back to train list button
+            if (e.target.getAttribute('data-action') === 'back-to-train-list') {
+                stateManager.clearSelectedRoute();
+                return;
+            }
+            
             // Find the route-link element (could be the clicked element or a parent)
             const routeLink = e.target.closest('.route-link');
             if (routeLink) {

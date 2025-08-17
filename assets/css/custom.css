@@ -126,6 +126,7 @@ nav > a, li > a {
     color: #333;
     font-weight: 500;
     flex-shrink: 0;
+    margin-top: 4px;
 }
 
 .route-name {
@@ -298,6 +299,79 @@ nav > a, li > a {
 
 .route-group-content {
     margin-bottom: 0;
+}
+
+/* Стили для отображения маршрута в сайдбаре */
+.route-details-link-container {
+    margin-bottom: 16px;
+}
+
+.route-details-link {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.route-details-link:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+.route-station-line {
+    margin-bottom: 8px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    border-left: 3px solid transparent;
+}
+
+.route-station-header {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.route-station-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+}
+
+.route-station-name {
+    font-weight: 400;
+    color: #333;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.route-station-role {
+    font-size: 0.8em;
+    color: #666;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+/* Стили для кнопки "Назад к списку поездов" */
+.back-to-train-list-container {
+    margin-bottom: 16px;
+}
+
+.back-to-train-list {
+    background: none;
+    border: none;
+    color: var(--link-color);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding: 0;
+    font-family: inherit;
+}
+
+.back-to-train-list:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
 }
 
 @keyframes sweep {
