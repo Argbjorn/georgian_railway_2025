@@ -19,6 +19,17 @@ export class SidebarContent {
         }
     }
 
+    generateStationDetailsLink() {
+        const baseUrl = '';
+        const stationCode = this.entity.code;
+        
+        if (this.currentLanguage === 'en') {
+            return `${baseUrl}/stations/${stationCode}/`;
+        } else {
+            return `${baseUrl}/${this.currentLanguage}/stations/${stationCode}/`;
+        }
+    }
+
     getTitle() {
         if (this.type === 'station') {
             return this.entity[`name_${this.currentLanguage}`];
@@ -31,6 +42,18 @@ export class SidebarContent {
     getBody() {
         if (this.type === 'station') {
             this.content.innerHTML = '';
+            
+            // Generate station details link
+            const stationDetailsLink = this.generateStationDetailsLink();
+            
+            // Add station details link at the top
+            this.content.innerHTML += `
+                <div class="station-details-link-container">
+                    <a href="${stationDetailsLink}" class="station-details-link" target="_blank">
+                        ${LanguageService.translate('view_station_details')}
+                    </a>
+                </div>
+            `;
             
             // Group routes by categories
             const routeGroups = [

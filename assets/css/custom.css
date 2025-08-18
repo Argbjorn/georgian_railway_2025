@@ -319,6 +319,23 @@ nav > a, li > a {
     text-decoration: underline;
 }
 
+/* Стили для ссылки на станцию в сайдбаре */
+.station-details-link-container {
+    margin-bottom: 16px;
+}
+
+.station-details-link {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.station-details-link:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
 .route-station-line {
     margin-bottom: 8px;
     padding: 6px 8px;
