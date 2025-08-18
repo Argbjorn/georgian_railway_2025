@@ -138,7 +138,7 @@ class Sidebar {
         // Close sidebar handler
         closeButton.addEventListener('click', () => {
             this.close();
-            stateManager.clearSelectedStation();
+            stateManager.clearSelectedRouteAndStation();
         });
         
         // Route click handler

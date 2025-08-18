@@ -62,6 +62,15 @@ class MapStateManager {
         this.emit(this.state);
     }
 
+    clearSelectedRouteAndStation() {
+        this.state = {
+            ...this.state,
+            selectedRoute: null,
+            selectedStation: null
+        }
+        this.emit(this.state);
+    }
+
     createRoute(route) {
         this.state = {
             ...this.state,
