@@ -1,3 +1,5 @@
+import { DESKTOP_THRESHOLD } from "./constants.js";
+
 export class DeviceTypeDetector {
     constructor() {
         this.deviceType = null;
@@ -5,7 +7,7 @@ export class DeviceTypeDetector {
     }
 
     detectDeviceType() {
-        if (window.innerWidth < 768) {
+        if (window.innerWidth < DESKTOP_THRESHOLD) {
             this.deviceType = 'mobile';
         } else {
             this.deviceType = 'desktop';
