@@ -79,7 +79,7 @@ export class Route {
     }
 
     show() {
-        if (this.layer) {
+        if (this.layer && this.map.getLayoutProperty(`route-${this.ref}`, 'visibility') !== 'visible') {
             this.map.setLayoutProperty(`route-${this.ref}`, 'visibility', 'visible');
             this.fitBounds();
         }
