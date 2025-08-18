@@ -31,10 +31,6 @@ class Sidebar {
                     this.close();
                 }
             }
-            // Update close button visibility
-            if (state.deviceType && this.sidebar) {
-                this.updateCloseButtonVisibility();
-            }
         });
     }
 
@@ -90,23 +86,6 @@ class Sidebar {
         this.createDOM();
         this.updateSize();
         this.setupEvents();
-
-        // Update close button visibility based on device type
-        this.updateCloseButtonVisibility();
-    }
-    
-    // Обновляем видимость крестика закрытия в зависимости от типа устройства
-    updateCloseButtonVisibility() {
-        if (!this.sidebar) return;
-        
-        const closeButton = this.sidebar.querySelector('#sidebar-close-btn');
-        if (closeButton) {
-            if (stateManager.deviceType === 'mobile') {
-                closeButton.style.display = 'flex';
-            } else {
-                closeButton.style.display = 'none';
-            }
-        }
     }
     
     // Update sidebar size based on map container
