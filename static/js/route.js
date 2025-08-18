@@ -1,6 +1,7 @@
 import { routes } from "./routes-list.js";
 import stateManager from "./state/mapStateManager.js";
-import { DESKTOP_BOUNDS_PADDING, MOBILE_BOUNDS_PADDING, ANIMATION_DURATION } from "./constants.js";
+import { ANIMATION_DURATION } from "./constants.js";
+import { getBoundsPadding } from "./utils.js";
 
 export class Route {
     constructor(map, ref) {
@@ -93,7 +94,7 @@ export class Route {
     fitBounds() {
         if (this.bounds) {
             this.map.fitBounds(this.bounds, {
-                padding: stateManager.deviceType === 'mobile' ? MOBILE_BOUNDS_PADDING : DESKTOP_BOUNDS_PADDING,
+                padding: getBoundsPadding('route'),
                 duration: ANIMATION_DURATION
             });
         }
