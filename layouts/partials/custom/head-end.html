@@ -1,5 +1,11 @@
 <link href="https://unpkg.com/maplibre-gl@4.1.1/dist/maplibre-gl.css" rel="stylesheet" />
 <script src="https://unpkg.com/maplibre-gl@4.1.1/dist/maplibre-gl.js"></script>
+{{ if not .IsHome }}
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<link rel="stylesheet" href="/css/leaflet-beautify-marker-icon.css">
+<script src="/js/leaflet-beautify-marker-icon.js"></script>
+{{ end }}
 {{ if hugo.IsProduction }}
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
