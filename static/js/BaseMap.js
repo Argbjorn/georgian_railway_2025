@@ -1,16 +1,23 @@
 import { RailwayNetwork } from "./RailwayNetwork.js"
 import { StationsGroup } from "./StationsGroup.js"
 import { Sidebar } from "./sidebar.js"
-import { MAPTILER_API_KEY, DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM } from "./constants.js"
+import { DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM, GLOBAL_MAP_BOUNDS } from "./constants.js"
 import { LanguageService } from "./languageService.js"
 
 class BaseMap {
     constructor(container) {
+        // Границы карты (bbox): минимальная долгота, минимальная широта, максимальная долгота, максимальная широта
+        const bounds = [
+            [39.045410, 38.724089], // юго-западный угол [долгота, широта]
+            [49.273682, 44.150681]  // северо-восточный угол [долгота, широта]
+        ];
+
         this.map = new maplibregl.Map({
             container: container,
             style: this.selectTilesByLanguage(),
             center: DEFAULT_MAP_CENTER,
-            zoom: DEFAULT_MAP_ZOOM
+            zoom: DEFAULT_MAP_ZOOM,
+            maxBounds: GLOBAL_MAP_BOUNDS
         })
         this.railwayNetwork = new RailwayNetwork(this.map)
         this.stationsGroup = new StationsGroup(this.map)
