@@ -41,7 +41,6 @@ class Sidebar {
         }
         this.sidebar.classList.add('active');
         this.sidebar.classList.remove('collapsed-auto');
-        this.updateSize();
     }
 
     // Close sidebar
@@ -84,32 +83,8 @@ class Sidebar {
     // Create sidebar
     create() {
         this.createDOM();
-        this.updateSize();
         this.setupEvents();
     }
-    
-    // Update sidebar size based on map container
-    updateSize() {
-        // if (!this.sidebar) return;
-        
-        // const mapContainer = document.getElementById('map');
-        // const mapRect = mapContainer.getBoundingClientRect();
-        // const deviceType = stateManager.deviceType;
-        
-        // if (deviceType === 'mobile') {
-        //     // На мобильных устройствах сайдбар занимает половину экрана снизу
-        //     this.sidebar.style.top = 'auto';
-        //     this.sidebar.style.height = '50vh';
-        //     this.sidebar.style.left = '0';
-        //     this.sidebar.style.width = '100%';
-        // } else {
-        //     // На десктопе сайдбар справа
-        //     this.sidebar.style.top = mapRect.top + 'px';
-        //     this.sidebar.style.height = mapRect.height + 'px';
-        //     this.sidebar.style.left = 'auto';
-        //     this.sidebar.style.width = '';
-        // }
-    }  
 
     // Returns template for sidebar content
     getTemplate() {

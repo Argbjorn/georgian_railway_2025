@@ -1,7 +1,7 @@
 import { routes } from "./routes-list.js";
 import stateManager from "./state/mapStateManager.js";
 import { ANIMATION_DURATION } from "./constants.js";
-import { getBoundsPadding } from "./utils.js";
+import { getBoundsPadding } from "./utils/utils.js";
 
 export class Route {
     constructor(map, ref) {
@@ -73,7 +73,7 @@ export class Route {
                 coordinates: lines
             },
             properties: {
-                name: routeJSONData.tags?.name || `Маршрут ${this.ref}`
+                name: routeJSONData.tags?.name || `Route ${this.ref}`
             }
         };
     }

@@ -141,27 +141,6 @@
         height: 35vh;
     }
     
-    /* Мобильный хвостик */
-    .sidebar-tail {
-        display: none;
-        position: fixed;
-        left: 50%;
-        bottom: 0;
-        transform: translateX(-50%);
-        width: 80px;
-        height: 50px;
-        background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
-        border-radius: 15px 15px 0 0;
-        box-shadow: 0 -3px 15px rgba(0, 0, 0, 0.15);
-        cursor: pointer;
-        align-items: center;
-        justify-content: center;
-        z-index: 1001;
-        transition: all 0.2s ease;
-        border: 1px solid #dee2e6;
-        border-bottom: none;
-    }
-    
     .sidebar.collapsed-auto .sidebar-tail {
         display: flex;
     }

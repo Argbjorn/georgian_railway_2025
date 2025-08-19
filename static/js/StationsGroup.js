@@ -1,5 +1,3 @@
-// This class is responsible for mass showing/hiding stations
-
 import { Station } from "./station.js"
 import { stations } from "./stations-list.js"
 import stateManager from "./state/mapStateManager.js"

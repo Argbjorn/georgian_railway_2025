@@ -1,6 +1,6 @@
 import BaseMap from "./BaseMap.js";
 import stateManager from "./state/mapStateManager.js";
-import { DeviceTypeDetector } from "./DeviceTypeDetector.js";
+import { DeviceTypeDetector } from "./utils/DeviceTypeDetector.js";
 
 const deviceTypeDetector = new DeviceTypeDetector();
 stateManager.setDeviceType(deviceTypeDetector.getDeviceType());

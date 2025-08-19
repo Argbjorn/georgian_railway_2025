@@ -1,4 +1,4 @@
-import { DESKTOP_THRESHOLD } from "./constants.js";
+import { DESKTOP_THRESHOLD } from "../constants.js";
 
 export class DeviceTypeDetector {
     constructor() {

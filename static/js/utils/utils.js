@@ -1,10 +1,10 @@
-import stateManager from "./state/mapStateManager.js";
+import stateManager from "../state/mapStateManager.js";
 import {
   DESKTOP_BOUNDS_PADDING,
   MOBILE_BOUNDS_PADDING,
   MOBILE_SIDEBAR_HEIGHT_WINDOW_HEIGHT_RATIO,
   DESKTOP_SIDEBAR_WIDTH_IN_PIXELS,
-} from "./constants.js";
+} from "../constants.js";
 
 // TODO: maybe there is a better way to do this, paddings for route method fitBounds work different 
 // from station method easeTo

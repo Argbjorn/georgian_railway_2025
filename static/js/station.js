@@ -1,6 +1,6 @@
 import stateManager from "./state/mapStateManager.js";
 import { ANIMATION_DURATION } from "./constants.js";
-import { getBoundsPadding } from "./utils.js";
+import { getBoundsPadding } from "./utils/utils.js";
 import { LanguageService } from "./languageService.js";
 
 const stationIcons = {
