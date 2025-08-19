@@ -2,8 +2,8 @@ export const MAPTILER_API_KEY = 'KxWbLysHDIRHxmljrz4c';
 
 // Map bounds which user can see
 export const GLOBAL_MAP_BOUNDS = [
-    [39.045410, 38.724089], // south-west corner [lon, lat]
-    [49.273682, 44.150681]  // north-east corner [lon, lat]
+    [38.045410, 38.724089], // south-west corner [lon, lat]
+    [50.273682, 44.150681]  // north-east corner [lon, lat]
 ];
 
 export const DEFAULT_MAP_CENTER = [44.799748, 41.721700]; // [lon, lat]
