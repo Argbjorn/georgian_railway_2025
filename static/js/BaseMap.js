@@ -3,6 +3,7 @@ import { StationsGroup } from "./StationsGroup.js"
 import { Sidebar } from "./sidebar.js"
 import { DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM, GLOBAL_MAP_BOUNDS } from "./constants.js"
 import { LanguageService } from "./languageService.js"
+import { PoiGroup } from "./poiGroup.js"
 
 class BaseMap {
     constructor(container) {
@@ -15,6 +16,7 @@ class BaseMap {
         })
         this.railwayNetwork = new RailwayNetwork(this.map)
         this.stationsGroup = new StationsGroup(this.map)
+        this.poiGroup = new PoiGroup(this.map)
         this.sidebar = new Sidebar(this.map, container)
     }
 
@@ -28,6 +30,7 @@ class BaseMap {
     onMapLoad() {
         this.railwayNetwork.show();
         this.stationsGroup.show();
+        this.poiGroup.show();
     }
 
     selectTilesByLanguage() {

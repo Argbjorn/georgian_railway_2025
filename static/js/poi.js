@@ -1,15 +1,3 @@
-import { map } from "./map.js";
-
-const options = {
-  poiOptions: {
-    iconShape: "marker",
-    icon: "question",
-    borderColor: "#020887",
-    textColor: "#020887",
-    borderWidth: 2,
-  }
-};
-
 export const poiInfo = [
     {
         description_ru: "Абхазская железная дорога на сегодняшний день не соединена с Грузинской железной дорогой. После станции Очамчире рельсы разобраны, никакой инфраструктуры нет. Однако, пассажирское сообщение в Абхазии существует: поезда ходят до Сухуми со стороны России. Например, действуют поезда из Москвы и Санкт-Петербурга. Их расписание не сложно найти в интернете, на этом сайте о них не рассказывается.",
@@ -62,16 +50,48 @@ export const poiInfo = [
 ]
 
 export class Poi {
-  constructor(description, coords) {
-    this.description = description,
-    this.coords = coords,
-    this.marker = L.marker(this.coords).bindPopup(this.description),
-    this.marker.setIcon(L.BeautifyIcon.icon(options.poiOptions));
+  constructor(map, description, coords) {
+    this.map = map;
+    this.description = description;
+    this.coords = coords;
+    this.createMarker();
     this.show();
   }
 
+  createMarker() {
+    const markerEl = document.createElement("div");
+    markerEl.className = "poi-marker";
+    markerEl.innerHTML = `
+      <div class="poi-icon" style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        background-color: #fff;
+        border: 2px solid #020887;
+        color: #020887;
+        border-radius: 50%;
+        font-size: 12px;
+        font-weight: bold;
+      ">?</div>
+    `;
+
+    this.marker = new maplibregl.Marker({ element: markerEl })
+      .setLngLat([this.coords[1], this.coords[0]]);
+
+    this.popup = new maplibregl.Popup({
+      offset: 25,
+      closeButton: true,
+      closeOnClick: true,
+      className: "poi-popup",
+    }).setHTML(`<div style="max-width: 300px;">${this.description}</div>`);
+
+    this.marker.setPopup(this.popup);
+  }
+
   show() {
-    this.marker.addTo(map);
+    this.marker.addTo(this.map);
   }
 
   hide() {

@@ -842,9 +842,68 @@ body, html {
     fill: #fff;
 }
 
+.maplibregl-popup {
+    max-width: 350px !important;
+}
+
 .maplibregl-popup-content {
-    padding-bottom: 5px !important;
-    padding-top: 5px !important;
+    padding-bottom: 12px !important;
+    padding-top: 12px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    border-radius: 12px !important;
+}
+
+/* Стилизация кнопки закрытия попапа MapLibre */
+.maplibregl-popup-close-button {
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: 20px !important;
+    height: 20px !important;
+    background: none !important;
+    color: transparent !important;
+    border: none !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-decoration: none !important;
+    font-size: 0 !important;
+    text-indent: -9999px !important;
+    outline: none !important;
+    margin-top: 5px !important;
+    margin-right: 5px !important;
+}
+
+.maplibregl-popup-close-button:hover {
+    color: transparent !important;
+}
+
+.maplibregl-popup-close-button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.maplibregl-popup-close-button::before,
+.maplibregl-popup-close-button::after {
+    content: "" !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    width: 16px !important;
+    height: 2px !important;
+    background-color: #838383 !important;
+    transform: translate(-50%, -50%) rotate(45deg) !important;
+}
+
+.maplibregl-popup-close-button::after {
+    transform: translate(-50%, -50%) rotate(-45deg) !important;
+}
+
+.maplibregl-popup-close-button:hover::before,
+.maplibregl-popup-close-button:hover::after {
+    background-color: #000 !important;
 }
 
 .route-modal {
@@ -982,4 +1041,13 @@ body, html {
   .route-modal-title {
     font-size: 1em;
   }
+}
+
+/* Стили для POI маркеров */
+.poi-marker {
+  cursor: pointer;
+}
+
+.poi-popup {
+    font-size: 15px;
 }
