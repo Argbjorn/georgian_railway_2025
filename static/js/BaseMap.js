@@ -6,12 +6,6 @@ import { LanguageService } from "./languageService.js"
 
 class BaseMap {
     constructor(container) {
-        // Границы карты (bbox): минимальная долгота, минимальная широта, максимальная долгота, максимальная широта
-        const bounds = [
-            [39.045410, 38.724089], // юго-западный угол [долгота, широта]
-            [49.273682, 44.150681]  // северо-восточный угол [долгота, широта]
-        ];
-
         this.map = new maplibregl.Map({
             container: container,
             style: this.selectTilesByLanguage(),
