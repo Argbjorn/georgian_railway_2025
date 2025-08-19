@@ -22,7 +22,6 @@ class MapStateManager {
     }
 
     emit(data) {
-        console.log(data);
         this.listeners.forEach(callback => callback(data));
     }
 
