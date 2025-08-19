@@ -2,7 +2,7 @@ import { RailwayNetwork } from "./RailwayNetwork.js"
 import { StationsGroup } from "./StationsGroup.js"
 import { Sidebar } from "./sidebar.js"
 import { DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM, GLOBAL_MAP_BOUNDS } from "./constants.js"
-import { LanguageService } from "./languageService.js"
+import { LanguageService } from "./LanguageService.js"
 import { PoiGroup } from "./poiGroup.js"
 
 class BaseMap {

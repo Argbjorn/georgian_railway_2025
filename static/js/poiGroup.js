@@ -1,5 +1,5 @@
 import { Poi, poiInfo } from "./poi.js"
-import { LanguageService } from "./languageService.js"
+import { LanguageService } from "./LanguageService.js"
 
 export class PoiGroup {
     constructor(map) {

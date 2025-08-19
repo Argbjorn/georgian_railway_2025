@@ -1,4 +1,4 @@
-import { LanguageService } from "./languageService.js";
+import { LanguageService } from "./LanguageService.js";
 
 export class SidebarContent {
     constructor(entity, type) {
