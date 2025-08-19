@@ -59,6 +59,7 @@ nav > a, li > a {
     border: 1.5px solid #0078A8;
     border-radius: 3px;
     margin-right: 6px;
+    margin-top: 2px;
     padding: 0 4px;
     font-weight: 600;
     color: #0078A8;
@@ -126,6 +127,7 @@ nav > a, li > a {
     color: #333;
     font-weight: 500;
     flex-shrink: 0;
+    margin-top: 4px;
 }
 
 .route-name {
@@ -279,6 +281,115 @@ nav > a, li > a {
     white-space: normal;
     flex: 1;
     min-width: 0;
+}
+
+/* Стили для групп маршрутов в сайдбаре */
+.route-group {
+    margin-bottom: 20px;
+}
+
+.route-group-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+
+.route-group-content {
+    margin-bottom: 0;
+}
+
+/* Стили для отображения маршрута в сайдбаре */
+.route-details-link-container {
+    margin-bottom: 16px;
+}
+
+.route-details-link {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.route-details-link:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+/* Стили для ссылки на станцию в сайдбаре */
+.station-details-link-container {
+    margin-bottom: 16px;
+}
+
+.station-details-link {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.station-details-link:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+.route-station-line {
+    margin-bottom: 8px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    border-left: 3px solid transparent;
+}
+
+.route-station-header {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.route-station-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 0;
+}
+
+.route-station-name {
+    font-weight: 400;
+    color: #333;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.route-station-role {
+    font-size: 0.8em;
+    color: #666;
+    font-style: italic;
+    margin-top: 2px;
+}
+
+/* Стили для кнопки "Назад к списку поездов" */
+.back-to-train-list-container {
+    margin-bottom: 16px;
+}
+
+.back-to-train-list {
+    background: none;
+    border: none;
+    color: var(--link-color);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 500;
+    padding: 0;
+    font-family: inherit;
+}
+
+.back-to-train-list:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
 }
 
 @keyframes sweep {
@@ -685,4 +796,258 @@ body, html {
 
 .route-schedule-table tr:last-child td {
     border-bottom: 2px solid #199900;
+}
+
+.station-marker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #C8102E;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.station-marker.station-marker-with-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.station-marker.hidden {
+    display: none;
+}
+
+.station-marker.active {
+    background: #C8102E;
+    border: 2px solid #fff;
+}
+
+.station-icon {
+    width: 14px;
+    height: 14px;
+    color: #C8102E;
+    fill: #C8102E;
+}
+
+.station-icon.active {
+    color: #fff;
+    fill: #fff;
+}
+
+.station-marker.active .station-icon {
+    color: #fff;
+    fill: #fff;
+}
+
+.maplibregl-popup {
+    max-width: 350px !important;
+}
+
+.maplibregl-popup-content {
+    padding-bottom: 12px !important;
+    padding-top: 12px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    border-radius: 12px !important;
+}
+
+/* Стилизация кнопки закрытия попапа MapLibre */
+.maplibregl-popup-close-button {
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: 20px !important;
+    height: 20px !important;
+    background: none !important;
+    color: transparent !important;
+    border: none !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-decoration: none !important;
+    font-size: 0 !important;
+    text-indent: -9999px !important;
+    outline: none !important;
+    margin-top: 5px !important;
+    margin-right: 5px !important;
+}
+
+.maplibregl-popup-close-button:hover {
+    color: transparent !important;
+}
+
+.maplibregl-popup-close-button:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.maplibregl-popup-close-button::before,
+.maplibregl-popup-close-button::after {
+    content: "" !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    width: 16px !important;
+    height: 2px !important;
+    background-color: #838383 !important;
+    transform: translate(-50%, -50%) rotate(45deg) !important;
+}
+
+.maplibregl-popup-close-button::after {
+    transform: translate(-50%, -50%) rotate(-45deg) !important;
+}
+
+.maplibregl-popup-close-button:hover::before,
+.maplibregl-popup-close-button:hover::after {
+    background-color: #000 !important;
+}
+
+.route-modal {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 85vh;
+  transform: translate(-50%, -50%);
+  z-index: 5000;
+  min-width: 320px;
+  max-width: 340px;
+  width: 90vw;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+  font-size: 0.98em;
+}
+.route-modal.active {
+  display: block;
+}
+.route-modal-content {
+  background: rgba(24, 24, 24, 0.92);
+  border-radius: 8px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 18px 18px 12px 18px;
+  position: relative;
+}
+.route-modal-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.15rem;
+  margin: 0 0 12px 0;
+  text-align: center;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.18);
+}
+.route-modal-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.3em;
+  cursor: pointer;
+  opacity: 0.8;
+  z-index: 2;
+}
+.route-modal-close-btn:hover {
+  color: #ddd;
+  opacity: 1;
+}
+.route-modal-stations {
+  position: relative;
+  margin: 0 0 10px 7px;
+  padding: 0;
+  list-style: none;
+}
+.route-modal-station-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+  position: relative;
+}
+.route-modal-station-row:not(:last-child) .route-modal-station-point::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+  width: 3px;
+  height: 22px;
+  background: #199900;
+  z-index: 0;
+}
+.route-modal-station-point {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #199900;
+  background: #fff;
+  margin-right: 10px;
+  position: relative;
+  z-index: 1;
+}
+.route-modal-station-point.terminal {
+  background: #199900;
+  border-color: #199900;
+}
+.route-modal-station-time,
+.route-modal-station-name {
+  color: #fff;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.32);
+}
+.route-modal-station-time {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  font-weight: 500;
+  margin-right: 8px;
+  min-width: 44px;
+  text-align: right;
+}
+.route-modal-station-name {
+  font-size: 1em;
+  font-weight: 400;
+  flex: 1;
+  min-width: 0;
+  word-break: break-word;
+  /* text-decoration: underline dotted #199900; */
+}
+.route-modal-details-link {
+  display: inline-block;
+  color: #4ec3ff;
+  text-shadow: 0 1px 6px rgba(0,0,0,0.32);
+  font-weight: 600;
+  font-size: 0.98em;
+  margin: 10px 0 0 0;
+  cursor: pointer;
+}
+.route-modal-details-link:hover {
+  color: #fff;
+}
+@media (max-width: 480px) {
+  .route-modal {
+    min-width: 0;
+    width: 96vw;
+    max-width: 98vw;
+    left: 50%;
+    bottom: 10vh;
+    transform: translateX(-50%, 0);
+  }
+  .route-modal-content {
+    padding: 10px 4vw 8px 4vw;
+  }
+  .route-modal-title {
+    font-size: 1em;
+  }
+}
+
+/* Стили для POI маркеров */
+.poi-marker {
+  cursor: pointer;
+}
+
+.poi-popup {
+    font-size: 15px;
 }
