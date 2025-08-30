@@ -658,8 +658,8 @@ export const stations = [
          12697426839
       ],
       "coords": [
-         41.8474575,
-         43.4076604
+         41.8474475,
+         43.4076577
       ],
       "code": "borjomi",
       "type": "secondary",
@@ -731,8 +731,8 @@ export const stations = [
          10774260690
       ],
       "coords": [
-         41.8416339,
-         43.3851332
+         41.8416088,
+         43.3851251
       ],
       "code": "borjomiparki",
       "type": "secondary",
@@ -5498,6 +5498,76 @@ export const stations = [
                "end_date": null,
                "arrival_time": null,
                "departure_time": "22:08",
+               "stop_time": null
+            }
+         ]
+      }
+   },
+   {
+      "id": [
+         11142369109,
+         13078313779
+      ],
+      "coords": [
+         42.1724662,
+         42.3944376
+      ],
+      "code": "samtredia2",
+      "type": "secondary",
+      "name_en": "Samtredia-2",
+      "name_ka": "სამტრედია-2",
+      "name_ru": "Самтредиа-2",
+      "gr_code": 57006,
+      "routes": {
+         "departure": [],
+         "arrival": [],
+         "via": [
+            {
+               "ref": 681,
+               "name_en": "Batumi → Kutaisi",
+               "name_ru": "Батуми → Кутаиси",
+               "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "22:57",
+               "stop_time": null
+            },
+            {
+               "ref": 682,
+               "name_en": "Kutaisi → Batumi",
+               "name_ru": "Кутаиси → Батуми",
+               "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "07:24",
+               "stop_time": null
+            },
+            {
+               "ref": 683,
+               "name_en": "Batumi → Kutaisi",
+               "name_ru": "Батуми → Кутаиси",
+               "name_ka": "ბათუმი → ქუთაისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "12:59",
+               "stop_time": null
+            },
+            {
+               "ref": 684,
+               "name_en": "Kutaisi → Batumi",
+               "name_ru": "Кутаиси → Батуми",
+               "name_ka": "ქუთაისი → ბათუმი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "17:09",
                "stop_time": null
             }
          ]
