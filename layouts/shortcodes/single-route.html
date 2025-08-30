@@ -6,7 +6,8 @@
 {{ $translations := dict
     "ru" (dict
         "analogue" "Другие поезда в этом направлении"
-        "status" "✅ Маршрут активен. Последние изменения"
+        "status_active" "✅ Маршрут активен. Последние изменения"
+        "status_inactive" "❌ Маршрут не активен. Последние изменения"
         "frequency" "Частота"
         "frequency_daily" "ежедневно"
         "frequency_every_second_day" "через день"
@@ -32,7 +33,8 @@
     )
     "en" (dict
         "analogue" "Other trains in this direction"
-        "status" "✅ Route is currently active. Last updated"
+        "status_active" "✅ Route is currently active. Last updated"
+        "status_inactive" "❌ Route is currently inactive. Last updated"
         "frequency" "Frequency"
         "frequency_daily" "daily"
         "frequency_every_second_day" "every second day"
@@ -58,7 +60,8 @@
     )
     "ka" (dict
         "analogue" "სხვა მარშრუტები ამ მიმართულებაში"
-        "status" "✅ მარშრუტი აქტიურია. ბოლო ცვლილებები"
+        "status_active" "✅ მარშრუტი აქტიურია. ბოლო ცვლილებები"
+        "status_inactive" "❌ მარშრუტი აქტიური არაა. ბოლო ცვლილებები"
         "frequency" "სიხშირე"
         "frequency_daily" "ყოველდღიურად"
         "frequency_every_second_day" "თითოეული მეორე დღისთვის"
@@ -87,7 +90,11 @@
 {{ $t := index $translations $lang }}
 
 <!-- Status -->
-<p>{{ $t.status }}: {{ now.Format "02.01.2006" }}</p>
+{{ if .Page.Params.active }}
+    <p>{{ $t.status_active }}: {{ now.Format "02.01.2006" }}</p>
+{{ else }}
+    <p>{{ $t.status_inactive }}: {{ now.Format "02.01.2006" }}</p>
+{{ end }}
 
 <!-- Description -->
 {{ if .Page.Params.description_ka }}
@@ -98,128 +105,106 @@
     <p>{{ .Page.Params.description_en | safeHTML }}</p>
 {{ end }}
 
-<!-- Frequency -->
-<p><strong>{{ $t.frequency }}:</strong> 
-    {{ if eq .Page.Params.frequency "daily" }}
-        {{ $t.frequency_daily }}
-    {{ else if eq .Page.Params.frequency "every second day" }}
-        {{ if .Page.Params.every_second_day_start }}
-            <button class="dashed-link esd-calendar" data-timestamp="{{ .Page.Params.every_second_day_start }}" {{ if .Page.Params.end_date }}data-end-date="{{ .Page.Params.end_date }}"{{ end }} data-lang="{{ $lang }}">{{ $t.frequency_every_second_day }}</button>
-        {{ else }}
-            {{ $t.frequency_every_second_day }}
-        {{ end }}
-    {{ else if eq $lang "ru" }}
-        {{ $months := dict 
-            "January" "января"
-            "February" "февраля" 
-            "March" "марта" 
-            "April" "апреля" 
-            "May" "мая" 
-            "June" "июня" 
-            "July" "июля" 
-            "August" "августа" 
-            "September" "сентября" 
-            "October" "октября" 
-            "November" "ноября" 
-            "December" "декабря" }}
-        
-        {{ $frequency := .Page.Params.frequency }}
-        {{ range $en, $ru := $months }}
-            {{ $frequency = replace $frequency $en $ru }}
-        {{ end }}
-        {{ $frequency }}
-    {{ else if eq $lang "ka" }}
-        {{ $months := dict 
-            "January" "იანვარი"
-            "February" "თებერვალი" 
-            "March" "მარტი" 
-            "April" "აპრილი" 
-            "May" "მაისი" 
-            "June" "ივნისი" 
-            "July" "ივლისი" 
-            "August" "აგვისტო" 
-            "September" "სექტემბერი" 
-            "October" "ოქტომბერი" 
-            "November" "ნოემბერი" 
-            "December" "დეკემბერი" }}
-        
-        {{ $frequency := .Page.Params.frequency }}
-        {{ range $en, $ka := $months }}
-            {{ $frequency = replace $frequency $en $ka }}
-        {{ end }}
-        {{ $frequency }}
-    {{ else }}
-        {{ .Page.Params.frequency }}
-    {{ end }} <br>
-
-<!-- Travel time -->
-<strong>{{ $t.travel_time }}:</strong> {{ .Page.Params.travel_time }} <br>
-
-<!-- Train type -->
-{{ if .Page.Params.train_type }}
-    <strong>{{ $t.train_type }}:</strong><button class="dashed-link" onclick="toggleTrainInfo('train-info-{{ .Page.Params.train_type }}')">{{ if eq .Page.Params.train_type "stadler" }}Stadler KISS{{ else if eq .Page.Params.train_type "vmk-grt" }}VMK/GRT{{ else if eq .Page.Params.train_type "suburban" }}{{ $t.suburban_train }}{{ end }}</button>
-    <div id="train-info-{{ .Page.Params.train_type }}" class="train-info-description">
-        {{ partial "shortcodes/train-description.html" (dict "lang" $lang "train_type" .Page.Params.train_type) }}
-    </div>
-{{ end }}
-
-<!-- Price -->
-{{ if .Page.Params.price }}
-    <strong>{{ $t.price }}:</strong> {{ if eq .Page.Params.price.price_type "from" }}{{ $t.from }} {{ end }}{{ .Page.Params.price.price }} ₾<br>
-{{ end }}
-
-<!-- Online tickets -->
-<strong>{{ $t.online_tickets }}:</strong> 
-{{ if or (eq $online_tickets_current_site "true") (eq $online_tickets_new_site "true") (eq (int .Page.Params.ref) 201) (eq (int .Page.Params.ref) 202) }}
-    {{ $t.available }} 
-    {{ if or (eq (int .Page.Params.ref) 201) (eq (int .Page.Params.ref) 202) }}
-        <a href="https://www.railway.am/eng" target="_blank">{{ $t.armenian_site }}</a>
-    {{ else }}
-        {{ if eq $online_tickets_current_site "true" }}
-            <a href="https://ticket.railway.ge/" target="_blank">{{ $t.current_site }}</a>
-        {{ end }}
-        {{ if eq $online_tickets_new_site "true" }}
-            <a href="https://gr.com.ge/en" target="_blank">{{ $t.new_site }}</a>
-        {{ end }}
-    {{ end }}
-{{ else }}{{ $t.not_available }}
-{{ end }}</p>
-
-<!-- Schedule -->
-<h3>{{ $t.schedule }}</h3>
-{{ if not .Page.Params.complete }}
-<p>{{ $t.uncomplete_disclaimer }}</p>
-{{ end }}
-
-<!-- Stations -->
-{{ if not .Page.Params.has_arrival_time }}
-<ul class="route-timeline">
-    {{ range $index, $station := $stations }}
-    <li class="{{ if or (eq $index 0) (eq $index (sub (len $stations) 1)) }}terminal{{ else }}intermediate{{ end }}">
-        <span class="station-time">{{ .departure_time }}</span>
-        <a href="/{{ if eq $lang "ru" }}ru/{{ else if eq $lang "ka" }}ka/{{ end }}stations/{{ .code }}/" class="station-name">
-            {{ if eq $lang "ru" }}
-                {{ .name_ru }}
-            {{ else if eq $lang "ka" }}
-                {{ .name_ka }}
+{{ if .Page.Params.active }}
+    <!-- Frequency -->
+    <p><strong>{{ $t.frequency }}:</strong> 
+        {{ if eq .Page.Params.frequency "daily" }}
+            {{ $t.frequency_daily }}
+        {{ else if eq .Page.Params.frequency "every second day" }}
+            {{ if .Page.Params.every_second_day_start }}
+                <button class="dashed-link esd-calendar" data-timestamp="{{ .Page.Params.every_second_day_start }}" {{ if .Page.Params.end_date }}data-end-date="{{ .Page.Params.end_date }}"{{ end }} data-lang="{{ $lang }}">{{ $t.frequency_every_second_day }}</button>
             {{ else }}
-                {{ .name_en }}
+                {{ $t.frequency_every_second_day }}
             {{ end }}
-        </a>
-    </li>
+        {{ else if eq $lang "ru" }}
+            {{ $months := dict 
+                "January" "января"
+                "February" "февраля" 
+                "March" "марта" 
+                "April" "апреля" 
+                "May" "мая" 
+                "June" "июня" 
+                "July" "июля" 
+                "August" "августа" 
+                "September" "сентября" 
+                "October" "октября" 
+                "November" "ноября" 
+                "December" "декабря" }}
+            
+            {{ $frequency := .Page.Params.frequency }}
+            {{ range $en, $ru := $months }}
+                {{ $frequency = replace $frequency $en $ru }}
+            {{ end }}
+            {{ $frequency }}
+        {{ else if eq $lang "ka" }}
+            {{ $months := dict 
+                "January" "იანვარი"
+                "February" "თებერვალი" 
+                "March" "მარტი" 
+                "April" "აპრილი" 
+                "May" "მაისი" 
+                "June" "ივნისი" 
+                "July" "ივლისი" 
+                "August" "აგვისტო" 
+                "September" "სექტემბერი" 
+                "October" "ოქტომბერი" 
+                "November" "ნოემბერი" 
+                "December" "დეკემბერი" }}
+            
+            {{ $frequency := .Page.Params.frequency }}
+            {{ range $en, $ka := $months }}
+                {{ $frequency = replace $frequency $en $ka }}
+            {{ end }}
+            {{ $frequency }}
+        {{ else }}
+            {{ .Page.Params.frequency }}
+        {{ end }} <br>
+
+    <!-- Travel time -->
+    <strong>{{ $t.travel_time }}:</strong> {{ .Page.Params.travel_time }} <br>
+
+    <!-- Train type -->
+    {{ if .Page.Params.train_type }}
+        <strong>{{ $t.train_type }}:</strong><button class="dashed-link" onclick="toggleTrainInfo('train-info-{{ .Page.Params.train_type }}')">{{ if eq .Page.Params.train_type "stadler" }}Stadler KISS{{ else if eq .Page.Params.train_type "vmk-grt" }}VMK/GRT{{ else if eq .Page.Params.train_type "suburban" }}{{ $t.suburban_train }}{{ end }}</button>
+        <div id="train-info-{{ .Page.Params.train_type }}" class="train-info-description">
+            {{ partial "shortcodes/train-description.html" (dict "lang" $lang "train_type" .Page.Params.train_type) }}
+        </div>
     {{ end }}
-</ul>
-{{ else }}
-<table class="route-schedule-table">
-    <tr>
-        <th>{{ $t.station }}</th>
-        <th>{{ $t.arrival }}</th>
-        <th>{{ $t.stop }}</th>
-        <th>{{ $t.departure }}</th>
-    </tr>
-    {{ range $index, $station := $stations }}
-    <tr>
-        <td>
+
+    <!-- Price -->
+    {{ if .Page.Params.price }}
+        <strong>{{ $t.price }}:</strong> {{ if eq .Page.Params.price.price_type "from" }}{{ $t.from }} {{ end }}{{ .Page.Params.price.price }} ₾<br>
+    {{ end }}
+
+    <!-- Online tickets -->
+    <strong>{{ $t.online_tickets }}:</strong> 
+    {{ if or (eq $online_tickets_current_site "true") (eq $online_tickets_new_site "true") (eq (int .Page.Params.ref) 201) (eq (int .Page.Params.ref) 202) }}
+        {{ $t.available }} 
+        {{ if or (eq (int .Page.Params.ref) 201) (eq (int .Page.Params.ref) 202) }}
+            <a href="https://www.railway.am/eng" target="_blank">{{ $t.armenian_site }}</a>
+        {{ else }}
+            {{ if eq $online_tickets_current_site "true" }}
+                <a href="https://ticket.railway.ge/" target="_blank">{{ $t.current_site }}</a>
+            {{ end }}
+            {{ if eq $online_tickets_new_site "true" }}
+                <a href="https://gr.com.ge/en" target="_blank">{{ $t.new_site }}</a>
+            {{ end }}
+        {{ end }}
+    {{ else }}{{ $t.not_available }}
+    {{ end }}</p>
+
+    <!-- Schedule -->
+    <h3>{{ $t.schedule }}</h3>
+    {{ if not .Page.Params.complete }}
+    <p>{{ $t.uncomplete_disclaimer }}</p>
+    {{ end }}
+
+    <!-- Stations -->
+    {{ if not .Page.Params.has_arrival_time }}
+    <ul class="route-timeline">
+        {{ range $index, $station := $stations }}
+        <li class="{{ if or (eq $index 0) (eq $index (sub (len $stations) 1)) }}terminal{{ else }}intermediate{{ end }}">
+            <span class="station-time">{{ .departure_time }}</span>
             <a href="/{{ if eq $lang "ru" }}ru/{{ else if eq $lang "ka" }}ka/{{ end }}stations/{{ .code }}/" class="station-name">
                 {{ if eq $lang "ru" }}
                     {{ .name_ru }}
@@ -229,65 +214,88 @@
                     {{ .name_en }}
                 {{ end }}
             </a>
-        </td>
-        <td>
-            {{ if eq .role "start" }}
-                -
-            {{ else if .arrival_time }}
-                {{ .arrival_time }}
-            {{ else }}
-                {{ .time }}
-            {{ end }}
-        </td>
-        {{ if .stop_time }}
-            <td>{{ .stop_time }}</td>
-        {{ else }}
-            <td>-</td>
+        </li>
         {{ end }}
-        <td>
-            {{ if eq .role "end" }}
-                -
-            {{ else }}
-                {{ .departure_time }}
-            {{ end }}
-        </td>
-    </tr>
-    {{ end }}
-</table>
-{{ end }}
-
-<!-- Analogues -->
-{{ if .Page.Params.analogue }}
-    <h3>{{ $t.analogue }}</h3>
-    {{ $analogueRoutes := slice }}
-    {{ range .Page.Params.analogue }}
-        {{ $analogueRef := . }}
-        {{ range $route := $.Site.Data.routes }}
-            {{ if eq (string $route.ref) (string $analogueRef) }}
-                {{ $routeNameEn := index $route "name:en" }}
-                {{ $routeNameRu := index $route "name:ru" }}
-                {{ $routeNameKa := index $route "name:ka" }}
-                {{ $departureTime := "" }}
-                {{ range $route.stations }}
-                    {{ if eq .role "start" }}
-                        {{ $departureTime = .departure_time }}
+    </ul>
+    {{ else }}
+    <table class="route-schedule-table">
+        <tr>
+            <th>{{ $t.station }}</th>
+            <th>{{ $t.arrival }}</th>
+            <th>{{ $t.stop }}</th>
+            <th>{{ $t.departure }}</th>
+        </tr>
+        {{ range $index, $station := $stations }}
+        <tr>
+            <td>
+                <a href="/{{ if eq $lang "ru" }}ru/{{ else if eq $lang "ka" }}ka/{{ end }}stations/{{ .code }}/" class="station-name">
+                    {{ if eq $lang "ru" }}
+                        {{ .name_ru }}
+                    {{ else if eq $lang "ka" }}
+                        {{ .name_ka }}
+                    {{ else }}
+                        {{ .name_en }}
                     {{ end }}
+                </a>
+            </td>
+            <td>
+                {{ if eq .role "start" }}
+                    -
+                {{ else if .arrival_time }}
+                    {{ .arrival_time }}
+                {{ else }}
+                    {{ .time }}
                 {{ end }}
-                {{ $routeData := dict "time" $departureTime "ref" $route.ref "lang" $lang "name_ru" $routeNameRu "name_ka" $routeNameKa "name_en" $routeNameEn "every_second_day_start" $route.every_second_day_start "end_date" $route.end_date}}
-                {{ $analogueRoutes = $analogueRoutes | append $routeData }}
+            </td>
+            {{ if .stop_time }}
+                <td>{{ .stop_time }}</td>
+            {{ else }}
+                <td>-</td>
+            {{ end }}
+            <td>
+                {{ if eq .role "end" }}
+                    -
+                {{ else }}
+                    {{ .departure_time }}
+                {{ end }}
+            </td>
+        </tr>
+        {{ end }}
+    </table>
+    {{ end }}
+
+    <!-- Analogues -->
+    {{ if .Page.Params.analogue }}
+        <h3>{{ $t.analogue }}</h3>
+        {{ $analogueRoutes := slice }}
+        {{ range .Page.Params.analogue }}
+            {{ $analogueRef := . }}
+            {{ range $route := $.Site.Data.routes }}
+                {{ if eq (string $route.ref) (string $analogueRef) }}
+                    {{ $routeNameEn := index $route "name:en" }}
+                    {{ $routeNameRu := index $route "name:ru" }}
+                    {{ $routeNameKa := index $route "name:ka" }}
+                    {{ $departureTime := "" }}
+                    {{ range $route.stations }}
+                        {{ if eq .role "start" }}
+                            {{ $departureTime = .departure_time }}
+                        {{ end }}
+                    {{ end }}
+                    {{ $routeData := dict "time" $departureTime "ref" $route.ref "lang" $lang "name_ru" $routeNameRu "name_ka" $routeNameKa "name_en" $routeNameEn "every_second_day_start" $route.every_second_day_start "end_date" $route.end_date}}
+                    {{ $analogueRoutes = $analogueRoutes | append $routeData }}
+                {{ end }}
             {{ end }}
         {{ end }}
+        {{ $sortedRoutes := sort $analogueRoutes "time" }}
+        {{ range $sortedRoutes }}
+            {{ partial "route-link.html" . }}
+        {{ end }}
     {{ end }}
-    {{ $sortedRoutes := sort $analogueRoutes "time" }}
-    {{ range $sortedRoutes }}
-        {{ partial "route-link.html" . }}
-    {{ end }}
+
+    <!-- Route map -->
+    <h3>{{ $t.route_on_map }}</h3>
+    {{ partial "route-map.html" . }}
 {{ end }}
-
-<!-- Route map -->
-<h3>{{ $t.route_on_map }}</h3>
-{{ partial "route-map.html" . }}
-
 <p>🗺 <a href='/{{ $lang }}/'>{{ $t.back_to_map }}</a></p>
 <br>
 
