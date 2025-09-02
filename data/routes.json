@@ -59,9 +59,9 @@
       "online_tickets_new_site": false,
       "train_type": null,
       "has_arrival_time": true,
-      "description_en": "This train is the summer version of train #371 Tbilisi - Yerevan. In 2025, it operates from June 15 to September 29. Tickets can be purchased online on the South Caucasus Railway website via the link below. Georgian Railways does not sell tickets for this train online, but they can be bought at station ticket offices. Platskart (open sleeper), coupe (compartment), and SV (luxury) classes are available. Prices vary by month; currently, information is available for <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_08.pdf\" target=\"_blank\">August</a> and <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_09.pdf\" target=\"_blank\">September</a>.",
-      "description_ru": "Этот поезд - летняя версия поезда №371 Тбилиси - Ереван. В 2025 году он ходит с 15 июня по 29 сентября. Билеты можно купить онлайн на сайте ЮКЖД по ссылке ниже. Грузинская железная дорога не продает билеты на этот поезд онлайн, однако их можно приобрести в кассах вокзалов. Доступны плацкарт, купе и СВ. Цены отличаются по месяцам, сейчас доступна информация на <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_rus_08.pdf\" target=\"_blank\">август</a> и <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_rus_09.pdf\" target=\"_blank\">сентябрь</a>.",
-      "description_ka": "ეს მატარებელი №371 თბილისი – ერევნის ზაფხულის ვერსიაა. 2025 წელს იგი იმოძრავებს 15 ივნისიდან 29 სექტემბერი. ბილეთების შეძენა ონლაინ შეგიძლიათ სამხრეთ კავკასიური რკინიგზის ვებგვერდზე ქვემოთ მოცემული ბმულის საშუალებით. საქართველოს რკინიგზა ამ მატარებელზე ბილეთებს ონლაინ არ ყიდის, თუმცა მათი შეძენა შესაძლებელია სადგურების სალაროებში. ხელმისაწვდომია პლაცკარტი, კუპე და სვ. ფასები თვეების მიხედვით განსხვავდება; ამჟამად ხელმისაწვდომია ინფორმაცია <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_08.pdf\" target=\"_blank\">აგვისტოსთვის</a> და <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_09.pdf\" target=\"_blank\">სექტემბრისთვის</a>.",
+      "description_en": "This train is the summer version of train #371 Tbilisi - Yerevan. In 2025, it operates from June 15 to September 29. Tickets can be purchased online on the South Caucasus Railway website via the link below. Georgian Railways does not sell tickets for this train online, but they can be bought at station ticket offices. Platskart (open sleeper), coupe (compartment), and SV (luxury) classes are available. Prices information for <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_09.pdf\" target=\"_blank\">September</a>.",
+      "description_ru": "Этот поезд - летняя версия поезда №371 Тбилиси - Ереван. В 2025 году он ходит с 15 июня по 29 сентября. Билеты можно купить онлайн на сайте ЮКЖД по ссылке ниже. Грузинская железная дорога не продает билеты на этот поезд онлайн, однако их можно приобрести в кассах вокзалов. Доступны плацкарт, купе и СВ. Цены на <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_rus_09.pdf\" target=\"_blank\">сентябрь</a>.",
+      "description_ka": "ეს მატარებელი №371 თბილისი – ერევნის ზაფხულის ვერსიაა. 2025 წელს იგი იმოძრავებს 15 ივნისიდან 29 სექტემბერი. ბილეთების შეძენა ონლაინ შეგიძლიათ სამხრეთ კავკასიური რკინიგზის ვებგვერდზე ქვემოთ მოცემული ბმულის საშუალებით. საქართველოს რკინიგზა ამ მატარებელზე ბილეთებს ონლაინ არ ყიდის, თუმცა მათი შეძენა შესაძლებელია სადგურების სალაროებში. ხელმისაწვდომია პლაცკარტი, კუპე და სვ. სექტემბრის ფასები ხელმისაწვდომია <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_09.pdf\" target=\"_blank\">აქ</a>.",
       "stations": [
          {
             "code": "batumicentral",
@@ -234,9 +234,9 @@
       "online_tickets_new_site": false,
       "train_type": null,
       "has_arrival_time": true,
-      "description_en": "This train is the summer version of train #372 Yerevan - Tbilisi. In 2025, it operates from June 14 to September 30. Tickets can be purchased online on the South Caucasus Railway website via the link below. Georgian Railways does not sell tickets for this train online, but they can be bought at station ticket offices. Platskart (open sleeper), coupe (compartment), and SV (luxury) classes are available. Prices vary by month; currently, information is available for <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_08.pdf\" target=\"_blank\">August</a> and <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_09.pdf\" target=\"_blank\">September</a>.",
-      "description_ru": "Этот поезд - летняя версия поезда №372 Ереван - Тбилиси. В 2025 году он ходит с 14 июня по 30 сентября. Билеты можно купить онлайн на сайте ЮКЖД по ссылке ниже. Грузинская железная дорога не продает билеты на этот поезд онлайн, однако их можно приобрести в кассах вокзалов. Доступны плацкарт, купе и СВ. Цены отличаются по месяцам, сейчас доступна информация на <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_rus_08.pdf\" target=\"_blank\">август</a> и <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_rus_09.pdf\" target=\"_blank\">сентябрь</a>.",
-      "description_ka": "ეს მატარებელი №372 ერევნის - თბილისი ზაფხულის ვერსიაა. 2025 წელს იგი იმოძრავებს 14 ივნისიდან 30 სექტემბერი. ბილეთების შეძენა ონლაინ შეგიძლიათ სამხრეთ კავკასიური რკინიგზის ვებგვერდზე ქვემოთ მოცემული ბმულის საშუალებით. საქართველოს რკინიგზა ამ მატარებელზე ბილეთებს ონლაინ არ ყიდის, თუმცა მათი შეძენა შესაძლებელია სადგურების სალაროებში. ხელმისაწვდომია პლაცკარტი, კუპე და სვ. ფასები თვეების მიხედვით განსხვავდება; ამჟამად ხელმისაწვდომია ინფორმაცია <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_08.pdf\" target=\"_blank\">აგვისტოსთვის</a> და <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_09.pdf\" target=\"_blank\">სექტემბრისთვის</a>.",
+      "description_en": "This train is the summer version of train #372 Yerevan - Tbilisi. In 2025, it operates from June 14 to September 30. Tickets can be purchased online on the South Caucasus Railway website via the link below. Georgian Railways does not sell tickets for this train online, but they can be bought at station ticket offices. Platskart (open sleeper), coupe (compartment), and SV (luxury) classes are available. Prices information for <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_09.pdf\" target=\"_blank\">September</a>.",
+      "description_ru": "Этот поезд - летняя версия поезда №372 Ереван - Тбилиси. В 2025 году он ходит с 14 июня по 30 сентября. Билеты можно купить онлайн на сайте ЮКЖД по ссылке ниже. Грузинская железная дорога не продает билеты на этот поезд онлайн, однако их можно приобрести в кассах вокзалов. Доступны плацкарт, купе и СВ. Цены на <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_rus_09.pdf\" target=\"_blank\">сентябрь</a>.",
+      "description_ka": "ეს მატარებელი №372 ერევნის - თბილისი ზაფხულის ვერსიაა. 2025 წელს იგი იმოძრავებს 14 ივნისიდან 30 სექტემბერი. ბილეთების შეძენა ონლაინ შეგიძლიათ სამხრეთ კავკასიური რკინიგზის ვებგვერდზე ქვემოთ მოცემული ბმულის საშუალებით. საქართველოს რკინიგზა ამ მატარებელზე ბილეთებს ონლაინ არ ყიდის, თუმცა მათი შეძენა შესაძლებელია სადგურების სალაროებში. სექტემბრის ფასები ხელმისაწვდომია <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_09.pdf\" target=\"_blank\">აქ</a>.",
       "stations": [
          {
             "code": "yerevan",
@@ -2839,9 +2839,9 @@
       "online_tickets_new_site": true,
       "train_type": "stadler",
       "has_arrival_time": false,
-      "description_en": null,
-      "description_ru": null,
-      "description_ka": null,
+      "description_en": "This train operates until September 15, 2025.",
+      "description_ru": "Этот поезд выполняет рейсы до 15 сентября 2025 года.",
+      "description_ka": "ეს მატარებელი მოძრაობს 2025 წლის 15 სექტემბრამდე.",
       "stations": [
          {
             "code": "batumicentral",
@@ -2921,9 +2921,9 @@
       "online_tickets_new_site": true,
       "train_type": "stadler",
       "has_arrival_time": false,
-      "description_en": null,
-      "description_ru": null,
-      "description_ka": null,
+      "description_en": "This train operates until September 15, 2025.",
+      "description_ru": "Этот поезд выполняет рейсы до 15 сентября 2025 года.",
+      "description_ka": "ეს მატარებელი მოძრაობს 2025 წლის 15 სექტემბრამდე.",
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -3003,9 +3003,9 @@
       "online_tickets_new_site": true,
       "train_type": "stadler",
       "has_arrival_time": false,
-      "description_en": null,
-      "description_ru": null,
-      "description_ka": null,
+      "description_en": "This train operates until September 15, 2025.",
+      "description_ru": "Этот поезд выполняет рейсы до 15 сентября 2025 года.",
+      "description_ka": "ეს მატარებელი მოძრაობს 2025 წლის 15 სექტემბრამდე.",
       "stations": [
          {
             "code": "batumicentral",
@@ -3085,9 +3085,9 @@
       "online_tickets_new_site": true,
       "train_type": "stadler",
       "has_arrival_time": false,
-      "description_en": null,
-      "description_ru": null,
-      "description_ka": null,
+      "description_en": "This train operates until September 15, 2025.",
+      "description_ru": "Этот поезд выполняет рейсы до 15 сентября 2025 года.",
+      "description_ka": "ეს მატარებელი მოძრაობს 2025 წლის 15 სექტემბრამდე.",
       "stations": [
          {
             "code": "tbilisicentralstation",
