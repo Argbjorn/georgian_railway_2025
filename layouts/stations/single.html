@@ -13,4 +13,25 @@
         </main>
     </article>
 </div>
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": {{ i18n "stations" }},
+          "url": "{{ urls.AbsLangURL "stations" }}"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": {{ .Page.Title }},
+          "url": "{{ .Page.Permalink }}"
+        }
+      ]
+    }
+  </script>
 {{ end }}

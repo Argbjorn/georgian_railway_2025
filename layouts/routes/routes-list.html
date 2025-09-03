@@ -28,4 +28,19 @@
     </main>
   </article>
 </div>
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": {{ i18n "routes" }},
+        "url": "{{ urls.AbsLangURL "routes" }}"
+      }
+    ]
+  }
+</script>
 {{ end }}
