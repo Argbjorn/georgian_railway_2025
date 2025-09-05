@@ -319,12 +319,14 @@ function toggleTrainInfo(elementId) {
         {
           "@type": "ListItem",
           "position": 1,
+          "item:": "{{ urls.AbsLangURL "routes" }}",
           "name": {{ i18n "routes" }},
           "url": "{{ urls.AbsLangURL "routes" }}"
         },
         {
           "@type": "ListItem",
           "position": 2,
+          "item:": "{{ .Page.Permalink }}",
           "name": {{ .Page.Title }},
           "url": "{{ .Page.Permalink }}"
         }
