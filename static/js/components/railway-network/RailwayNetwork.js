@@ -1,5 +1,5 @@
 import { railwayNetworkData } from "./railway-network-data.js"
-import stateManager from "./state/mapStateManager.js"
+import stateManager from "../../state/mapStateManager.js"
 
 export class RailwayNetwork {
     constructor(map) {

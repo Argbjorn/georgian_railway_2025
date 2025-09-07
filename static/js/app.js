@@ -1,11 +1,11 @@
-import BaseMap from "./BaseMap.js";
+import { MainPageMap } from "./components/map/MainPageMap.js";
 import stateManager from "./state/mapStateManager.js";
 import { DeviceTypeDetector } from "./utils/DeviceTypeDetector.js";
 
 const deviceTypeDetector = new DeviceTypeDetector();
 stateManager.setDeviceType(deviceTypeDetector.getDeviceType());
 
-const map = new BaseMap('map');
+const map = new MainPageMap('map');
 map.initialize();
 
 window.addEventListener('resize', () => {

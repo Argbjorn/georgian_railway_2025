@@ -1,6 +1,6 @@
-import stateManager from "./state/mapStateManager.js";
+import stateManager from "../../state/mapStateManager.js";
 import { SidebarContent } from "./SidebarContent.js";
-import { Route } from "./route.js";
+import { InteractiveRoute } from "../route/InteractiveRoute.js";
 
 class Sidebar {
     constructor(map, container) {
@@ -138,7 +138,7 @@ class Sidebar {
                         stateManager.selectRoute(stateManager.createdRoutes.find(route => route.ref === parseInt(routeRef)));
                         return;
                     }
-                    const route = new Route(this.map, routeRef);
+                    const route = new InteractiveRoute(this.map, routeRef);
                     stateManager.createRoute(route);
                     stateManager.selectRoute(route);
                     await route.createLayer();

@@ -1,23 +1,14 @@
 import { routes } from "./routes-list.js";
-import stateManager from "./state/mapStateManager.js";
-import { ANIMATION_DURATION } from "./constants.js";
-import { getBoundsPadding } from "./utils/utils.js";
+import { ANIMATION_DURATION } from "../../constants.js";
+import { getBoundsPadding } from "../../utils/utils.js";
 
-export class Route {
+export class BaseRoute {
     constructor(map, ref) {
         this.ref = parseInt(ref);
         this.map = map;
         this.routeData = routes.find(route => route.ref === this.ref);
         this.layer = null;
         this.bounds = null;
-
-        stateManager.subscribe((data) => {
-            if (data.selectedRoute && data.selectedRoute.ref === this.ref) {
-                this.show();
-            } else {
-                this.hide();
-            }
-        });
     }
 
     async createLayer() {

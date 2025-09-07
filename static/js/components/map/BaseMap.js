@@ -1,11 +1,7 @@
-import { RailwayNetwork } from "./RailwayNetwork.js"
-import { StationsGroup } from "./StationsGroup.js"
-import { Sidebar } from "./sidebar.js"
-import { DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM, GLOBAL_MAP_BOUNDS } from "./constants.js"
-import { LanguageService } from "./LanguageService.js"
-import { PoiGroup } from "./poiGroup.js"
+import { DEFAULT_MAP_CENTER, DEFAULT_MAP_ZOOM, GLOBAL_MAP_BOUNDS } from "../../constants.js"
+import { LanguageService } from "../../services/LanguageService.js"
 
-class BaseMap {
+export class BaseMap {
     constructor(container) {
         this.map = new maplibregl.Map({
             container: container,
@@ -14,10 +10,6 @@ class BaseMap {
             zoom: DEFAULT_MAP_ZOOM,
             maxBounds: GLOBAL_MAP_BOUNDS
         })
-        this.railwayNetwork = new RailwayNetwork(this.map)
-        this.stationsGroup = new StationsGroup(this.map)
-        this.poiGroup = new PoiGroup(this.map)
-        this.sidebar = new Sidebar(this.map, container)
     }
 
     initialize() {
@@ -28,9 +20,6 @@ class BaseMap {
     }
 
     onMapLoad() {
-        this.railwayNetwork.show();
-        this.stationsGroup.show();
-        this.poiGroup.show();
     }
 
     selectTilesByLanguage() {

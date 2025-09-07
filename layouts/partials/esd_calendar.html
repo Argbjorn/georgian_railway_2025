@@ -69,11 +69,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const lang = trigger.dataset.lang || 'en';
         const endDateStr = trigger.dataset.endDate; // Получаем значение data-end-date
         
-        // Отладочная информация
-        if (endDateStr) {
-            console.log('endDateStr:', endDateStr, 'type:', typeof endDateStr);
-        }
-        
         let timestamp = Number(timestampStr);
         
         // Если timestamp выглядит как секунды (меньше чем типичное значение в миллисекундах)
