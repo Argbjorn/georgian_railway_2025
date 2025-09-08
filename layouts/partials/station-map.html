@@ -1,24 +1,14 @@
-{{ $lang := .Get 0 }}
+{{ $lang := .lang }}
+{{ $coords := .coords }}
+{{ $lat := index $coords 0 }}
+{{ $lng := index $coords 1 }}
 
-{{ $translations := dict
-    "ru" (dict
-        "show_map" "Показать карту"
-        "hide_map" "Скрыть карту"
-    )
-    "en" (dict
-        "show_map" "Show the map"
-        "hide_map" "Hide the map"
-    )
-    "ka" (dict
-        "show_map" "რუკის ჩვენება"
-        "hide_map" "რუკის დამალვა"
-    )
-}}
-
-{{ $t := index $translations $lang }}
 <div class="station-map-container">
-    <button class="station-map-toggle" onclick="toggleMap()">{{ $t.show_map }}</button>
-    <div id="station-map" style="height: 400px; width: 100%; margin-top: 10px; display: none;"></div>
+    <button class="station-map-toggle" 
+            data-show-text="{{ i18n "showMap" . }}" 
+            data-hide-text="{{ i18n "hideMap" . }}"
+            onclick="toggleMap()">{{ i18n "showMap" . }}</button>
+    <div id="station-map" data-station-lat="{{ $lat }}" data-station-lng="{{ $lng }}" style="height: 400px; width: 100%; margin-top: 10px; display: none;"></div>
 </div>
 
 <style>
@@ -49,48 +39,30 @@
 </style>
 
 <script>
-    let mapInitialized = false;
-    
     function toggleMap() {
         const mapDiv = document.getElementById('station-map');
         const button = document.querySelector('.station-map-toggle');
         
         if (mapDiv.style.display === 'none') {
             mapDiv.style.display = 'block';
-            button.textContent = '{{ $t.hide_map }}';
+            button.textContent = button.dataset.hideText;
             
-            if (!mapInitialized) {
-                const map = L.map('station-map').setView([{{ index .Page.Params.coords 0 }}, {{ index .Page.Params.coords 1 }}], 10);
-                
-                {{/*  L.tileLayer('https://tile.thunderforest.com/atlas/{z}/{x}/{y}.png?apikey=6fb239b3c88b4c93b4524271cdbd7e1d', {
-                    attribution: 'Tiles &copy; <a href="https://www.thunderforest.com/" target="_blank">Thunderforest</a> | Data &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a>'
-                }).addTo(map);  */}}
-
-                L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                    attribution: '<a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a>'
-                }).addTo(map);
-
-                const stationIcon = L.BeautifyIcon.icon({
-                    iconShape: 'circle',
-                    borderColor: '#fff',
-                    textColor: '#c1121f',
-                    iconSize: [25, 25],
-                    isAlphaNumericIcon: true,
-                    text: '',
-                    backgroundColor: '#c1121f',
-                    iconAnchor: [0, 0]
+            // Initialize the map only when it is first shown
+            if (!window.stationMapInitialized) {
+                import('/js/components/map/SimpleStationMap.js').then(module => {
+                    const SimpleStationMap = module.default;
+                    const stationCoords = [
+                        parseFloat(mapDiv.dataset.stationLat),
+                        parseFloat(mapDiv.dataset.stationLng),
+                    ];
+                    const map = new SimpleStationMap('station-map', stationCoords);
+                    map.initialize();
+                    window.stationMapInitialized = true;
                 });
-
-                L.marker([{{ index .Page.Params.coords 0 }}, {{ index .Page.Params.coords 1 }}], {
-                    icon: stationIcon
-                }).bindTooltip('{{ .Page.Title }}', {offset: [10, 0]}).addTo(map);
-                
-                mapInitialized = true;
-                setTimeout(() => map.invalidateSize(), 100);
             }
         } else {
             mapDiv.style.display = 'none';
-            button.textContent = '{{ $t.show_map }}';
+            button.textContent = button.dataset.showText;
         }
     }
 </script>

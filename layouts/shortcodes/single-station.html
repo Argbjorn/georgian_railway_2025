@@ -25,7 +25,7 @@
 
 <div class="station-page-description">{{ index .Page.Params.description $lang | markdownify }}</div>
 
-{{ partial "station-map.html" . $lang }}
+{{ partial "station-map.html" (dict "lang" $lang "coords" .Page.Params.coords) }}
 
 <div class="station-page-content">
 {{ if .Page.Params.routes.departure }}
