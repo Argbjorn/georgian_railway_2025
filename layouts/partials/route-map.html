@@ -4,26 +4,202 @@
     "ru" (dict
         "unknown_station" "Неизвестная станция"
         "show_stations" "Показать названия станций"
+        "expand_map" "Развернуть карту"
     )
     "en" (dict
         "unknown_station" "Unknown station"
         "show_stations" "Show station names"
+        "expand_map" "Expand map"
     )
     "ka" (dict
-    "unknown_station" "უცნობი სადგური"
-    "show_stations" "სადგურთა სახელების ნახვა"
+        "unknown_station" "უცნობი სადგური"
+        "show_stations" "სადგურთა სახელების ნახვა"
+        "expand_map" "რუკის გაშლა"
     )
 }}
 
 {{ $t := index $translations $lang }}
 
 <div class="route-map-container">
-    <div id="route-map" data-route-ref="{{ .Params.ref }}" style="height: 400px; width: 100%; margin-top: 10px;"></div>
+    <div id="route-map" data-route-ref="{{ .Params.ref }}" style="height: 400px; width: 100%; margin-top: 10px; position: relative;">
+        <!-- Прозрачный оверлей для блокировки интерактивности -->
+        <div class="map-overlay" id="map-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1000; cursor: pointer;"></div>
+        
+        <!-- Кнопка разворачивания -->
+        <button class="map-expand-button" id="expand-map-btn" style="position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); z-index: 1001;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="m21 21-6-6m6 6v-4.8m0 4.8h-4.8"/>
+                <path d="M3 16.2V21m0 0h4.8M3 21l6-6"/>
+                <path d="M21 7.8V3m0 0h-4.8M21 3l-6 6"/>
+                <path d="M3 7.8V3m0 0h4.8M3 3l6 6"/>
+            </svg>
+            {{ $t.expand_map }}
+        </button>
+    </div>
 </div>
 
 <script type="module">
     import SimpleRouteMap from '/js/components/map/SimpleRouteMap.js';
+    
     const routeRef = document.getElementById('route-map').dataset.routeRef;
-    const map = new SimpleRouteMap('route-map', routeRef);
-    map.initialize();
+    const mapContainer = document.getElementById('route-map');
+    const overlay = document.getElementById('map-overlay');
+    const expandBtn = document.getElementById('expand-map-btn');
+    
+    let map = null;
+    let isFullscreen = false;
+    let originalParent = null;
+    let originalNextSibling = null;
+    let scrollX = 0;
+    let scrollY = 0;
+    
+    // Создаем карту
+    function initializeMap() {
+        map = new SimpleRouteMap('route-map', routeRef);
+        map.initialize();
+    }
+    
+    // Переход в полноэкранный режим
+    function enterFullscreen() {
+        if (isFullscreen) return;
+        
+        // Сохраняем текущую позицию скролла ПЕРВЫМ ДЕЛОМ
+        scrollX = window.pageXOffset || document.documentElement.scrollLeft;
+        scrollY = window.pageYOffset || document.documentElement.scrollTop;
+        
+        // Запоминаем изначальное положение
+        originalParent = mapContainer.parentNode;
+        originalNextSibling = mapContainer.nextSibling;
+        
+        // Создаем полноэкранный контейнер
+        const fullscreenContainer = document.createElement('div');
+        fullscreenContainer.id = 'fullscreen-container';
+        fullscreenContainer.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: white;
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+        `;
+        
+        // Создаем кнопку закрытия
+        const closeBtn = document.createElement('button');
+        closeBtn.innerHTML = `
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 6L6 18"/>
+                <path d="M6 6l12 12"/>
+            </svg>
+        `;
+        closeBtn.style.cssText = `
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            z-index: 10000;
+            background: white;
+            border: 2px solid #ddd;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        `;
+        closeBtn.onclick = exitFullscreen;
+        
+        // Обновляем стили карты для полноэкранного режима
+        mapContainer.style.cssText = 'width: 100%; height: 100%; position: relative;';
+        
+        // Скрываем оверлей и кнопку разворачивания
+        overlay.style.display = 'none';
+        expandBtn.style.display = 'none';
+        
+        // Добавляем элементы в полноэкранный контейнер
+        fullscreenContainer.appendChild(closeBtn);
+        fullscreenContainer.appendChild(mapContainer);
+        document.body.appendChild(fullscreenContainer);
+        
+        // Блокируем прокрутку страницы
+        document.body.style.top = `-${scrollY}px`;
+        document.body.style.left = `-${scrollX}px`;
+        document.body.classList.add('fullscreen-open');
+        document.documentElement.classList.add('fullscreen-open');
+        
+        // Обновляем размер карты
+        setTimeout(() => {
+            if (map && map.map) {
+                map.map.resize();
+            }
+        }, 100);
+        
+        isFullscreen = true;
+        
+        // Закрытие по ESC
+        document.addEventListener('keydown', handleEscape);
+    }
+    
+    // Выход из полноэкранного режима
+    function exitFullscreen() {
+        if (!isFullscreen) return;
+        
+        const fullscreenContainer = document.getElementById('fullscreen-container');
+        
+        // Возвращаем карту на место
+        mapContainer.style.cssText = 'height: 400px; width: 100%; margin-top: 10px; position: relative;';
+        
+        // Показываем оверлей и кнопку разворачивания
+        overlay.style.display = 'block';
+        expandBtn.style.display = 'flex';
+        
+        // Возвращаем карту в оригинальное место
+        if (originalNextSibling) {
+            originalParent.insertBefore(mapContainer, originalNextSibling);
+        } else {
+            originalParent.appendChild(mapContainer);
+        }
+        
+        // Удаляем полноэкранный контейнер
+        if (fullscreenContainer) {
+            fullscreenContainer.remove();
+        }
+        
+        // Разблокируем прокрутку страницы и восстанавливаем позицию
+        document.body.classList.remove('fullscreen-open');
+        document.documentElement.classList.remove('fullscreen-open');
+        document.body.style.top = '';
+        document.body.style.left = '';
+        
+        // Восстанавливаем позицию скролла
+        setTimeout(() => {
+            window.scrollTo(scrollX, scrollY);
+        }, 0);
+        
+        // Обновляем размер карты
+        setTimeout(() => {
+            if (map && map.map) {
+                map.map.resize();
+            }
+        }, 100);
+        
+        isFullscreen = false;
+        document.removeEventListener('keydown', handleEscape);
+    }
+    
+    function handleEscape(e) {
+        if (e.key === 'Escape') {
+            exitFullscreen();
+        }
+    }
+    
+    // Обработчики событий
+    expandBtn.addEventListener('click', enterFullscreen);
+    
+    // Инициализируем карту
+    initializeMap();
 </script>
