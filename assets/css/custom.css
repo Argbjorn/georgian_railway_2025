@@ -22,12 +22,12 @@ nav > a, li > a {
     padding-bottom: 0 !important;
 }
 
+/* Общие стили для карты */
 #map {
     height: calc(100vh - 64px);
     height: calc(100dvh - 64px);
     width: 100vw;
     position: relative;
-    left: 50%;
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
@@ -36,6 +36,20 @@ nav > a, li > a {
     font-style: normal;
     font-size: 14px;
     z-index: 10;
+}
+
+/* Стили для экранов меньше 1280px */
+@media (max-width: 1279px) {
+    #map {
+        left: 50%;
+    }
+}
+
+/* Стили для экранов 1280px и больше */
+@media (min-width: 1280px) {
+    #map {
+        left: 30%;
+    }
 }
 
 .esd-calendar {
