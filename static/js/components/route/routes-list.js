@@ -2839,9 +2839,9 @@ export const routes = [
       "online_tickets_new_site": true,
       "train_type": "stadler",
       "has_arrival_time": false,
-      "description_en": "This train operates until September 15, 2025.",
-      "description_ru": "Этот поезд выполняет рейсы до 15 сентября 2025 года.",
-      "description_ka": "ეს მატარებელი მოძრაობს 2025 წლის 15 სექტემბრამდე.",
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "batumicentral",
@@ -2921,9 +2921,9 @@ export const routes = [
       "online_tickets_new_site": true,
       "train_type": "stadler",
       "has_arrival_time": false,
-      "description_en": "This train operates until September 15, 2025.",
-      "description_ru": "Этот поезд выполняет рейсы до 15 сентября 2025 года.",
-      "description_ka": "ეს მატარებელი მოძრაობს 2025 წლის 15 სექტემბრამდე.",
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -3003,9 +3003,9 @@ export const routes = [
       "online_tickets_new_site": true,
       "train_type": "stadler",
       "has_arrival_time": false,
-      "description_en": "This train operates until September 15, 2025.",
-      "description_ru": "Этот поезд выполняет рейсы до 15 сентября 2025 года.",
-      "description_ka": "ეს მატარებელი მოძრაობს 2025 წლის 15 სექტემბრამდე.",
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "batumicentral",
@@ -3085,9 +3085,9 @@ export const routes = [
       "online_tickets_new_site": true,
       "train_type": "stadler",
       "has_arrival_time": false,
-      "description_en": "This train operates until September 15, 2025.",
-      "description_ru": "Этот поезд выполняет рейсы до 15 сентября 2025 года.",
-      "description_ka": "ეს მატარებელი მოძრაობს 2025 წლის 15 სექტემბრამდე.",
+      "description_en": null,
+      "description_ru": null,
+      "description_ka": null,
       "stations": [
          {
             "code": "tbilisicentralstation",
