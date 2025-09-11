@@ -1066,8 +1066,32 @@ body, html {
     font-size: 15px;
 }
 
+/* Стили для контейнера карты маршрута */
+.route-map-container {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Стили для оверлея карты */
+.map-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
 /* Стили для кнопки разворачивания карты */
 .map-expand-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1001;
     display: flex;
     align-items: center;
     gap: 6px;
@@ -1088,7 +1112,6 @@ body, html {
     background: rgba(255, 255, 255, 1);
     border-color: #137000;
     color: #137000;
-    transform: translateY(-1px);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -1096,8 +1119,8 @@ body, html {
     flex-shrink: 0;
 }
 
-/* Стили для полноэкранного оверлея */
-.fullscreen-map-overlay {
+/* Стили для полноэкранного контейнера */
+.fullscreen-container {
     position: fixed;
     top: 0;
     left: 0;
@@ -1105,12 +1128,16 @@ body, html {
     height: 100vh;
     background: white;
     z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
 }
 
 .fullscreen-map-container {
     width: 100%;
     height: 100%;
     position: relative;
+    margin-top: 0;
 }
 
 /* Стили для кнопки закрытия полноэкранного режима */
@@ -1133,6 +1160,13 @@ body, html {
     backdrop-filter: blur(4px);
     transition: all 0.2s ease;
     padding: 0;
+}
+
+.fullscreen-close-button:hover {
+    background: rgba(255, 255, 255, 1);
+    border-color: #333;
+    color: #333;
+    transform: scale(1.05);
 }
 
 .fullscreen-close-button svg {
