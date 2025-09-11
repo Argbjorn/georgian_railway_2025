@@ -22,10 +22,10 @@
 
 <div class="route-map-container">
     <div id="route-map" data-route-ref="{{ .Params.ref }}" class="route-map-container">
-        <!-- Прозрачный оверлей для блокировки интерактивности -->
+        <!-- Transparent overlay to block interactivity -->
         <div class="map-overlay" id="map-overlay"></div>
         
-        <!-- Кнопка разворачивания -->
+        <!-- Expand button -->
         <button class="map-expand-button" id="expand-map-btn">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="m21 21-6-6m6 6v-4.8m0 4.8h-4.8"/>
@@ -52,31 +52,42 @@
     let originalNextSibling = null;
     let scrollX = 0;
     let scrollY = 0;
+    let initialCenter = null;
+    let initialZoom = null;
     
-    // Создаем карту
+    // Create map
     function initializeMap() {
         map = new SimpleRouteMap('route-map', routeRef);
         map.initialize();
+        
+        // Save initial parameters after map load
+        map.map.on('load', () => {
+            // Small delay to let the map set its final position
+            setTimeout(() => {
+                initialCenter = map.map.getCenter();
+                initialZoom = map.map.getZoom();
+            }, 500);
+        });
     }
     
-    // Переход в полноэкранный режим
+    // Enter fullscreen mode
     function enterFullscreen() {
         if (isFullscreen) return;
         
-        // Сохраняем текущую позицию скролла ПЕРВЫМ ДЕЛОМ
+        // Save current scroll position FIRST
         scrollX = window.pageXOffset || document.documentElement.scrollLeft;
         scrollY = window.pageYOffset || document.documentElement.scrollTop;
         
-        // Запоминаем изначальное положение
+        // Remember original position
         originalParent = mapContainer.parentNode;
         originalNextSibling = mapContainer.nextSibling;
         
-        // Создаем полноэкранный контейнер
+        // Create fullscreen container
         const fullscreenContainer = document.createElement('div');
         fullscreenContainer.id = 'fullscreen-container';
         fullscreenContainer.className = 'fullscreen-container';
         
-        // Создаем кнопку закрытия
+        // Create close button
         const closeBtn = document.createElement('button');
         closeBtn.className = 'fullscreen-close-button';
         closeBtn.innerHTML = `
@@ -87,25 +98,25 @@
         `;
         closeBtn.onclick = exitFullscreen;
         
-        // Обновляем стили карты для полноэкранного режима
+        // Update map styles for fullscreen mode
         mapContainer.className = 'fullscreen-map-container';
         
-        // Скрываем оверлей и кнопку разворачивания
+        // Hide overlay and expand button
         overlay.style.display = 'none';
         expandBtn.style.display = 'none';
         
-        // Добавляем элементы в полноэкранный контейнер
+        // Add elements to fullscreen container
         fullscreenContainer.appendChild(closeBtn);
         fullscreenContainer.appendChild(mapContainer);
         document.body.appendChild(fullscreenContainer);
         
-        // Блокируем прокрутку страницы
+        // Block page scrolling
         document.body.style.top = `-${scrollY}px`;
         document.body.style.left = `-${scrollX}px`;
         document.body.classList.add('fullscreen-open');
         document.documentElement.classList.add('fullscreen-open');
         
-        // Обновляем размер карты
+        // Update map size
         setTimeout(() => {
             if (map && map.map) {
                 map.map.resize();
@@ -114,52 +125,58 @@
         
         isFullscreen = true;
         
-        // Закрытие по ESC
+        // Close on ESC
         document.addEventListener('keydown', handleEscape);
     }
     
-    // Выход из полноэкранного режима
+    // Exit fullscreen mode
     function exitFullscreen() {
         if (!isFullscreen) return;
         
         const fullscreenContainer = document.getElementById('fullscreen-container');
         
-        // Возвращаем карту на место
+        // Return map to its place
         mapContainer.className = 'route-map-container';
         
-        // Показываем оверлей и кнопку разворачивания
+        // Show overlay and expand button
         overlay.style.display = 'block';
         expandBtn.style.display = 'flex';
         
-        // Возвращаем карту в оригинальное место
+        // Return map to original location
         if (originalNextSibling) {
             originalParent.insertBefore(mapContainer, originalNextSibling);
         } else {
             originalParent.appendChild(mapContainer);
         }
         
-        // Удаляем полноэкранный контейнер
+        // Remove fullscreen container
         if (fullscreenContainer) {
             fullscreenContainer.remove();
         }
         
-        // Разблокируем прокрутку страницы и восстанавливаем позицию
+        // Unblock page scrolling and restore position
         document.body.classList.remove('fullscreen-open');
         document.documentElement.classList.remove('fullscreen-open');
         document.body.style.top = '';
         document.body.style.left = '';
         
-        // Восстанавливаем позицию скролла
+        // Restore scroll position
         setTimeout(() => {
             window.scrollTo(scrollX, scrollY);
         }, 0);
         
-        // Обновляем размер карты
+        // Update map size and reset state
         setTimeout(() => {
             if (map && map.map) {
                 map.map.resize();
+                
+                // Reset map to initial state
+                if (initialCenter && initialZoom !== null) {
+                    map.map.setCenter(initialCenter);
+                    map.map.setZoom(initialZoom);
+                }
             }
-        }, 100);
+        }, 150);
         
         isFullscreen = false;
         document.removeEventListener('keydown', handleEscape);
@@ -171,9 +188,9 @@
         }
     }
     
-    // Обработчики событий
+    // Event handlers
     expandBtn.addEventListener('click', enterFullscreen);
     
-    // Инициализируем карту
+    // Initialize map
     initializeMap();
 </script>
