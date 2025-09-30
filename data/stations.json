@@ -249,27 +249,27 @@
          "arrival": [],
          "via": [
             {
-               "ref": 201,
-               "name_en": "Batumi → Yerevan",
-               "name_ru": "Батуми → Ереван",
-               "name_ka": "ბათუმი → ერევანი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749945600000,
-               "end_date": 1759190400000,
-               "arrival_time": "08:08",
-               "departure_time": "08:10",
-               "stop_time": 2
+               "ref": 371,
+               "name_en": "Tbilisi → Yerevan",
+               "name_ru": "Тбилиси → Ереван",
+               "name_ka": "თბილისი → ერევანი",
+               "frequency": "on odd days",
+               "every_second_day_start": 1759449600000,
+               "end_date": 1781308800000,
+               "arrival_time": "06:03",
+               "departure_time": "06:06",
+               "stop_time": 3
             },
             {
-               "ref": 202,
-               "name_en": "Yerevan → Batumi",
-               "name_ru": "Ереван → Батуми",
-               "name_ka": "ერევანი → ბათუმი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749859200000,
-               "end_date": 1759190400000,
-               "arrival_time": "14:48",
-               "departure_time": "14:50",
+               "ref": 372,
+               "name_en": "Yerevan → Tbilisi",
+               "name_ru": "Ереван → Тбилиси",
+               "name_ka": "ერევანი → თბილისი",
+               "frequency": "on even days",
+               "every_second_day_start": 1759363200000,
+               "end_date": 1781222400000,
+               "arrival_time": "22:16",
+               "departure_time": "22:18",
                "stop_time": 2
             }
          ]
@@ -364,28 +364,28 @@
          "arrival": [],
          "via": [
             {
-               "ref": 201,
-               "name_en": "Batumi → Yerevan",
-               "name_ru": "Батуми → Ереван",
-               "name_ka": "ბათუმი → ერევანი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749945600000,
-               "end_date": 1759190400000,
-               "arrival_time": "02:03",
-               "departure_time": "03:00",
-               "stop_time": 57
+               "ref": 371,
+               "name_en": "Tbilisi → Yerevan",
+               "name_ru": "Тбилиси → Ереван",
+               "name_ka": "თბილისი → ერევანი",
+               "frequency": "on odd days",
+               "every_second_day_start": 1759449600000,
+               "end_date": 1781308800000,
+               "arrival_time": "23:40",
+               "departure_time": "00:40",
+               "stop_time": 60
             },
             {
-               "ref": 202,
-               "name_en": "Yerevan → Batumi",
-               "name_ru": "Ереван → Батуми",
-               "name_ka": "ერევანი → ბათუმი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749859200000,
-               "end_date": 1759190400000,
-               "arrival_time": "19:57",
-               "departure_time": "20:55",
-               "stop_time": 58
+               "ref": 372,
+               "name_en": "Yerevan → Tbilisi",
+               "name_ru": "Ереван → Тбилиси",
+               "name_ka": "ერევანი → თბილისი",
+               "frequency": "on even days",
+               "every_second_day_start": 1759363200000,
+               "end_date": 1781222400000,
+               "arrival_time": "03:24",
+               "departure_time": "04:15",
+               "stop_time": 51
             }
          ]
       }
@@ -410,18 +410,6 @@
       },
       "routes": {
          "departure": [
-            {
-               "ref": 201,
-               "name_en": "Batumi → Yerevan",
-               "name_ru": "Батуми → Ереван",
-               "name_ka": "ბათუმი → ერევანი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749945600000,
-               "end_date": 1759190400000,
-               "arrival_time": "-",
-               "departure_time": "14:45",
-               "stop_time": null
-            },
             {
                "ref": 613,
                "name_en": "Batumi → Ozurgeti",
@@ -484,18 +472,6 @@
             }
          ],
          "arrival": [
-            {
-               "ref": 202,
-               "name_en": "Yerevan → Batumi",
-               "name_ru": "Ереван → Батуми",
-               "name_ka": "ერევანი → ბათუმი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749859200000,
-               "end_date": 1759190400000,
-               "arrival_time": "07:57",
-               "departure_time": "-",
-               "stop_time": null
-            },
             {
                "ref": 614,
                "name_en": "Ozurgeti → Batumi",
@@ -1712,28 +1688,28 @@
          "arrival": [],
          "via": [
             {
-               "ref": 201,
-               "name_en": "Batumi → Yerevan",
-               "name_ru": "Батуми → Ереван",
-               "name_ka": "ბათუმი → ერევანი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749945600000,
-               "end_date": 1759190400000,
-               "arrival_time": "06:05",
-               "departure_time": "06:25",
+               "ref": 371,
+               "name_en": "Tbilisi → Yerevan",
+               "name_ru": "Тбилиси → Ереван",
+               "name_ka": "თბილისი → ერევანი",
+               "frequency": "on odd days",
+               "every_second_day_start": 1759449600000,
+               "end_date": 1781308800000,
+               "arrival_time": "03:50",
+               "departure_time": "04:10",
                "stop_time": 20
             },
             {
-               "ref": 202,
-               "name_en": "Yerevan → Batumi",
-               "name_ru": "Ереван → Батуми",
-               "name_ka": "ერევანი → ბათუმი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749859200000,
-               "end_date": 1759190400000,
-               "arrival_time": "16:29",
-               "departure_time": "16:45",
-               "stop_time": 16
+               "ref": 372,
+               "name_en": "Yerevan → Tbilisi",
+               "name_ru": "Ереван → Тбилиси",
+               "name_ka": "ერევანი → თბილისი",
+               "frequency": "on even days",
+               "every_second_day_start": 1759363200000,
+               "end_date": 1781222400000,
+               "arrival_time": "23:59",
+               "departure_time": "00:13",
+               "stop_time": 14
             }
          ]
       }
@@ -2405,30 +2381,6 @@
          ],
          "via": [
             {
-               "ref": 201,
-               "name_en": "Batumi → Yerevan",
-               "name_ru": "Батуми → Ереван",
-               "name_ka": "ბათუმი → ერევანი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749945600000,
-               "end_date": 1759190400000,
-               "arrival_time": "19:43",
-               "departure_time": "19:53",
-               "stop_time": 10
-            },
-            {
-               "ref": 202,
-               "name_en": "Yerevan → Batumi",
-               "name_ru": "Ереван → Батуми",
-               "name_ka": "ერევანი → ბათუმი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749859200000,
-               "end_date": 1759190400000,
-               "arrival_time": "02:35",
-               "departure_time": "02:55",
-               "stop_time": 20
-            },
-            {
                "ref": 617,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -2659,30 +2611,6 @@
          "departure": [],
          "arrival": [],
          "via": [
-            {
-               "ref": 201,
-               "name_en": "Batumi → Yerevan",
-               "name_ru": "Батуми → Ереван",
-               "name_ka": "ბათუმი → ერევანი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749945600000,
-               "end_date": 1759190400000,
-               "arrival_time": "15:11",
-               "departure_time": "15:22",
-               "stop_time": 11
-            },
-            {
-               "ref": 202,
-               "name_en": "Yerevan → Batumi",
-               "name_ru": "Ереван → Батуми",
-               "name_ka": "ერევანი → ბათუმი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749859200000,
-               "end_date": 1759190400000,
-               "arrival_time": "07:25",
-               "departure_time": "07:32",
-               "stop_time": 7
-            },
             {
                "ref": 613,
                "name_en": "Batumi → Ozurgeti",
@@ -3455,30 +3383,6 @@
          "arrival": [],
          "via": [
             {
-               "ref": 201,
-               "name_en": "Batumi → Yerevan",
-               "name_ru": "Батуми → Ереван",
-               "name_ka": "ბათუმი → ერევანი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749945600000,
-               "end_date": 1759190400000,
-               "arrival_time": "14:50",
-               "departure_time": "14:51",
-               "stop_time": 1
-            },
-            {
-               "ref": 202,
-               "name_en": "Yerevan → Batumi",
-               "name_ru": "Ереван → Батуми",
-               "name_ka": "ერევანი → ბათუმი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749859200000,
-               "end_date": 1759190400000,
-               "arrival_time": "07:51",
-               "departure_time": "07:52",
-               "stop_time": 1
-            },
-            {
                "ref": 613,
                "name_en": "Batumi → Ozurgeti",
                "name_ru": "Батуми → Озургети",
@@ -3566,25 +3470,7 @@
       "name_en": "Marabda",
       "name_ka": "მარაბდა",
       "name_ru": "Марабда",
-      "gr_code": 56303,
-      "routes": {
-         "departure": [],
-         "arrival": [],
-         "via": [
-            {
-               "ref": 201,
-               "name_en": "Batumi → Yerevan",
-               "name_ru": "Батуми → Ереван",
-               "name_ka": "ბათუმი → ერევანი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749945600000,
-               "end_date": 1759190400000,
-               "arrival_time": "23:24",
-               "departure_time": "23:29",
-               "stop_time": 5
-            }
-         ]
-      }
+      "gr_code": 56303
    },
    {
       "id": [
@@ -3791,18 +3677,6 @@
          "departure": [],
          "arrival": [],
          "via": [
-            {
-               "ref": 202,
-               "name_en": "Yerevan → Batumi",
-               "name_ru": "Ереван → Батуми",
-               "name_ka": "ერევანი → ბათუმი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749859200000,
-               "end_date": 1759190400000,
-               "arrival_time": "03:43",
-               "departure_time": "03:46",
-               "stop_time": 3
-            },
             {
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
@@ -5029,27 +4903,27 @@
          "arrival": [],
          "via": [
             {
-               "ref": 201,
-               "name_en": "Batumi → Yerevan",
-               "name_ru": "Батуми → Ереван",
-               "name_ka": "ბათუმი → ერევანი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749945600000,
-               "end_date": 1759190400000,
-               "arrival_time": "00:38",
-               "departure_time": "01:38",
-               "stop_time": 60
+               "ref": 371,
+               "name_en": "Tbilisi → Yerevan",
+               "name_ru": "Тбилиси → Ереван",
+               "name_ka": "თბილისი → ერევანი",
+               "frequency": "on odd days",
+               "every_second_day_start": 1759449600000,
+               "end_date": 1781308800000,
+               "arrival_time": "22:10",
+               "departure_time": "23:15",
+               "stop_time": 65
             },
             {
-               "ref": 202,
-               "name_en": "Yerevan → Batumi",
-               "name_ru": "Ереван → Батуми",
-               "name_ka": "ერევანი → ბათუმი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749859200000,
-               "end_date": 1759190400000,
-               "arrival_time": "21:20",
-               "departure_time": "22:20",
+               "ref": 372,
+               "name_en": "Yerevan → Tbilisi",
+               "name_ru": "Ереван → Тбилиси",
+               "name_ka": "ერევანი → თბილისი",
+               "frequency": "on even days",
+               "every_second_day_start": 1759363200000,
+               "end_date": 1781222400000,
+               "arrival_time": "04:40",
+               "departure_time": "05:40",
                "stop_time": 60
             }
          ]
@@ -5212,30 +5086,6 @@
          "departure": [],
          "arrival": [],
          "via": [
-            {
-               "ref": 201,
-               "name_en": "Batumi → Yerevan",
-               "name_ru": "Батуми → Ереван",
-               "name_ka": "ბათუმი → ერევანი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749945600000,
-               "end_date": 1759190400000,
-               "arrival_time": "16:56",
-               "departure_time": "16:58",
-               "stop_time": 2
-            },
-            {
-               "ref": 202,
-               "name_en": "Yerevan → Batumi",
-               "name_ru": "Ереван → Батуми",
-               "name_ka": "ერევანი → ბათუმი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749859200000,
-               "end_date": 1759190400000,
-               "arrival_time": "05:54",
-               "departure_time": "05:56",
-               "stop_time": 2
-            },
             {
                "ref": 681,
                "name_en": "Batumi → Kutaisi",
@@ -5705,6 +5555,18 @@
       "routes": {
          "departure": [
             {
+               "ref": 371,
+               "name_en": "Tbilisi → Yerevan",
+               "name_ru": "Тбилиси → Ереван",
+               "name_ka": "თბილისი → ერევანი",
+               "frequency": "on odd days",
+               "every_second_day_start": 1759449600000,
+               "end_date": 1781308800000,
+               "arrival_time": "-",
+               "departure_time": "20:20",
+               "stop_time": null
+            },
+            {
                "ref": 618,
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
@@ -5815,6 +5677,18 @@
          ],
          "arrival": [
             {
+               "ref": 372,
+               "name_en": "Yerevan → Tbilisi",
+               "name_ru": "Ереван → Тбилиси",
+               "name_ka": "ერევანი → თბილისი",
+               "frequency": "on even days",
+               "every_second_day_start": 1759363200000,
+               "end_date": 1781222400000,
+               "arrival_time": "07:35",
+               "departure_time": "-",
+               "stop_time": null
+            },
+            {
                "ref": 617,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -5923,32 +5797,7 @@
                "stop_time": null
             }
          ],
-         "via": [
-            {
-               "ref": 201,
-               "name_en": "Batumi → Yerevan",
-               "name_ru": "Батуми → Ереван",
-               "name_ka": "ბათუმი → ერევანი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749945600000,
-               "end_date": 1759190400000,
-               "arrival_time": "21:47",
-               "departure_time": "22:40",
-               "stop_time": 53
-            },
-            {
-               "ref": 202,
-               "name_en": "Yerevan → Batumi",
-               "name_ru": "Ереван → Батуми",
-               "name_ka": "ერევანი → ბათუმი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749859200000,
-               "end_date": 1759190400000,
-               "arrival_time": "00:11",
-               "departure_time": "00:45",
-               "stop_time": 34
-            }
-         ]
+         "via": []
       }
    },
    {
@@ -6111,18 +5960,6 @@
          "arrival": [],
          "via": [
             {
-               "ref": 202,
-               "name_en": "Yerevan → Batumi",
-               "name_ru": "Ереван → Батуми",
-               "name_ka": "ერევანი → ბათუმი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749859200000,
-               "end_date": 1759190400000,
-               "arrival_time": "03:26",
-               "departure_time": "03:30",
-               "stop_time": 4
-            },
-            {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
@@ -6243,30 +6080,6 @@
          "departure": [],
          "arrival": [],
          "via": [
-            {
-               "ref": 201,
-               "name_en": "Batumi → Yerevan",
-               "name_ru": "Батуми → Ереван",
-               "name_ka": "ბათუმი → ერევანი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749945600000,
-               "end_date": 1759190400000,
-               "arrival_time": "15:56",
-               "departure_time": "16:01",
-               "stop_time": 5
-            },
-            {
-               "ref": 202,
-               "name_en": "Yerevan → Batumi",
-               "name_ru": "Ереван → Батуми",
-               "name_ka": "ერევანი → ბათუმი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749859200000,
-               "end_date": 1759190400000,
-               "arrival_time": "06:51",
-               "departure_time": "06:56",
-               "stop_time": 5
-            },
             {
                "ref": 681,
                "name_en": "Batumi → Kutaisi",
@@ -6409,27 +6222,27 @@
          "arrival": [],
          "via": [
             {
-               "ref": 201,
-               "name_en": "Batumi → Yerevan",
-               "name_ru": "Батуми → Ереван",
-               "name_ka": "ბათუმი → ერევანი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749945600000,
-               "end_date": 1759190400000,
-               "arrival_time": "04:42",
-               "departure_time": "04:47",
+               "ref": 371,
+               "name_en": "Tbilisi → Yerevan",
+               "name_ru": "Тбилиси → Ереван",
+               "name_ka": "თბილისი → ერევანი",
+               "frequency": "on odd days",
+               "every_second_day_start": 1759449600000,
+               "end_date": 1781308800000,
+               "arrival_time": "02:20",
+               "departure_time": "02:25",
                "stop_time": 5
             },
             {
-               "ref": 202,
-               "name_en": "Yerevan → Batumi",
-               "name_ru": "Ереван → Батуми",
-               "name_ka": "ერევანი → ბათუმი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749859200000,
-               "end_date": 1759190400000,
-               "arrival_time": "18:04",
-               "departure_time": "18:09",
+               "ref": 372,
+               "name_en": "Yerevan → Tbilisi",
+               "name_ru": "Ереван → Тбилиси",
+               "name_ka": "ერევანი → თბილისი",
+               "frequency": "on even days",
+               "every_second_day_start": 1759363200000,
+               "end_date": 1781222400000,
+               "arrival_time": "01:33",
+               "departure_time": "01:38",
                "stop_time": 5
             }
          ]
@@ -6522,28 +6335,28 @@
       "routes": {
          "departure": [
             {
-               "ref": 202,
-               "name_en": "Yerevan → Batumi",
-               "name_ru": "Ереван → Батуми",
-               "name_ka": "ერევანი → ბათუმი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749859200000,
-               "end_date": 1759190400000,
+               "ref": 372,
+               "name_en": "Yerevan → Tbilisi",
+               "name_ru": "Ереван → Тбилиси",
+               "name_ka": "ერევანი → თბილისი",
+               "frequency": "on even days",
+               "every_second_day_start": 1759363200000,
+               "end_date": 1781222400000,
                "arrival_time": "-",
-               "departure_time": "14:00",
+               "departure_time": "21:30",
                "stop_time": null
             }
          ],
          "arrival": [
             {
-               "ref": 201,
-               "name_en": "Batumi → Yerevan",
-               "name_ru": "Батуми → Ереван",
-               "name_ka": "ბათუმი → ერევანი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749945600000,
-               "end_date": 1759190400000,
-               "arrival_time": "08:59",
+               "ref": 371,
+               "name_en": "Tbilisi → Yerevan",
+               "name_ru": "Тбилиси → Ереван",
+               "name_ka": "თბილისი → ერევანი",
+               "frequency": "on odd days",
+               "every_second_day_start": 1759449600000,
+               "end_date": 1781308800000,
+               "arrival_time": "06:55",
                "departure_time": "-",
                "stop_time": null
             }
@@ -6702,30 +6515,6 @@
             }
          ],
          "via": [
-            {
-               "ref": 201,
-               "name_en": "Batumi → Yerevan",
-               "name_ru": "Батуми → Ереван",
-               "name_ka": "ბათუმი → ერევანი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749945600000,
-               "end_date": 1759190400000,
-               "arrival_time": "17:58",
-               "departure_time": "18:13",
-               "stop_time": 15
-            },
-            {
-               "ref": 202,
-               "name_en": "Yerevan → Batumi",
-               "name_ru": "Ереван → Батуми",
-               "name_ka": "ერევანი → ბათუმი",
-               "frequency": "every second day",
-               "every_second_day_start": 1749859200000,
-               "end_date": 1759190400000,
-               "arrival_time": "04:38",
-               "departure_time": "04:53",
-               "stop_time": 15
-            },
             {
                "ref": 633,
                "name_en": "Kutaisi → Sachkhere",

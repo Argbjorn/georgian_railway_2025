@@ -44,114 +44,34 @@
       "analogue": []
    },
    {
-      "id": 19197563,
-      "ref": 201,
-      "name:ka": "ბათუმი → ერევანი",
-      "name:en": "Batumi → Yerevan",
-      "name:ru": "Батуми → Ереван",
+      "id": 15664273,
+      "ref": 371,
+      "name:ka": "თბილისი → ერევანი",
+      "name:en": "Tbilisi → Yerevan",
+      "name:ru": "Тбилиси → Ереван",
       "active": true,
-      "frequency": "every second day",
-      "every_second_day_start": 1749945600000,
-      "end_date": 1759190400000,
+      "frequency": "on odd days",
+      "every_second_day_start": 1759449600000,
+      "end_date": 1781308800000,
       "complete": true,
       "online": false,
-      "online_tickets_current_site": false,
+      "online_tickets_current_site": true,
       "online_tickets_new_site": false,
       "train_type": null,
       "has_arrival_time": true,
-      "description_en": "This train is the summer version of train #371 Tbilisi - Yerevan. In 2025, it operates from June 15 to September 29. Tickets can be purchased online on the South Caucasus Railway website via the link below. Georgian Railways does not sell tickets for this train online, but they can be bought at station ticket offices. Platskart (open sleeper), coupe (compartment), and SV (luxury) classes are available. Prices information for <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_09.pdf\" target=\"_blank\">September</a>.",
-      "description_ru": "Этот поезд - летняя версия поезда №371 Тбилиси - Ереван. В 2025 году он ходит с 15 июня по 29 сентября. Билеты можно купить онлайн на сайте ЮКЖД по ссылке ниже. Грузинская железная дорога не продает билеты на этот поезд онлайн, однако их можно приобрести в кассах вокзалов. Доступны плацкарт, купе и СВ. Цены на <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_rus_09.pdf\" target=\"_blank\">сентябрь</a>.",
-      "description_ka": "ეს მატარებელი №371 თბილისი – ერევნის ზაფხულის ვერსიაა. 2025 წელს იგი იმოძრავებს 15 ივნისიდან 29 სექტემბერი. ბილეთების შეძენა ონლაინ შეგიძლიათ სამხრეთ კავკასიური რკინიგზის ვებგვერდზე ქვემოთ მოცემული ბმულის საშუალებით. საქართველოს რკინიგზა ამ მატარებელზე ბილეთებს ონლაინ არ ყიდის, თუმცა მათი შეძენა შესაძლებელია სადგურების სალაროებში. ხელმისაწვდომია პლაცკარტი, კუპე და სვ. სექტემბრის ფასები ხელმისაწვდომია <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_09.pdf\" target=\"_blank\">აქ</a>.",
+      "description_en": "This season the train runs from October 2, 2025 to June 13, 2026. In summer, its route is extended to Batumi. Tickets can be purchased online on the South Caucasus Railway website via the link below. Georgian Railways does not sell tickets for this train online, however they can be bought at station ticket offices. Platzkart, coupe, and first-class (SV) are available. Prices for <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_eng.pdf\" target=\"_blank\">October</a>.",
+      "description_ru": "В этом сезоне поезд ходит со 2 октября 2025 года по 13 июня 2026 года. Летом его маршрут продлевается до Батуми. Билеты можно купить онлайн на сайте ЮКЖД по ссылке ниже. Грузинская железная дорога не продает билеты на этот поезд онлайн, однако их можно приобрести в кассах вокзалов. Доступны плацкарт, купе и СВ. Цены на <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_rus.pdf\" target=\"_blank\">октябрь</a>.",
+      "description_ka": "ამ სეზონზე მატარებელი მოძრაობს 2025 წლის 2 ოქტომბრიდან 2026 წლის 13 ივნისამდე. ზაფხულში მისი მარშრუტი გრძელდება ბათუმამდე. ბილეთების ონლაინ შეძენა შესაძლებელია სამხრეთ კავკასიის რკინიგზის ვებგვერდზე ქვემოთ მოცემული ბმულით. საქართველოს რკინიგზა ამ მატარებელზე ბილეთებს ონლაინ არ ყიდის, თუმცა მათი შეძენა შესაძლებელია სადგურების სალაროებში. ხელმისაწვდომია პლაცკარტი, კუპე და სვ. ფასები <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_eng.pdf\" target=\"_blank\">ოქტომბრისთვის</a>.",
       "stations": [
          {
-            "code": "batumicentral",
-            "role": "start",
-            "name_en": "Batumi-Central",
-            "name_ru": "Батуми-Пассажирская",
-            "name_ka": "ბათუმი-ცენტრალი",
-            "departure_time": "14:45",
-            "arrival_time": "-",
-            "stop_time": null
-         },
-         {
-            "code": "makhinjauri",
-            "role": "middle",
-            "name_en": "Makhinjauri",
-            "name_ru": "Махинджаури",
-            "name_ka": "მახინჯაური",
-            "departure_time": "14:51",
-            "arrival_time": "14:50",
-            "stop_time": 1
-         },
-         {
-            "code": "kobuleti",
-            "role": "middle",
-            "name_en": "Kobuleti",
-            "name_ru": "Кобулети",
-            "name_ka": "ქობულეთი",
-            "departure_time": "15:22",
-            "arrival_time": "15:11",
-            "stop_time": 11
-         },
-         {
-            "code": "ureki",
-            "role": "middle",
-            "name_en": "Ureki",
-            "name_ru": "Уреки",
-            "name_ka": "ურეკი",
-            "departure_time": "16:01",
-            "arrival_time": "15:56",
-            "stop_time": 5
-         },
-         {
-            "code": "samtredia1",
-            "role": "middle",
-            "name_en": "Samtredia-1",
-            "name_ru": "Самтредиа-1",
-            "name_ka": "სამტრედია-1",
-            "departure_time": "16:58",
-            "arrival_time": "16:56",
-            "stop_time": 2
-         },
-         {
-            "code": "zestafoni",
-            "role": "middle",
-            "name_en": "Zestafoni",
-            "name_ru": "Зестафони",
-            "name_ka": "ზესტაფონი",
-            "departure_time": "18:13",
-            "arrival_time": "17:58",
-            "stop_time": 15
-         },
-         {
-            "code": "khashuri",
-            "role": "middle",
-            "name_en": "Khashuri",
-            "name_ru": "Хашури",
-            "name_ka": "ხაშური",
-            "departure_time": "19:53",
-            "arrival_time": "19:43",
-            "stop_time": 10
-         },
-         {
             "code": "tbilisicentralstation",
-            "role": "middle",
+            "role": "start",
             "name_en": "Tbilisi Central Station",
             "name_ru": "Центральный вокзал Тбилиси",
             "name_ka": "თბილისის ცენტრალური სადგური",
-            "departure_time": "22:40",
-            "arrival_time": "21:47",
-            "stop_time": 53
-         },
-         {
-            "code": "marabda",
-            "role": "middle",
-            "name_en": "Marabda",
-            "name_ru": "Марабда",
-            "name_ka": "მარაბდა",
-            "departure_time": "23:29",
-            "arrival_time": "23:24",
-            "stop_time": 5
+            "departure_time": "20:20",
+            "arrival_time": "-",
+            "stop_time": null
          },
          {
             "code": "sadakhlo",
@@ -159,9 +79,9 @@
             "name_en": "Sadakhlo",
             "name_ru": "Садахло",
             "name_ka": "სადახლო",
-            "departure_time": "01:38",
-            "arrival_time": "00:38",
-            "stop_time": 60
+            "departure_time": "23:15",
+            "arrival_time": "22:10",
+            "stop_time": 65
          },
          {
             "code": "ayrum",
@@ -169,9 +89,9 @@
             "name_en": "Ayrum",
             "name_ru": "Айрум",
             "name_ka": "აირუმი",
-            "departure_time": "03:00",
-            "arrival_time": "02:03",
-            "stop_time": 57
+            "departure_time": "00:40",
+            "arrival_time": "23:40",
+            "stop_time": 60
          },
          {
             "code": "vanadzor",
@@ -179,8 +99,8 @@
             "name_en": "Vanadzor",
             "name_ru": "Ванадзор",
             "name_ka": "ვანაძორი",
-            "departure_time": "04:47",
-            "arrival_time": "04:42",
+            "departure_time": "02:25",
+            "arrival_time": "02:20",
             "stop_time": 5
          },
          {
@@ -189,8 +109,8 @@
             "name_en": "Gyumri",
             "name_ru": "Гюмри",
             "name_ka": "გიუმრი",
-            "departure_time": "06:25",
-            "arrival_time": "06:05",
+            "departure_time": "04:10",
+            "arrival_time": "03:50",
             "stop_time": 20
          },
          {
@@ -199,9 +119,9 @@
             "name_en": "Armavir",
             "name_ru": "Армавир",
             "name_ka": "არმავირი",
-            "departure_time": "08:10",
-            "arrival_time": "08:08",
-            "stop_time": 2
+            "departure_time": "06:06",
+            "arrival_time": "06:03",
+            "stop_time": 3
          },
          {
             "code": "yerevan",
@@ -210,33 +130,33 @@
             "name_ru": "Ереван",
             "name_ka": "ერევანი",
             "departure_time": "-",
-            "arrival_time": "08:59",
+            "arrival_time": "06:55",
             "stop_time": null
          }
       ],
-      "travel_time": "18:14",
+      "travel_time": "10:35",
       "price": null,
       "analogue": []
    },
    {
-      "id": 19197562,
-      "ref": 202,
-      "name:ka": "ერევანი → ბათუმი",
-      "name:en": "Yerevan → Batumi",
-      "name:ru": "Ереван → Батуми",
+      "id": 11149011,
+      "ref": 372,
+      "name:ka": "ერევანი → თბილისი",
+      "name:en": "Yerevan → Tbilisi",
+      "name:ru": "Ереван → Тбилиси",
       "active": true,
-      "frequency": "every second day",
-      "every_second_day_start": 1749859200000,
-      "end_date": 1759190400000,
+      "frequency": "on even days",
+      "every_second_day_start": 1759363200000,
+      "end_date": 1781222400000,
       "complete": true,
       "online": false,
-      "online_tickets_current_site": false,
+      "online_tickets_current_site": true,
       "online_tickets_new_site": false,
       "train_type": null,
       "has_arrival_time": true,
-      "description_en": "This train is the summer version of train #372 Yerevan - Tbilisi. In 2025, it operates from June 14 to September 30. Tickets can be purchased online on the South Caucasus Railway website via the link below. Georgian Railways does not sell tickets for this train online, but they can be bought at station ticket offices. Platskart (open sleeper), coupe (compartment), and SV (luxury) classes are available. Prices information for <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_09.pdf\" target=\"_blank\">September</a>.",
-      "description_ru": "Этот поезд - летняя версия поезда №372 Ереван - Тбилиси. В 2025 году он ходит с 14 июня по 30 сентября. Билеты можно купить онлайн на сайте ЮКЖД по ссылке ниже. Грузинская железная дорога не продает билеты на этот поезд онлайн, однако их можно приобрести в кассах вокзалов. Доступны плацкарт, купе и СВ. Цены на <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_rus_09.pdf\" target=\"_blank\">сентябрь</a>.",
-      "description_ka": "ეს მატარებელი №372 ერევნის - თბილისი ზაფხულის ვერსიაა. 2025 წელს იგი იმოძრავებს 14 ივნისიდან 30 სექტემბერი. ბილეთების შეძენა ონლაინ შეგიძლიათ სამხრეთ კავკასიური რკინიგზის ვებგვერდზე ქვემოთ მოცემული ბმულის საშუალებით. საქართველოს რკინიგზა ამ მატარებელზე ბილეთებს ონლაინ არ ყიდის, თუმცა მათი შეძენა შესაძლებელია სადგურების სალაროებში. სექტემბრის ფასები ხელმისაწვდომია <a href=\"https://www.railway.am/infodocs/price/yer_batumi_price_eng_09.pdf\" target=\"_blank\">აქ</a>.",
+      "description_en": "This season the train runs from October 2, 2025 to June 13, 2026. In summer, its route is extended to Batumi. Tickets can be purchased online on the South Caucasus Railway website via the link below. Georgian Railways does not sell tickets for this train online, however they can be bought at station ticket offices. Platzkart, coupe, and first-class (SV) are available. Prices for <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_eng.pdf\" target=\"_blank\">October</a>.",
+      "description_ru": "В этом сезоне поезд ходит со 2 октября 2025 года по 13 июня 2026 года. Летом его маршрут продлевается до Батуми. Билеты можно купить онлайн на сайте ЮКЖД по ссылке ниже. Грузинская железная дорога не продает билеты на этот поезд онлайн, однако их можно приобрести в кассах вокзалов. Доступны плацкарт, купе и СВ. Цены на <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_rus.pdf\" target=\"_blank\">октябрь</a>.",
+      "description_ka": "ამ სეზონზე მატარებელი მოძრაობს 2025 წლის 2 ოქტომბრიდან 2026 წლის 13 ივნისამდე. ზაფხულში მისი მარშრუტი გრძელდება ბათუმამდე. ბილეთების ონლაინ შეძენა შესაძლებელია სამხრეთ კავკასიის რკინიგზის ვებგვერდზე ქვემოთ მოცემული ბმულით. საქართველოს რკინიგზა ამ მატარებელზე ბილეთებს ონლაინ არ ყიდის, თუმცა მათი შეძენა შესაძლებელია სადგურების სალაროებში. ხელმისაწვდომია პლაცკარტი, კუპე და სვ. ფასები <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_eng.pdf\" target=\"_blank\">ოქტომბრისთვის</a>.",
       "stations": [
          {
             "code": "yerevan",
@@ -244,7 +164,7 @@
             "name_en": "Yerevan",
             "name_ru": "Ереван",
             "name_ka": "ერევანი",
-            "departure_time": "14:00",
+            "departure_time": "21:30",
             "arrival_time": "-",
             "stop_time": null
          },
@@ -254,8 +174,8 @@
             "name_en": "Armavir",
             "name_ru": "Армавир",
             "name_ka": "არმავირი",
-            "departure_time": "14:50",
-            "arrival_time": "14:48",
+            "departure_time": "22:18",
+            "arrival_time": "22:16",
             "stop_time": 2
          },
          {
@@ -264,9 +184,9 @@
             "name_en": "Gyumri",
             "name_ru": "Гюмри",
             "name_ka": "გიუმრი",
-            "departure_time": "16:45",
-            "arrival_time": "16:29",
-            "stop_time": 16
+            "departure_time": "00:13",
+            "arrival_time": "23:59",
+            "stop_time": 14
          },
          {
             "code": "vanadzor",
@@ -274,8 +194,8 @@
             "name_en": "Vanadzor",
             "name_ru": "Ванадзор",
             "name_ka": "ვანაძორი",
-            "departure_time": "18:09",
-            "arrival_time": "18:04",
+            "departure_time": "01:38",
+            "arrival_time": "01:33",
             "stop_time": 5
          },
          {
@@ -284,9 +204,9 @@
             "name_en": "Ayrum",
             "name_ru": "Айрум",
             "name_ka": "აირუმი",
-            "departure_time": "20:55",
-            "arrival_time": "19:57",
-            "stop_time": 58
+            "departure_time": "04:15",
+            "arrival_time": "03:24",
+            "stop_time": 51
          },
          {
             "code": "sadakhlo",
@@ -294,112 +214,22 @@
             "name_en": "Sadakhlo",
             "name_ru": "Садахло",
             "name_ka": "სადახლო",
-            "departure_time": "22:20",
-            "arrival_time": "21:20",
+            "departure_time": "05:40",
+            "arrival_time": "04:40",
             "stop_time": 60
          },
          {
             "code": "tbilisicentralstation",
-            "role": "middle",
+            "role": "end",
             "name_en": "Tbilisi Central Station",
             "name_ru": "Центральный вокзал Тбилиси",
             "name_ka": "თბილისის ცენტრალური სადგური",
-            "departure_time": "00:45",
-            "arrival_time": "00:11",
-            "stop_time": 34
-         },
-         {
-            "code": "khashuri",
-            "role": "middle",
-            "name_en": "Khashuri",
-            "name_ru": "Хашури",
-            "name_ka": "ხაშური",
-            "departure_time": "02:55",
-            "arrival_time": "02:35",
-            "stop_time": 20
-         },
-         {
-            "code": "tsipa",
-            "role": "middle",
-            "name_en": "Tsipa",
-            "name_ru": "Ципа",
-            "name_ka": "წიფა",
-            "departure_time": "03:30",
-            "arrival_time": "03:26",
-            "stop_time": 4
-         },
-         {
-            "code": "moliti",
-            "role": "middle",
-            "name_en": "Moliti",
-            "name_ru": "Молити",
-            "name_ka": "მოლითი",
-            "departure_time": "03:46",
-            "arrival_time": "03:43",
-            "stop_time": 3
-         },
-         {
-            "code": "zestafoni",
-            "role": "middle",
-            "name_en": "Zestafoni",
-            "name_ru": "Зестафони",
-            "name_ka": "ზესტაფონი",
-            "departure_time": "04:53",
-            "arrival_time": "04:38",
-            "stop_time": 15
-         },
-         {
-            "code": "samtredia1",
-            "role": "middle",
-            "name_en": "Samtredia-1",
-            "name_ru": "Самтредиа-1",
-            "name_ka": "სამტრედია-1",
-            "departure_time": "05:56",
-            "arrival_time": "05:54",
-            "stop_time": 2
-         },
-         {
-            "code": "ureki",
-            "role": "middle",
-            "name_en": "Ureki",
-            "name_ru": "Уреки",
-            "name_ka": "ურეკი",
-            "departure_time": "06:56",
-            "arrival_time": "06:51",
-            "stop_time": 5
-         },
-         {
-            "code": "kobuleti",
-            "role": "middle",
-            "name_en": "Kobuleti",
-            "name_ru": "Кобулети",
-            "name_ka": "ქობულეთი",
-            "departure_time": "07:32",
-            "arrival_time": "07:25",
-            "stop_time": 7
-         },
-         {
-            "code": "makhinjauri",
-            "role": "middle",
-            "name_en": "Makhinjauri",
-            "name_ru": "Махинджаури",
-            "name_ka": "მახინჯაური",
-            "departure_time": "07:52",
-            "arrival_time": "07:51",
-            "stop_time": 1
-         },
-         {
-            "code": "batumicentral",
-            "role": "end",
-            "name_en": "Batumi-Central",
-            "name_ru": "Батуми-Пассажирская",
-            "name_ka": "ბათუმი-ცენტრალი",
             "departure_time": "-",
-            "arrival_time": "07:57",
+            "arrival_time": "07:35",
             "stop_time": null
          }
       ],
-      "travel_time": "17:57",
+      "travel_time": "10:05",
       "price": null,
       "analogue": []
    },

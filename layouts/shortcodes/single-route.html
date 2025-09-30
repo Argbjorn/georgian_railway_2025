@@ -11,6 +11,8 @@
         "frequency" "Частота"
         "frequency_daily" "ежедневно"
         "frequency_every_second_day" "через день"
+        "frequency_on_even_days" "по чётным числам"
+        "frequency_on_odd_days" "по нечётным числам"
         "travel_time" "Время в пути"
         "train_type" "Тип поезда"
         "suburban_train" "электричка"
@@ -38,6 +40,8 @@
         "frequency" "Frequency"
         "frequency_daily" "daily"
         "frequency_every_second_day" "every second day"
+        "frequency_on_even_days" "on even days"
+        "frequency_on_odd_days" "on odd days"
         "travel_time" "Travel time"
         "train_type" "Train type"
         "suburban_train" "suburban"
@@ -65,6 +69,8 @@
         "frequency" "სიხშირე"
         "frequency_daily" "ყოველდღიურად"
         "frequency_every_second_day" "თითოეული მეორე დღისთვის"
+        "frequency_on_even_days" "ზუთ დღეებში"
+        "frequency_on_odd_days" "კენტ დღეებში"
         "travel_time" "მოგზაურობის დრო"
         "train_type" "მატარებლის ტიპი"
         "suburban_train" "საგარეუბნო მატარებელი"
@@ -116,6 +122,10 @@
             {{ else }}
                 {{ $t.frequency_every_second_day }}
             {{ end }}
+        {{ else if eq .Page.Params.frequency "on even days" }}
+            {{ $t.frequency_on_even_days }}
+        {{ else if eq .Page.Params.frequency "on odd days" }}
+            {{ $t.frequency_on_odd_days }}
         {{ else if eq $lang "ru" }}
             {{ $months := dict 
                 "January" "января"
@@ -180,7 +190,7 @@
     <strong>{{ $t.online_tickets }}:</strong> 
     {{ if or (eq $online_tickets_current_site "true") (eq $online_tickets_new_site "true") (eq (int .Page.Params.ref) 201) (eq (int .Page.Params.ref) 202) }}
         {{ $t.available }} 
-        {{ if or (eq (int .Page.Params.ref) 201) (eq (int .Page.Params.ref) 202) }}
+        {{ if or (eq (int .Page.Params.ref) 201) (eq (int .Page.Params.ref) 202) (eq (int .Page.Params.ref) 371) (eq (int .Page.Params.ref) 372) }}
             <a href="https://www.railway.am/eng" target="_blank">{{ $t.armenian_site }}</a>
         {{ else }}
             {{ if eq $online_tickets_current_site "true" }}
