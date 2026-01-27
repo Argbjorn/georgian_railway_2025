@@ -7,7 +7,7 @@ toc: false
 ეს ვებსაიტი შეიქმნა იმისთვის, რომ დაგეხმაროთ საქართველოს რკინიგზაზე ნავიგაციაში. გამოიყენეთ იგი ინფორმაციის სხვა წყაროებთან ერთად უფრო სრულყოფილი სურათის მისაღებად.
 
 ### მონაცემთა წყარო
-- [Georgian Railways website](https://www.railway.ge/en/traffic-general-schedule/) მატარებელთა განრიგი.
+- [Georgian Railways website](https://gr.com.ge/en/schedule) მატარებელთა განრიგი.
 - [OpenStreetMap](https://www.openstreetmap.org) გამოიყება მარშრუტებისა და სადგურების დასახაზად. დიდ მადლობას ვუხდით OpenStreetMap-ის ყველა მონაწილეს.
 - Freepik-ის პიქტოგრამები [www.flaticon.com](https://www.flaticon.com)
 

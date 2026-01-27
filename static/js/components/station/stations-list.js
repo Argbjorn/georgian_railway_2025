@@ -26,7 +26,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:38",
+               "departure_time": "18:52",
                "stop_time": null
             },
             {
@@ -38,7 +38,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:26",
+               "departure_time": "12:44",
                "stop_time": null
             },
             {
@@ -50,7 +50,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:07",
+               "departure_time": "08:17",
                "stop_time": null
             },
             {
@@ -62,7 +62,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:31",
+               "departure_time": "21:54",
                "stop_time": null
             }
          ]
@@ -88,30 +88,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "18:34",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "08:42",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -132,7 +108,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:42",
+               "departure_time": "20:32",
                "stop_time": null
             }
          ]
@@ -295,30 +271,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "20:28",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "06:48",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -339,7 +291,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:48",
+               "departure_time": "18:38",
                "stop_time": null
             }
          ]
@@ -411,18 +363,6 @@ export const stations = [
       "routes": {
          "departure": [
             {
-               "ref": 613,
-               "name_en": "Batumi → Ozurgeti",
-               "name_ru": "Батуми → Озургети",
-               "name_ka": "ბათუმი → ოზურგეთი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "20:40",
-               "stop_time": null
-            },
-            {
                "ref": 681,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
@@ -431,7 +371,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:35",
+               "departure_time": "18:35",
                "stop_time": null
             },
             {
@@ -455,7 +395,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:30",
+               "departure_time": "16:50",
                "stop_time": null
             },
             {
@@ -473,18 +413,6 @@ export const stations = [
          ],
          "arrival": [
             {
-               "ref": 614,
-               "name_en": "Ozurgeti → Batumi",
-               "name_ru": "Озургети → Батуми",
-               "name_ka": "ოზურგეთი → ბათუმი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "09:33",
-               "stop_time": null
-            },
-            {
                "ref": 682,
                "name_en": "Kutaisi → Batumi",
                "name_ru": "Кутаиси → Батуми",
@@ -493,7 +421,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:39",
+               "departure_time": "10:37",
                "stop_time": null
             },
             {
@@ -505,7 +433,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:27",
+               "departure_time": "20:29",
                "stop_time": null
             },
             {
@@ -517,7 +445,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:35",
+               "departure_time": "13:12",
                "stop_time": null
             },
             {
@@ -529,7 +457,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:45",
+               "departure_time": "22:22",
                "stop_time": null
             }
          ],
@@ -604,30 +532,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "16:40",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "10:32",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -648,7 +552,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:32",
+               "departure_time": "22:23",
                "stop_time": null
             }
          ]
@@ -675,18 +579,6 @@ export const stations = [
       "routes": {
          "departure": [
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "16:30",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -701,18 +593,6 @@ export const stations = [
          ],
          "arrival": [
             {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "10:47",
-               "stop_time": null
-            },
-            {
                "ref": 686,
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
@@ -721,7 +601,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:47",
+               "departure_time": "22:38",
                "stop_time": null
             }
          ],
@@ -755,7 +635,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "23:32",
+               "departure_time": "22:20",
                "stop_time": null
             },
             {
@@ -779,7 +659,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:33",
+               "departure_time": "13:28",
                "stop_time": null
             },
             {
@@ -791,7 +671,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:36",
+               "departure_time": "16:31",
                "stop_time": null
             }
          ]
@@ -816,30 +696,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 613,
-               "name_en": "Batumi → Ozurgeti",
-               "name_ru": "Батуми → Озургети",
-               "name_ka": "ბათუმი → ოზურგეთი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "21:03",
-               "stop_time": null
-            },
-            {
-               "ref": 614,
-               "name_en": "Ozurgeti → Batumi",
-               "name_ru": "Озургети → Батуми",
-               "name_ka": "ოზურგეთი → ბათუმი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "09:09",
-               "stop_time": null
-            },
-            {
                "ref": 681,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
@@ -848,7 +704,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:58",
+               "departure_time": "18:59",
                "stop_time": null
             },
             {
@@ -860,7 +716,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:15",
+               "departure_time": "10:12",
                "stop_time": null
             },
             {
@@ -884,7 +740,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:01",
+               "departure_time": "20:05",
                "stop_time": null
             }
          ]
@@ -917,7 +773,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:18",
+               "departure_time": "07:28",
                "stop_time": null
             },
             {
@@ -929,7 +785,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "23:17",
+               "departure_time": "22:40",
                "stop_time": null
             }
          ]
@@ -1090,30 +946,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "20:06",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "07:10",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -1134,7 +966,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:10",
+               "departure_time": "19:00",
                "stop_time": null
             }
          ]
@@ -1142,12 +974,11 @@ export const stations = [
    },
    {
       "id": [
-         12579177069,
-         12579177070
+         13398327460
       ],
       "coords": [
-         42.079406,
-         43.1583048
+         42.0794566,
+         43.1583121
       ],
       "code": "dzirula",
       "type": "secondary",
@@ -1168,7 +999,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:33",
+               "departure_time": "12:53",
                "stop_time": null
             },
             {
@@ -1180,7 +1011,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:19",
+               "departure_time": "11:33",
                "stop_time": null
             },
             {
@@ -1204,7 +1035,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:30",
+               "departure_time": "19:02",
                "stop_time": null
             },
             {
@@ -1228,7 +1059,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:06",
+               "departure_time": "09:22",
                "stop_time": null
             },
             {
@@ -1240,7 +1071,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:33",
+               "departure_time": "14:35",
                "stop_time": null
             }
          ]
@@ -1407,30 +1238,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "18:23",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "08:53",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -1451,7 +1258,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:53",
+               "departure_time": "20:43",
                "stop_time": null
             }
          ]
@@ -1477,30 +1284,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "19:02",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "08:12",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -1521,7 +1304,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:12",
+               "departure_time": "20:02",
                "stop_time": null
             },
             {
@@ -1533,7 +1316,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:47",
+               "departure_time": "14:37",
                "stop_time": null
             },
             {
@@ -1545,7 +1328,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:06",
+               "departure_time": "09:46",
                "stop_time": null
             },
             {
@@ -1557,7 +1340,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:28",
+               "departure_time": "22:10",
                "stop_time": null
             },
             {
@@ -1569,7 +1352,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:20",
+               "departure_time": "09:15",
                "stop_time": null
             },
             {
@@ -1581,7 +1364,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:53",
+               "departure_time": "11:30",
                "stop_time": null
             },
             {
@@ -1619,30 +1402,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "19:21",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "07:55",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -1663,7 +1422,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:55",
+               "departure_time": "19:45",
                "stop_time": null
             }
          ]
@@ -1741,7 +1500,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:08",
+               "departure_time": "17:23",
                "stop_time": null
             },
             {
@@ -1753,7 +1512,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:52",
+               "departure_time": "14:10",
                "stop_time": null
             }
          ]
@@ -1787,7 +1546,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:32",
+               "departure_time": "20:27",
                "stop_time": null
             },
             {
@@ -1811,7 +1570,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:42",
+               "departure_time": "11:38",
                "stop_time": null
             },
             {
@@ -1823,7 +1582,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:30",
+               "departure_time": "18:26",
                "stop_time": null
             },
             {
@@ -1835,7 +1594,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:21",
+               "departure_time": "10:29",
                "stop_time": null
             },
             {
@@ -1847,7 +1606,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:36",
+               "departure_time": "13:51",
                "stop_time": null
             }
          ]
@@ -1880,7 +1639,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:55",
+               "departure_time": "15:17",
                "stop_time": null
             }
          ]
@@ -1906,30 +1665,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "18:42",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "08:34",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -1950,7 +1685,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:34",
+               "departure_time": "20:24",
                "stop_time": null
             },
             {
@@ -1962,7 +1697,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:33",
+               "departure_time": "14:21",
                "stop_time": null
             },
             {
@@ -1974,7 +1709,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:23",
+               "departure_time": "10:03",
                "stop_time": null
             }
          ]
@@ -2000,30 +1735,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "19:36",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "07:39",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -2044,7 +1755,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:39",
+               "departure_time": "19:29",
                "stop_time": null
             },
             {
@@ -2056,7 +1767,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:10",
+               "departure_time": "15:00",
                "stop_time": null
             },
             {
@@ -2068,7 +1779,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:44",
+               "departure_time": "09:24",
                "stop_time": null
             }
          ]
@@ -2094,30 +1805,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "19:45",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "07:31",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -2138,7 +1825,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:31",
+               "departure_time": "19:21",
                "stop_time": null
             }
          ]
@@ -2146,13 +1833,12 @@ export const stations = [
    },
    {
       "id": [
-         10785134080,
          10785134081,
          10789874826
       ],
       "coords": [
-         42.0108795,
-         43.2099969
+         42.0109255,
+         43.2100621
       ],
       "code": "kharagauli",
       "type": "secondary",
@@ -2173,7 +1859,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:47",
+               "departure_time": "13:06",
                "stop_time": null
             },
             {
@@ -2185,7 +1871,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:04",
+               "departure_time": "11:18",
                "stop_time": null
             },
             {
@@ -2197,7 +1883,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:34",
+               "departure_time": "20:43",
                "stop_time": null
             },
             {
@@ -2209,7 +1895,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:18",
+               "departure_time": "10:44",
                "stop_time": null
             },
             {
@@ -2221,7 +1907,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:58",
+               "departure_time": "10:03",
                "stop_time": null
             },
             {
@@ -2233,7 +1919,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:28",
+               "departure_time": "19:59",
                "stop_time": null
             },
             {
@@ -2257,7 +1943,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:05",
+               "departure_time": "18:36",
                "stop_time": null
             },
             {
@@ -2281,7 +1967,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:40",
+               "departure_time": "08:56",
                "stop_time": null
             },
             {
@@ -2293,7 +1979,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:57",
+               "departure_time": "14:59",
                "stop_time": null
             }
          ]
@@ -2337,7 +2023,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:00",
+               "departure_time": "07:45",
                "stop_time": null
             }
          ],
@@ -2351,7 +2037,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:23",
+               "departure_time": "08:56",
                "stop_time": null
             },
             {
@@ -2363,7 +2049,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:03",
+               "departure_time": "18:36",
                "stop_time": null
             },
             {
@@ -2375,35 +2061,11 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:38",
+               "departure_time": "16:11",
                "stop_time": null
             }
          ],
          "via": [
-            {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "18:05",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "09:07",
-               "stop_time": null
-            },
             {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
@@ -2425,7 +2087,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:07",
+               "departure_time": "20:57",
                "stop_time": null
             },
             {
@@ -2437,7 +2099,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:01",
+               "departure_time": "13:57",
                "stop_time": null
             },
             {
@@ -2449,7 +2111,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:45",
+               "departure_time": "10:25",
                "stop_time": null
             },
             {
@@ -2461,7 +2123,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:49",
+               "departure_time": "21:34",
                "stop_time": null
             },
             {
@@ -2473,7 +2135,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:56",
+               "departure_time": "09:51",
                "stop_time": null
             },
             {
@@ -2485,7 +2147,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:13",
+               "departure_time": "10:54",
                "stop_time": null
             },
             {
@@ -2530,7 +2192,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:45",
+               "departure_time": "17:59",
                "stop_time": null
             },
             {
@@ -2542,7 +2204,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:18",
+               "departure_time": "13:36",
                "stop_time": null
             }
          ]
@@ -2575,7 +2237,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:55",
+               "departure_time": "18:09",
                "stop_time": null
             },
             {
@@ -2587,7 +2249,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:06",
+               "departure_time": "13:24",
                "stop_time": null
             }
          ]
@@ -2612,30 +2274,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 613,
-               "name_en": "Batumi → Ozurgeti",
-               "name_ru": "Батуми → Озургети",
-               "name_ka": "ბათუმი → ოზურგეთი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "21:21",
-               "stop_time": null
-            },
-            {
-               "ref": 614,
-               "name_en": "Ozurgeti → Batumi",
-               "name_ru": "Озургети → Батуми",
-               "name_ka": "ოზურგეთი → ბათუმი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "08:49",
-               "stop_time": null
-            },
-            {
                "ref": 681,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
@@ -2644,7 +2282,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:20",
+               "departure_time": "19:17",
                "stop_time": null
             },
             {
@@ -2656,7 +2294,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:56",
+               "departure_time": "09:53",
                "stop_time": null
             },
             {
@@ -2668,7 +2306,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:33",
+               "departure_time": "10:31",
                "stop_time": null
             },
             {
@@ -2680,7 +2318,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:41",
+               "departure_time": "19:45",
                "stop_time": null
             },
             {
@@ -2692,7 +2330,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:51",
+               "departure_time": "17:11",
                "stop_time": null
             },
             {
@@ -2704,7 +2342,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:09",
+               "departure_time": "12:46",
                "stop_time": null
             },
             {
@@ -2728,7 +2366,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:19",
+               "departure_time": "21:56",
                "stop_time": null
             }
          ]
@@ -2754,30 +2392,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "19:58",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "07:18",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -2798,7 +2412,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:18",
+               "departure_time": "19:08",
                "stop_time": null
             }
          ]
@@ -2836,7 +2450,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "23:11",
+               "departure_time": "22:00",
                "stop_time": null
             },
             {
@@ -2860,7 +2474,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:13",
+               "departure_time": "13:08",
                "stop_time": null
             },
             {
@@ -2872,7 +2486,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:56",
+               "departure_time": "16:51",
                "stop_time": null
             },
             {
@@ -2884,7 +2498,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:24",
+               "departure_time": "18:42",
                "stop_time": null
             },
             {
@@ -2896,7 +2510,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:43",
+               "departure_time": "11:18",
                "stop_time": null
             },
             {
@@ -2920,7 +2534,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:53",
+               "departure_time": "20:28",
                "stop_time": null
             },
             {
@@ -2932,7 +2546,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:23",
+               "departure_time": "11:41",
                "stop_time": null
             },
             {
@@ -2944,7 +2558,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:34",
+               "departure_time": "12:48",
                "stop_time": null
             },
             {
@@ -2956,7 +2570,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:14",
+               "departure_time": "19:26",
                "stop_time": null
             },
             {
@@ -2968,7 +2582,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:48",
+               "departure_time": "12:08",
                "stop_time": null
             },
             {
@@ -2980,7 +2594,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:43",
+               "departure_time": "08:51",
                "stop_time": null
             },
             {
@@ -2992,7 +2606,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:53",
+               "departure_time": "21:18",
                "stop_time": null
             }
          ]
@@ -3051,7 +2665,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:00",
+               "departure_time": "15:55",
                "stop_time": null
             },
             {
@@ -3075,7 +2689,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:35",
+               "departure_time": "12:00",
                "stop_time": null
             }
          ],
@@ -3101,7 +2715,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "00:13",
+               "departure_time": "22:57",
                "stop_time": null
             },
             {
@@ -3113,7 +2727,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:10",
+               "departure_time": "14:05",
                "stop_time": null
             },
             {
@@ -3137,7 +2751,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:45",
+               "departure_time": "13:00",
                "stop_time": null
             }
          ],
@@ -3171,7 +2785,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:32",
+               "departure_time": "07:42",
                "stop_time": null
             },
             {
@@ -3183,7 +2797,52 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "23:03",
+               "departure_time": "22:26",
+               "stop_time": null
+            }
+         ]
+      }
+   },
+   {
+      "id": [
+         13398158124
+      ],
+      "coords": [
+         41.9722692,
+         43.5335549
+      ],
+      "code": "kvishkheti",
+      "type": "secondary",
+      "name_en": "Kvishkheti",
+      "name_ka": "ქვიშხეთი",
+      "name_ru": "Квишхети",
+      "gr_code": "00000",
+      "routes": {
+         "departure": [],
+         "arrival": [],
+         "via": [
+            {
+               "ref": 685,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "07:14",
+               "stop_time": null
+            },
+            {
+               "ref": 686,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "21:13",
                "stop_time": null
             }
          ]
@@ -3216,7 +2875,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:55",
+               "departure_time": "20:44",
                "stop_time": null
             },
             {
@@ -3240,7 +2899,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:59",
+               "departure_time": "11:55",
                "stop_time": null
             },
             {
@@ -3252,7 +2911,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:10",
+               "departure_time": "18:02",
                "stop_time": null
             },
             {
@@ -3264,7 +2923,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:32",
+               "departure_time": "10:46",
                "stop_time": null
             },
             {
@@ -3276,89 +2935,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:24",
-               "stop_time": null
-            }
-         ]
-      }
-   },
-   {
-      "id": [
-         12579269032,
-         12579269033
-      ],
-      "coords": [
-         41.9758643,
-         43.5095206
-      ],
-      "code": "likhi",
-      "type": "secondary",
-      "name_en": "Likhi",
-      "name_ka": "ლიხი",
-      "name_ru": "Лихи",
-      "gr_code": 57713,
-      "routes": {
-         "departure": [],
-         "arrival": [],
-         "via": [
-            {
-               "ref": 6417,
-               "name_en": "Zestafoni → Khashuri",
-               "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "08:58",
-               "stop_time": null
-            },
-            {
-               "ref": 6418,
-               "name_en": "Khashuri → Zestafoni",
-               "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "17:46",
-               "stop_time": null
-            },
-            {
-               "ref": 6445,
-               "name_en": "Zestafoni → Khashuri",
-               "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "18:38",
-               "stop_time": null
-            },
-            {
-               "ref": 6446,
-               "name_en": "Khashuri → Zestafoni",
-               "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "07:21",
-               "stop_time": null
-            },
-            {
-               "ref": 6447,
-               "name_en": "Zestafoni → Khashuri",
-               "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "16:13",
+               "departure_time": "13:38",
                "stop_time": null
             }
          ]
@@ -3383,30 +2960,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 613,
-               "name_en": "Batumi → Ozurgeti",
-               "name_ru": "Батуми → Озургети",
-               "name_ka": "ბათუმი → ოზურგეთი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "20:45",
-               "stop_time": null
-            },
-            {
-               "ref": 614,
-               "name_en": "Ozurgeti → Batumi",
-               "name_ru": "Озургети → Батуми",
-               "name_ka": "ოზურგეთი → ბათუმი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "09:27",
-               "stop_time": null
-            },
-            {
                "ref": 681,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
@@ -3415,7 +2968,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:40",
+               "departure_time": "18:40",
                "stop_time": null
             },
             {
@@ -3427,7 +2980,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:33",
+               "departure_time": "10:31",
                "stop_time": null
             },
             {
@@ -3451,7 +3004,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:21",
+               "departure_time": "20:23",
                "stop_time": null
             }
          ]
@@ -3500,7 +3053,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:07",
+               "departure_time": "13:22",
                "stop_time": null
             },
             {
@@ -3512,7 +3065,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:49",
+               "departure_time": "11:03",
                "stop_time": null
             },
             {
@@ -3524,7 +3077,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:55",
+               "departure_time": "20:59",
                "stop_time": null
             },
             {
@@ -3536,7 +3089,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:03",
+               "departure_time": "10:29",
                "stop_time": null
             },
             {
@@ -3549,6 +3102,18 @@ export const stations = [
                "end_date": null,
                "arrival_time": null,
                "departure_time": "10:19",
+               "stop_time": null
+            },
+            {
+               "ref": 874,
+               "name_en": "Tbilisi → Poti",
+               "name_ru": "Тбилиси → Поти",
+               "name_ka": "თბილისი → ფოთი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "19:44",
                "stop_time": null
             },
             {
@@ -3572,7 +3137,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:43",
+               "departure_time": "18:14",
                "stop_time": null
             },
             {
@@ -3596,7 +3161,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:18",
+               "departure_time": "08:34",
                "stop_time": null
             },
             {
@@ -3608,7 +3173,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:20",
+               "departure_time": "15:22",
                "stop_time": null
             }
          ]
@@ -3641,7 +3206,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:26",
+               "departure_time": "09:10",
                "stop_time": null
             },
             {
@@ -3653,7 +3218,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:30",
+               "departure_time": "15:01",
                "stop_time": null
             }
          ]
@@ -3686,7 +3251,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:19",
+               "departure_time": "13:34",
                "stop_time": null
             },
             {
@@ -3698,7 +3263,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:35",
+               "departure_time": "10:51",
                "stop_time": null
             },
             {
@@ -3710,7 +3275,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:07",
+               "departure_time": "21:11",
                "stop_time": null
             },
             {
@@ -3722,7 +3287,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:49",
+               "departure_time": "10:17",
                "stop_time": null
             },
             {
@@ -3746,7 +3311,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:59",
+               "departure_time": "19:32",
                "stop_time": null
             },
             {
@@ -3770,7 +3335,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:25",
+               "departure_time": "17:58",
                "stop_time": null
             },
             {
@@ -3794,7 +3359,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:00",
+               "departure_time": "08:18",
                "stop_time": null
             },
             {
@@ -3832,30 +3397,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "20:15",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "07:01",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -3876,7 +3417,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:01",
+               "departure_time": "18:51",
                "stop_time": null
             },
             {
@@ -3888,7 +3429,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:33",
+               "departure_time": "15:23",
                "stop_time": null
             },
             {
@@ -3900,7 +3441,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:21",
+               "departure_time": "09:01",
                "stop_time": null
             }
          ]
@@ -3926,30 +3467,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 613,
-               "name_en": "Batumi → Ozurgeti",
-               "name_ru": "Батуми → Озургети",
-               "name_ka": "ბათუმი → ოზურგეთი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "21:49",
-               "stop_time": null
-            },
-            {
-               "ref": 614,
-               "name_en": "Ozurgeti → Batumi",
-               "name_ru": "Озургети → Батуми",
-               "name_ka": "ოზურგეთი → ბათუმი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "08:15",
-               "stop_time": null
-            },
-            {
                "ref": 681,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
@@ -3958,7 +3475,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:48",
+               "departure_time": "19:45",
                "stop_time": null
             },
             {
@@ -3970,7 +3487,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:29",
+               "departure_time": "09:27",
                "stop_time": null
             },
             {
@@ -3982,7 +3499,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:00",
+               "departure_time": "10:57",
                "stop_time": null
             },
             {
@@ -3994,7 +3511,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:11",
+               "departure_time": "19:07",
                "stop_time": null
             },
             {
@@ -4006,7 +3523,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:40",
+               "departure_time": "09:45",
                "stop_time": null
             },
             {
@@ -4018,7 +3535,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:08",
+               "departure_time": "14:24",
                "stop_time": null
             }
          ]
@@ -4030,8 +3547,8 @@ export const stations = [
          12616806613
       ],
       "coords": [
-         41.6859258,
-         44.8546109
+         41.6859141,
+         44.8546095
       ],
       "code": "navtlughi",
       "type": "secondary",
@@ -4121,7 +3638,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:09",
+               "departure_time": "20:58",
                "stop_time": null
             },
             {
@@ -4145,7 +3662,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:12",
+               "departure_time": "12:10",
                "stop_time": null
             },
             {
@@ -4157,7 +3674,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:56",
+               "departure_time": "17:49",
                "stop_time": null
             },
             {
@@ -4169,7 +3686,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:44",
+               "departure_time": "11:00",
                "stop_time": null
             },
             {
@@ -4181,7 +3698,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:13",
+               "departure_time": "13:27",
                "stop_time": null
             }
          ]
@@ -4206,30 +3723,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 613,
-               "name_en": "Batumi → Ozurgeti",
-               "name_ru": "Батуми → Озургети",
-               "name_ka": "ბათუმი → ოზურგეთი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "21:36",
-               "stop_time": null
-            },
-            {
-               "ref": 614,
-               "name_en": "Ozurgeti → Batumi",
-               "name_ru": "Озургети → Батуми",
-               "name_ka": "ოზურგეთი → ბათუმი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "08:30",
-               "stop_time": null
-            },
-            {
                "ref": 681,
                "name_en": "Batumi → Kutaisi",
                "name_ru": "Батуми → Кутаиси",
@@ -4238,7 +3731,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:34",
+               "departure_time": "19:32",
                "stop_time": null
             },
             {
@@ -4250,7 +3743,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:43",
+               "departure_time": "09:40",
                "stop_time": null
             },
             {
@@ -4262,7 +3755,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:47",
+               "departure_time": "10:44",
                "stop_time": null
             },
             {
@@ -4297,18 +3790,6 @@ export const stations = [
       "routes": {
          "departure": [
             {
-               "ref": 614,
-               "name_en": "Ozurgeti → Batumi",
-               "name_ru": "Озургети → Батуми",
-               "name_ka": "ოზურგეთი → ბათუმი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "07:15",
-               "stop_time": null
-            },
-            {
                "ref": 853,
                "name_en": "Ozurgeti → Tbilisi",
                "name_ru": "Озургети → Тбилиси",
@@ -4317,23 +3798,11 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:40",
+               "departure_time": "08:45",
                "stop_time": null
             }
          ],
          "arrival": [
-            {
-               "ref": 613,
-               "name_en": "Batumi → Ozurgeti",
-               "name_ru": "Батуми → Озургети",
-               "name_ka": "ბათუმი → ოზურგეთი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "22:59",
-               "stop_time": null
-            },
             {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
@@ -4343,7 +3812,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:18",
+               "departure_time": "15:34",
                "stop_time": null
             }
          ],
@@ -4377,7 +3846,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:14",
+               "departure_time": "09:00",
                "stop_time": null
             },
             {
@@ -4389,7 +3858,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:45",
+               "departure_time": "15:09",
                "stop_time": null
             }
          ]
@@ -4422,7 +3891,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:05",
+               "departure_time": "15:25",
                "stop_time": null
             }
          ]
@@ -4471,7 +3940,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "23:37",
+               "departure_time": "23:00",
                "stop_time": null
             }
          ],
@@ -4520,7 +3989,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:25",
+               "departure_time": "12:40",
                "stop_time": null
             }
          ],
@@ -4546,7 +4015,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:55",
+               "departure_time": "12:20",
                "stop_time": null
             }
          ],
@@ -4584,7 +4053,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "23:39",
+               "departure_time": "22:27",
                "stop_time": null
             },
             {
@@ -4608,7 +4077,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:40",
+               "departure_time": "13:35",
                "stop_time": null
             },
             {
@@ -4620,7 +4089,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:20",
+               "departure_time": "16:15",
                "stop_time": null
             },
             {
@@ -4632,7 +4101,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:40",
+               "departure_time": "12:00",
                "stop_time": null
             },
             {
@@ -4644,7 +4113,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:12",
+               "departure_time": "12:26",
                "stop_time": null
             },
             {
@@ -4656,7 +4125,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:31",
+               "departure_time": "19:43",
                "stop_time": null
             },
             {
@@ -4668,7 +4137,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:26",
+               "departure_time": "11:46",
                "stop_time": null
             },
             {
@@ -4680,7 +4149,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:00",
+               "departure_time": "09:08",
                "stop_time": null
             },
             {
@@ -4692,7 +4161,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:36",
+               "departure_time": "21:01",
                "stop_time": null
             }
          ]
@@ -4956,7 +4425,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:31",
+               "departure_time": "21:22",
                "stop_time": null
             },
             {
@@ -4980,7 +4449,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:35",
+               "departure_time": "12:31",
                "stop_time": null
             },
             {
@@ -4992,7 +4461,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:35",
+               "departure_time": "17:28",
                "stop_time": null
             }
          ]
@@ -5049,7 +4518,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:45",
+               "departure_time": "12:10",
                "stop_time": null
             },
             {
@@ -5061,7 +4530,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:35",
+               "departure_time": "12:49",
                "stop_time": null
             }
          ]
@@ -5095,7 +4564,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:46",
+               "departure_time": "21:36",
                "stop_time": null
             },
             {
@@ -5119,7 +4588,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:49",
+               "departure_time": "12:45",
                "stop_time": null
             },
             {
@@ -5131,7 +4600,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:17",
+               "departure_time": "17:12",
                "stop_time": null
             },
             {
@@ -5143,7 +4612,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:06",
+               "departure_time": "11:22",
                "stop_time": null
             },
             {
@@ -5155,7 +4624,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:49",
+               "departure_time": "13:03",
                "stop_time": null
             },
             {
@@ -5167,7 +4636,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:56",
+               "departure_time": "19:10",
                "stop_time": null
             },
             {
@@ -5179,7 +4648,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:03",
+               "departure_time": "12:23",
                "stop_time": null
             },
             {
@@ -5191,7 +4660,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:25",
+               "departure_time": "08:35",
                "stop_time": null
             },
             {
@@ -5203,7 +4672,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:08",
+               "departure_time": "21:33",
                "stop_time": null
             }
          ]
@@ -5237,7 +4706,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:57",
+               "departure_time": "21:46",
                "stop_time": null
             },
             {
@@ -5261,7 +4730,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:59",
+               "departure_time": "12:54",
                "stop_time": null
             },
             {
@@ -5273,7 +4742,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:09",
+               "departure_time": "17:04",
                "stop_time": null
             }
          ]
@@ -5306,7 +4775,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:15",
+               "departure_time": "18:29",
                "stop_time": null
             },
             {
@@ -5318,7 +4787,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:43",
+               "departure_time": "13:01",
                "stop_time": null
             },
             {
@@ -5330,7 +4799,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:44",
+               "departure_time": "07:54",
                "stop_time": null
             },
             {
@@ -5342,7 +4811,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:48",
+               "departure_time": "22:11",
                "stop_time": null
             }
          ]
@@ -5375,7 +4844,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:40",
+               "departure_time": "10:56",
                "stop_time": null
             },
             {
@@ -5387,7 +4856,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:17",
+               "departure_time": "13:31",
                "stop_time": null
             }
          ]
@@ -5420,7 +4889,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:15",
+               "departure_time": "20:11",
                "stop_time": null
             },
             {
@@ -5444,7 +4913,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:26",
+               "departure_time": "11:22",
                "stop_time": null
             },
             {
@@ -5456,7 +4925,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:46",
+               "departure_time": "18:42",
                "stop_time": null
             },
             {
@@ -5468,7 +4937,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:10",
+               "departure_time": "10:18",
                "stop_time": null
             },
             {
@@ -5480,7 +4949,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:47",
+               "departure_time": "14:02",
                "stop_time": null
             }
          ]
@@ -5514,7 +4983,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:03",
+               "departure_time": "12:26",
                "stop_time": null
             },
             {
@@ -5526,7 +4995,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:50",
+               "departure_time": "12:04",
                "stop_time": null
             }
          ]
@@ -5567,18 +5036,6 @@ export const stations = [
                "stop_time": null
             },
             {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "06:35",
-               "stop_time": null
-            },
-            {
                "ref": 686,
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
@@ -5587,7 +5044,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:35",
+               "departure_time": "18:25",
                "stop_time": null
             },
             {
@@ -5623,7 +5080,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:00",
+               "departure_time": "08:40",
                "stop_time": null
             },
             {
@@ -5635,7 +5092,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:20",
+               "departure_time": "08:15",
                "stop_time": null
             },
             {
@@ -5689,18 +5146,6 @@ export const stations = [
                "stop_time": null
             },
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "20:50",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -5721,7 +5166,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:55",
+               "departure_time": "21:49",
                "stop_time": null
             },
             {
@@ -5733,7 +5178,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:17",
+               "departure_time": "12:59",
                "stop_time": null
             },
             {
@@ -5745,7 +5190,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:05",
+               "departure_time": "15:50",
                "stop_time": null
             },
             {
@@ -5757,7 +5202,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "23:37",
+               "departure_time": "23:19",
                "stop_time": null
             },
             {
@@ -5769,7 +5214,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:02",
+               "departure_time": "12:39",
                "stop_time": null
             },
             {
@@ -5781,7 +5226,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:38",
+               "departure_time": "09:39",
                "stop_time": null
             },
             {
@@ -5806,8 +5251,8 @@ export const stations = [
          12616806615
       ],
       "coords": [
-         41.6708048,
-         44.9002202
+         41.6707791,
+         44.9002098
       ],
       "code": "tbilisimarshalling",
       "type": "secondary",
@@ -5890,30 +5335,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "20:44",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "06:39",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -5934,125 +5355,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:39",
-               "stop_time": null
-            }
-         ]
-      }
-   },
-   {
-      "id": [
-         11139961489,
-         11139961497
-      ],
-      "coords": [
-         41.9990635,
-         43.4384427
-      ],
-      "code": "tsipa",
-      "type": "secondary",
-      "name_en": "Tsipa",
-      "name_ka": "წიფა",
-      "name_ru": "Ципа",
-      "gr_code": 57702,
-      "routes": {
-         "departure": [],
-         "arrival": [],
-         "via": [
-            {
-               "ref": 854,
-               "name_en": "Tbilisi → Ozurgeti",
-               "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი",
-               "frequency": "every second day",
-               "every_second_day_start": 1748736000000,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "11:19",
-               "stop_time": null
-            },
-            {
-               "ref": 870,
-               "name_en": "Tbilisi → Zugdidi",
-               "name_ru": "Тбилиси → Зугдиди",
-               "name_ka": "თბილისი → ზუგდიდი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "10:33",
-               "stop_time": null
-            },
-            {
-               "ref": 874,
-               "name_en": "Tbilisi → Poti",
-               "name_ru": "Тбилиси → Поти",
-               "name_ka": "თბილისი → ფოთი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "19:43",
-               "stop_time": null
-            },
-            {
-               "ref": 6417,
-               "name_en": "Zestafoni → Khashuri",
-               "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "08:39",
-               "stop_time": null
-            },
-            {
-               "ref": 6418,
-               "name_en": "Khashuri → Zestafoni",
-               "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "18:05",
-               "stop_time": null
-            },
-            {
-               "ref": 6445,
-               "name_en": "Zestafoni → Khashuri",
-               "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "18:19",
-               "stop_time": null
-            },
-            {
-               "ref": 6446,
-               "name_en": "Khashuri → Zestafoni",
-               "name_ru": "Хашури → Зестафони",
-               "name_ka": "ხაშური → ზესტაფონი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "07:40",
-               "stop_time": null
-            },
-            {
-               "ref": 6447,
-               "name_en": "Zestafoni → Khashuri",
-               "name_ru": "Зестафони → Хашури",
-               "name_ka": "ზესტაფონი → ხაშური",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "15:54",
+               "departure_time": "18:29",
                "stop_time": null
             }
          ]
@@ -6089,7 +5392,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:01",
+               "departure_time": "19:57",
                "stop_time": null
             },
             {
@@ -6101,7 +5404,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:15",
+               "departure_time": "09:14",
                "stop_time": null
             },
             {
@@ -6113,7 +5416,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:12",
+               "departure_time": "11:10",
                "stop_time": null
             },
             {
@@ -6125,7 +5428,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:58",
+               "departure_time": "18:54",
                "stop_time": null
             },
             {
@@ -6137,7 +5440,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:23",
+               "departure_time": "17:42",
                "stop_time": null
             },
             {
@@ -6149,7 +5452,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:41",
+               "departure_time": "12:18",
                "stop_time": null
             },
             {
@@ -6173,7 +5476,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:51",
+               "departure_time": "21:28",
                "stop_time": null
             },
             {
@@ -6185,7 +5488,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:59",
+               "departure_time": "10:04",
                "stop_time": null
             },
             {
@@ -6197,7 +5500,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:55",
+               "departure_time": "14:13",
                "stop_time": null
             }
          ]
@@ -6254,8 +5557,8 @@ export const stations = [
          12616806617
       ],
       "coords": [
-         41.6435605,
-         44.9484249
+         41.6435495,
+         44.9483887
       ],
       "code": "veli",
       "type": "secondary",
@@ -6384,30 +5687,6 @@ export const stations = [
          "arrival": [],
          "via": [
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "20:23",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "every_second_day_start": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "06:53",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -6428,7 +5707,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:53",
+               "departure_time": "18:43",
                "stop_time": null
             }
          ]
@@ -6484,7 +5763,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:13",
+               "departure_time": "14:15",
                "stop_time": null
             }
          ],
@@ -6498,7 +5777,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:52",
+               "departure_time": "19:24",
                "stop_time": null
             },
             {
@@ -6510,7 +5789,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:28",
+               "departure_time": "09:44",
                "stop_time": null
             }
          ],
@@ -6548,7 +5827,7 @@ export const stations = [
                "every_second_day_start": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:16",
+               "departure_time": "12:36",
                "stop_time": null
             },
             {
@@ -6560,7 +5839,7 @@ export const stations = [
                "every_second_day_start": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:35",
+               "departure_time": "11:49",
                "stop_time": null
             },
             {
@@ -6572,7 +5851,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:04",
+               "departure_time": "20:16",
                "stop_time": null
             },
             {
@@ -6584,7 +5863,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:50",
+               "departure_time": "11:12",
                "stop_time": null
             },
             {
@@ -6596,7 +5875,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:28",
+               "departure_time": "09:36",
                "stop_time": null
             },
             {
@@ -6608,7 +5887,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:00",
+               "departure_time": "20:27",
                "stop_time": null
             }
          ]
@@ -6639,7 +5918,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:55",
+               "departure_time": "17:10",
                "stop_time": null
             }
          ],
@@ -6653,7 +5932,7 @@ export const stations = [
                "every_second_day_start": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:08",
+               "departure_time": "14:25",
                "stop_time": null
             }
          ],

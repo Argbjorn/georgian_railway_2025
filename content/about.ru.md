@@ -7,7 +7,7 @@ toc: false
 Этот сайт был создан для того, чтобы помочь вам в навигации по железным дорогам Грузии. Используйте его вместе с другими источниками информации для получения более полной картины.
 
 ### Источники данных
-- [Georgian Railways website](https://www.railway.ge/en/traffic-general-schedule/) для расписания.
+- [Georgian Railways website](https://gr.com.ge/en/schedule) для расписания.
 - [OpenStreetMap](https://www.openstreetmap.org) для отрисовки маршрутов и станций. Большое спасибо всем участникам OpenStreetMap.
 - Иконки от Freepik [www.flaticon.com](https://www.flaticon.com)
 
