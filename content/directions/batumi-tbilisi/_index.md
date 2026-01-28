@@ -8,7 +8,7 @@ Between the main Black Sea resort and the capital of Georgia, modern trains run.
 ### Features of trains on this route
 - Modern Stadler trains
 - Comfortable carriages
-- Travel time: about 5.5 hours
+- Travel time: about 5 hours
 - Daily departures
 - Tickets can be purchased online
 
