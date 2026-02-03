@@ -1370,9 +1370,9 @@
          {
             "code": "kvishkheti",
             "role": "middle",
-            "name_en": "unknown station",
-            "name_ru": "неизвестная станция",
-            "name_ka": "unknown station",
+            "name_en": "Kvishkheti",
+            "name_ru": "Квишхети",
+            "name_ka": "ქვიშხეთი",
             "departure_time": "07:14",
             "arrival_time": null,
             "stop_time": null
@@ -1561,7 +1561,7 @@
             "name_en": "Tbilisi Central Station",
             "name_ru": "Центральный вокзал Тбилиси",
             "name_ka": "თბილისის ცენტრალური სადგური",
-            "departure_time": "18:25",
+            "departure_time": "18:45",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1571,7 +1571,7 @@
             "name_en": "Tbilisi-Cargo",
             "name_ru": "Тбилиси-Грузовая",
             "name_ka": "თბილისი სატვირთო",
-            "departure_time": "18:29",
+            "departure_time": "18:49",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1581,7 +1581,7 @@
             "name_en": "Avchala",
             "name_ru": "Авчала",
             "name_ka": "ავჭალა",
-            "departure_time": "18:38",
+            "departure_time": "18:58",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1591,7 +1591,7 @@
             "name_en": "Zahesi",
             "name_ru": "Захеси",
             "name_ka": "ზაჰესი",
-            "departure_time": "18:43",
+            "departure_time": "19:03",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1601,7 +1601,7 @@
             "name_en": "Mtskheta",
             "name_ru": "Мцхета",
             "name_ka": "მცხეთა",
-            "departure_time": "18:51",
+            "departure_time": "19:11",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1611,7 +1611,7 @@
             "name_en": "Dzegvi",
             "name_ru": "Дзегви",
             "name_ka": "ძეგვი",
-            "departure_time": "19:00",
+            "departure_time": "19:20",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1621,7 +1621,7 @@
             "name_en": "Ksani",
             "name_ru": "Ксани",
             "name_ka": "ქსანი",
-            "departure_time": "19:08",
+            "departure_time": "19:28",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1631,7 +1631,7 @@
             "name_en": "Kavtiskhevi",
             "name_ru": "Кавтисхеви",
             "name_ka": "კავთისხევი",
-            "departure_time": "19:21",
+            "departure_time": "19:41",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1641,7 +1641,7 @@
             "name_en": "Kaspi",
             "name_ru": "Каспи",
             "name_ka": "კასპი",
-            "departure_time": "19:29",
+            "departure_time": "19:49",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1651,7 +1651,7 @@
             "name_en": "Grakali",
             "name_ru": "Гракали",
             "name_ka": "გრაკალი",
-            "departure_time": "19:45",
+            "departure_time": "20:05",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1661,7 +1661,7 @@
             "name_en": "Gori",
             "name_ru": "Гори",
             "name_ka": "გორი",
-            "departure_time": "20:02",
+            "departure_time": "20:22",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1671,7 +1671,7 @@
             "name_en": "Kareli",
             "name_ru": "Карели",
             "name_ka": "ქარელი",
-            "departure_time": "20:24",
+            "departure_time": "20:44",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1681,7 +1681,7 @@
             "name_en": "Agara",
             "name_ru": "Агара",
             "name_ka": "აგარა",
-            "departure_time": "20:32",
+            "departure_time": "20:52",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1691,7 +1691,7 @@
             "name_en": "Gomi",
             "name_ru": "Гоми",
             "name_ka": "გომი",
-            "departure_time": "20:43",
+            "departure_time": "21:03",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1701,17 +1701,17 @@
             "name_en": "Khashuri",
             "name_ru": "Хашури",
             "name_ka": "ხაშური",
-            "departure_time": "20:57",
+            "departure_time": "21:17",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "kvishkheti",
             "role": "middle",
-            "name_en": "unknown station",
-            "name_ru": "неизвестная станция",
-            "name_ka": "unknown station",
-            "departure_time": "21:13",
+            "name_en": "Kvishkheti",
+            "name_ru": "Квишхети",
+            "name_ka": "ქვიშხეთი",
+            "departure_time": "21:33",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1721,7 +1721,7 @@
             "name_en": "Borjomi",
             "name_ru": "Боржоми",
             "name_ka": "ბორჯომი",
-            "departure_time": "22:23",
+            "departure_time": "22:43",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1731,7 +1731,7 @@
             "name_en": "Borjomi-Parki",
             "name_ru": "Боржоми-Парк",
             "name_ka": "ბორჯომი-პარკი",
-            "departure_time": "22:38",
+            "departure_time": "22:58",
             "arrival_time": null,
             "stop_time": null
          }
@@ -2089,7 +2089,7 @@
             "name_en": "Ozurgeti",
             "name_ru": "Озургети",
             "name_ka": "ოზურგეთი",
-            "departure_time": "08:45",
+            "departure_time": "08:35",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2099,7 +2099,7 @@
             "name_en": "Platform 11 km",
             "name_ru": "Платформа 11 км",
             "name_ka": "ბაქანი 11 კმ",
-            "departure_time": "09:00",
+            "departure_time": "08:50",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2109,7 +2109,7 @@
             "name_en": "Meria",
             "name_ru": "Мэриа",
             "name_ka": "მერია",
-            "departure_time": "09:10",
+            "departure_time": "09:00",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2119,7 +2119,7 @@
             "name_en": "Natanebi",
             "name_ru": "Натанеби",
             "name_ka": "ნატანები",
-            "departure_time": "09:45",
+            "departure_time": "09:35",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2199,7 +2199,7 @@
             "name_en": "Kutaisi International Airport",
             "name_ru": "Международный аэропорт Кутаиси",
             "name_ka": "ქუთაისის საერთაშორისო აეროპორტი",
-            "departure_time": "11:41",
+            "departure_time": "11:40",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2239,7 +2239,7 @@
             "name_en": "Dzirula",
             "name_ru": "Дзирула",
             "name_ka": "ძირულა",
-            "departure_time": "12:53",
+            "departure_time": "12:57",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2249,7 +2249,7 @@
             "name_en": "Kharagauli",
             "name_ru": "Харагаули",
             "name_ka": "ხარაგაული",
-            "departure_time": "13:06",
+            "departure_time": "13:10",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2259,7 +2259,7 @@
             "name_en": "Marelisi",
             "name_ru": "Марелиси",
             "name_ka": "მარელისი",
-            "departure_time": "13:22",
+            "departure_time": "13:26",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2269,7 +2269,7 @@
             "name_en": "Moliti",
             "name_ru": "Молити",
             "name_ka": "მოლითი",
-            "departure_time": "13:34",
+            "departure_time": "13:38",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2279,7 +2279,7 @@
             "name_en": "Khashuri",
             "name_ru": "Хашури",
             "name_ka": "ხაშური",
-            "departure_time": "13:57",
+            "departure_time": "14:01",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2289,7 +2289,7 @@
             "name_en": "Kareli",
             "name_ru": "Карели",
             "name_ka": "ქარელი",
-            "departure_time": "14:21",
+            "departure_time": "14:28",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2299,7 +2299,7 @@
             "name_en": "Gori",
             "name_ru": "Гори",
             "name_ka": "გორი",
-            "departure_time": "14:37",
+            "departure_time": "14:44",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2309,7 +2309,7 @@
             "name_en": "Kaspi",
             "name_ru": "Каспи",
             "name_ka": "კასპი",
-            "departure_time": "15:00",
+            "departure_time": "15:07",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2319,7 +2319,7 @@
             "name_en": "Mtskheta",
             "name_ru": "Мцхета",
             "name_ka": "მცხეთა",
-            "departure_time": "15:23",
+            "departure_time": "15:30",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2329,12 +2329,12 @@
             "name_en": "Tbilisi Central Station",
             "name_ru": "Центральный вокзал Тбилиси",
             "name_ka": "თბილისის ცენტრალური სადგური",
-            "departure_time": "15:50",
+            "departure_time": "15:59",
             "arrival_time": null,
             "stop_time": null
          }
       ],
-      "travel_time": "07:05",
+      "travel_time": "07:24",
       "price": {
          "price_type": "from",
          "price": 16.0
@@ -2367,7 +2367,7 @@
             "name_en": "Tbilisi Central Station",
             "name_ru": "Центральный вокзал Тбилиси",
             "name_ka": "თბილისის ცენტრალური სადგური",
-            "departure_time": "08:40",
+            "departure_time": "08:25",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2377,7 +2377,7 @@
             "name_en": "Mtskheta",
             "name_ru": "Мцхета",
             "name_ka": "მცხეთა",
-            "departure_time": "09:01",
+            "departure_time": "08:46",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2387,7 +2387,7 @@
             "name_en": "Kaspi",
             "name_ru": "Каспи",
             "name_ka": "კასპი",
-            "departure_time": "09:24",
+            "departure_time": "09:09",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2397,7 +2397,7 @@
             "name_en": "Gori",
             "name_ru": "Гори",
             "name_ka": "გორი",
-            "departure_time": "09:46",
+            "departure_time": "09:31",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2407,7 +2407,7 @@
             "name_en": "Kareli",
             "name_ru": "Карели",
             "name_ka": "ქარელი",
-            "departure_time": "10:03",
+            "departure_time": "09:48",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2417,7 +2417,7 @@
             "name_en": "Khashuri",
             "name_ru": "Хашури",
             "name_ka": "ხაშური",
-            "departure_time": "10:25",
+            "departure_time": "10:10",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2427,7 +2427,7 @@
             "name_en": "Moliti",
             "name_ru": "Молити",
             "name_ka": "მოლითი",
-            "departure_time": "10:51",
+            "departure_time": "10:40",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2437,7 +2437,7 @@
             "name_en": "Marelisi",
             "name_ru": "Марелиси",
             "name_ka": "მარელისი",
-            "departure_time": "11:03",
+            "departure_time": "10:52",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2447,7 +2447,7 @@
             "name_en": "Kharagauli",
             "name_ru": "Харагаули",
             "name_ka": "ხარაგაული",
-            "departure_time": "11:18",
+            "departure_time": "11:07",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2457,7 +2457,7 @@
             "name_en": "Dzirula",
             "name_ru": "Дзирула",
             "name_ka": "ძირულა",
-            "departure_time": "11:33",
+            "departure_time": "11:22",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2467,7 +2467,7 @@
             "name_en": "Zestafoni",
             "name_ru": "Зестафони",
             "name_ka": "ზესტაფონი",
-            "departure_time": "11:49",
+            "departure_time": "11:38",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2477,7 +2477,7 @@
             "name_en": "Sviri",
             "name_ru": "Свири",
             "name_ka": "სვირი",
-            "departure_time": "12:04",
+            "departure_time": "11:57",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2487,7 +2487,7 @@
             "name_en": "Rioni",
             "name_ru": "Риони",
             "name_ka": "რიონი",
-            "departure_time": "12:26",
+            "departure_time": "12:19",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2497,7 +2497,7 @@
             "name_en": "Kutaisi International Airport",
             "name_ru": "Международный аэропорт Кутаиси",
             "name_ka": "ქუთაისის საერთაშორისო აეროპორტი",
-            "departure_time": "12:48",
+            "departure_time": "12:41",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2507,7 +2507,7 @@
             "name_en": "Samtredia-1",
             "name_ru": "Самтредиа-1",
             "name_ka": "სამტრედია-1",
-            "departure_time": "13:03",
+            "departure_time": "12:56",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2517,7 +2517,7 @@
             "name_en": "Nigoiti",
             "name_ru": "Нигоити",
             "name_ka": "ნიგოითი",
-            "departure_time": "13:27",
+            "departure_time": "13:20",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2527,7 +2527,7 @@
             "name_en": "Shukhuti",
             "name_ru": "Шухути",
             "name_ka": "შუხუთი",
-            "departure_time": "13:31",
+            "departure_time": "13:24",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2537,7 +2537,7 @@
             "name_en": "Lanchkhuti",
             "name_ru": "Ланчхути",
             "name_ka": "ლანჩხუთი",
-            "departure_time": "13:38",
+            "departure_time": "13:31",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2547,7 +2547,7 @@
             "name_en": "Jumati",
             "name_ru": "Джумати",
             "name_ka": "ჯუმათი",
-            "departure_time": "13:51",
+            "departure_time": "13:44",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2557,7 +2557,7 @@
             "name_en": "Supsa",
             "name_ru": "Супса",
             "name_ka": "სუფსა",
-            "departure_time": "14:02",
+            "departure_time": "13:55",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2567,7 +2567,7 @@
             "name_en": "Ureki",
             "name_ru": "Уреки",
             "name_ka": "ურეკი",
-            "departure_time": "14:13",
+            "departure_time": "14:06",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2577,7 +2577,7 @@
             "name_en": "Natanebi",
             "name_ru": "Натанеби",
             "name_ka": "ნატანები",
-            "departure_time": "14:24",
+            "departure_time": "14:17",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2587,7 +2587,7 @@
             "name_en": "Meria",
             "name_ru": "Мэриа",
             "name_ka": "მერია",
-            "departure_time": "15:01",
+            "departure_time": "15:04",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2597,7 +2597,7 @@
             "name_en": "Platform 11 km",
             "name_ru": "Платформа 11 км",
             "name_ka": "ბაქანი 11 კმ",
-            "departure_time": "15:09",
+            "departure_time": "15:12",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2607,7 +2607,7 @@
             "name_en": "Kakhuri",
             "name_ru": "Кахури",
             "name_ka": "კახური",
-            "departure_time": "15:17",
+            "departure_time": "15:20",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2617,7 +2617,7 @@
             "name_en": "Platform 16 km",
             "name_ru": "Платформа 16 км",
             "name_ka": "ბაქანი 16 კმ",
-            "departure_time": "15:25",
+            "departure_time": "15:28",
             "arrival_time": null,
             "stop_time": null
          },
@@ -2627,12 +2627,12 @@
             "name_en": "Ozurgeti",
             "name_ru": "Озургети",
             "name_ka": "ოზურგეთი",
-            "departure_time": "15:34",
+            "departure_time": "15:37",
             "arrival_time": null,
             "stop_time": null
          }
       ],
-      "travel_time": "06:54",
+      "travel_time": "07:12",
       "price": {
          "price_type": "from",
          "price": 16.0
@@ -3041,7 +3041,7 @@
             "name_en": "Poti",
             "name_ru": "Поти",
             "name_ka": "ფოთი",
-            "departure_time": "07:00",
+            "departure_time": "07:10",
             "arrival_time": null,
             "stop_time": null
          },
@@ -3186,7 +3186,7 @@
             "stop_time": null
          }
       ],
-      "travel_time": "05:39",
+      "travel_time": "05:29",
       "price": {
          "price_type": "from",
          "price": 16.0
@@ -3397,7 +3397,7 @@
             "name_en": "Kutaisi-1",
             "name_ru": "Кутаиси-1",
             "name_ka": "ქუთაისი-1",
-            "departure_time": "11:15",
+            "departure_time": "11:30",
             "arrival_time": null,
             "stop_time": null
          },
@@ -3407,7 +3407,7 @@
             "name_en": "Samtoteknikumi",
             "name_ru": "Самтотекникуми",
             "name_ka": "სამთოტექნიკუმი",
-            "departure_time": "11:25",
+            "departure_time": "11:40",
             "arrival_time": null,
             "stop_time": null
          },
@@ -3417,7 +3417,7 @@
             "name_en": "Rioni",
             "name_ru": "Риони",
             "name_ka": "რიონი",
-            "departure_time": "11:35",
+            "departure_time": "11:50",
             "arrival_time": null,
             "stop_time": null
          }
@@ -3457,7 +3457,7 @@
             "name_en": "Rioni",
             "name_ru": "Риони",
             "name_ka": "რიონი",
-            "departure_time": "11:55",
+            "departure_time": "12:20",
             "arrival_time": null,
             "stop_time": null
          },
@@ -3467,7 +3467,7 @@
             "name_en": "Samtoteknikumi",
             "name_ru": "Самтотекникуми",
             "name_ka": "სამთოტექნიკუმი",
-            "departure_time": "12:05",
+            "departure_time": "12:29",
             "arrival_time": null,
             "stop_time": null
          },
@@ -3477,7 +3477,7 @@
             "name_en": "Kutaisi-1",
             "name_ru": "Кутаиси-1",
             "name_ka": "ქუთაისი-1",
-            "departure_time": "12:15",
+            "departure_time": "12:40",
             "arrival_time": null,
             "stop_time": null
          }
@@ -3517,7 +3517,7 @@
             "name_en": "Kutaisi-1",
             "name_ru": "Кутаиси-1",
             "name_ka": "ქუთაისი-1",
-            "departure_time": "12:00",
+            "departure_time": "11:55",
             "arrival_time": null,
             "stop_time": null
          },
@@ -3527,7 +3527,7 @@
             "name_en": "Samtoteknikumi",
             "name_ru": "Самтотекникуми",
             "name_ka": "სამთოტექნიკუმი",
-            "departure_time": "12:10",
+            "departure_time": "12:05",
             "arrival_time": null,
             "stop_time": null
          },
@@ -3537,7 +3537,7 @@
             "name_en": "Rioni",
             "name_ru": "Риони",
             "name_ka": "რიონი",
-            "departure_time": "12:20",
+            "departure_time": "12:15",
             "arrival_time": null,
             "stop_time": null
          }
@@ -3577,7 +3577,7 @@
             "name_en": "Rioni",
             "name_ru": "Риони",
             "name_ka": "რიონი",
-            "departure_time": "12:40",
+            "departure_time": "12:50",
             "arrival_time": null,
             "stop_time": null
          },
@@ -3587,7 +3587,7 @@
             "name_en": "Samtoteknikumi",
             "name_ru": "Самтотекникуми",
             "name_ka": "სამთოტექნიკუმი",
-            "departure_time": "12:49",
+            "departure_time": "12:59",
             "arrival_time": null,
             "stop_time": null
          },
@@ -3597,7 +3597,7 @@
             "name_en": "Kutaisi-1",
             "name_ru": "Кутаиси-1",
             "name_ka": "ქუთაისი-1",
-            "departure_time": "13:00",
+            "departure_time": "13:10",
             "arrival_time": null,
             "stop_time": null
          }
