@@ -88,6 +88,30 @@
          "arrival": [],
          "via": [
             {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "18:34",
+               "stop_time": null
+            },
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "08:42",
+               "stop_time": null
+            },
+            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -270,6 +294,30 @@
          "departure": [],
          "arrival": [],
          "via": [
+            {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "20:28",
+               "stop_time": null
+            },
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "06:48",
+               "stop_time": null
+            },
             {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
@@ -532,6 +580,30 @@
          "arrival": [],
          "via": [
             {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "16:40",
+               "stop_time": null
+            },
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "10:33",
+               "stop_time": null
+            },
+            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -579,6 +651,18 @@
       "routes": {
          "departure": [
             {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "16:30",
+               "stop_time": null
+            },
+            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -592,6 +676,18 @@
             }
          ],
          "arrival": [
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "10:48",
+               "stop_time": null
+            },
             {
                "ref": 686,
                "name_en": "Tbilisi → Borjomi",
@@ -946,6 +1042,30 @@
          "arrival": [],
          "via": [
             {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "20:06",
+               "stop_time": null
+            },
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "07:10",
+               "stop_time": null
+            },
+            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -1238,6 +1358,30 @@
          "arrival": [],
          "via": [
             {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "18:23",
+               "stop_time": null
+            },
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "08:53",
+               "stop_time": null
+            },
+            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -1283,6 +1427,30 @@
          "departure": [],
          "arrival": [],
          "via": [
+            {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "19:02",
+               "stop_time": null
+            },
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "08:12",
+               "stop_time": null
+            },
             {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
@@ -1401,6 +1569,30 @@
          "departure": [],
          "arrival": [],
          "via": [
+            {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "19:21",
+               "stop_time": null
+            },
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "07:55",
+               "stop_time": null
+            },
             {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
@@ -1665,6 +1857,30 @@
          "arrival": [],
          "via": [
             {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "18:42",
+               "stop_time": null
+            },
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "08:34",
+               "stop_time": null
+            },
+            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -1735,6 +1951,30 @@
          "arrival": [],
          "via": [
             {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "19:36",
+               "stop_time": null
+            },
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "07:39",
+               "stop_time": null
+            },
+            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -1804,6 +2044,30 @@
          "departure": [],
          "arrival": [],
          "via": [
+            {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "19:45",
+               "stop_time": null
+            },
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "07:31",
+               "stop_time": null
+            },
             {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
@@ -2066,6 +2330,30 @@
             }
          ],
          "via": [
+            {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "18:06",
+               "stop_time": null
+            },
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "09:07",
+               "stop_time": null
+            },
             {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
@@ -2391,6 +2679,30 @@
          "departure": [],
          "arrival": [],
          "via": [
+            {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "19:58",
+               "stop_time": null
+            },
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "07:18",
+               "stop_time": null
+            },
             {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
@@ -2821,6 +3133,30 @@
          "departure": [],
          "arrival": [],
          "via": [
+            {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "17:54",
+               "stop_time": null
+            },
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "09:23",
+               "stop_time": null
+            },
             {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
@@ -3396,6 +3732,30 @@
          "departure": [],
          "arrival": [],
          "via": [
+            {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "20:15",
+               "stop_time": null
+            },
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "07:01",
+               "stop_time": null
+            },
             {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
@@ -5036,6 +5396,18 @@
                "stop_time": null
             },
             {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "06:35",
+               "stop_time": null
+            },
+            {
                "ref": 686,
                "name_en": "Tbilisi → Borjomi",
                "name_ru": "Тбилиси → Боржоми",
@@ -5143,6 +5515,18 @@
                "end_date": 1781222400000,
                "arrival_time": "07:35",
                "departure_time": "-",
+               "stop_time": null
+            },
+            {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "20:50",
                "stop_time": null
             },
             {
@@ -5334,6 +5718,30 @@
          "departure": [],
          "arrival": [],
          "via": [
+            {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "20:44",
+               "stop_time": null
+            },
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "06:39",
+               "stop_time": null
+            },
             {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
@@ -5686,6 +6094,30 @@
          "departure": [],
          "arrival": [],
          "via": [
+            {
+               "ref": 617,
+               "name_en": "Borjomi → Tbilisi",
+               "name_ru": "Боржоми → Тбилиси",
+               "name_ka": "ბორჯომი → თბილისი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "20:23",
+               "stop_time": null
+            },
+            {
+               "ref": 618,
+               "name_en": "Tbilisi → Borjomi",
+               "name_ru": "Тбилиси → Боржоми",
+               "name_ka": "თბილისი → ბორჯომი",
+               "frequency": "daily",
+               "every_second_day_start": null,
+               "end_date": null,
+               "arrival_time": null,
+               "departure_time": "06:53",
+               "stop_time": null
+            },
             {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
