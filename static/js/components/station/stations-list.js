@@ -5641,7 +5641,7 @@ export const stations = [
       "code": "tbilisimarshalling",
       "type": "secondary",
       "name_en": "Tbilisi Marshalling",
-      "name_ka": "ველი",
+      "name_ka": "თბილისი დახარისხება",
       "name_ru": "Тбилиси-Сортировочная",
       "gr_code": 56000,
       "routes": {
