@@ -51,7 +51,7 @@ jobs:
           
       - name: Run data tests
         run: |
-          pytest scripts/test_data_files.py -v --tb=short
+          pytest scripts/tests/ -v --tb=short
           
       - name: Setup Go
         uses: actions/setup-go@v5

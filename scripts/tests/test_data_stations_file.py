@@ -1,4 +1,4 @@
-"""Тесты для проверки data файла routes.json"""
+"""Тесты для проверки data файла stations.json"""
 
 import json
 import pytest
