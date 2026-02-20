@@ -1,3 +1,6 @@
 pytest>=7.0.0
 pytest-html>=3.0.0 
 fastjsonschema>=2.21.1
+requests
+pandas
+openpyxl
