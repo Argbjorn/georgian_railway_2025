@@ -59,9 +59,9 @@ export const routes = [
       "online_tickets_new_site": false,
       "train_type": null,
       "has_arrival_time": true,
-      "description_en": "This season, the train operates from October 2, 2025 to June 13, 2026. In summer, its route is extended to Batumi. Tickets can be purchased online on the South Caucasus Railway website via the link below. Georgian Railways does not sell tickets for this train online; however, they can be purchased at station ticket offices. Platzkart, compartment (coupe), and SV classes are available. Prices for <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_eng_18-31.pdf\" target=\"_blank\">January 18–31</a> and <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_eng_2.pdf\" target=\"_blank\">February</a>.",
-      "description_ru": "В этом сезоне поезд ходит со 2 октября 2025 года по 13 июня 2026 года. Летом его маршрут продлевается до Батуми. Билеты можно купить онлайн на сайте ЮКЖД по ссылке ниже. Грузинская железная дорога не продает билеты на этот поезд онлайн, однако их можно приобрести в кассах вокзалов. Доступны плацкарт, купе и СВ. Цены за <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_rus_18-31.pdf\" target=\"_blank\">18–31 января</a> и <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_rus_2.pdf\" target=\"_blank\">февраль</a>.",
-      "description_ka": "ამ სეზონზე მატარებელი მუშაობს 2025 წლის 2 ოქტომბრიდან 2026 წლის 13 ივნისამდე. ზაფხულში მისი მარშრუტი ბათუმამდე გრძელდება. ბილეთების შეძენა შესაძლებელია ონლაინ, სამხრეთ კავკასიის რკინიგზის ვებგვერდზე ქვემოთ მოცემული ბმულის საშუალებით. საქართველოს რკინიგზა ამ მატარებლის ბილეთებს ონლაინ არ ყიდის, თუმცა მათი შეძენა შესაძლებელია სადგურების სალაროებში. ხელმისაწვდომია პლაცკარტი, კუპე და სვ (СВ). ფასები <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_eng_18-31.pdf\" target=\"_blank\">18–31 იანვრისთვის</a> და <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_eng_2.pdf\" target=\"_blank\">თებერვლისთვის</a>.",
+      "description_en": "This season, the train runs from October 2, 2025 to June 13, 2026. In summer, its route is extended to Batumi. Tickets can be purchased online on the South Caucasus Railway website via the link below. Georgian Railway does not sell tickets for this train online; however, they can be purchased at station ticket offices. Platzkart, compartment, and SV sleeping cars are available. Prices for <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_eng_3.pdf\" target=\"_blank\">March</a>.",
+      "description_ru": "В этом сезоне поезд ходит со 2 октября 2025 года по 13 июня 2026 года. Летом его маршрут продлевается до Батуми. Билеты можно купить онлайн на сайте ЮКЖД по ссылке ниже. Грузинская железная дорога не продает билеты на этот поезд онлайн, однако их можно приобрести в кассах вокзалов. Доступны плацкарт, купе и СВ. Цены на <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_rus_3.pdf\" target=\"_blank\">март</a>.",
+      "description_ka": "ამ სეზონში მატარებელი მოძრაობს 2025 წლის 2 ოქტომბრიდან 2026 წლის 13 ივნისამდე. ზაფხულში მისი მარშრუტი გრძელდება ბათუმამდე. ბილეთების შეძენა შესაძლებელია ონლაინ სამხრეთ კავკასიის რკინიგზის ვებსაიტზე ქვემოთ მოცემული ბმულის საშუალებით. საქართველოს რკინიგზა ამ მატარებელზე ბილეთებს ონლაინ არ ყიდის, თუმცა მათი შეძენა შესაძლებელია სადგურების სალაროებში. ხელმისაწვდომია პლაცკარტი, კუპე და SV. ფასები <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_eng_3.pdf\" target=\"_blank\">მარტისთვის</a>.",
       "stations": [
          {
             "code": "tbilisicentralstation",
@@ -154,9 +154,9 @@ export const routes = [
       "online_tickets_new_site": false,
       "train_type": null,
       "has_arrival_time": true,
-      "description_en": "This season, the train operates from October 2, 2025 to June 13, 2026. In summer, its route is extended to Batumi. Tickets can be purchased online on the South Caucasus Railway website via the link below. Georgian Railways does not sell tickets for this train online; however, they can be purchased at station ticket offices. Platzkart, compartment (coupe), and SV classes are available. Prices for <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_eng_18-31.pdf\" target=\"_blank\">January 18–31</a> and <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_eng_2.pdf\" target=\"_blank\">February</a>.",
-      "description_ru": "В этом сезоне поезд ходит со 2 октября 2025 года по 13 июня 2026 года. Летом его маршрут продлевается до Батуми. Билеты можно купить онлайн на сайте ЮКЖД по ссылке ниже. Грузинская железная дорога не продает билеты на этот поезд онлайн, однако их можно приобрести в кассах вокзалов. Доступны плацкарт, купе и СВ. Цены за <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_rus_18-31.pdf\" target=\"_blank\">18–31 января</a> и <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_rus_2.pdf\" target=\"_blank\">февраль</a>.",
-      "description_ka": "ამ სეზონზე მატარებელი მუშაობს 2025 წლის 2 ოქტომბრიდან 2026 წლის 13 ივნისამდე. ზაფხულში მისი მარშრუტი ბათუმამდე გრძელდება. ბილეთების შეძენა შესაძლებელია ონლაინ, სამხრეთ კავკასიის რკინიგზის ვებგვერდზე ქვემოთ მოცემული ბმულის საშუალებით. საქართველოს რკინიგზა ამ მატარებლის ბილეთებს ონლაინ არ ყიდის, თუმცა მათი შეძენა შესაძლებელია სადგურების სალაროებში. ხელმისაწვდომია პლაცკარტი, კუპე და სვ (СВ). ფასები <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_eng_18-31.pdf\" target=\"_blank\">18–31 იანვრისთვის</a> და <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_eng_2.pdf\" target=\"_blank\">თებერვლისთვის</a>.",
+      "description_en": "This season, the train runs from October 2, 2025 to June 13, 2026. In summer, its route is extended to Batumi. Tickets can be purchased online on the South Caucasus Railway website via the link below. Georgian Railway does not sell tickets for this train online; however, they can be purchased at station ticket offices. Platzkart, compartment, and SV sleeping cars are available. Prices for <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_eng_3.pdf\" target=\"_blank\">March</a>.",
+      "description_ru": "В этом сезоне поезд ходит со 2 октября 2025 года по 13 июня 2026 года. Летом его маршрут продлевается до Батуми. Билеты можно купить онлайн на сайте ЮКЖД по ссылке ниже. Грузинская железная дорога не продает билеты на этот поезд онлайн, однако их можно приобрести в кассах вокзалов. Доступны плацкарт, купе и СВ. Цены на <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_rus_3.pdf\" target=\"_blank\">март</a>.",
+      "description_ka": "ამ სეზონში მატარებელი მოძრაობს 2025 წლის 2 ოქტომბრიდან 2026 წლის 13 ივნისამდე. ზაფხულში მისი მარშრუტი გრძელდება ბათუმამდე. ბილეთების შეძენა შესაძლებელია ონლაინ სამხრეთ კავკასიის რკინიგზის ვებსაიტზე ქვემოთ მოცემული ბმულის საშუალებით. საქართველოს რკინიგზა ამ მატარებელზე ბილეთებს ონლაინ არ ყიდის, თუმცა მათი შეძენა შესაძლებელია სადგურების სალაროებში. ხელმისაწვდომია პლაცკარტი, კუპე და SV. ფასები <a href=\"https://www.railway.am/infodocs/price/Yer_tbilisi_price_eng_3.pdf\" target=\"_blank\">მარტისთვის</a>.",
       "stations": [
          {
             "code": "yerevan",
@@ -4080,7 +4080,7 @@ export const routes = [
             "role": "middle",
             "name_en": "Tbilisi Marshalling",
             "name_ru": "Тбилиси-Сортировочная",
-            "name_ka": "ველი",
+            "name_ka": "თბილისი დახარისხება",
             "departure_time": "07:29",
             "arrival_time": null,
             "stop_time": null
@@ -4220,7 +4220,7 @@ export const routes = [
             "role": "middle",
             "name_en": "Tbilisi Marshalling",
             "name_ru": "Тбилиси-Сортировочная",
-            "name_ka": "ველი",
+            "name_ka": "თბილისი დახარისხება",
             "departure_time": "09:18",
             "arrival_time": null,
             "stop_time": null
@@ -4300,7 +4300,7 @@ export const routes = [
             "role": "middle",
             "name_en": "Tbilisi Marshalling",
             "name_ru": "Тбилиси-Сортировочная",
-            "name_ka": "ველი",
+            "name_ka": "თბილისი დახარისხება",
             "departure_time": "19:19",
             "arrival_time": null,
             "stop_time": null
@@ -4440,7 +4440,7 @@ export const routes = [
             "role": "middle",
             "name_en": "Tbilisi Marshalling",
             "name_ru": "Тбилиси-Сортировочная",
-            "name_ka": "ველი",
+            "name_ka": "თბილისი დახარისხება",
             "departure_time": "21:08",
             "arrival_time": null,
             "stop_time": null
