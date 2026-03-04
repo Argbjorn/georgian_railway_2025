@@ -4,11 +4,10 @@
 import sys
 import os
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 import json
 from config import ROUTES_LIST_JS_PATH, ROUTES_JSON_PATH
-from utils.parse_train_schedule import get_timetable
 from utils.geo_routes_excel_handler import GeoRoutesExcelHandler
 from utils.string_utils import remove_patterns
 from utils.stations_handler import StationsHandler
@@ -16,7 +15,6 @@ from datetime import datetime, timedelta
 
 
 gr_workbook = GeoRoutesExcelHandler()
-actual_timetable = get_timetable()
 stations_handler = StationsHandler()
 
 routes = gr_workbook.routes_json
@@ -101,40 +99,8 @@ for i in routes:
              "description_ru": i["description_ru"],
              "description_ka": i["description_ka"]
              }
-    # Routes from full timetable from the website
-    if i['ref'] in actual_timetable:
-        stations_json = actual_timetable[i['ref']]
-        station = stations_json[0]
-        name_en, name_ru, name_ka = stations_handler.get_station_names_by_code(station[0])
-        stations_temp = [{"code": station[0],
-                          "role": "start",
-                          "time": station[1],
-                          "name_en": name_en,
-                          "name_ru": name_ru,
-                          "name_ka": name_ka}]
-
-        for j in stations_json[1:-1]:
-            name_en, name_ru, name_ka = stations_handler.get_station_names_by_code(j[0])
-            stations_temp.append(
-                {"code": j[0],
-                 "role": "middle",
-                 "time": j[1],
-                 "name_en": name_en,
-                 "name_ru": name_ru,
-                 "name_ka": name_ka})
-
-        station = stations_json[-1]
-        name_en, name_ru, name_ka = stations_handler.get_station_names_by_code(station[0])
-        stations_temp.append(
-            {"code": station[0],
-             "role": "end",
-             "time": station[1],
-             "name_en": name_en,
-             "name_ru": name_ru,
-             "name_ka": name_ka})
-        route["stations"] = stations_temp
     # Routes from excel (if route sheet exists)
-    elif gr_workbook.is_sheet_exists(i["ref"]):
+    if gr_workbook.is_sheet_exists(i["ref"]):
         stations_temp = []
         stations_json = gr_workbook.get_route_stations_with_time(route["ref"])
         
