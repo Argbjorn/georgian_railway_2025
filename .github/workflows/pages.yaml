@@ -84,7 +84,13 @@ jobs:
           mkdir -p secrets
           echo "$GOOGLE_CREDENTIALS_JSON" > secrets/credentials.json
           echo "GOOGLE_CREDENTIALS_PATH=secrets/credentials.json" >> $GITHUB_ENV
-          echo "GOOGLE_SPREADSHEET_ID=$GOOGLE_SPREADSHEET_ID" >> $GITHUB_ENV
+          # Trim whitespace and surrounding quotes from spreadsheet ID (often copied with newline)
+          SPREADSHEET_ID="$(echo -n "$GOOGLE_SPREADSHEET_ID" | tr -d '\n\r\t ' | sed 's/^"//;s/"$//')"
+          if [ -z "$SPREADSHEET_ID" ]; then
+            echo "::error::GOOGLE_SPREADSHEET_ID secret is empty or invalid"
+            exit 1
+          fi
+          echo "GOOGLE_SPREADSHEET_ID=$SPREADSHEET_ID" >> $GITHUB_ENV
 
       - name: Run make_routes_files
         run: python scripts/make_routes_files.py

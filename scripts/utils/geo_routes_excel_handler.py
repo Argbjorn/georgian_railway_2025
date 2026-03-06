@@ -14,7 +14,8 @@ import gspread
 from google.oauth2.service_account import Credentials
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
-SPREADSHEET_ID = os.environ.get("GOOGLE_SPREADSHEET_ID")
+# Strip whitespace/quotes — env can have trailing newline when set from CI
+SPREADSHEET_ID = (os.environ.get("GOOGLE_SPREADSHEET_ID") or "").strip().strip('"')
 
 
 def _get_google_client():
@@ -41,6 +42,11 @@ def _rows_to_records(rows):
 class GeoRoutesExcelHandler:
     def __init__(self):
         self._sheet_cache = {}
+        if not SPREADSHEET_ID:
+            raise RuntimeError(
+                "GOOGLE_SPREADSHEET_ID is not set. "
+                "Set the env var or add it to .env; in CI use the GOOGLE_SPREADSHEET_ID secret."
+            )
         client = _get_google_client()
         spreadsheet = client.open_by_key(SPREADSHEET_ID)
         worksheets = spreadsheet.worksheets()
