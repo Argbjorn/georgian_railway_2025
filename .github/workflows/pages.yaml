@@ -82,7 +82,7 @@ jobs:
           GOOGLE_SPREADSHEET_ID: ${{ secrets.GOOGLE_SPREADSHEET_ID }}
         run: |
           mkdir -p secrets
-          printf '%s\n' "$GOOGLE_CREDENTIALS_JSON" > secrets/credentials.json
+          echo "$GOOGLE_CREDENTIALS_JSON" > secrets/credentials.json
           echo "GOOGLE_CREDENTIALS_PATH=secrets/credentials.json" >> $GITHUB_ENV
           echo "GOOGLE_SPREADSHEET_ID=$GOOGLE_SPREADSHEET_ID" >> $GITHUB_ENV
 
