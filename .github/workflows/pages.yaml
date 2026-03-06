@@ -2,11 +2,11 @@
 name: Deploy Hugo site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes to main (deploy) and ci (test only, no deploy)
   push:
-    branches: ["main"]
+    branches: ["main", "ci"]
 
-  # Allows you to run this workflow manually from the Actions tab
+  # Allows you to run this workflow manually from the Actions tab (choose branch in UI)
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -15,10 +15,9 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# One concurrent run per branch (main vs ci) so test runs on ci don't block production deploys
 concurrency:
-  group: "pages"
+  group: "pages-${{ github.ref_name }}"
   cancel-in-progress: false
 
 # Default to bash
@@ -97,7 +96,7 @@ jobs:
           if git status --porcelain | grep -q .; then
             git add data/routes.json static/js/components/route/routes-list.js
             git commit -m "chore: update routes data from make_routes_files [skip ci]"
-            git push
+            git push origin HEAD:${{ github.ref_name }}
           fi
 
       - name: Setup Go
@@ -125,8 +124,9 @@ jobs:
         with:
           path: ./public
 
-  # Deployment job
+  # Deployment job — only on main so pushes to ci/test branches don't affect the live site
   deploy:
+    if: github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
