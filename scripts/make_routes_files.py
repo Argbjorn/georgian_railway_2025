@@ -11,6 +11,7 @@ from config import ROUTES_LIST_JS_PATH, ROUTES_JSON_PATH
 from utils.geo_routes_excel_handler import GeoRoutesExcelHandler
 from utils.string_utils import remove_patterns
 from utils.stations_handler import StationsHandler
+import calendar
 from datetime import datetime, timedelta
 
 
@@ -25,8 +26,42 @@ def string_value_to_bool(key):
     return True if i[key] == "y" else False
 
 
+def empty_to_none(val):
+    """Пустую строку или None превращает в None (для вывода null в JSON)."""
+    if val is None:
+        return None
+    if isinstance(val, str) and val.strip() == "":
+        return None
+    return val
+
+
+def to_unixtime(val):
+    """Преобразует значение из таблицы в Unix timestamp в миллисекундах (UTC). Пустое -> None."""
+    if val is None or (isinstance(val, str) and val.strip() == ""):
+        return None
+    if isinstance(val, (int, float)):
+        num = float(val)
+        if num >= 1e12:
+            return int(num)  # уже в миллисекундах
+        if num >= 1e9:
+            return int(num * 1000)  # в секундах -> в миллисекунды
+        # Excel serial (дни с 1899-12-30), трактуем как UTC
+        epoch = datetime(1899, 12, 30)
+        dt = epoch + timedelta(days=num)
+        return calendar.timegm(dt.timetuple()) * 1000
+    s = val.strip()
+    # Форматы: ISO, EU (d.m.y), US (m/d/y), d/m/y — дата как полночь UTC
+    for fmt in ("%Y-%m-%d", "%d.%m.%Y", "%m/%d/%Y", "%d/%m/%Y", "%Y-%m-%d %H:%M:%S", "%d.%m.%Y %H:%M"):
+        try:
+            dt = datetime.strptime(s, fmt)
+            return calendar.timegm(dt.timetuple()) * 1000
+        except ValueError:
+            continue
+    return None
+
+
 def get_time_difference(start, end):
-    if start == '-' or end == '-':
+    if start in ['-', '', None] or end in ['-', '', None]:
         return None
     start_dt = datetime.strptime(start, '%H:%M')
     end_dt = datetime.strptime(end, '%H:%M')
@@ -71,33 +106,41 @@ def get_route_price(*args):
 
 
 def is_route_active(route_ref, routes):
+    try:
+        ref_int = int(float(route_ref))
+    except (ValueError, TypeError):
+        return False
     for route in routes:
-        if route["ref"] == int(route_ref):
-            return route["active"] == 'y'
+        try:
+            if int(float(route["ref"])) == ref_int:
+                return str(route.get("active", "")).strip().lower() == "y"
+        except (ValueError, TypeError, KeyError):
+            continue
     return False
 
 
 for i in routes:
+    print(f"Processing route {i['ref']}")
     if i["show_on_site"] == 'n':
         continue
-    route = {"id": i["id"],
-             "ref": i["ref"],
+    route = {"id": int(i["id"]),
+             "ref": int(i["ref"]),
              "name:ka": remove_patterns(i["name_ka"]),
              "name:en": remove_patterns(i["name_en"]),
              "name:ru": remove_patterns(i["name_ru"]),
              "active": string_value_to_bool("active"),
-             "frequency": i["frequency"],
-             "every_second_day_start": i["every_second_day_start"],
-             "end_date": i["end_date"],
+             "frequency": empty_to_none(i["frequency"]),
+             "every_second_day_start": to_unixtime(i["every_second_day_start"]),
+             "end_date": to_unixtime(i["end_date"]),
              "complete": string_value_to_bool("complete"),
              "online": string_value_to_bool("online"),
              "online_tickets_current_site": string_value_to_bool("online_tickets_current_site"),
              "online_tickets_new_site": string_value_to_bool("online_tickets_new_site"),
-             "train_type": i["train_type"],
+             "train_type": empty_to_none(i["train_type"]),
              "has_arrival_time": string_value_to_bool("has_arrival_time"),
-             "description_en": i["description_en"],
-             "description_ru": i["description_ru"],
-             "description_ka": i["description_ka"]
+             "description_en": empty_to_none(i["description_en"]),
+             "description_ru": empty_to_none(i["description_ru"]),
+             "description_ka": empty_to_none(i["description_ka"])
              }
     # Routes from excel (if route sheet exists)
     if gr_workbook.is_sheet_exists(i["ref"]):
@@ -121,8 +164,8 @@ for i in routes:
                 station_data['arrival_time'] = None
                 station_data['stop_time'] = None
             else:
-                station_data['departure_time'] = station['departure_time'] if station['departure_time'] is not None else '-'
-                station_data['arrival_time'] = station['arrival_time'] if station['arrival_time'] is not None else '-'
+                station_data['departure_time'] = station['departure_time'] if station['departure_time'] != '' else '-'
+                station_data['arrival_time'] = station['arrival_time'] if station['arrival_time'] != '' else '-'
                 station_data['stop_time'] = get_time_difference(station_data['arrival_time'], station_data['departure_time'])
             
             stations_temp.append(station_data)
@@ -137,15 +180,25 @@ for i in routes:
                                      float(i["price_1_class"]) if i["price_1_class"] else None,
                                      float(i["price_business"]) if i["price_business"] else None,
                                      float(i["price_standard"]) if i["price_standard"] else None)
-    if i["analogue"]:
-        # Если в таблице есть только по 0 или 1 аналогу, то в json будет float в поле analogue. Если больше 1, то int
-        if type(i["analogue"]) == float:
-            a = str(int(i["analogue"])).split(',')
-        else:
-            a = str(i["analogue"]).split(',')
-        route["analogue"] = [j for j in a if is_route_active(j, routes)]
-    else:
+    # analogue: пустая строка — нет аналогов; одно число — один аналог; числа через запятую без пробела — несколько
+    # заголовок в таблице может быть "analogue", "Analogue", "аналог" и т.д.
+    analogue_val = None
+    for key in ("analogue", "Analogue", "Аналог", "аналог"):
+        if key in i and i[key] is not None and str(i[key]).strip() != "":
+            analogue_val = i[key]
+            break
+    analogue_str = str(analogue_val or "").strip()
+    if not analogue_str:
         route["analogue"] = []
+    else:
+        parts = [p.strip() for p in analogue_str.split(",") if p.strip()]
+        refs = []
+        for p in parts:
+            try:
+                refs.append(str(int(float(p))))  # "11.0" из Excel → "11"
+            except (ValueError, TypeError):
+                continue
+        route["analogue"] = [ref for ref in refs if is_route_active(ref, routes)]
     routes_handled.append(route)
 
 json_result = json.dumps(sorted(routes_handled, key=lambda x: int(x["ref"])), ensure_ascii=False, indent=3)

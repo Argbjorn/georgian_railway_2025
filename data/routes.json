@@ -4080,7 +4080,7 @@
             "role": "middle",
             "name_en": "Tbilisi Marshalling",
             "name_ru": "Тбилиси-Сортировочная",
-            "name_ka": "ველი",
+            "name_ka": "თბილისი დახარისხება",
             "departure_time": "07:29",
             "arrival_time": null,
             "stop_time": null
@@ -4220,7 +4220,7 @@
             "role": "middle",
             "name_en": "Tbilisi Marshalling",
             "name_ru": "Тбилиси-Сортировочная",
-            "name_ka": "ველი",
+            "name_ka": "თბილისი დახარისხება",
             "departure_time": "09:18",
             "arrival_time": null,
             "stop_time": null
@@ -4300,7 +4300,7 @@
             "role": "middle",
             "name_en": "Tbilisi Marshalling",
             "name_ru": "Тбилиси-Сортировочная",
-            "name_ka": "ველი",
+            "name_ka": "თბილისი დახარისხება",
             "departure_time": "19:19",
             "arrival_time": null,
             "stop_time": null
@@ -4440,7 +4440,7 @@
             "role": "middle",
             "name_en": "Tbilisi Marshalling",
             "name_ru": "Тбилиси-Сортировочная",
-            "name_ka": "ველი",
+            "name_ka": "თბილისი დახარისხება",
             "departure_time": "21:08",
             "arrival_time": null,
             "stop_time": null
