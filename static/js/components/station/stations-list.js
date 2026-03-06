@@ -3348,21 +3348,6 @@ export const stations = [
    },
    {
       "id": [
-         618740140
-      ],
-      "coords": [
-         41.5462555,
-         44.8031892
-      ],
-      "code": "marabda",
-      "type": "secondary",
-      "name_en": "Marabda",
-      "name_ka": "მარაბდა",
-      "name_ru": "Марабда",
-      "gr_code": 56303
-   },
-   {
-      "id": [
          12112943012,
          12112943013
       ],

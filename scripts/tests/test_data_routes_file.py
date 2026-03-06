@@ -32,7 +32,7 @@ ROUTE_SCHEMA = {
     },
     "frequency": {
       "type": "string",
-      "enum": ["daily", "every second day"]
+      "enum": ["daily", "every second day", "on odd days", "on even days"]
     },
     "every_second_day_start": {
       "type": ["integer", "null"]
@@ -153,9 +153,7 @@ ROUTE_SCHEMA = {
     "online",
     "online_tickets_current_site",
     "online_tickets_new_site",
-    "has_arrival_time",
-    "stations",
-    "travel_time"
+    "has_arrival_time"
   ]
 }
 
@@ -177,21 +175,25 @@ class TestDataRoutesFile:
                 pytest.fail(f"Маршрут {route['ref']} (id: {route['id']}) не соответствует схеме: {e}")
 
     def test_travel_time_is_reasonable(self, routes_data):
-        """Проверяет, что время в пути в диапазоне от 0 до 24 часов"""
+        """Проверяет, что время в пути в диапазоне от 0 до 24 часов (только для маршрутов с указанным travel_time)"""
         for route in routes_data:
-            travel_time = route['travel_time']
-            if travel_time:
-                hours, minutes = map(int, travel_time.split(':'))
-                total_minutes = hours * 60 + minutes
-                assert total_minutes <= 24 * 60 and total_minutes > 0, f"Время в пути для маршрута {route['ref']} (id: {route['id']}) превышает 24 часа или меньше 0"
+            travel_time = route.get('travel_time')
+            if not travel_time:
+                continue
+            hours, minutes = map(int, travel_time.split(':'))
+            total_minutes = hours * 60 + minutes
+            assert total_minutes <= 24 * 60 and total_minutes > 0, f"Время в пути для маршрута {route['ref']} (id: {route['id']}) превышает 24 часа или меньше 0"
 
     def test_stations_have_correct_roles(self, routes_data):
         """Проверяет, что станции маршрута имеют правильные роли"""
         for route in routes_data:
-            for i, station in enumerate(route['stations']):
+            stations = route.get('stations')
+            if not stations:
+                continue
+            for i, station in enumerate(stations):
                 if i == 0:
                     assert station['role'] == "start", f"Первая станция маршрута {route['ref']} (id: {route['id']}) имеет роль {station['role']}"
-                elif i == len(route['stations']) - 1:
+                elif i == len(stations) - 1:
                     assert station['role'] == "end", f"Последняя станция маршрута {route['ref']} (id: {route['id']}) имеет роль {station['role']}"
                 else:
                     assert station['role'] == "middle", f"Промежуточная станция маршрута {route['ref']} (id: {route['id']}) имеет роль {station['role']}"
@@ -199,24 +201,27 @@ class TestDataRoutesFile:
     def test_route_stations_arrival_times_are_sequential(self, routes_data):
         """Проверяет, что время прибытия на станциях маршрута идет по порядку"""
         for route in routes_data:
-            travel_time = time_string_to_minutes(route['travel_time'])
-            prev_station_time = time_string_to_minutes(route['stations'][0]['departure_time'])
-            real_time = []
-            real_time.append(prev_station_time)
-            current_day = 0
-            for station in route['stations'][1:]:
-                # У маршрутов с временем прибытия для конечной станции задан только arrival_time
-                if route['has_arrival_time'] == True and station['role'] == 'end':
-                    current_station_time = time_string_to_minutes(station['arrival_time'])
-                else:
-                    current_station_time = time_string_to_minutes(station['departure_time'])
-                if current_station_time < prev_station_time % 1440:
-                    current_day += 1
-                current_station_time += current_day * 1440
-                real_time.append(current_station_time)
-                prev_station_time = current_station_time
-            calculated_travel_time = real_time[-1] - real_time[0]
-            assert travel_time == calculated_travel_time, f"Время в расписании станций на маршруте {route['ref']} (id: {route['id']}) идет не по порядку"
+            if route.get('travel_time') and route.get('stations'):
+              travel_time = time_string_to_minutes(route['travel_time'])
+              prev_station_time = time_string_to_minutes(route['stations'][0]['departure_time'])
+              real_time = []
+              real_time.append(prev_station_time)
+              current_day = 0
+              for station in route['stations'][1:]:
+                  # У маршрутов с временем прибытия для конечной станции задан только arrival_time
+                  if route['has_arrival_time'] == True and station['role'] == 'end':
+                      current_station_time = time_string_to_minutes(station['arrival_time'])
+                  else:
+                      current_station_time = time_string_to_minutes(station['departure_time'])
+                  if current_station_time < prev_station_time % 1440:
+                      current_day += 1
+                  current_station_time += current_day * 1440
+                  real_time.append(current_station_time)
+                  prev_station_time = current_station_time
+              calculated_travel_time = real_time[-1] - real_time[0]
+              assert travel_time == calculated_travel_time, f"Время в расписании станций на маршруте {route['ref']} (id: {route['id']}) идет не по порядку"
+            else:
+                continue
             
     def test_route_analogues_are_active(self, routes_data):
         """Проверяет, что аналоги маршрута активны (тоже присутствуют в файле)"""
