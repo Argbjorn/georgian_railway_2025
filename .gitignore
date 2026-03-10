@@ -8,5 +8,6 @@ resources/
 
 TODO.md
 __pycache__/
+.venv/
 .env
 secrets/

@@ -1,4 +1,4 @@
-"""Тесты для проверки data файла routes.json"""
+"""Тесты для проверки data файла stations.json"""
 
 import json
 import pytest
@@ -86,7 +86,7 @@ STATIONS_SCHEMA = {
           "name_ka": { "type": "string", "minLength": 1 },
           "frequency": {
             "type": "string",
-            "enum": ["daily", "every second day"]
+            "enum": ["daily", "every second day", "on odd days", "on even days"]
           },
           "every_second_day_start": {
             "type": ["integer", "null"]
