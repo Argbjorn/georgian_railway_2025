@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="hextra-max-page-width hx:mx-auto hx:w-full hx:px-6 hx:py-8">
+  <div class="content-narrow">
+    <article class="hx:w-full">
+      <div class="content">
+        {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
+        {{ .Content }}
+      </div>
+      <div class="hextra-cards hx:mt-6 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 1;">
+        {{ range .Pages }}
+          <a
+            class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:shadow-sm hx:transition-all hx:duration-200 hover:hx:border-gray-300 hover:hx:bg-slate-50 hover:hx:shadow-md dark:hx:border-neutral-800 dark:hover:hx:border-neutral-700 dark:hover:hx:bg-neutral-900"
+            href="{{ .Permalink }}">
+            <span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:p-4 hx:text-gray-700 hover:hx:text-gray-900 dark:hx:text-neutral-200 dark:hover:hx:text-neutral-50">{{ .Title }}</span>
+          </a>
+        {{ end }}
+      </div>
+    </article>
+  </div>
+</div>
+{{ end }}

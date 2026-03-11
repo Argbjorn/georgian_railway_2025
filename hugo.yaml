@@ -51,11 +51,19 @@ menu:
       name: About
       pageRef: /about
       weight: 5
+    - name: Language
+      weight: 6
+      params:
+        type: language-switch
+        label: true
+        icon: "translate"
 
 params:
   description: Georgia's train routes on the map and the up-to-date schedule.
   footer:
     enable: true
+    displayCopyright: false
+    displayPoweredBy: false
   navbar:
     displayTitle: true
     displayLogo: true
@@ -70,10 +78,6 @@ params:
   theme:
     displayToggle: false
     default: light
-  footer:
-    displayCopyright: false
-    displayPoweredBy: false
-
   editURL:
     enable: false
 
