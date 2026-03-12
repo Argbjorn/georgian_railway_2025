@@ -1,5 +1,10 @@
 directions: Направления
 routes: Поезда
+routesFromTbilisi: Из Тбилиси
+routesToTbilisi: В Тбилиси
+routesOther: Остальные маршруты
+routesFromTbilisiDescription: Поезда отправляющиеся c Центрального вокзала Тбилиси
+routesToTbilisiDescription: Поезда прибывающие на Центральный вокзал Тбилиси
 stations: Станции
 about: О проекте
 blog: Блог

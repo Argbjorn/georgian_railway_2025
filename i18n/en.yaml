@@ -1,5 +1,10 @@
 directions: Directions
 routes: Routes
+routesFromTbilisi: From Tbilisi
+routesToTbilisi: To Tbilisi
+routesOther: Other routes
+routesToTbilisiDescription: Trains arriving to Tbilisi Central Station
+routesFromTbilisiDescription: Trains departing from Tbilisi Central Station
 stations: Stations
 about: About
 blog: Blog

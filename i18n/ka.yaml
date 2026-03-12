@@ -1,5 +1,10 @@
 directions: მიმართულებები
 routes: მატარებლები
+routesFromTbilisi: თბილისიდან
+routesToTbilisi: თბილისში
+routesOther: სხვა მარშრუტები
+routesFromTbilisiDescription: თბილისიდან მარშრუტები
+routesToTbilisiDescription: თბილისში მარშრუტები
 stations: სადგურები
 about: პროექტის შესახებ
 blog: ბლოგი
