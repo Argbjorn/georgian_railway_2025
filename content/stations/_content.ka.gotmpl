@@ -4,6 +4,7 @@
         "value" (printf "{{< single-station \"%v\" >}}" "ka")
     }}
     {{ $params := dict 
+        "layout" "stations-single"
         "coords" .coords
         "code" .code
         "type" .type
