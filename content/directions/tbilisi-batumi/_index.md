@@ -1,5 +1,6 @@
 ---
 title: "Trains from Tbilisi to Batumi"
+layout: "directions-single"
 description: "Between the capital of Georgia and the main Black Sea resort, modern trains run. Select the appropriate train to get details - exact schedule, ticket prices, intermediate stops and the ability to purchase tickets."
 ---
 
