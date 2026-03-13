@@ -5,4 +5,7 @@ description: საქართველოში მატარებლის
 sidebar:
   hide: true
 toc: false
+cascade:
+  params:
+    breadcrumbs: true
 ---
