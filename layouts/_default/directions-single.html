@@ -8,6 +8,7 @@
   <div style="min-width: 0; flex: 1; padding: 2rem 1.5rem;">
   <div class="content-narrow">
     <article class="hx:w-full">
+      {{ partial "breadcrumb.html" (dict "page" .) }}
       <div class="content">
         {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
         {{ .Content }}
