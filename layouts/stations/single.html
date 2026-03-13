@@ -1,39 +1,43 @@
 {{ define "main" }}
-<div class='hx-mx-auto hx-flex hextra-max-page-width'>
-    {{ partial "sidebar.html" (dict "context" .) }}
-    {{ partial "toc.html" . }}
-    <article
-        class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
-        <main class="hx-w-full hx-min-w-0 hx-max-w-6xl hx-px-6 hx-pt-4 md:hx-px-12">
-          {{ partial "breadcrumb.html" (dict "page" .) }}
-            <div class="content">
-                {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
-                {{ .Content }}
-            </div>
-        </main>
+<div class="content-max-width" style="display: flex;">
+  {{ partial "sidebar.html" (dict
+        "context" .
+        "disableSidebar" true
+        "displayPlaceholder" false
+    ) }}
+  <div style="min-width: 0; flex: 1; padding: 2rem 1.5rem;">
+  <div class="content-narrow">
+    <article class="hx:w-full">
+      {{ partial "breadcrumb.html" (dict "page" .) }}
+      <div class="content">
+        {{ if .Title }}<h1>{{ .Title }}</h1>{{ end }}
+        {{ .Content }}
+      </div>
     </article>
+  </div>
+  </div>
 </div>
 
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "item:": "{{ urls.AbsLangURL "stations" }}",
-          "name": {{ i18n "stations" }},
-          "url": "{{ urls.AbsLangURL "stations" }}"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "item:": "{{ .Page.Permalink }}",
-          "name": {{ .Page.Title }},
-          "url": "{{ .Page.Permalink }}"
-        }
-      ]
-    }
-  </script>
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": "{{ urls.AbsLangURL "stations" }}",
+        "name": {{ i18n "stations" | jsonify }},
+        "url": "{{ urls.AbsLangURL "stations" }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": "{{ .Permalink }}",
+        "name": {{ .Title | jsonify }},
+        "url": "{{ .Permalink }}"
+      }
+    ]
+  }
+</script>
 {{ end }}
