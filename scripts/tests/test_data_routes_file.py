@@ -32,7 +32,7 @@ ROUTE_SCHEMA = {
     },
     "frequency": {
       "type": "string",
-      "enum": ["daily", "every second day", "on odd days", "on even days"]
+      "enum": ["daily", "every second day", "on odd days", "on even days", "on workdays"]
     },
     "every_second_day_start": {
       "type": ["integer", "null"]

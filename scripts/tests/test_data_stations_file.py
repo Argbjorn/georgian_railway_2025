@@ -86,7 +86,7 @@ STATIONS_SCHEMA = {
           "name_ka": { "type": "string", "minLength": 1 },
           "frequency": {
             "type": "string",
-            "enum": ["daily", "every second day", "on odd days", "on even days"]
+            "enum": ["daily", "every second day", "on odd days", "on even days", "on workdays"]
           },
           "every_second_day_start": {
             "type": ["integer", "null"]

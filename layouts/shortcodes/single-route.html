@@ -13,6 +13,7 @@
         "frequency_every_second_day" "через день"
         "frequency_on_even_days" "по чётным числам"
         "frequency_on_odd_days" "по нечётным числам"
+        "frequency_on_workdays" "по рабочим дням"
         "travel_time" "Время в пути"
         "train_type" "Тип поезда"
         "suburban_train" "электричка"
@@ -42,6 +43,7 @@
         "frequency_every_second_day" "every second day"
         "frequency_on_even_days" "on even days"
         "frequency_on_odd_days" "on odd days"
+        "frequency_on_workdays" "on workdays"
         "travel_time" "Travel time"
         "train_type" "Train type"
         "suburban_train" "suburban"
@@ -71,6 +73,7 @@
         "frequency_every_second_day" "თითოეული მეორე დღისთვის"
         "frequency_on_even_days" "ზუთ დღეებში"
         "frequency_on_odd_days" "კენტ დღეებში"
+        "frequency_on_workdays" "სამუშაო დღეებში"
         "travel_time" "მოგზაურობის დრო"
         "train_type" "მატარებლის ტიპი"
         "suburban_train" "საგარეუბნო მატარებელი"
@@ -126,6 +129,8 @@
             {{ $t.frequency_on_even_days }}
         {{ else if eq .Page.Params.frequency "on odd days" }}
             {{ $t.frequency_on_odd_days }}
+        {{ else if eq .Page.Params.frequency "on workdays" }}
+            {{ $t.frequency_on_workdays }}
         {{ else if eq $lang "ru" }}
             {{ $months := dict 
                 "January" "января"

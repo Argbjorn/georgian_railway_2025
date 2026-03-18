@@ -4844,7 +4844,7 @@
       "name:en": "Zestafoni → Khashuri",
       "name:ru": "Зестафони → Хашури",
       "active": true,
-      "frequency": "daily",
+      "frequency": "on workdays",
       "every_second_day_start": null,
       "end_date": null,
       "complete": true,
