@@ -769,12 +769,12 @@
             "name_en": "Sachkhere",
             "name_ru": "Сачхере",
             "name_ka": "საჩხერე",
-            "departure_time": "09:24",
+            "departure_time": "09:19",
             "arrival_time": null,
             "stop_time": null
          }
       ],
-      "travel_time": "03:34",
+      "travel_time": "03:29",
       "price": {
          "price_type": "exact",
          "price": 2.0
@@ -807,7 +807,7 @@
             "name_en": "Sachkhere",
             "name_ru": "Сачхере",
             "name_ka": "საჩხერე",
-            "departure_time": "10:30",
+            "departure_time": "10:50",
             "arrival_time": null,
             "stop_time": null
          },
@@ -817,7 +817,7 @@
             "name_en": "Darkveti",
             "name_ru": "Дарквети",
             "name_ka": "დარკვეთი",
-            "departure_time": "10:50",
+            "departure_time": "11:05",
             "arrival_time": null,
             "stop_time": null
          },
@@ -827,7 +827,7 @@
             "name_en": "Chikauri",
             "name_ru": "Чикаури",
             "name_ka": "ჭიქაური",
-            "departure_time": "11:01",
+            "departure_time": "11:16",
             "arrival_time": null,
             "stop_time": null
          },
@@ -837,7 +837,7 @@
             "name_en": "Chiatura",
             "name_ru": "Чиатура",
             "name_ka": "ჭიათურა",
-            "departure_time": "11:16",
+            "departure_time": "11:31",
             "arrival_time": null,
             "stop_time": null
          },
@@ -847,7 +847,7 @@
             "name_en": "Beghlevi",
             "name_ru": "Беглеви",
             "name_ka": "ბეღლევი",
-            "departure_time": "12:08",
+            "departure_time": "12:23",
             "arrival_time": null,
             "stop_time": null
          },
@@ -857,7 +857,7 @@
             "name_en": "Zestafoni",
             "name_ru": "Зестафони",
             "name_ka": "ზესტაფონი",
-            "departure_time": "12:55",
+            "departure_time": "13:10",
             "arrival_time": null,
             "stop_time": null
          },
@@ -867,7 +867,7 @@
             "name_en": "Argveti",
             "name_ru": "Аргвети",
             "name_ka": "არგვეთი",
-            "departure_time": "13:13",
+            "departure_time": "13:28",
             "arrival_time": null,
             "stop_time": null
          },
@@ -877,7 +877,7 @@
             "name_en": "Ajameti",
             "name_ru": "Аджамети",
             "name_ka": "აჯამეთი",
-            "departure_time": "13:36",
+            "departure_time": "13:51",
             "arrival_time": null,
             "stop_time": null
          },
@@ -887,7 +887,7 @@
             "name_en": "Rioni",
             "name_ru": "Риони",
             "name_ka": "რიონი",
-            "departure_time": "13:47",
+            "departure_time": "14:02",
             "arrival_time": null,
             "stop_time": null
          },
@@ -897,12 +897,12 @@
             "name_en": "Kutaisi-1",
             "name_ru": "Кутаиси-1",
             "name_ka": "ქუთაისი-1",
-            "departure_time": "14:32",
+            "departure_time": "14:27",
             "arrival_time": null,
             "stop_time": null
          }
       ],
-      "travel_time": "04:02",
+      "travel_time": "03:37",
       "price": {
          "price_type": "exact",
          "price": 2.0
