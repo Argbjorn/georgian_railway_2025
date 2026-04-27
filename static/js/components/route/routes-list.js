@@ -4063,7 +4063,7 @@ export const routes = [
             "name_en": "Tbilisi Central Station",
             "name_ru": "Центральный вокзал Тбилиси",
             "name_ka": "თბილისის ცენტრალური სადგური",
-            "departure_time": "07:10",
+            "departure_time": "06:50",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4073,7 +4073,7 @@ export const routes = [
             "name_en": "Navtlughi",
             "name_ru": "Навтлуги",
             "name_ka": "ნავთლუღი",
-            "departure_time": "07:20",
+            "departure_time": "07:00",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4083,7 +4083,7 @@ export const routes = [
             "name_en": "Tbilisi Marshalling",
             "name_ru": "Тбилиси-Сортировочная",
             "name_ka": "თბილისი დახარისხება",
-            "departure_time": "07:29",
+            "departure_time": "07:08",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4093,7 +4093,7 @@ export const routes = [
             "name_en": "Veli",
             "name_ru": "Вели",
             "name_ka": "ველი",
-            "departure_time": "07:39",
+            "departure_time": "07:18",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4103,7 +4103,7 @@ export const routes = [
             "name_en": "Gachiani",
             "name_ru": "Гачиани",
             "name_ka": "გაჩიანი",
-            "departure_time": "07:50",
+            "departure_time": "07:29",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4113,7 +4113,7 @@ export const routes = [
             "name_en": "Rustavi Central",
             "name_ru": "Рустави Центральная",
             "name_ka": "რუსთავი ცენტრალი",
-            "departure_time": "07:58",
+            "departure_time": "07:37",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4123,7 +4123,7 @@ export const routes = [
             "name_en": "Rustavi-Cargo",
             "name_ru": "Рустави-Грузовая",
             "name_ka": "რუსთავი-სატვირთო",
-            "departure_time": "08:03",
+            "departure_time": "07:42",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4133,12 +4133,12 @@ export const routes = [
             "name_en": "Gardabani",
             "name_ru": "Гардабани",
             "name_ka": "გარდაბანი",
-            "departure_time": "08:16",
+            "departure_time": "07:55",
             "arrival_time": null,
             "stop_time": null
          }
       ],
-      "travel_time": "01:06",
+      "travel_time": "01:05",
       "price": {
          "price_type": "exact",
          "price": 0.5
@@ -4173,7 +4173,7 @@ export const routes = [
             "name_en": "Gardabani",
             "name_ru": "Гардабани",
             "name_ka": "გარდაბანი",
-            "departure_time": "08:30",
+            "departure_time": "08:20",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4183,7 +4183,7 @@ export const routes = [
             "name_en": "Rustavi-Cargo",
             "name_ru": "Рустави-Грузовая",
             "name_ka": "რუსთავი-სატვირთო",
-            "departure_time": "08:42",
+            "departure_time": "08:32",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4193,7 +4193,7 @@ export const routes = [
             "name_en": "Rustavi Central",
             "name_ru": "Рустави Центральная",
             "name_ka": "რუსთავი ცენტრალი",
-            "departure_time": "08:47",
+            "departure_time": "08:37",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4203,7 +4203,7 @@ export const routes = [
             "name_en": "Gachiani",
             "name_ru": "Гачиани",
             "name_ka": "გაჩიანი",
-            "departure_time": "08:59",
+            "departure_time": "08:49",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4213,7 +4213,7 @@ export const routes = [
             "name_en": "Veli",
             "name_ru": "Вели",
             "name_ka": "ველი",
-            "departure_time": "09:08",
+            "departure_time": "08:58",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4223,7 +4223,7 @@ export const routes = [
             "name_en": "Tbilisi Marshalling",
             "name_ru": "Тбилиси-Сортировочная",
             "name_ka": "თბილისი დახარისხება",
-            "departure_time": "09:18",
+            "departure_time": "09:08",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4233,7 +4233,7 @@ export const routes = [
             "name_en": "Navtlughi",
             "name_ru": "Навтлуги",
             "name_ka": "ნავთლუღი",
-            "departure_time": "09:27",
+            "departure_time": "09:17",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4243,7 +4243,7 @@ export const routes = [
             "name_en": "Tbilisi Central Station",
             "name_ru": "Центральный вокзал Тбилиси",
             "name_ka": "თბილისის ცენტრალური სადგური",
-            "departure_time": "09:39",
+            "departure_time": "09:29",
             "arrival_time": null,
             "stop_time": null
          }
@@ -4283,7 +4283,7 @@ export const routes = [
             "name_en": "Tbilisi Central Station",
             "name_ru": "Центральный вокзал Тбилиси",
             "name_ka": "თბილისის ცენტრალური სადგური",
-            "departure_time": "19:00",
+            "departure_time": "18:50",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4293,7 +4293,7 @@ export const routes = [
             "name_en": "Navtlughi",
             "name_ru": "Навтлуги",
             "name_ka": "ნავთლუღი",
-            "departure_time": "19:10",
+            "departure_time": "19:00",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4303,7 +4303,7 @@ export const routes = [
             "name_en": "Tbilisi Marshalling",
             "name_ru": "Тбилиси-Сортировочная",
             "name_ka": "თბილისი დახარისხება",
-            "departure_time": "19:19",
+            "departure_time": "19:08",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4313,7 +4313,7 @@ export const routes = [
             "name_en": "Veli",
             "name_ru": "Вели",
             "name_ka": "ველი",
-            "departure_time": "19:29",
+            "departure_time": "19:18",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4323,7 +4323,7 @@ export const routes = [
             "name_en": "Gachiani",
             "name_ru": "Гачиани",
             "name_ka": "გაჩიანი",
-            "departure_time": "19:40",
+            "departure_time": "19:29",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4333,7 +4333,7 @@ export const routes = [
             "name_en": "Rustavi Central",
             "name_ru": "Рустави Центральная",
             "name_ka": "რუსთავი ცენტრალი",
-            "departure_time": "19:48",
+            "departure_time": "19:37",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4343,7 +4343,7 @@ export const routes = [
             "name_en": "Rustavi-Cargo",
             "name_ru": "Рустави-Грузовая",
             "name_ka": "რუსთავი-სატვირთო",
-            "departure_time": "19:53",
+            "departure_time": "19:42",
             "arrival_time": null,
             "stop_time": null
          },
@@ -4353,12 +4353,12 @@ export const routes = [
             "name_en": "Gardabani",
             "name_ru": "Гардабани",
             "name_ka": "გარდაბანი",
-            "departure_time": "20:06",
+            "departure_time": "19:55",
             "arrival_time": null,
             "stop_time": null
          }
       ],
-      "travel_time": "01:06",
+      "travel_time": "01:05",
       "price": {
          "price_type": "exact",
          "price": 0.5
