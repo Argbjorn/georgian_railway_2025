@@ -1530,7 +1530,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:57",
+               "departure_time": "13:33",
                "stop_time": null
             },
             {
@@ -1953,7 +1953,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:44",
+               "departure_time": "14:59",
                "stop_time": null
             },
             {
@@ -2255,7 +2255,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:29",
+               "departure_time": "11:33",
                "stop_time": null
             },
             {
@@ -2382,7 +2382,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:28",
+               "departure_time": "14:46",
                "stop_time": null
             },
             {
@@ -2476,7 +2476,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:07",
+               "departure_time": "15:19",
                "stop_time": null
             },
             {
@@ -2592,7 +2592,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:10",
+               "departure_time": "13:43",
                "stop_time": null
             },
             {
@@ -2832,7 +2832,7 @@
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:25",
+               "departure_time": "07:26",
                "stop_time": null
             },
             {
@@ -2856,7 +2856,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:01",
+               "departure_time": "14:27",
                "stop_time": null
             },
             {
@@ -3511,7 +3511,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:40",
+               "departure_time": "12:34",
                "stop_time": null
             },
             {
@@ -3881,7 +3881,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:46",
+               "departure_time": "11:42",
                "stop_time": null
             },
             {
@@ -4053,7 +4053,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:26",
+               "departure_time": "13:58",
                "stop_time": null
             },
             {
@@ -4194,7 +4194,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:00",
+               "departure_time": "10:00",
                "stop_time": null
             },
             {
@@ -4252,7 +4252,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:38",
+               "departure_time": "14:09",
                "stop_time": null
             },
             {
@@ -4442,7 +4442,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:30",
+               "departure_time": "15:39",
                "stop_time": null
             },
             {
@@ -4536,7 +4536,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:35",
+               "departure_time": "10:35",
                "stop_time": null
             },
             {
@@ -4618,7 +4618,7 @@
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:18",
+               "departure_time": "21:17",
                "stop_time": null
             }
          ]
@@ -4699,7 +4699,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:00",
+               "departure_time": "11:55",
                "stop_time": null
             },
             {
@@ -4811,7 +4811,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:35",
+               "departure_time": "09:35",
                "stop_time": null
             }
          ],
@@ -5018,7 +5018,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:00",
+               "departure_time": "12:48",
                "stop_time": null
             },
             {
@@ -5499,7 +5499,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:22",
+               "departure_time": "12:20",
                "stop_time": null
             },
             {
@@ -5746,7 +5746,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:56",
+               "departure_time": "11:51",
                "stop_time": null
             },
             {
@@ -5839,7 +5839,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:18",
+               "departure_time": "11:18",
                "stop_time": null
             },
             {
@@ -5885,7 +5885,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:26",
+               "departure_time": "13:08",
                "stop_time": null
             },
             {
@@ -6189,7 +6189,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:59",
+               "departure_time": "16:01",
                "stop_time": null
             },
             {
@@ -6609,7 +6609,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:04",
+               "departure_time": "11:04",
                "stop_time": null
             },
             {
@@ -7060,7 +7060,7 @@
                "start_date": 1748822400000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:36",
+               "departure_time": "13:19",
                "stop_time": null
             },
             {
