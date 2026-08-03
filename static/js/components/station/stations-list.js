@@ -1,4 +1,84 @@
 export const stations = {
+   "13km": {
+      "id": [
+         8478715958,
+         11148152709
+      ],
+      "coords": [
+         41.6235169,
+         44.9685973
+      ],
+      "code": "13km",
+      "type": "secondary",
+      "name_en": "13 Km",
+      "name_ka": "13 კმ",
+      "name_ru": "13 км",
+      "gr_code": "00000"
+   },
+   "2km": {
+      "id": [
+         11148152735,
+         14039649945
+      ],
+      "coords": [
+         41.6794639,
+         44.8796319
+      ],
+      "code": "2km",
+      "type": "secondary",
+      "name_en": "2 km",
+      "name_ka": "2 კმ",
+      "name_ru": "2 კმ",
+      "gr_code": "00000"
+   },
+   "23km": {
+      "id": [
+         8478811716,
+         11148152710
+      ],
+      "coords": [
+         41.5666712,
+         45.0089307
+      ],
+      "code": "23km",
+      "type": "secondary",
+      "name_en": "23 Km",
+      "name_ka": "23 კმ",
+      "name_ru": "23 км",
+      "gr_code": "00000"
+   },
+   "2508km": {
+      "id": [
+         14039649946,
+         14039649947
+      ],
+      "coords": [
+         41.6907172,
+         44.8377441
+      ],
+      "code": "2508km",
+      "type": "secondary",
+      "name_en": "2508 km",
+      "name_ka": "2508 კმ",
+      "name_ru": "2508 კმ",
+      "gr_code": "00000"
+   },
+   "6km": {
+      "id": [
+         4500075222,
+         11148152708
+      ],
+      "coords": [
+         41.6651503,
+         44.9170306
+      ],
+      "code": "6km",
+      "type": "secondary",
+      "name_en": "6 km",
+      "name_ka": "6 კმ",
+      "name_ru": "6 კმ",
+      "gr_code": "00000"
+   },
    "abasha": {
       "id": [
          2411795500
@@ -26,7 +106,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:52",
+               "departure_time": "19:32",
                "stop_time": null
             },
             {
@@ -38,7 +118,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:44",
+               "departure_time": "11:55",
                "stop_time": null
             },
             {
@@ -50,7 +130,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:17",
+               "departure_time": "09:07",
                "stop_time": null
             },
             {
@@ -62,7 +142,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:54",
+               "departure_time": "21:05",
                "stop_time": null
             }
          ]
@@ -96,7 +176,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:34",
+               "departure_time": "18:24",
                "stop_time": null
             },
             {
@@ -108,7 +188,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:42",
+               "departure_time": "08:36",
                "stop_time": null
             },
             {
@@ -183,6 +263,21 @@ export const stations = {
             }
          ]
       }
+   },
+   "akhaldaba": {
+      "id": [
+         14042196938
+      ],
+      "coords": [
+         41.9354743,
+         43.4916128
+      ],
+      "code": "akhaldaba",
+      "type": "secondary",
+      "name_en": "Akhaldaba",
+      "name_ka": "ახალდაბა",
+      "name_ru": "Ахалдаба",
+      "gr_code": 57750
    },
    "argveti": {
       "id": [
@@ -303,7 +398,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:28",
+               "departure_time": "20:18",
                "stop_time": null
             },
             {
@@ -315,7 +410,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "06:48",
+               "departure_time": "06:47",
                "stop_time": null
             },
             {
@@ -435,6 +530,22 @@ export const stations = {
          ]
       }
    },
+   "babi": {
+      "id": [
+         14056107418,
+         14056107419
+      ],
+      "coords": [
+         41.9784944,
+         43.3306648
+      ],
+      "code": "babi",
+      "type": "secondary",
+      "name_en": "Babi",
+      "name_ka": "ბაბი",
+      "name_ru": "Баби",
+      "gr_code": "00000"
+   },
    "bakı": {
       "id": [
          8595726813
@@ -523,7 +634,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:35",
+               "departure_time": "18:50",
                "stop_time": null
             },
             {
@@ -535,7 +646,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:50",
+               "departure_time": "08:50",
                "stop_time": null
             },
             {
@@ -621,7 +732,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:37",
+               "departure_time": "10:25",
                "stop_time": null
             },
             {
@@ -633,7 +744,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:29",
+               "departure_time": "20:46",
                "stop_time": null
             },
             {
@@ -645,7 +756,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:12",
+               "departure_time": "12:06",
                "stop_time": null
             },
             {
@@ -657,7 +768,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:22",
+               "departure_time": "21:11",
                "stop_time": null
             },
             {
@@ -669,7 +780,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:39",
+               "departure_time": "10:31",
                "stop_time": null
             },
             {
@@ -681,7 +792,7 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:22",
+               "departure_time": "14:16",
                "stop_time": null
             },
             {
@@ -693,7 +804,7 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "05:42",
+               "departure_time": "04:37",
                "stop_time": null
             }
          ],
@@ -744,6 +855,21 @@ export const stations = {
             }
          ]
       }
+   },
+   "besheti": {
+      "id": [
+         14042196925
+      ],
+      "coords": [
+         41.8891758,
+         43.4368958
+      ],
+      "code": "besheti",
+      "type": "secondary",
+      "name_en": "Besheti",
+      "name_ka": "ბეშეთი",
+      "name_ru": "Бешети",
+      "gr_code": "00000"
    },
    "biləcəri": {
       "id": [
@@ -822,7 +948,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:40",
+               "departure_time": "16:30",
                "stop_time": null
             },
             {
@@ -834,7 +960,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:33",
+               "departure_time": "10:22",
                "stop_time": null
             },
             {
@@ -894,7 +1020,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:30",
+               "departure_time": "16:20",
                "stop_time": null
             },
             {
@@ -920,7 +1046,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:48",
+               "departure_time": "10:37",
                "stop_time": null
             },
             {
@@ -966,7 +1092,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:20",
+               "departure_time": "22:35",
                "stop_time": null
             },
             {
@@ -978,7 +1104,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "06:51",
+               "departure_time": "07:01",
                "stop_time": null
             },
             {
@@ -990,7 +1116,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:28",
+               "departure_time": "12:22",
                "stop_time": null
             },
             {
@@ -1002,7 +1128,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:31",
+               "departure_time": "17:01",
                "stop_time": null
             }
          ]
@@ -1093,7 +1219,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:59",
+               "departure_time": "19:13",
                "stop_time": null
             },
             {
@@ -1105,7 +1231,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:12",
+               "departure_time": "10:05",
                "stop_time": null
             },
             {
@@ -1117,7 +1243,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:13",
+               "departure_time": "09:09",
                "stop_time": null
             },
             {
@@ -1129,7 +1255,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:05",
+               "departure_time": "20:22",
                "stop_time": null
             }
          ]
@@ -1162,7 +1288,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:28",
+               "departure_time": "08:18",
                "stop_time": null
             },
             {
@@ -1174,7 +1300,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:40",
+               "departure_time": "21:51",
                "stop_time": null
             }
          ]
@@ -1315,6 +1441,22 @@ export const stations = {
          ]
       }
    },
+   "didvake": {
+      "id": [
+         14056107427,
+         14056107428
+      ],
+      "coords": [
+         41.9794804,
+         43.27011
+      ],
+      "code": "didvake",
+      "type": "secondary",
+      "name_en": "Didvake",
+      "name_ka": "დიდვაკე",
+      "name_ru": "Дидваке",
+      "gr_code": "00000"
+   },
    "dzegvi": {
       "id": [
          12697426829,
@@ -1334,30 +1476,6 @@ export const stations = {
          "departure": [],
          "arrival": [],
          "via": [
-            {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "start_date": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "20:06",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "start_date": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "07:10",
-               "stop_time": null
-            },
             {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
@@ -1424,7 +1542,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:22",
+               "departure_time": "10:48",
                "stop_time": null
             },
             {
@@ -1448,7 +1566,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:02",
+               "departure_time": "18:37",
                "stop_time": null
             },
             {
@@ -1472,7 +1590,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:47",
+               "departure_time": "09:27",
                "stop_time": null
             }
          ]
@@ -1717,7 +1835,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:23",
+               "departure_time": "18:13",
                "stop_time": null
             },
             {
@@ -1729,7 +1847,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:53",
+               "departure_time": "08:47",
                "stop_time": null
             },
             {
@@ -1787,7 +1905,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:02",
+               "departure_time": "18:52",
                "stop_time": null
             },
             {
@@ -1799,7 +1917,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:12",
+               "departure_time": "08:08",
                "stop_time": null
             },
             {
@@ -1847,7 +1965,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:31",
+               "departure_time": "09:20",
                "stop_time": null
             },
             {
@@ -1859,7 +1977,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:10",
+               "departure_time": "22:21",
                "stop_time": null
             },
             {
@@ -1871,7 +1989,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:15",
+               "departure_time": "09:04",
                "stop_time": null
             },
             {
@@ -1883,7 +2001,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:30",
+               "departure_time": "11:50",
                "stop_time": null
             },
             {
@@ -1895,7 +2013,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:30",
+               "departure_time": "18:19",
                "stop_time": null
             }
          ]
@@ -1929,7 +2047,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:21",
+               "departure_time": "19:11",
                "stop_time": null
             },
             {
@@ -1941,7 +2059,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:55",
+               "departure_time": "07:51",
                "stop_time": null
             },
             {
@@ -2043,7 +2161,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:23",
+               "departure_time": "18:03",
                "stop_time": null
             },
             {
@@ -2055,7 +2173,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:10",
+               "departure_time": "13:21",
                "stop_time": null
             }
          ]
@@ -2089,7 +2207,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:27",
+               "departure_time": "20:45",
                "stop_time": null
             },
             {
@@ -2101,7 +2219,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:43",
+               "departure_time": "08:44",
                "stop_time": null
             },
             {
@@ -2113,7 +2231,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:38",
+               "departure_time": "10:37",
                "stop_time": null
             },
             {
@@ -2125,7 +2243,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:26",
+               "departure_time": "18:50",
                "stop_time": null
             },
             {
@@ -2149,7 +2267,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:44",
+               "departure_time": "12:41",
                "stop_time": null
             }
          ]
@@ -2182,7 +2300,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:20",
+               "departure_time": "14:13",
                "stop_time": null
             }
          ]
@@ -2216,7 +2334,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:42",
+               "departure_time": "18:32",
                "stop_time": null
             },
             {
@@ -2228,7 +2346,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:34",
+               "departure_time": "08:28",
                "stop_time": null
             },
             {
@@ -2276,7 +2394,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:48",
+               "departure_time": "09:35",
                "stop_time": null
             }
          ]
@@ -2310,7 +2428,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:36",
+               "departure_time": "19:26",
                "stop_time": null
             },
             {
@@ -2322,7 +2440,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:39",
+               "departure_time": "07:37",
                "stop_time": null
             },
             {
@@ -2370,7 +2488,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:09",
+               "departure_time": "09:02",
                "stop_time": null
             }
          ]
@@ -2404,7 +2522,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:45",
+               "departure_time": "19:35",
                "stop_time": null
             },
             {
@@ -2416,7 +2534,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:31",
+               "departure_time": "07:29",
                "stop_time": null
             },
             {
@@ -2486,7 +2604,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:07",
+               "departure_time": "10:37",
                "stop_time": null
             },
             {
@@ -2498,7 +2616,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:43",
+               "departure_time": "21:08",
                "stop_time": null
             },
             {
@@ -2510,7 +2628,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:44",
+               "departure_time": "10:18",
                "stop_time": null
             },
             {
@@ -2522,7 +2640,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:03",
+               "departure_time": "10:37",
                "stop_time": null
             },
             {
@@ -2534,7 +2652,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:59",
+               "departure_time": "19:33",
                "stop_time": null
             },
             {
@@ -2558,7 +2676,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:36",
+               "departure_time": "18:11",
                "stop_time": null
             },
             {
@@ -2582,7 +2700,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:21",
+               "departure_time": "09:01",
                "stop_time": null
             }
          ]
@@ -2614,7 +2732,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:25",
+               "departure_time": "17:00",
                "stop_time": null
             },
             {
@@ -2626,7 +2744,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:10",
+               "departure_time": "07:50",
                "stop_time": null
             }
          ],
@@ -2690,7 +2808,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:06",
+               "departure_time": "17:56",
                "stop_time": null
             },
             {
@@ -2702,7 +2820,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:07",
+               "departure_time": "09:01",
                "stop_time": null
             },
             {
@@ -2750,7 +2868,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:10",
+               "departure_time": "09:52",
                "stop_time": null
             },
             {
@@ -2762,7 +2880,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:34",
+               "departure_time": "21:52",
                "stop_time": null
             },
             {
@@ -2774,7 +2892,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:51",
+               "departure_time": "09:33",
                "stop_time": null
             },
             {
@@ -2786,7 +2904,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:54",
+               "departure_time": "11:21",
                "stop_time": null
             },
             {
@@ -2798,7 +2916,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:06",
+               "departure_time": "18:48",
                "stop_time": null
             }
          ]
@@ -2831,7 +2949,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:59",
+               "departure_time": "18:39",
                "stop_time": null
             },
             {
@@ -2843,7 +2961,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:36",
+               "departure_time": "12:47",
                "stop_time": null
             }
          ]
@@ -2876,7 +2994,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:09",
+               "departure_time": "18:49",
                "stop_time": null
             },
             {
@@ -2888,7 +3006,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:24",
+               "departure_time": "12:35",
                "stop_time": null
             }
          ]
@@ -2945,7 +3063,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:17",
+               "departure_time": "19:31",
                "stop_time": null
             },
             {
@@ -2957,7 +3075,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:53",
+               "departure_time": "09:49",
                "stop_time": null
             },
             {
@@ -2969,7 +3087,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:31",
+               "departure_time": "09:24",
                "stop_time": null
             },
             {
@@ -2981,7 +3099,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:45",
+               "departure_time": "20:03",
                "stop_time": null
             },
             {
@@ -2993,7 +3111,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:11",
+               "departure_time": "17:06",
                "stop_time": null
             },
             {
@@ -3005,7 +3123,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:46",
+               "departure_time": "11:48",
                "stop_time": null
             },
             {
@@ -3017,7 +3135,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:21",
+               "departure_time": "08:16",
                "stop_time": null
             },
             {
@@ -3029,7 +3147,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:56",
+               "departure_time": "20:53",
                "stop_time": null
             },
             {
@@ -3041,7 +3159,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:31",
+               "departure_time": "14:29",
                "stop_time": null
             },
             {
@@ -3053,7 +3171,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:13",
+               "departure_time": "10:13",
                "stop_time": null
             },
             {
@@ -3065,7 +3183,7 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:51",
+               "departure_time": "18:46",
                "stop_time": null
             },
             {
@@ -3077,7 +3195,7 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:56",
+               "departure_time": "13:58",
                "stop_time": null
             },
             {
@@ -3089,7 +3207,7 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "00:56",
+               "departure_time": "00:51",
                "stop_time": null
             },
             {
@@ -3101,11 +3219,26 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "05:16",
+               "departure_time": "04:19",
                "stop_time": null
             }
          ]
       }
+   },
+   "kortaneti": {
+      "id": [
+         14042196931
+      ],
+      "coords": [
+         41.8941892,
+         43.4437726
+      ],
+      "code": "kortaneti",
+      "type": "secondary",
+      "name_en": "Kortaneti",
+      "name_ka": "კორტანეთი",
+      "name_ru": "Кортанети",
+      "gr_code": "00000"
    },
    "ksani": {
       "id": [
@@ -3135,7 +3268,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:58",
+               "departure_time": "19:48",
                "stop_time": null
             },
             {
@@ -3147,7 +3280,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:18",
+               "departure_time": "07:17",
                "stop_time": null
             },
             {
@@ -3210,7 +3343,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:00",
+               "departure_time": "22:15",
                "stop_time": null
             },
             {
@@ -3222,7 +3355,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:11",
+               "departure_time": "07:21",
                "stop_time": null
             },
             {
@@ -3234,7 +3367,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:08",
+               "departure_time": "12:02",
                "stop_time": null
             },
             {
@@ -3246,7 +3379,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:51",
+               "departure_time": "17:21",
                "stop_time": null
             },
             {
@@ -3258,7 +3391,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:42",
+               "departure_time": "18:15",
                "stop_time": null
             },
             {
@@ -3270,7 +3403,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:18",
+               "departure_time": "10:40",
                "stop_time": null
             },
             {
@@ -3282,7 +3415,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:52",
+               "departure_time": "09:25",
                "stop_time": null
             },
             {
@@ -3294,7 +3427,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:28",
+               "departure_time": "19:45",
                "stop_time": null
             },
             {
@@ -3306,7 +3439,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:07",
+               "departure_time": "15:38",
                "stop_time": null
             },
             {
@@ -3318,7 +3451,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:48",
+               "departure_time": "09:05",
                "stop_time": null
             },
             {
@@ -3330,7 +3463,7 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:22",
+               "departure_time": "19:55",
                "stop_time": null
             },
             {
@@ -3342,7 +3475,7 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:28",
+               "departure_time": "12:50",
                "stop_time": null
             },
             {
@@ -3354,7 +3487,7 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "02:27",
+               "departure_time": "02:06",
                "stop_time": null
             },
             {
@@ -3366,7 +3499,7 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "03:48",
+               "departure_time": "03:05",
                "stop_time": null
             },
             {
@@ -3390,7 +3523,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:41",
+               "departure_time": "11:45",
                "stop_time": null
             },
             {
@@ -3402,7 +3535,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:26",
+               "departure_time": "20:04",
                "stop_time": null
             },
             {
@@ -3414,7 +3547,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:08",
+               "departure_time": "11:22",
                "stop_time": null
             },
             {
@@ -3426,7 +3559,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:51",
+               "departure_time": "09:39",
                "stop_time": null
             },
             {
@@ -3438,7 +3571,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:18",
+               "departure_time": "20:32",
                "stop_time": null
             }
          ]
@@ -3486,7 +3619,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "06:15",
+               "departure_time": "06:25",
                "stop_time": null
             },
             {
@@ -3498,7 +3631,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:55",
+               "departure_time": "16:25",
                "stop_time": null
             }
          ],
@@ -3524,7 +3657,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:57",
+               "departure_time": "23:12",
                "stop_time": null
             },
             {
@@ -3536,7 +3669,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:05",
+               "departure_time": "12:59",
                "stop_time": null
             }
          ],
@@ -3570,7 +3703,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:42",
+               "departure_time": "08:32",
                "stop_time": null
             },
             {
@@ -3582,15 +3715,31 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:26",
+               "departure_time": "21:37",
                "stop_time": null
             }
          ]
       }
    },
+   "kvibisi": {
+      "id": [
+         14042196920
+      ],
+      "coords": [
+         41.8600987,
+         43.416572
+      ],
+      "code": "kvibisi",
+      "type": "secondary",
+      "name_en": "Kvibisi",
+      "name_ka": "ყვიბისი",
+      "name_ru": "Квибиси",
+      "gr_code": "00000"
+   },
    "kvishkheti": {
       "id": [
-         13398158124
+         13398158124,
+         14042196952
       ],
       "coords": [
          41.9722692,
@@ -3615,7 +3764,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:54",
+               "departure_time": "17:44",
                "stop_time": null
             },
             {
@@ -3627,7 +3776,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:23",
+               "departure_time": "09:12",
                "stop_time": null
             },
             {
@@ -3684,7 +3833,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:44",
+               "departure_time": "21:02",
                "stop_time": null
             },
             {
@@ -3696,7 +3845,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:25",
+               "departure_time": "08:26",
                "stop_time": null
             },
             {
@@ -3708,7 +3857,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:55",
+               "departure_time": "10:54",
                "stop_time": null
             },
             {
@@ -3720,7 +3869,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:02",
+               "departure_time": "18:33",
                "stop_time": null
             },
             {
@@ -3744,7 +3893,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:31",
+               "departure_time": "12:29",
                "stop_time": null
             }
          ]
@@ -3801,7 +3950,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:40",
+               "departure_time": "18:55",
                "stop_time": null
             },
             {
@@ -3813,7 +3962,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:31",
+               "departure_time": "10:20",
                "stop_time": null
             },
             {
@@ -3825,7 +3974,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:55",
+               "departure_time": "08:54",
                "stop_time": null
             },
             {
@@ -3837,7 +3986,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:23",
+               "departure_time": "20:40",
                "stop_time": null
             }
          ]
@@ -3916,7 +4065,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:52",
+               "departure_time": "10:23",
                "stop_time": null
             },
             {
@@ -3928,7 +4077,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:59",
+               "departure_time": "21:23",
                "stop_time": null
             },
             {
@@ -3940,7 +4089,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:29",
+               "departure_time": "10:04",
                "stop_time": null
             },
             {
@@ -3952,7 +4101,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:19",
+               "departure_time": "10:52",
                "stop_time": null
             },
             {
@@ -3964,7 +4113,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:44",
+               "departure_time": "19:19",
                "stop_time": null
             },
             {
@@ -3988,7 +4137,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:14",
+               "departure_time": "17:49",
                "stop_time": null
             },
             {
@@ -4012,7 +4161,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:59",
+               "departure_time": "08:39",
                "stop_time": null
             }
          ]
@@ -4057,7 +4206,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:04",
+               "departure_time": "13:57",
                "stop_time": null
             }
          ]
@@ -4115,7 +4264,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:40",
+               "departure_time": "10:12",
                "stop_time": null
             },
             {
@@ -4127,7 +4276,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:11",
+               "departure_time": "21:34",
                "stop_time": null
             },
             {
@@ -4139,7 +4288,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:17",
+               "departure_time": "09:53",
                "stop_time": null
             },
             {
@@ -4151,7 +4300,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:31",
+               "departure_time": "11:03",
                "stop_time": null
             },
             {
@@ -4163,7 +4312,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:32",
+               "departure_time": "19:08",
                "stop_time": null
             },
             {
@@ -4187,7 +4336,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:58",
+               "departure_time": "17:33",
                "stop_time": null
             },
             {
@@ -4211,7 +4360,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:43",
+               "departure_time": "08:23",
                "stop_time": null
             }
          ]
@@ -4245,7 +4394,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:15",
+               "departure_time": "20:05",
                "stop_time": null
             },
             {
@@ -4257,7 +4406,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:01",
+               "departure_time": "07:00",
                "stop_time": null
             },
             {
@@ -4305,7 +4454,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:46",
+               "departure_time": "08:42",
                "stop_time": null
             }
          ]
@@ -4339,7 +4488,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:45",
+               "departure_time": "20:03",
                "stop_time": null
             },
             {
@@ -4351,7 +4500,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:27",
+               "departure_time": "09:26",
                "stop_time": null
             },
             {
@@ -4363,7 +4512,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:57",
+               "departure_time": "09:51",
                "stop_time": null
             },
             {
@@ -4375,7 +4524,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:07",
+               "departure_time": "19:37",
                "stop_time": null
             },
             {
@@ -4399,7 +4548,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:17",
+               "departure_time": "13:10",
                "stop_time": null
             }
          ]
@@ -4502,7 +4651,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:58",
+               "departure_time": "21:16",
                "stop_time": null
             },
             {
@@ -4514,7 +4663,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:10",
+               "departure_time": "08:15",
                "stop_time": null
             },
             {
@@ -4526,7 +4675,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:10",
+               "departure_time": "11:05",
                "stop_time": null
             },
             {
@@ -4538,7 +4687,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:49",
+               "departure_time": "18:20",
                "stop_time": null
             },
             {
@@ -4562,7 +4711,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:20",
+               "departure_time": "12:19",
                "stop_time": null
             }
          ]
@@ -4595,7 +4744,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:32",
+               "departure_time": "19:45",
                "stop_time": null
             },
             {
@@ -4607,7 +4756,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:40",
+               "departure_time": "09:38",
                "stop_time": null
             },
             {
@@ -4619,7 +4768,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:44",
+               "departure_time": "09:36",
                "stop_time": null
             },
             {
@@ -4631,7 +4780,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:27",
+               "departure_time": "19:50",
                "stop_time": null
             }
          ]
@@ -4676,7 +4825,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:37",
+               "departure_time": "14:30",
                "stop_time": null
             }
          ],
@@ -4696,37 +4845,7 @@ export const stations = {
       "name_en": "Platform 11 km",
       "name_ka": "ბაქანი 11 კმ",
       "name_ru": "Платформа 11 км",
-      "gr_code": 57091,
-      "routes": {
-         "departure": [],
-         "arrival": [],
-         "via": [
-            {
-               "ref": 853,
-               "name_en": "Ozurgeti → Tbilisi",
-               "name_ru": "Озургети → Тбилиси",
-               "name_ka": "ოზურგეთი → თბილისი",
-               "frequency": "every second day",
-               "start_date": 1748822400000,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "08:50",
-               "stop_time": null
-            },
-            {
-               "ref": 854,
-               "name_en": "Tbilisi → Ozurgeti",
-               "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი",
-               "frequency": "every second day",
-               "start_date": 1748736000000,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "15:12",
-               "stop_time": null
-            }
-         ]
-      }
+      "gr_code": 57091
    },
    "platform16km": {
       "id": [
@@ -4741,25 +4860,7 @@ export const stations = {
       "name_en": "Platform 16 km",
       "name_ka": "ბაქანი 16 კმ",
       "name_ru": "Платформа 16 км",
-      "gr_code": 57093,
-      "routes": {
-         "departure": [],
-         "arrival": [],
-         "via": [
-            {
-               "ref": 854,
-               "name_en": "Tbilisi → Ozurgeti",
-               "name_ru": "Тбилиси → Озургети",
-               "name_ka": "თბილისი → ოზურგეთი",
-               "frequency": "every second day",
-               "start_date": 1748736000000,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "15:28",
-               "stop_time": null
-            }
-         ]
-      }
+      "gr_code": 57093
    },
    "poti": {
       "id": [
@@ -4791,7 +4892,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:10",
+               "departure_time": "08:00",
                "stop_time": null
             }
          ],
@@ -4805,7 +4906,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "23:00",
+               "departure_time": "22:11",
                "stop_time": null
             }
          ],
@@ -4869,7 +4970,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:27",
+               "departure_time": "22:42",
                "stop_time": null
             },
             {
@@ -4881,7 +4982,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "06:35",
+               "departure_time": "06:45",
                "stop_time": null
             },
             {
@@ -4893,7 +4994,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:35",
+               "departure_time": "12:29",
                "stop_time": null
             },
             {
@@ -4905,7 +5006,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "16:15",
+               "departure_time": "16:45",
                "stop_time": null
             },
             {
@@ -4929,7 +5030,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:19",
+               "departure_time": "11:29",
                "stop_time": null
             },
             {
@@ -4941,7 +5042,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:43",
+               "departure_time": "20:19",
                "stop_time": null
             },
             {
@@ -4953,7 +5054,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:46",
+               "departure_time": "11:03",
                "stop_time": null
             },
             {
@@ -4965,7 +5066,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:08",
+               "departure_time": "09:53",
                "stop_time": null
             },
             {
@@ -4977,7 +5078,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:01",
+               "departure_time": "20:18",
                "stop_time": null
             }
          ]
@@ -5241,7 +5342,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:22",
+               "departure_time": "21:37",
                "stop_time": null
             },
             {
@@ -5253,7 +5354,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:50",
+               "departure_time": "07:55",
                "stop_time": null
             },
             {
@@ -5265,7 +5366,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:31",
+               "departure_time": "11:28",
                "stop_time": null
             },
             {
@@ -5277,7 +5378,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:28",
+               "departure_time": "17:56",
                "stop_time": null
             }
          ]
@@ -5350,7 +5451,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:36",
+               "departure_time": "21:51",
                "stop_time": null
             },
             {
@@ -5362,7 +5463,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:32",
+               "departure_time": "07:42",
                "stop_time": null
             },
             {
@@ -5374,7 +5475,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:45",
+               "departure_time": "11:39",
                "stop_time": null
             },
             {
@@ -5386,7 +5487,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:12",
+               "departure_time": "17:41",
                "stop_time": null
             },
             {
@@ -5410,7 +5511,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:56",
+               "departure_time": "11:57",
                "stop_time": null
             },
             {
@@ -5422,7 +5523,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:10",
+               "departure_time": "19:50",
                "stop_time": null
             },
             {
@@ -5434,7 +5535,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:23",
+               "departure_time": "11:34",
                "stop_time": null
             },
             {
@@ -5446,7 +5547,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:35",
+               "departure_time": "09:25",
                "stop_time": null
             },
             {
@@ -5458,7 +5559,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:33",
+               "departure_time": "20:44",
                "stop_time": null
             }
          ]
@@ -5492,7 +5593,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:46",
+               "departure_time": "22:01",
                "stop_time": null
             },
             {
@@ -5504,7 +5605,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:24",
+               "departure_time": "07:34",
                "stop_time": null
             },
             {
@@ -5516,7 +5617,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:54",
+               "departure_time": "11:48",
                "stop_time": null
             },
             {
@@ -5528,11 +5629,26 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:04",
+               "departure_time": "17:34",
                "stop_time": null
             }
          ]
       }
+   },
+   "sarmanishviliskari": {
+      "id": [
+         14042196949
+      ],
+      "coords": [
+         41.94185,
+         43.5077892
+      ],
+      "code": "sarmanishviliskari",
+      "type": "secondary",
+      "name_en": "Sarmanishviliskari",
+      "name_ka": "სარმანიშვილისკარი",
+      "name_ru": "Сарманишвилискари",
+      "gr_code": "00000"
    },
    "senaki": {
       "id": [
@@ -5561,7 +5677,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:29",
+               "departure_time": "19:09",
                "stop_time": null
             },
             {
@@ -5573,7 +5689,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:01",
+               "departure_time": "12:12",
                "stop_time": null
             },
             {
@@ -5585,7 +5701,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "07:54",
+               "departure_time": "08:44",
                "stop_time": null
             },
             {
@@ -5597,7 +5713,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "22:11",
+               "departure_time": "21:22",
                "stop_time": null
             }
          ]
@@ -5642,7 +5758,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:24",
+               "departure_time": "12:23",
                "stop_time": null
             }
          ]
@@ -5675,7 +5791,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:11",
+               "departure_time": "20:27",
                "stop_time": null
             },
             {
@@ -5687,7 +5803,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:59",
+               "departure_time": "09:04",
                "stop_time": null
             },
             {
@@ -5699,7 +5815,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:22",
+               "departure_time": "10:22",
                "stop_time": null
             },
             {
@@ -5711,7 +5827,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:42",
+               "departure_time": "19:06",
                "stop_time": null
             },
             {
@@ -5735,7 +5851,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "13:55",
+               "departure_time": "12:50",
                "stop_time": null
             }
          ]
@@ -5781,7 +5897,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:57",
+               "departure_time": "11:15",
                "stop_time": null
             }
          ]
@@ -5855,7 +5971,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:00",
+               "departure_time": "08:05",
                "stop_time": null
             },
             {
@@ -5891,7 +6007,7 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:10",
+               "departure_time": "10:15",
                "stop_time": null
             },
             {
@@ -5989,7 +6105,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:50",
+               "departure_time": "20:40",
                "stop_time": null
             },
             {
@@ -6013,7 +6129,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:49",
+               "departure_time": "20:48",
                "stop_time": null
             },
             {
@@ -6025,7 +6141,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:59",
+               "departure_time": "11:58",
                "stop_time": null
             },
             {
@@ -6037,7 +6153,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:14",
+               "departure_time": "18:11",
                "stop_time": null
             },
             {
@@ -6049,7 +6165,7 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "23:29",
+               "departure_time": "22:28",
                "stop_time": null
             },
             {
@@ -6061,7 +6177,7 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "05:34",
+               "departure_time": "04:39",
                "stop_time": null
             },
             {
@@ -6085,7 +6201,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "23:19",
+               "departure_time": "23:17",
                "stop_time": null
             },
             {
@@ -6097,7 +6213,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:39",
+               "departure_time": "12:46",
                "stop_time": null
             },
             {
@@ -6243,30 +6359,6 @@ export const stations = {
          "arrival": [],
          "via": [
             {
-               "ref": 617,
-               "name_en": "Borjomi → Tbilisi",
-               "name_ru": "Боржоми → Тбилиси",
-               "name_ka": "ბორჯომი → თბილისი",
-               "frequency": "daily",
-               "start_date": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "20:44",
-               "stop_time": null
-            },
-            {
-               "ref": 618,
-               "name_en": "Tbilisi → Borjomi",
-               "name_ru": "Тбилиси → Боржоми",
-               "name_ka": "თბილისი → ბორჯომი",
-               "frequency": "daily",
-               "start_date": null,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "06:39",
-               "stop_time": null
-            },
-            {
                "ref": 685,
                "name_en": "Borjomi → Tbilisi",
                "name_ru": "Боржоми → Тбилиси",
@@ -6349,7 +6441,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:57",
+               "departure_time": "20:15",
                "stop_time": null
             },
             {
@@ -6361,7 +6453,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:14",
+               "departure_time": "09:13",
                "stop_time": null
             },
             {
@@ -6373,7 +6465,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:10",
+               "departure_time": "10:13",
                "stop_time": null
             },
             {
@@ -6385,7 +6477,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "18:54",
+               "departure_time": "19:25",
                "stop_time": null
             },
             {
@@ -6397,7 +6489,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:42",
+               "departure_time": "17:26",
                "stop_time": null
             },
             {
@@ -6409,7 +6501,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "12:18",
+               "departure_time": "11:28",
                "stop_time": null
             },
             {
@@ -6421,7 +6513,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "08:52",
+               "departure_time": "08:36",
                "stop_time": null
             },
             {
@@ -6433,7 +6525,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "21:28",
+               "departure_time": "20:33",
                "stop_time": null
             },
             {
@@ -6445,7 +6537,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "15:07",
+               "departure_time": "14:49",
                "stop_time": null
             },
             {
@@ -6457,7 +6549,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:46",
+               "departure_time": "09:53",
                "stop_time": null
             },
             {
@@ -6469,7 +6561,7 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:22",
+               "departure_time": "19:06",
                "stop_time": null
             },
             {
@@ -6481,7 +6573,7 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:28",
+               "departure_time": "13:38",
                "stop_time": null
             },
             {
@@ -6493,7 +6585,7 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "01:27",
+               "departure_time": "01:11",
                "stop_time": null
             },
             {
@@ -6505,7 +6597,7 @@ export const stations = {
                "start_date": 1781568000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "04:48",
+               "departure_time": "03:59",
                "stop_time": null
             },
             {
@@ -6529,11 +6621,27 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:06",
+               "departure_time": "12:58",
                "stop_time": null
             }
          ]
       }
+   },
+   "vakhanistsqali": {
+      "id": [
+         14056107425,
+         14056107426
+      ],
+      "coords": [
+         41.9694684,
+         43.314668
+      ],
+      "code": "vakhanistsqali",
+      "type": "secondary",
+      "name_en": "Vakhanistsqali",
+      "name_ka": "ვახანისწყალი",
+      "name_ru": "Ваханисцкали",
+      "gr_code": "00000"
    },
    "vanadzor": {
       "id": [
@@ -6579,6 +6687,21 @@ export const stations = {
             }
          ]
       }
+   },
+   "vardgineti": {
+      "id": [
+         14042196924
+      ],
+      "coords": [
+         41.8769206,
+         43.4256519
+      ],
+      "code": "vardgineti",
+      "type": "secondary",
+      "name_en": "Vardgineti",
+      "name_ka": "ვარდგინეთი",
+      "name_ru": "Вардгинети",
+      "gr_code": 57752
    },
    "veli": {
       "id": [
@@ -6769,7 +6892,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:23",
+               "departure_time": "20:13",
                "stop_time": null
             },
             {
@@ -6781,7 +6904,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "06:53",
+               "departure_time": "06:52",
                "stop_time": null
             },
             {
@@ -6863,7 +6986,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "19:24",
+               "departure_time": "18:59",
                "stop_time": null
             },
             {
@@ -6875,7 +6998,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "10:09",
+               "departure_time": "09:49",
                "stop_time": null
             }
          ],
@@ -6949,7 +7072,7 @@ export const stations = {
                "start_date": 1748736000000,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:38",
+               "departure_time": "11:00",
                "stop_time": null
             },
             {
@@ -6961,7 +7084,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:16",
+               "departure_time": "20:47",
                "stop_time": null
             },
             {
@@ -6973,7 +7096,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "11:12",
+               "departure_time": "10:38",
                "stop_time": null
             },
             {
@@ -6985,7 +7108,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "09:36",
+               "departure_time": "10:16",
                "stop_time": null
             },
             {
@@ -6997,7 +7120,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "20:27",
+               "departure_time": "19:53",
                "stop_time": null
             }
          ]
@@ -7028,7 +7151,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "17:10",
+               "departure_time": "17:50",
                "stop_time": null
             }
          ],
@@ -7042,7 +7165,7 @@ export const stations = {
                "start_date": null,
                "end_date": null,
                "arrival_time": null,
-               "departure_time": "14:25",
+               "departure_time": "13:36",
                "stop_time": null
             }
          ],
