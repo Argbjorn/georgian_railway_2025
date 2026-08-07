@@ -2,7 +2,7 @@
 
 An interactive map and up-to-date schedule of Georgia's train routes, built with [Hugo](https://gohugo.io/) and the [Hextra](https://github.com/imfing/hextra) theme.
 
-**Live site:** [georailways.com](https://georailways.com)
+**Live site:** [georailway.com](https://georailway.com)
 
 Available in English, Russian, and Georgian (ქართული).
 
