@@ -19,6 +19,7 @@ layouts/            Hugo templates and shortcodes (single-route, single-station,
 data/               Generated data files consumed by the templates (routes.json, stations.json, ...)
 static/             Static assets, including generated route geodata and the railway network layer
 scripts/            Python scripts that generate the data files from Google Sheets + OSM (Overpass API)
+e2e/                Playwright end-to-end tests against the live site
 i18n/               Translation strings for en/ru/ka
 ```
 
@@ -39,7 +40,7 @@ Running the scripts requires Google Sheets API credentials (service account), wh
 
 - [Hugo](https://gohugo.io/installation/) (extended version)
 - Go (for Hugo modules — see [go.mod](go.mod))
-- Python 3 (only needed if regenerating data files — see [requirements.txt](requirements.txt))
+- Python 3 (only needed if regenerating data files or running tests — see [requirements.txt](requirements.txt) and [e2e/requirements.txt](e2e/requirements.txt))
 
 ### Run the site locally
 
@@ -57,11 +58,55 @@ python scripts/make_railway_network_file.py # the whole railway network geodata 
 python scripts/make_routes_geo_files.py     # per-route geodata for the map
 ```
 
+### Environments
+
+The Python side of this repo uses two separate virtualenvs, since the data pipeline and the e2e tests have unrelated dependencies:
+
+| venv | Purpose | Deps |
+|---|---|---|
+| `.venv` (repo root) | Data pipeline scripts and their unit tests (`scripts/`) | [requirements.txt](requirements.txt) |
+| `e2e/.venv` | Playwright end-to-end tests (`e2e/`) | [e2e/requirements.txt](e2e/requirements.txt) |
+
+Both are created with `python -m venv`; the e2e one is created with `--prompt e2e` so the activated shell prompt (`(e2e)` vs `(.venv)`) makes it obvious which environment is active. To check which one is active at any point, run `$env:VIRTUAL_ENV` (PowerShell) or `echo $VIRTUAL_ENV` (bash).
+
 ### Tests
 
+Data pipeline tests (`scripts/`), using the root `.venv`:
+
 ```bash
+pip install -r requirements.txt
 pytest
 ```
+
+End-to-end tests (`e2e/`), against the live site, using a separate `e2e/.venv`:
+
+```bash
+python -m venv e2e/.venv --prompt e2e
+e2e/.venv/Scripts/activate    # or e2e/.venv/bin/activate on macOS/Linux
+pip install -r e2e/requirements.txt
+playwright install
+pytest e2e
+```
+
+To run the e2e tests against a local `hugo server` instead of the live site, point them at it with `E2E_BASE_URL`:
+
+```bash
+hugo server --port 1313
+E2E_BASE_URL=http://localhost:1313/ pytest e2e   # in another shell
+```
+
+(use `localhost`, not `127.0.0.1` — Hugo's dev server links pages against `localhost` regardless of `--bind`.)
+
+### Pre-commit hook
+
+A git hook is included that runs both test suites (data pipeline against `.venv`, e2e against a throwaway local `hugo server`) before each commit. Since `.git/hooks/` isn't versioned, enable it once per clone:
+
+```bash
+cp scripts/git-hooks/pre-commit .git/hooks/pre-commit
+chmod +x .git/hooks/pre-commit
+```
+
+It requires both `.venv` and `e2e/.venv` to be set up (see above). Skip it for a single commit with `SKIP_TESTS=1 git commit ...` or `git commit --no-verify`.
 
 ## Deployment
 
