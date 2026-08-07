@@ -22,6 +22,7 @@ export class BaseStation {
   createMarker() {
     const markerEl = document.createElement("div");
     markerEl.className = "station-marker";
+    markerEl.setAttribute("data-testid", this.code);
     if (this.type in stationIcons) {
       markerEl.className += " station-marker-with-icon";
       markerEl.innerHTML = stationIcons[this.type];

@@ -44,10 +44,11 @@ export const poiInfo = [
 ]
 
 export class Poi {
-  constructor(map, description, coords) {
+  constructor(map, description, coords, id) {
     this.map = map;
     this.description = description;
     this.coords = coords;
+    this.id = id;
     this.createMarker();
     this.show();
   }
@@ -55,6 +56,7 @@ export class Poi {
   createMarker() {
     const markerEl = document.createElement("div");
     markerEl.className = "poi-marker";
+    markerEl.setAttribute("data-testid", `poi-${this.id}`);
     markerEl.innerHTML = `
       <div class="poi-icon" style="
         display: flex;

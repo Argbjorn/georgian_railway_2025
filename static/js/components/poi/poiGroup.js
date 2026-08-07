@@ -4,7 +4,7 @@ import { LanguageService } from "../../services/LanguageService.js"
 export class PoiGroup {
     constructor(map) {
         this.map = map;
-        this.pois = poiInfo.map(poi => new Poi(this.map, poi[`description_${LanguageService.getCurrentLanguage()}`], poi.coords))
+        this.pois = poiInfo.map((poi, index) => new Poi(this.map, poi[`description_${LanguageService.getCurrentLanguage()}`], poi.coords, index))
     }
 
     show() {
