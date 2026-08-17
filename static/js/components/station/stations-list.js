@@ -696,18 +696,6 @@ export const stations = {
                "arrival_time": null,
                "departure_time": "18:30",
                "stop_time": null
-            },
-            {
-               "ref": 811,
-               "name_en": "Batumi → Tbilisi",
-               "name_ru": "Батуми → Тбилиси",
-               "name_ka": "ბათუმი → თბილისი",
-               "frequency": "daily",
-               "start_date": 1781568000000,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "00:35",
-               "stop_time": null
             }
          ],
          "arrival": [
@@ -793,18 +781,6 @@ export const stations = {
                "end_date": null,
                "arrival_time": null,
                "departure_time": "14:16",
-               "stop_time": null
-            },
-            {
-               "ref": 812,
-               "name_en": "Tbilisi → Batumi",
-               "name_ru": "Тбилиси → Батуми",
-               "name_ka": "თბილისი → ბათუმი",
-               "frequency": "daily",
-               "start_date": 1781568000000,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "04:37",
                "stop_time": null
             }
          ],
@@ -3197,30 +3173,6 @@ export const stations = {
                "arrival_time": null,
                "departure_time": "13:58",
                "stop_time": null
-            },
-            {
-               "ref": 811,
-               "name_en": "Batumi → Tbilisi",
-               "name_ru": "Батуми → Тбилиси",
-               "name_ka": "ბათუმი → თბილისი",
-               "frequency": "daily",
-               "start_date": 1781568000000,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "00:51",
-               "stop_time": null
-            },
-            {
-               "ref": 812,
-               "name_en": "Tbilisi → Batumi",
-               "name_ru": "Тбилиси → Батуми",
-               "name_ka": "თბილისი → ბათუმი",
-               "frequency": "daily",
-               "start_date": 1781568000000,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "04:19",
-               "stop_time": null
             }
          ]
       }
@@ -3476,30 +3428,6 @@ export const stations = {
                "end_date": null,
                "arrival_time": null,
                "departure_time": "12:50",
-               "stop_time": null
-            },
-            {
-               "ref": 811,
-               "name_en": "Batumi → Tbilisi",
-               "name_ru": "Батуми → Тбилиси",
-               "name_ka": "ბათუმი → თბილისი",
-               "frequency": "daily",
-               "start_date": 1781568000000,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "02:06",
-               "stop_time": null
-            },
-            {
-               "ref": 812,
-               "name_en": "Tbilisi → Batumi",
-               "name_ru": "Тбилиси → Батуми",
-               "name_ka": "თბილისი → ბათუმი",
-               "frequency": "daily",
-               "start_date": 1781568000000,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "03:05",
                "stop_time": null
             },
             {
@@ -6011,18 +5939,6 @@ export const stations = {
                "stop_time": null
             },
             {
-               "ref": 812,
-               "name_en": "Tbilisi → Batumi",
-               "name_ru": "Тбилиси → Батуми",
-               "name_ka": "თბილისი → ბათუმი",
-               "frequency": "daily",
-               "start_date": 1781568000000,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "00:30",
-               "stop_time": null
-            },
-            {
                "ref": 854,
                "name_en": "Tbilisi → Ozurgeti",
                "name_ru": "Тбилиси → Озургети",
@@ -6166,18 +6082,6 @@ export const stations = {
                "end_date": null,
                "arrival_time": null,
                "departure_time": "22:30",
-               "stop_time": null
-            },
-            {
-               "ref": 811,
-               "name_en": "Batumi → Tbilisi",
-               "name_ru": "Батуми → Тбилиси",
-               "name_ka": "ბათუმი → თბილისი",
-               "frequency": "daily",
-               "start_date": 1781568000000,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "04:41",
                "stop_time": null
             },
             {
@@ -6574,30 +6478,6 @@ export const stations = {
                "end_date": null,
                "arrival_time": null,
                "departure_time": "13:38",
-               "stop_time": null
-            },
-            {
-               "ref": 811,
-               "name_en": "Batumi → Tbilisi",
-               "name_ru": "Батуми → Тбилиси",
-               "name_ka": "ბათუმი → თბილისი",
-               "frequency": "daily",
-               "start_date": 1781568000000,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "01:11",
-               "stop_time": null
-            },
-            {
-               "ref": 812,
-               "name_en": "Tbilisi → Batumi",
-               "name_ru": "Тбилиси → Батуми",
-               "name_ka": "თბილისი → ბათუმი",
-               "frequency": "daily",
-               "start_date": 1781568000000,
-               "end_date": null,
-               "arrival_time": null,
-               "departure_time": "03:59",
                "stop_time": null
             },
             {

@@ -2209,15 +2209,13 @@ export const routes = [
       "analogue": [
          803,
          805,
-         807,
-         811
+         807
       ],
       "reverse": [
          802,
          804,
          806,
-         808,
-         812
+         808
       ]
    },
    {
@@ -2287,15 +2285,13 @@ export const routes = [
       "analogue": [
          804,
          806,
-         808,
-         812
+         808
       ],
       "reverse": [
          801,
          803,
          805,
-         807,
-         811
+         807
       ]
    },
    {
@@ -2365,15 +2361,13 @@ export const routes = [
       "analogue": [
          801,
          805,
-         807,
-         811
+         807
       ],
       "reverse": [
          802,
          804,
          806,
-         808,
-         812
+         808
       ]
    },
    {
@@ -2443,15 +2437,13 @@ export const routes = [
       "analogue": [
          802,
          806,
-         808,
-         812
+         808
       ],
       "reverse": [
          801,
          803,
          805,
-         807,
-         811
+         807
       ]
    },
    {
@@ -2521,15 +2513,13 @@ export const routes = [
       "analogue": [
          801,
          803,
-         807,
-         811
+         807
       ],
       "reverse": [
          802,
          804,
          806,
-         808,
-         812
+         808
       ]
    },
    {
@@ -2599,15 +2589,13 @@ export const routes = [
       "analogue": [
          802,
          804,
-         808,
-         812
+         808
       ],
       "reverse": [
          801,
          803,
          805,
-         807,
-         811
+         807
       ]
    },
    {
@@ -2677,15 +2665,13 @@ export const routes = [
       "analogue": [
          801,
          803,
-         805,
-         811
+         805
       ],
       "reverse": [
          802,
          804,
          806,
-         808,
-         812
+         808
       ]
    },
    {
@@ -2755,171 +2741,13 @@ export const routes = [
       "analogue": [
          802,
          804,
-         806,
-         812
+         806
       ],
       "reverse": [
-         801,
-         803,
-         805,
-         807,
-         811
-      ]
-   },
-   {
-      "id": 17890098,
-      "ref": 811,
-      "name:ka": "ბათუმი → თბილისი",
-      "name:en": "Batumi → Tbilisi",
-      "name:ru": "Батуми → Тбилиси",
-      "active": true,
-      "frequency": "daily",
-      "start_date": 1781568000000,
-      "end_date": null,
-      "complete": true,
-      "online": true,
-      "online_tickets_current_site": false,
-      "online_tickets_new_site": true,
-      "train_type": "stadler",
-      "has_arrival_time": false,
-      "description_en": null,
-      "description_ru": null,
-      "description_ka": null,
-      "extended_description_en": null,
-      "extended_description_ru": null,
-      "extended_description_ka": null,
-      "stations": [
-         {
-            "code": "batumicentral",
-            "role": "start",
-            "departure_time": "00:35",
-            "arrival_time": null,
-            "stop_time": null
-         },
-         {
-            "code": "kobuleti",
-            "role": "middle",
-            "departure_time": "00:51",
-            "arrival_time": null,
-            "stop_time": null
-         },
-         {
-            "code": "ureki",
-            "role": "middle",
-            "departure_time": "01:11",
-            "arrival_time": null,
-            "stop_time": null
-         },
-         {
-            "code": "kutaisiinternationalairport",
-            "role": "middle",
-            "departure_time": "02:06",
-            "arrival_time": null,
-            "stop_time": null
-         },
-         {
-            "code": "tbilisicentralstation",
-            "role": "end",
-            "departure_time": "04:41",
-            "arrival_time": null,
-            "stop_time": null
-         }
-      ],
-      "travel_time": "04:06",
-      "price": {
-         "price_type": "from",
-         "price": 35.0
-      },
-      "analogue": [
          801,
          803,
          805,
          807
-      ],
-      "reverse": [
-         802,
-         804,
-         806,
-         808,
-         812
-      ]
-   },
-   {
-      "id": 17890096,
-      "ref": 812,
-      "name:ka": "თბილისი → ბათუმი",
-      "name:en": "Tbilisi → Batumi",
-      "name:ru": "Тбилиси → Батуми",
-      "active": true,
-      "frequency": "daily",
-      "start_date": 1781568000000,
-      "end_date": null,
-      "complete": true,
-      "online": true,
-      "online_tickets_current_site": false,
-      "online_tickets_new_site": true,
-      "train_type": "stadler",
-      "has_arrival_time": false,
-      "description_en": null,
-      "description_ru": null,
-      "description_ka": null,
-      "extended_description_en": null,
-      "extended_description_ru": null,
-      "extended_description_ka": null,
-      "stations": [
-         {
-            "code": "tbilisicentralstation",
-            "role": "start",
-            "departure_time": "00:30",
-            "arrival_time": null,
-            "stop_time": null
-         },
-         {
-            "code": "kutaisiinternationalairport",
-            "role": "middle",
-            "departure_time": "03:05",
-            "arrival_time": null,
-            "stop_time": null
-         },
-         {
-            "code": "ureki",
-            "role": "middle",
-            "departure_time": "03:59",
-            "arrival_time": null,
-            "stop_time": null
-         },
-         {
-            "code": "kobuleti",
-            "role": "middle",
-            "departure_time": "04:19",
-            "arrival_time": null,
-            "stop_time": null
-         },
-         {
-            "code": "batumicentral",
-            "role": "end",
-            "departure_time": "04:37",
-            "arrival_time": null,
-            "stop_time": null
-         }
-      ],
-      "travel_time": "04:07",
-      "price": {
-         "price_type": "from",
-         "price": 35.0
-      },
-      "analogue": [
-         802,
-         804,
-         806,
-         808
-      ],
-      "reverse": [
-         801,
-         803,
-         805,
-         807,
-         811
       ]
    },
    {
