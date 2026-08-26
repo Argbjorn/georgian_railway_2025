@@ -684,117 +684,117 @@ export const routes = [
          {
             "code": "borjomiparki",
             "role": "start",
-            "departure_time": "16:20",
+            "departure_time": "16:30",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "borjomi",
             "role": "middle",
-            "departure_time": "16:30",
+            "departure_time": "16:40",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "kvishkheti",
             "role": "middle",
-            "departure_time": "17:44",
+            "departure_time": "17:39",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "khashuri",
             "role": "middle",
-            "departure_time": "17:56",
+            "departure_time": "17:49",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "gomi",
             "role": "middle",
-            "departure_time": "18:13",
+            "departure_time": "18:06",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "agara",
             "role": "middle",
-            "departure_time": "18:24",
+            "departure_time": "18:17",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "kareli",
             "role": "middle",
-            "departure_time": "18:32",
+            "departure_time": "18:25",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "gori",
             "role": "middle",
-            "departure_time": "18:52",
+            "departure_time": "18:45",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "grakali",
             "role": "middle",
-            "departure_time": "19:11",
+            "departure_time": "19:04",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "kaspi",
             "role": "middle",
-            "departure_time": "19:26",
+            "departure_time": "19:19",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "kavtiskhevi",
             "role": "middle",
-            "departure_time": "19:35",
+            "departure_time": "19:28",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "ksani",
             "role": "middle",
-            "departure_time": "19:48",
+            "departure_time": "19:41",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "mtskheta",
             "role": "middle",
-            "departure_time": "20:05",
+            "departure_time": "19:58",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "zahesi",
             "role": "middle",
-            "departure_time": "20:13",
+            "departure_time": "20:06",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "avchala",
             "role": "middle",
-            "departure_time": "20:18",
+            "departure_time": "20:11",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "departure_time": "20:40",
+            "departure_time": "20:33",
             "arrival_time": null,
             "stop_time": null
          }
       ],
-      "travel_time": "04:20",
+      "travel_time": "04:03",
       "price": {
          "price_type": "exact",
          "price": 2.0
@@ -931,19 +931,19 @@ export const routes = [
          {
             "code": "borjomi",
             "role": "middle",
-            "departure_time": "10:22",
+            "departure_time": "10:07",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "borjomiparki",
             "role": "end",
-            "departure_time": "10:37",
+            "departure_time": "10:22",
             "arrival_time": null,
             "stop_time": null
          }
       ],
-      "travel_time": "04:02",
+      "travel_time": "03:47",
       "price": {
          "price_type": "exact",
          "price": 2.0
@@ -1842,84 +1842,84 @@ export const routes = [
          {
             "code": "borjomiparki",
             "role": "start",
-            "departure_time": "05:50",
+            "departure_time": "06:00",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "borjomi",
             "role": "middle",
-            "departure_time": "06:00",
+            "departure_time": "06:10",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "kvishkheti",
             "role": "middle",
-            "departure_time": "07:14",
+            "departure_time": "07:09",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "khashuri",
             "role": "middle",
-            "departure_time": "07:26",
+            "departure_time": "07:19",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "gomi",
             "role": "middle",
-            "departure_time": "07:43",
+            "departure_time": "07:36",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "agara",
             "role": "middle",
-            "departure_time": "07:54",
+            "departure_time": "07:47",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "kareli",
             "role": "middle",
-            "departure_time": "08:02",
+            "departure_time": "07:55",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "gori",
             "role": "middle",
-            "departure_time": "08:22",
+            "departure_time": "08:15",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "grakali",
             "role": "middle",
-            "departure_time": "08:41",
+            "departure_time": "08:34",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "kaspi",
             "role": "middle",
-            "departure_time": "08:56",
+            "departure_time": "08:49",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "kavtiskhevi",
             "role": "middle",
-            "departure_time": "09:05",
+            "departure_time": "08:58",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "ksani",
             "role": "middle",
-            "departure_time": "09:18",
+            "departure_time": "09:11",
             "arrival_time": null,
             "stop_time": null
          },
@@ -1933,40 +1933,40 @@ export const routes = [
          {
             "code": "mtskheta",
             "role": "middle",
-            "departure_time": "09:35",
+            "departure_time": "09:28",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "zahesi",
             "role": "middle",
-            "departure_time": "09:43",
+            "departure_time": "09:36",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "avchala",
             "role": "middle",
-            "departure_time": "09:48",
+            "departure_time": "09:41",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "tbilisicargo",
             "role": "middle",
-            "departure_time": "10:04",
+            "departure_time": "09:57",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "departure_time": "10:10",
+            "departure_time": "10:03",
             "arrival_time": null,
             "stop_time": null
          }
       ],
-      "travel_time": "04:20",
+      "travel_time": "04:03",
       "price": {
          "price_type": "exact",
          "price": 2.0
@@ -2110,26 +2110,26 @@ export const routes = [
          {
             "code": "kvishkheti",
             "role": "middle",
-            "departure_time": "21:23",
+            "departure_time": "21:20",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "borjomi",
             "role": "middle",
-            "departure_time": "22:33",
+            "departure_time": "22:15",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "borjomiparki",
             "role": "end",
-            "departure_time": "22:48",
+            "departure_time": "22:30",
             "arrival_time": null,
             "stop_time": null
          }
       ],
-      "travel_time": "04:13",
+      "travel_time": "03:55",
       "price": {
          "price_type": "exact",
          "price": 2.0
@@ -2776,168 +2776,168 @@ export const routes = [
          {
             "code": "ozurgeti",
             "role": "start",
-            "departure_time": "09:35",
+            "departure_time": "09:20",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "meria",
             "role": "middle",
-            "departure_time": "10:00",
+            "departure_time": "09:45",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "natanebi",
             "role": "middle",
-            "departure_time": "10:35",
+            "departure_time": "10:20",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "ureki",
             "role": "middle",
-            "departure_time": "11:04",
+            "departure_time": "10:49",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "supsa",
             "role": "middle",
-            "departure_time": "11:18",
+            "departure_time": "11:03",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "jumati",
             "role": "middle",
-            "departure_time": "11:33",
+            "departure_time": "11:12",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "lanchkhuti",
             "role": "middle",
-            "departure_time": "11:42",
+            "departure_time": "11:27",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "shukhuti",
             "role": "middle",
-            "departure_time": "11:51",
+            "departure_time": "11:36",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "nigoiti",
             "role": "middle",
-            "departure_time": "11:55",
+            "departure_time": "11:40",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "samtredia1",
             "role": "middle",
-            "departure_time": "12:20",
+            "departure_time": "11:59",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "departure_time": "12:34",
+            "departure_time": "12:16",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "rioni",
             "role": "middle",
-            "departure_time": "12:48",
+            "departure_time": "12:30",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "sviri",
             "role": "middle",
-            "departure_time": "13:08",
+            "departure_time": "12:53",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "zestafoni",
             "role": "middle",
-            "departure_time": "13:19",
+            "departure_time": "13:04",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "dzirula",
             "role": "middle",
-            "departure_time": "13:33",
+            "departure_time": "13:18",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "kharagauli",
             "role": "middle",
-            "departure_time": "13:43",
+            "departure_time": "13:28",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "marelisi",
             "role": "middle",
-            "departure_time": "13:58",
+            "departure_time": "13:43",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "moliti",
             "role": "middle",
-            "departure_time": "14:09",
+            "departure_time": "13:54",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "khashuri",
             "role": "middle",
-            "departure_time": "14:27",
+            "departure_time": "14:12",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "kareli",
             "role": "middle",
-            "departure_time": "14:46",
+            "departure_time": "14:31",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "gori",
             "role": "middle",
-            "departure_time": "14:59",
+            "departure_time": "14:44",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "kaspi",
             "role": "middle",
-            "departure_time": "15:19",
+            "departure_time": "15:04",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "mtskheta",
             "role": "middle",
-            "departure_time": "15:39",
+            "departure_time": "15:24",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "tbilisicentralstation",
             "role": "end",
-            "departure_time": "16:01",
+            "departure_time": "15:46",
             "arrival_time": null,
             "stop_time": null
          }
