@@ -3069,89 +3069,89 @@
          {
             "code": "kutaisiinternationalairport",
             "role": "middle",
-            "departure_time": "11:45",
+            "departure_time": "11:48",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "samtredia1",
             "role": "middle",
-            "departure_time": "11:57",
+            "departure_time": "12:00",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "nigoiti",
             "role": "middle",
-            "departure_time": "12:19",
+            "departure_time": "12:21",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "shukhuti",
             "role": "middle",
-            "departure_time": "12:23",
+            "departure_time": "12:25",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "lanchkhuti",
             "role": "middle",
-            "departure_time": "12:29",
+            "departure_time": "12:31",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "jumati",
             "role": "middle",
-            "departure_time": "12:41",
+            "departure_time": "12:43",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "supsa",
             "role": "middle",
-            "departure_time": "12:50",
+            "departure_time": "12:52",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "ureki",
             "role": "middle",
-            "departure_time": "12:58",
+            "departure_time": "13:00",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "natanebi",
             "role": "middle",
-            "departure_time": "13:10",
+            "departure_time": "13:13",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "meria",
             "role": "middle",
-            "departure_time": "13:57",
+            "departure_time": "14:00",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "kakhuri",
             "role": "middle",
-            "departure_time": "14:13",
+            "departure_time": "14:16",
             "arrival_time": null,
             "stop_time": null
          },
          {
             "code": "ozurgeti",
             "role": "end",
-            "departure_time": "14:30",
+            "departure_time": "14:33",
             "arrival_time": null,
             "stop_time": null
          }
       ],
-      "travel_time": "06:05",
+      "travel_time": "06:08",
       "price": {
          "price_type": "from",
          "price": 16.0
